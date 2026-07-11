@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f8fb;
+  --foreground: #08101d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(250, 204, 21, 0.08), transparent 28%),
+    linear-gradient(180deg, #f9fafb 0%, #f3f5f8 100%);
+  color: var(--foreground);
+  font-family:
+    "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+::selection {
+  background: #facc15;
+  color: #08101d;
+}
