@@ -73,3 +73,4 @@ Examples include Cloudflare Pages, GitHub Pages, Amazon S3 + CloudFront, and any
 ## Compliance wording
 
 This site is intentionally framed as an internal safety training organization tool. It does not describe itself as an official OSHA certification site and does not claim to issue OSHA 10 or OSHA 30 cards.
+# sd_safety_module
