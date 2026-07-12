@@ -3944,6 +3944,558 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "welding-and-hot-work/hot-work-hazards-and-when-a-permit-is-required": {
+    description:
+      "Hot work throws sparks and slag that travel, smolder, and start fires hours later — which is why OSHA makes you stop, prepare the area, and get it authorized before a torch or grinder ever fires up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hot work is any job that makes flames, sparks, or heat — welding, cutting, brazing, soldering, grinding, and torch work all count. The danger isn't just the arc in front of you. Sparks and molten slag can fly more than 35 feet, roll into cracks, drop through floor openings, and land on something combustible you never looked at. Fires often smolder unseen and flare up long after the crew has packed up.",
+          "That's why hot work isn't a task you just start. OSHA 1926.352 and 1910.252(a) require you to size up the fire risk, prepare the area, and — in most workplaces — pull a hot work permit before the tool comes on."
+        ]
+      },
+      {
+        heading: "Why hot work causes fires",
+        body: [
+          "A single cutting or grinding operation can send thousands of sparks in every direction. Each one is a tiny piece of burning metal hot enough to ignite paper, sawdust, rags, insulation, packaging, or flammable vapor. The classic hot work fire has the same story every time:",
+          {
+            list: [
+              "Sparks or slag traveled farther than anyone expected — through a gap, down a hole, behind a wall.",
+              "A combustible nobody moved caught and smoldered.",
+              "The crew left, and the fire grew with no one watching."
+            ]
+          },
+          "You control this by widening your view past the tip of the torch and thinking about where the heat can go, not just where you're pointing it."
+        ]
+      },
+      {
+        heading: "When a hot work permit is required",
+        body: [
+          "A hot work permit is a written authorization that says the area's been checked and the precautions are in place. Management designates safe permanent areas for hot work; anywhere outside those areas, hot work is only allowed after someone responsible inspects the spot and issues the permit.",
+          "Before the permit is signed, a supervisor inspects the area and confirms the fire controls, then designates the precautions — clearing combustibles, protecting what can't move, assigning a fire watch, and confirming extinguishing equipment is on hand. The permit ties it all together and names who's responsible.",
+          "If you're about to do hot work outside a designated area and there's no permit, that's a stop-and-ask moment — not a formality to skip."
+        ]
+      },
+      {
+        heading: "When hot work simply isn't allowed",
+        body: [
+          "Some conditions rule out hot work entirely until they're fixed. Don't strike an arc or light a torch:",
+          {
+            list: [
+              "In or near an area with flammable vapors, gases, or combustible dust in the air.",
+              "On or inside drums, tanks, or containers that held flammables until they've been cleaned and tested safe.",
+              "Where sprinklers are shut off, or fire protection is out of service.",
+              "Where the required precautions from 1910.252(a) — moving the object, removing hazards, or guarding — can't be met."
+            ]
+          },
+          "If the area can't be made safe, the work waits. There's no version of hot work that's worth an explosion or a structure fire."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/preparing-the-work-area-fire-prevention": {
+    description:
+      "The 35-foot rule is the heart of hot work fire prevention: clear combustibles, protect what can't move, and have extinguishing equipment right there before the first spark.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most hot work fires are prevented — or caused — in the minutes before the tool comes on. OSHA 1926.352 and 1910.252(a) lay out a simple order of priority: move the work to a safe spot, and if you can't, move the hazards away from the work. Only when neither is possible do you fall back on guards and shields.",
+          "The number to remember is 35 feet. That's the radius around the hot work you have to think about, because that's how far sparks and slag realistically travel."
+        ]
+      },
+      {
+        heading: "The 35-foot rule",
+        body: [
+          "Whenever you can, take the object being cut or welded to a designated safe area. When the object can't be moved and it has combustibles nearby, then all movable fire hazards within 35 feet get taken to a safe place.",
+          "Anything combustible that can't be moved gets protected instead:",
+          {
+            list: [
+              "Cover it with flame-resistant blankets, tarps, or metal guards.",
+              "Close or cover floor and wall openings within 35 feet so sparks can't drop through to a lower level or the other side.",
+              "Protect combustible floors — wet them down, cover with damp sand, or lay fire-resistant shields.",
+              "Cover ducts and conveyors that could carry sparks to distant combustibles."
+            ]
+          },
+          "Remember sparks fall and roll. A gap in the floor, a wall penetration, or a stack of pallets two rooms over can all be in play."
+        ]
+      },
+      {
+        heading: "Extinguishing equipment on hand",
+        body: [
+          "Fire extinguishing equipment has to be right there and ready — not down the hall. Depending on the job that means a charged extinguisher rated for the hazard, a charged fire hose, buckets of water or sand, or a combination.",
+          "Whoever's doing the fire watch needs to know how to use it and be able to reach it in seconds. Confirm the extinguisher is charged and the right class before work starts, not while something's already burning."
+        ]
+      },
+      {
+        heading: "Special hazards to check for",
+        body: [
+          "Before you fire up, walk the area and rule out the things that turn routine hot work into a disaster:",
+          {
+            list: [
+              "Flammable liquids, vapors, or gases — the atmosphere has to be clear.",
+              "Combustible dust on beams, ledges, and equipment that a spark can ignite.",
+              "Coatings, linings, or insulation that can burn or give off toxic smoke.",
+              "Hidden combustibles inside walls, above ceilings, or below grated floors."
+            ]
+          },
+          "If any of these can't be controlled, the work doesn't start until they are. Preparation is the main control — once the sparks are flying, it's too late to see what you missed."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/the-fire-watch-and-post-work-monitoring": {
+    description:
+      "A fire watch is a person whose only job is to catch a fire before it grows — and OSHA keeps them on station for at least 30 minutes after the tool shuts off, because that's when hidden fires flare up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The fire watch is one of the most important controls in hot work, and it's the one most often shortchanged. It's a person assigned to watch for fire while hot work is going on and for a period after it stops — and to put out a starting fire or sound the alarm if one gets away.",
+          "OSHA 1910.252(a)(2)(iii) spells out when a fire watch is required and how long it stays. This is not a paperwork step. Most fatal hot work fires grew because nobody was watching after the work stopped."
+        ]
+      },
+      {
+        heading: "When a fire watch is required",
+        body: [
+          "You need a fire watch whenever hot work is done where more than a minor fire could develop, including any of these:",
+          {
+            list: [
+              "Combustible material is closer than 35 feet to the point of the work.",
+              "Combustibles are more than 35 feet away but easily ignited by sparks.",
+              "Wall or floor openings within 35 feet expose combustibles in adjacent areas, including concealed spaces in walls or floors.",
+              "Combustible materials are against the opposite side of metal walls, partitions, ceilings, or roofs and could ignite from conduction or radiation."
+            ]
+          },
+          "When those conditions aren't present and the area is genuinely clear, a dedicated watcher may not be required — but that's a judgment the permit and supervisor make, not the person holding the torch."
+        ]
+      },
+      {
+        heading: "What the fire watch does",
+        body: [
+          "The fire watch has one job and shouldn't be pulled onto anything else while hot work is live. That person:",
+          {
+            list: [
+              "Watches the work area and the surrounding spaces — including levels below and the far side of walls — for sparks and smoldering.",
+              "Has firefighting equipment right at hand and knows how to use it.",
+              "Puts out small fires within the extinguisher's capacity and sounds the alarm for anything bigger.",
+              "Knows how to raise the alarm and get help fast."
+            ]
+          },
+          "A fire watch who's also welding, spotting a crane, or running for parts isn't a fire watch."
+        ]
+      },
+      {
+        heading: "The 30-minute post-work watch",
+        body: [
+          "Here's the part crews skip: the fire watch is maintained for at least 30 minutes after hot work is completed, to detect and extinguish smoldering fires. Sparks that landed in insulation, dust, or a wall cavity can smolder for a long time before they break into open flame.",
+          "So the work isn't done when the torch shuts off. Someone keeps eyes on the area — and the concealed spaces sparks could have reached — for a full half hour. Some jobs and permits require longer. Don't clear the fire watch early because the visible work looks finished."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/oxygen-fuel-gas-welding-and-cutting": {
+    description:
+      "Oxy-fuel work pairs pure oxygen with a fuel gas like acetylene — a powerful cutting tool and a serious fire and explosion hazard if the cylinders, valves, and flame aren't handled right.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Oxygen-fuel gas welding and cutting uses a torch that mixes a fuel gas — most often acetylene — with pure oxygen to make a flame hot enough to cut steel. OSHA 1926.350 and 1910.253 govern how it's set up and run, because the two gases that make it work are exactly what make it dangerous.",
+          "Pure oxygen doesn't burn, but it makes everything else burn violently — including grease, oil, and clothing. Acetylene is unstable under pressure. Treat the setup with respect from the cylinder to the tip."
+        ]
+      },
+      {
+        heading: "Setting up and lighting safely",
+        body: [
+          "A safe start follows a set order and a few hard rules:",
+          {
+            list: [
+              "Keep oxygen away from oil and grease — never lubricate regulators, valves, or fittings, and don't handle oxygen equipment with greasy gloves.",
+              "Crack the cylinder valve slightly to blow out dirt before attaching the regulator, and stand to the side of the regulator — never in front of the gauge face — when opening the valve.",
+              "Open cylinder valves slowly. Open the acetylene valve no more than about one turn so you can shut it fast in an emergency.",
+              "Use a friction lighter or striker to light the torch — never matches or a lighter held at the tip.",
+              "Purge the lines and set working pressures before lighting."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The acetylene 15 psi limit",
+        body: [
+          "Acetylene is the big one to respect. It becomes unstable and can decompose explosively at higher pressures, so acetylene must never be used at a pressure over 15 psig (about 30 psia). Don't crank the regulator past it looking for more heat.",
+          "Acetylene cylinders also have to stay valve-end up so the acetone inside doesn't get drawn into the lines. And the cylinder valve should never be opened more than about one and a half turns, so you can close it quickly if something goes wrong."
+        ]
+      },
+      {
+        heading: "Shutting down and leaving the torch",
+        body: [
+          "Shut down in a way that leaves the system safe:",
+          {
+            list: [
+              "Close cylinder valves when the work is finished or the equipment is unattended for a substantial time.",
+              "Bleed the lines and back the regulator adjusting screws out so there's no pressure on the diaphragms.",
+              "Never leave a lit or pressurized torch lying around, and don't hang the torch on a regulator or cylinder valve.",
+              "When cylinders are moved, close the valves and — unless on a cart designed for it — remove the regulators and replace the valve protection caps."
+            ]
+          },
+          "A torch left charged or a valve left cracked is how leaks and flashbacks find their way into the shop."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/compressed-gas-cylinders-storage-handling-and-transport": {
+    description:
+      "A compressed gas cylinder is a bomb if the valve snaps off — so OSHA is strict about keeping them secured upright, capped when moved, and oxygen stored well away from fuel gas.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The cylinders feeding a welding rig hold gas at very high pressure. Knock the valve off an unsecured cylinder and it can rocket across a yard or through a wall. OSHA 1926.350 and 1910.253 set out how to store, handle, and move them so that never happens.",
+          "The rules come down to three habits: keep cylinders secured, keep the caps on when they're not in use, and keep oxygen away from fuel gas and combustibles."
+        ]
+      },
+      {
+        heading: "Securing and protecting cylinders",
+        body: [
+          "Cylinders live and work upright and restrained:",
+          {
+            list: [
+              "Secure cylinders upright with a chain, strap, or stand so they can't fall — in storage, in transport, and at the workstation.",
+              "Keep valve protection caps in place whenever the cylinder isn't connected and in use, especially before it's moved.",
+              "Never lift a cylinder by the valve or the cap, and don't use them as rollers or supports.",
+              "Keep cylinders away from heat, sparks, slag, and open flame — a heated cylinder can over-pressurize.",
+              "Keep them clear of electrical circuits and never let a cylinder become part of a welding ground."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The 20-foot separation rule",
+        body: [
+          "Oxygen and fuel-gas cylinders in storage have to be kept apart. Oxygen cylinders in storage must be separated from fuel-gas cylinders or combustible materials — especially oil and grease — by at least 20 feet, or by a noncombustible barrier at least 5 feet high with a fire-resistance rating of at least a half hour.",
+          "The reason is simple: an oxygen leak next to a fuel leak, or next to something combustible, is a fire waiting for a spark. Store them the right distance apart, valves closed and capped, in a dry, ventilated area — not in a walkway, stairwell, or unventilated closet."
+        ]
+      },
+      {
+        heading: "Moving cylinders",
+        body: [
+          "Most cylinder injuries happen while moving them. Do it the boring, safe way:",
+          {
+            list: [
+              "Close the valve, remove the regulator, and put the valve protection cap on before moving a cylinder any distance.",
+              "Move cylinders on a hand truck or cart designed for them, chained in place — don't drag, roll on the bottom edge carelessly, or drop them.",
+              "Don't lift cylinders with magnets or by slings around the body; use a proper cradle or platform if lifting by crane.",
+              "Keep them out of the path of vehicles and falling objects."
+            ]
+          },
+          "Treat every cylinder as full and under pressure, because the empty-looking one still has enough left to hurt you."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/regulators-hoses-torches-and-flashback-prevention": {
+    description:
+      "The regulators, hoses, and torch between the cylinder and the flame are where leaks, backfires, and flashbacks start — inspect them, keep the colors straight, and use flashback arrestors.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Between the cylinder and the flame sits the delivery system — regulators, hoses, and the torch. It's where a lot of oxy-fuel trouble starts: a leaking fitting, a cracked hose, or a flame that travels backward into the equipment. OSHA 1926.350 covers the equipment; good habits and the right safety devices cover the rest.",
+          "Two failure modes matter here. A backfire is the flame popping back into the torch with a snap. A flashback is worse — the flame runs back up the hose toward the cylinder, and it can cause an explosion."
+        ]
+      },
+      {
+        heading: "Hoses and connections",
+        body: [
+          "Hoses are color- and thread-coded so you can't cross them: green for oxygen with right-hand threads, red for fuel gas with left-hand threads (the fuel fitting has a notch in the nut). Keep that separation and keep the hoses in good shape:",
+          {
+            list: [
+              "Inspect hoses for burns, cracks, worn spots, and leaks before each use, and replace defective lengths — don't tape them.",
+              "Don't repair hose with tape; use proper splices and ferrules, and keep the number of joints to a minimum.",
+              "Leak-test connections with soapy water, never with a flame.",
+              "Keep hoses out of walkways, off hot surfaces, and clear of sparks and falling slag."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Regulators and torches",
+        body: [
+          "Regulators step the cylinder pressure down to a safe working pressure, and they have to be treated as precision equipment:",
+          {
+            list: [
+              "Keep regulators, gauges, and torch fittings clean and free of oil and grease — oil plus oxygen equals fire.",
+              "Back the adjusting screw out before opening the cylinder valve, then open the valve slowly.",
+              "Don't use a regulator on a gas it wasn't made for, and don't force fittings that don't match.",
+              "Clean torch tips with the proper tip cleaner, not a drill bit or wire that changes the orifice.",
+              "Take any regulator with a creeping or non-holding pressure out of service."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Preventing backfire and flashback",
+        body: [
+          "Flashback arrestors and check valves are your defense against a flame or gas running backward. Check valves stop reverse gas flow; flashback arrestors stop a flame front from reaching the hose and cylinder. Install them per the manufacturer between the torch and hose and/or at the regulator.",
+          "If you get a backfire — that loud pop and the flame going out — shut down, let the torch cool, and find out why (often a dirty or overheated tip or wrong pressures) before relighting. If you ever suspect a flashback, close the cylinder valves immediately, starting with the fuel. And know the signs of a heating cylinder: hissing, frost, or a hot spot means get clear and get help."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/arc-welding-and-cutting-safety": {
+    description:
+      "Arc welding turns electricity into an intensely hot arc — which means shock, sparks, and radiation risk all at once, controlled through insulated equipment, proper grounding, and de-energizing when you step away.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Arc welding and cutting use an electric arc between an electrode and the work to melt metal. That brings its own hazards on top of the sparks and heat — electric shock from the welding circuit, and intense ultraviolet and infrared radiation from the arc. OSHA 1926.351 and 1910.254 cover how the equipment is set up and used.",
+          "The current that makes the weld can also stop your heart. Damp conditions, sweat, and a worn cable or holder all raise the shock risk, so the condition of your equipment matters every shift."
+        ]
+      },
+      {
+        heading: "Electrode holders and cables",
+        body: [
+          "The holder and cables are the parts you touch and the parts that wear:",
+          {
+            list: [
+              "Use electrode holders rated for the current you're running, with the insulation and jaws in good shape.",
+              "Inspect welding cable for cracked or worn insulation and exposed conductor; take damaged cable out of service.",
+              "Repair cable only with proper insulated splices and connectors — no bare taped joints near the working area.",
+              "Keep cables out of walkways, water, and the path of sparks, and don't wrap them around your body."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Grounding and the welding circuit",
+        body: [
+          "The machine frame or case must be grounded, and the work lead (ground return) has to make a solid connection to the work. A poor ground connection makes heat, arcing, and a shock hazard, and it can push welding current through unintended paths like conduit, chains, or a cylinder.",
+          "Never use a compressed gas cylinder, a pipe carrying flammable gas, or a structural member holding a load as part of the welding circuit. Keep the work clamp close to the weld so the current takes the path you intend."
+        ]
+      },
+      {
+        heading: "When you stop or step away",
+        body: [
+          "Small habits prevent shocks and stray arcs:",
+          {
+            list: [
+              "When you finish a weld or set the holder down, remove the electrode from the holder.",
+              "When you leave the work or stop for any length of time, de-energize the equipment — don't leave a live holder lying on the steel.",
+              "Hang the holder where it can't touch a grounded surface, a person, or a conductive object.",
+              "Never change electrodes or touch the metal parts of the holder with bare or wet hands or a soaked glove."
+            ]
+          },
+          "A live holder left on the work is how the next person — or you — takes a shock nobody planned for."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/welding-fumes-gases-and-ventilation": {
+    description:
+      "The plume rising off a weld carries metal fumes and gases — manganese, hexavalent chromium, zinc, and more — and ventilation that keeps your head out of it is the control that protects your lungs and brain.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every weld gives off a plume of fine metal fume and gases. What's in it depends on the base metal, the coating, and the filler — and some of it is genuinely toxic. OSHA 1926.353 and 1910.252(c) require ventilation and, where that's not enough, respiratory protection to keep those fumes out of your lungs.",
+          "The plume rises straight up off the arc. The single most effective free move you can make is to keep your head out of it — position yourself so the fume goes past you, not through your helmet."
+        ]
+      },
+      {
+        heading: "What's in the plume",
+        body: [
+          "The specific hazards ride on what you're welding:",
+          {
+            list: [
+              "Manganese — from mild and stainless steel filler; overexposure attacks the nervous system with Parkinson's-like effects.",
+              "Hexavalent chromium — from stainless steel and some coatings; a known carcinogen with its own strict OSHA limit.",
+              "Zinc — from galvanized steel; causes metal fume fever, the flu-like \"zinc shakes.\"",
+              "Cadmium, lead, and beryllium — from certain alloys, platings, and coatings; highly toxic, and beryllium and cadmium are especially dangerous.",
+              "Gases like ozone, nitrogen oxides, and carbon monoxide formed by the arc and the shielding process."
+            ]
+          },
+          "Galvanized, painted, plated, or coated metal is a red flag — strip the coating back or step up the ventilation and respiratory protection."
+        ]
+      },
+      {
+        heading: "Ventilation controls",
+        body: [
+          "Ventilation is the primary control, applied in order of effectiveness:",
+          {
+            list: [
+              "Local exhaust ventilation — a fume extractor or hood right at the arc that captures the plume before it reaches your breathing zone. This is the most effective option.",
+              "General mechanical ventilation — fans and air movement to dilute and remove fume when local exhaust isn't practical.",
+              "Position and airflow — keep upwind of the plume and out of the rising column, and don't let a fan blow shielding gas off the weld."
+            ]
+          },
+          "OSHA calls for mechanical ventilation for indoor work in tight quarters — small rooms, low ceilings, or confined spaces — and for certain toxic metals regardless of the space."
+        ]
+      },
+      {
+        heading: "When ventilation isn't enough",
+        body: [
+          "Some jobs need respiratory protection on top of ventilation — welding on stainless (hexavalent chromium), galvanized (zinc), or coated metal, and any work in a confined space where the fume can't be cleared. In those cases you need the right respirator, selected and fit-tested under a respiratory protection program.",
+          "For the toxic metals — cadmium, lead, beryllium, mercury, and fluorine-bearing materials — 1926.353 calls for local exhaust or airline respirators, and for confined-space work with them, airline respirators plus someone stationed outside. Respirator selection and fit are covered under PPE; the point here is to recognize when the plume in front of you is one you can't just breathe through a filter."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/hot-work-in-confined-spaces": {
+    description:
+      "A confined space concentrates every welding hazard at once — fumes build, oxygen shifts, and a leaking gas cylinder can fill the space — so cylinders and machines stay outside and the atmosphere gets tested and ventilated.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Welding or cutting inside a tank, vault, manhole, boiler, or other confined space stacks the deck against you. The fume that would rise and clear in open air builds up around your head. The oxygen the process consumes — or that a shielding gas displaces — can drop to a level that won't keep you conscious. And a leaking cylinder or torch can turn the whole space into an explosion hazard.",
+          "OSHA 1926.353 sets special rules for hot work in confined spaces, and they work alongside the confined-space entry program. Both apply — don't treat welding as an exception to permit-required entry."
+        ]
+      },
+      {
+        heading: "Keep cylinders and machines outside",
+        body: [
+          "The gas and power sources stay out of the space with you:",
+          {
+            list: [
+              "Keep compressed gas cylinders and welding machines outside the confined space — a leak inside is a fire and asphyxiation hazard you can't escape.",
+              "When the torch or the job is left unattended, remove the torch and hose from the space and shut off the gas at the cylinder.",
+              "Position the arc welder outside and run only the leads in, so a fault or leak stays outside the space.",
+              "Never use oxygen to ventilate or \"freshen\" a space — an oxygen-enriched atmosphere makes everything flammable."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Ventilation and atmosphere",
+        body: [
+          "Air is the thing that keeps you alive in there:",
+          {
+            list: [
+              "Test the atmosphere before entry and monitor it continuously — oxygen level, flammable gas, and toxic fume.",
+              "Provide mechanical ventilation to keep fume and gas below limits and oxygen in the safe range.",
+              "Where ventilation can't keep the air safe, use airline (supplied-air) respirators — a filtering respirator does nothing for low oxygen.",
+              "Purge and test any space that held flammable or toxic material before any hot work."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Attendant and rescue",
+        body: [
+          "You don't go in alone. An attendant stationed outside keeps watch and stays in contact, ready to summon help and start rescue. For hot work in a confined space, the worker should wear a harness with a lifeline where feasible, tended from outside, so they can be pulled out without a rescuer entering.",
+          "The full confined-space rules — permits, entrant and attendant duties, rescue arrangements — apply on top of the welding rules. This topic covers the welding-specific pieces; the entry program itself is covered under Confined Space Safety."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/cutting-and-welding-on-preservative-coatings-and-containers": {
+    description:
+      "Paint, galvanizing, and residue in a drum or tank turn into toxic smoke or an explosion when heat hits them — so coatings get stripped back and containers get cleaned, tested, and vented before any torch touches them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Two of the deadliest hot work jobs look ordinary: welding on painted or coated metal, and cutting on a drum, tank, or pipe that held something flammable. In both cases the danger isn't the metal — it's what's on it or inside it. OSHA 1926.354 covers welding in the way of preservative coatings, and the fire-prevention rules cover containers.",
+          "People die on these jobs when they treat an empty-looking container as empty, or a coated surface as bare metal. Neither is safe until it's been made safe."
+        ]
+      },
+      {
+        heading: "Preservative coatings",
+        body: [
+          "Paints, primers, galvanizing, and other coatings can burn, give off toxic smoke, or hide a flammable film. Before hot work on a coated surface:",
+          {
+            list: [
+              "Find out whether the coating is flammable or toxic when heated — a lot of industrial coatings are both.",
+              "Strip the coating back from the area of heat far enough that it won't be ignited or decomposed — clean the metal for a margin around the work.",
+              "Where the coating can't be fully removed, protect the worker with an airline respirator and provide added ventilation for the toxic fume.",
+              "Watch for lead-based paint and other toxic coatings that need their own controls."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Drums, tanks, and containers",
+        body: [
+          "A container that held a flammable or combustible is the classic hot work killer — the vapor left behind is what explodes, and it takes only a trace. Never apply heat to a used drum, tank, or vessel until it's been made safe:",
+          {
+            list: [
+              "Empty, clean, and purge the container of all flammable liquid and vapor.",
+              "Test the atmosphere inside with a combustible gas indicator and confirm it's below the flammable range before and during the work.",
+              "Where practical, fill the container with an inert gas or water to displace vapor, and keep it vented so pressure can't build.",
+              "When you can't verify it's clean and vapor-free, don't cut or weld on it — period."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Don't trust \"empty\"",
+        body: [
+          "The word \"empty\" has killed a lot of people on this job. A drum that's been drained still holds enough vapor to blow the ends off. A tank that \"only ever held water\" may have had something else years ago. A pipe may still be connected to a live system.",
+          "So verify, don't assume. Confirm what the container held, that it's been cleaned and purged, and that a gas test reads safe — and re-test, because vapor can come back. If any of that can't be confirmed, the hot work waits until it can."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/ppe-and-radiation-protection-for-welders": {
+    description:
+      "Welding throws UV and infrared radiation, sparks, molten metal, and hot slag at you — so the right filter shade, a proper helmet, flame-resistant clothing, and screens for the people around you aren't optional.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The welding arc is one of the most intense light sources on a job site. It puts out ultraviolet and infrared radiation that burns eyes and skin, plus sparks, spatter, molten metal, and hot slag. OSHA 1910.252(b) and 1926.353 set the PPE requirements, and they cover both the welder and everyone nearby.",
+          "This isn't gear you wear when you feel like it. A few seconds of unprotected arc exposure gives you \"arc eye,\" and bare skin under the arc burns like a sunburn — fast."
+        ]
+      },
+      {
+        heading: "Eye and face protection — filter shades",
+        body: [
+          "Your helmet or goggles need a filter lens dark enough for the process and the current. The higher the amperage, the darker the shade you need:",
+          {
+            list: [
+              "Oxy-fuel gas welding and light cutting — roughly shade 4 to 6.",
+              "Heavy cutting and higher-heat gas work — up to about shade 6 to 8.",
+              "Shielded metal arc (stick) welding — shade 10 to 14 depending on amperage; heavier current needs the darker lenses.",
+              "Always wear safety glasses under the helmet for when it's up and for chipping slag."
+            ]
+          },
+          "\"Arc eye\" (welder's flash, or photokeratitis) is a UV burn to the surface of the eye. It shows up hours later as gritty, painful, watering eyes — and it's entirely preventable with the right shade and a helmet that's actually down."
+        ]
+      },
+      {
+        heading: "Protecting the body from heat and sparks",
+        body: [
+          "Sparks, spatter, and slag find every gap. Dress to keep them off skin:",
+          {
+            list: [
+              "Flame-resistant clothing — leather or treated cotton; never synthetics that melt, and never oily or greasy clothing.",
+              "Leather gloves, and a leather apron, sleeves, or jacket for heavier work.",
+              "High-top leather boots and cuffless pants worn over the boots so sparks can't lodge in a cuff or fall inside.",
+              "A hood or cap under the helmet for overhead work, and hearing protection where cutting and grinding are loud.",
+              "Keep collars buttoned and pockets closed — an open pocket is a spark trap."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Protecting people nearby",
+        body: [
+          "The arc burns the eyes of anyone who looks at it, not just the welder. Anyone in the area can catch arc eye from a flash across the shop. So:",
+          {
+            list: [
+              "Set up non-combustible or flame-resistant screens or shields around the work to block the arc from passersby and other crews.",
+              "Warn nearby workers before you strike an arc, and keep helpers and fire watches in proper eye protection.",
+              "Position screens so they don't trap fume or block ventilation."
+            ]
+          },
+          "Respirator selection for the fume is covered under PPE and the fume topic — here the focus is the radiation, sparks, and burns. Protect yourself, and protect the person who just walked around the corner."
+        ]
+      }
+    ]
   }
 };
 
