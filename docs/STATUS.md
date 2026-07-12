@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 7 / 24 categories authored (29%). 6 SME-reviewed ✅; Forklift Safety pending SME review.**
+**Progress: 8 / 24 categories authored (33%). 6 SME-reviewed ✅; Forklift Safety and Welding & Hot Work pending SME review.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,14 +11,47 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** Welding and Hot Work (`welding-and-hot-work`) — pending.
-  (#8 in the priority order; OSHA 1926 Subpart J / 1910 Subpart Q.)
+- **Next category:** open — recommend Fire Extinguisher Safety (`fire-extinguisher-safety`,
+  OSHA 1910.157; pairs with Fire Safety, which deferred extinguisher *use*/PASS here)
+  or continue the priority list. All 8 authored categories to date are OSHA-based.
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). All 7 authored categories to date were authored to OSHA.
+  Handling — see plan). Does not affect the OSHA-based categories authored so far.
 
 ---
 
 ## Completed categories
+
+### ✅ Welding and Hot Work — `welding-and-hot-work`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Hot Work Hazards and When a Permit Is Required
+  2. Preparing the Work Area — Fire Prevention
+  3. The Fire Watch and Post-Work Monitoring
+  4. Oxygen-Fuel Gas Welding and Cutting
+  5. Compressed Gas Cylinders — Storage, Handling, and Transport
+  6. Regulators, Hoses, Torches, and Flashback Prevention
+  7. Arc Welding and Cutting Safety
+  8. Welding Fumes, Gases, and Ventilation
+  9. Hot Work in Confined Spaces
+  10. Cutting and Welding on Preservative Coatings and Containers
+  11. PPE and Radiation Protection for Welders
+- **Sources:** OSHA 29 CFR 1926 Subpart J — §350 (gas welding/cutting, cylinders,
+  20 ft O₂/fuel separation), §351 (arc welding — holders, cables, grounding),
+  §352 (fire prevention, 35 ft rule), §353 (ventilation/fumes, confined spaces),
+  §354 (preservative coatings); 1910 Subpart Q — §252 (fire prevention, hot work
+  permit, fire watch ≥30 min, health/ventilation), §253 (oxy-fuel), §254 (arc).
+  Acetylene ≤15 psig; filter-lens shade guidance; hexavalent chromium/manganese/
+  zinc/cadmium fume hazards.
+- **Scope note:** this category now **owns the hot-work permit and fire-watch
+  detail** that Fire Safety (#14) explicitly deferred here. Welding-specific
+  cylinder/gas content stays here; general compressed-gas & air-tool detail
+  cross-refs #17. Fume-source specifics here; respirator selection/fit cross-refs
+  PPE. Confined-space entry program cross-refs Confined Space Safety.
+- **Verified:** tsc clean · `next build` clean (all pages prerender) · 11 exported
+  HTML files in `out/training/welding-and-hot-work/` · authored content present
+  (`15 psig`, `20 feet`, `30 minutes`, `hexavalent chromium`, `1926.352`,
+  `1926.354`, `35 feet`), placeholder `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Forklift Safety — `forklift-safety`
 - **Session:** 2026-07-12
@@ -202,6 +235,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Fire Safety | 11 | Fifth category. OSHA Subpart F (§150–152/.154/.352, .25) + 1910 Subpart L (§36–39, §157, §164/.165). Fire triangle/classes, flammable storage, hot work, heaters, prevention plan, egress/EAP. Extinguisher use + hot-work permits deferred to dedicated categories. |
 | 2026-07-12 | PPE | 11 | Sixth category. OSHA 1926 Subpart E + 1910 Subpart I. Hazard assessment/hierarchy lead, head/eye/hearing/hand/foot/respiratory, hi-vis, skin & body clothing, harness-as-PPE, inspect/replace. ANSI/ASTM/MUTCD/NFPA 70E consensus standards. **All 6 authored categories SME-reviewed ✅ this date.** |
 | 2026-07-12 | Forklift Safety | 11 | Seventh category. OSHA 1910.178 (Powered Industrial Trucks) + ASME B56.1. Truck types/designations, operator training/eval, daily inspection, stability triangle, capacity/data plate/load center, traveling & ramps, load handling/tiering, pedestrian/struck-by, docks/trailers/rail cars, fuel/battery/LP gas, attachments & removal from service. Blocker doesn't apply (OSHA basis). Progress 7/24 (29%). SME review pending. |
+| 2026-07-12 | Welding and Hot Work | 11 | Eighth category. OSHA 1926 Subpart J (§350–354) + 1910 Subpart Q (§252–254). Hot work permit & when required, 35 ft area prep, fire watch + ≥30 min post-work, oxy-fuel (acetylene ≤15 psig), cylinder storage (20 ft O₂/fuel), regulators/hoses/flashback arrestors, arc welding grounding, fumes (Cr(VI)/Mn/Zn) & ventilation, hot work in confined spaces, coatings/containers (§354), welder PPE & filter shades. Owns hot-work permit + fire-watch detail deferred from Fire Safety. Progress 8/24 (33%). SME review pending. |
 
 ---
 

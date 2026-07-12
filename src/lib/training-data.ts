@@ -497,6 +497,7 @@ const realContentCategories = new Set<string>([
   "fire-safety",
   "ppe",
   "forklift-safety",
+  "welding-and-hot-work",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1636,16 +1637,17 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Hot Work Area Preparation",
-      "Fire Watch Setup",
-      "Cylinder Handling",
-      "Ventilation for Welding Fumes",
-      "Flash Burn Prevention",
-      "Grinding and Spark Control",
-      "Permit Review",
-      "Combustible Material Removal",
-      "PPE for Welders",
-      "Post-Work Fire Checks",
+      "Hot Work Hazards and When a Permit Is Required",
+      "Preparing the Work Area — Fire Prevention",
+      "The Fire Watch and Post-Work Monitoring",
+      "Oxygen-Fuel Gas Welding and Cutting",
+      "Compressed Gas Cylinders — Storage, Handling, and Transport",
+      "Regulators, Hoses, Torches, and Flashback Prevention",
+      "Arc Welding and Cutting Safety",
+      "Welding Fumes, Gases, and Ventilation",
+      "Hot Work in Confined Spaces",
+      "Cutting and Welding on Preservative Coatings and Containers",
+      "PPE and Radiation Protection for Welders",
     ],
   }),
   createCategory({
