@@ -2906,6 +2906,519 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "ppe/hazard-assessment-and-selecting-the-right-ppe": {
+    description:
+      "PPE is the last line of defense, not the first. Assess the hazards, control what you can at the source, then match the right protection to what's left.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Personal protective equipment is the last thing standing between you and a hazard, not the first. Before you reach for gear, the job is to get rid of the hazard or control it — swap a safer material, guard the machine, ventilate the space, change how the work is done. PPE only covers what's left over after all that.",
+          "OSHA 29 CFR 1926 Subpart E is the construction PPE standard. It puts the duty on the employer to look at the job, figure out what hazards are present, and provide protection that actually fits the exposure. \"Wear your PPE\" isn't a plan — the plan starts with knowing what you're protecting against."
+        ]
+      },
+      {
+        heading: "PPE sits at the bottom of the hierarchy of controls",
+        body: [
+          "Safety controls work best from the top down. PPE is the weakest and most-used, because it depends on a person putting it on right, every time, and it does nothing to the hazard itself — it just shields one worker if everything else fails.",
+          {
+            list: [
+              "Elimination — remove the hazard entirely (do the work a different way).",
+              "Substitution — swap in a less dangerous material or method.",
+              "Engineering controls — guarding, ventilation, isolation, wet-cutting.",
+              "Administrative controls — procedures, rotation, signage, training.",
+              "PPE — the last layer, worn by the individual."
+            ]
+          },
+          "A face shield doesn't make a cracked grinding wheel safe. A respirator doesn't fix bad ventilation. Reach for the higher controls first, and treat PPE as the backstop — not the answer."
+        ]
+      },
+      {
+        heading: "The hazard assessment",
+        body: [
+          "Someone has to actually look at the task and decide what's needed. Walk the job and ask what could hit the head, the eyes, the hands, the feet, the lungs, the ears — from impact, flying particles, chemicals, noise, heat, electricity, or falls.",
+          "Match the protection to the real exposure, not the job title or old habit. Cut-resistant gloves don't stop a solvent; safety glasses don't stop a chemical splash; a hard hat rated for impact isn't rated for electrical contact. When the task changes, redo the assessment — new tools, new materials, or a new phase can bring hazards the old PPE list never covered."
+        ]
+      },
+      {
+        heading: "Employer duties and fit",
+        body: [
+          "Under Subpart E the employer provides the required PPE and, with only narrow exceptions (like everyday steel-toe boots and prescription eyewear the worker takes home), pays for it. Cost is never a reason to keep using worn-out gear.",
+          "Protection only works if it fits. Gear that's too big, too small, or incompatible with other equipment gets worn wrong or not at all. Make sure sizes are available, that items work together (glasses under a face shield, earplugs with a hard hat), and that anyone who can't get a proper fit gets an alternative that does the same job."
+        ]
+      }
+    ]
+  },
+
+  "ppe/head-protection-hard-hats": {
+    description:
+      "When and why hard hats are required, how to read the ANSI Z89.1 type and class ratings, and how to keep the shell and suspension doing their job.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A hard hat is required wherever there's a chance of head injury from falling or flying objects, from bumping a fixed object, or from electrical contact. On an active site that's almost everywhere people work below cranes, scaffolds, or overhead trades.",
+          "OSHA 1926.100 sets the requirement and points to the ANSI/ISEA Z89.1 standard for the hats themselves. The rating printed inside the shell tells you exactly what kind of protection you're wearing — so it's worth knowing how to read it."
+        ]
+      },
+      {
+        heading: "Types and classes — read the label inside",
+        body: [
+          "Z89.1 grades a hard hat two ways: by the direction of impact it's built for (Type) and by the electrical protection it offers (Class).",
+          {
+            list: [
+              "Type I — protects against impact to the top of the head only.",
+              "Type II — protects against top AND lateral (side) impact.",
+              "Class G (General) — tested to 2,200 volts.",
+              "Class E (Electrical) — tested to 20,000 volts, for work near higher-voltage exposure.",
+              "Class C (Conductive) — offers NO electrical protection (often vented or has metal parts)."
+            ]
+          },
+          "The volt rating is a test threshold, not a working rating — it doesn't mean go touch a live line. It means the shell won't be the thing that gets you killed if you brush a conductor. If you work around electricity, never wear a Class C hat."
+        ]
+      },
+      {
+        heading: "The suspension does half the work",
+        body: [
+          "The shell spreads and deflects the blow; the suspension webbing inside absorbs it by holding the shell about an inch off your skull. That gap is the crumple zone. That's why you never store anything — gloves, cigarettes, a notepad — between the suspension and the shell, and why the hat has to fit and be adjusted snug.",
+          "Wear it bill-forward unless the hat is specifically rated and marked for reverse wear. Turning a standard hat backward can move the suspension out of its tested position."
+        ]
+      },
+      {
+        heading: "Inspection and replacement",
+        body: [
+          "Check the shell and suspension before each use. Take the hat out of service if you find any of these:",
+          {
+            list: [
+              "Cracks, dents, gouges, or a shell that's gone dull, chalky, or brittle (UV damage).",
+              "A suspension with cracks, frayed or torn straps, or broken keys/attachment points.",
+              "Any hat that took a real impact — even with no visible damage, the protection may be spent.",
+              "Signs of chemical or solvent contact that can weaken the plastic."
+            ]
+          },
+          "Follow the manufacturer's service life. As a common guide, replace the suspension roughly every 12 months and the shell within about 5 years of first use — sooner with heavy sun or damage. Don't paint a hat or clean it with solvents unless the maker approves it; some chemicals quietly weaken the shell."
+        ]
+      }
+    ]
+  },
+
+  "ppe/eye-and-face-protection": {
+    description:
+      "Matching eye and face protection to the hazard — impact, dust, splash, and radiant energy — and why a face shield is never enough on its own.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most eye injuries on site come from flying particles — grinding, cutting, chipping, nailing — and nearly all of them are preventable with the right protection worn correctly. Chemical splashes and welding light do the rest.",
+          "OSHA 1926.102 requires eye and face protection when there's a hazard, and points to ANSI/ISEA Z87.1 for the gear. The trick is matching the protector to the specific hazard: impact, dust, splash, or radiant energy each call for something different."
+        ]
+      },
+      {
+        heading: "Match the protector to the hazard",
+        body: [
+          {
+            list: [
+              "Flying particles (grinding, cutting, chipping) — safety glasses with side protection, marked Z87. For heavy impact look for the Z87+ mark.",
+              "Dust and fine debris — snug-fitting goggles that seal around the eye.",
+              "Chemical splash — indirect-vented or non-vented splash goggles, plus a face shield for the face.",
+              "Welding, cutting, brazing — a welding helmet or goggles with the correct shade filter lens.",
+              "Light optical radiation (lasers, UV) — filters rated for that source."
+            ]
+          },
+          "Everyday safety glasses stop a particle but not a splash — a chemical goes right around the lens. Don't substitute one for the other."
+        ]
+      },
+      {
+        heading: "Face shields don't replace primary eye protection",
+        body: [
+          "A face shield is secondary protection. It guards the whole face from splash and larger debris, but it can be lifted, and a particle can still get under it. Always wear primary eye protection — safety glasses or goggles — underneath.",
+          "So for a splash job: goggles for the eyes AND a face shield for the face. For grinding: safety glasses AND a shield if there's a heavy fragment or spark hazard."
+        ]
+      },
+      {
+        heading: "Welding filter shades",
+        body: [
+          "Welding, cutting, and brazing throw off intense ultraviolet and infrared light that burns the eyes (\"arc flash\" / \"welder's flash\") — the pain shows up hours later. The filter shade has to match the process and amperage; a shade too light lets damaging light through.",
+          {
+            list: [
+              "Oxy-fuel gas cutting and brazing — lighter shades (roughly 3–6 depending on the work).",
+              "Shielded metal arc welding (stick) — heavier shades (around 10–14 as amperage climbs).",
+              "Helpers and nearby workers — need protection too; use screens or filter lenses so bystanders aren't flashed."
+            ]
+          },
+          "Use the shade chart in 1926.102 (or the manufacturer's guide) for the exact number, and step up a shade if the arc is still too bright."
+        ]
+      }
+    ]
+  },
+
+  "ppe/hearing-protection": {
+    description:
+      "Noise-induced hearing loss is permanent and painless. The OSHA action level and PEL, how earplugs and muffs are rated, and when the hearing conservation program kicks in.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Loud noise takes your hearing slowly and permanently — there's no pain and no warning, and it never comes back. Construction is full of it: impact tools, saws, compressors, heavy equipment, generators.",
+          "OSHA 1926.52 sets the permissible noise limits for construction and 1926.101 requires hearing protection when you're over them. As with any hazard, cut the noise at the source first with engineering and administrative controls; use protectors for what's left."
+        ]
+      },
+      {
+        heading: "The numbers that matter",
+        body: [
+          "Noise is measured in A-weighted decibels (dBA), and the limits are based on how long you're exposed. The decibel scale is logarithmic — every few dB is a big jump in energy.",
+          {
+            list: [
+              "90 dBA — the OSHA permissible exposure limit (PEL) averaged over an 8-hour day.",
+              "85 dBA — the action level; at or above this over 8 hours the employer must run a hearing conservation program.",
+              "The louder it is, the shorter the allowed time — the limit halves the exposure time as noise rises (a 5 dBA exchange rate)."
+            ]
+          },
+          "A rough field test: if you have to raise your voice to be understood by someone an arm's length away, the area is likely around 85 dBA or higher and you need protection."
+        ]
+      },
+      {
+        heading: "The hearing conservation program",
+        body: [
+          "Once workers are exposed at or above the 85 dBA action level, the program is required and includes:",
+          {
+            list: [
+              "Noise monitoring to identify who's over the action level.",
+              "Baseline and annual audiometric (hearing) testing at no cost to the worker.",
+              "Hearing protectors made available, with a choice of types and proper fit.",
+              "Training on noise, the protectors, and the testing.",
+              "Recordkeeping of exposures and test results."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Choosing and wearing protectors",
+        body: [
+          "Earplugs and earmuffs both carry a Noise Reduction Rating (NRR) — the higher the number, the more attenuation under lab conditions. Real-world protection is always less than the label, so most guidance derates the NRR before comparing it to the exposure.",
+          "In very high noise, wear plugs AND muffs together (\"double protection\"). Fit is everything: roll and insert foam plugs deep enough to seal, and keep muff cushions in good shape — long hair, glasses arms, or a torn cushion break the seal and drop the protection to near zero."
+        ]
+      }
+    ]
+  },
+
+  "ppe/hand-and-arm-protection": {
+    description:
+      "Hands take the most injuries on site. Choosing gloves by the actual hazard — cut, chemical, heat, electrical — and why the wrong glove can be worse than none.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hands and fingers take more injuries than any other part of the body on a construction site — cuts, punctures, crushes, burns, and chemical damage. The right glove prevents most of them, but only if it matches the hazard.",
+          "OSHA 1910.138 requires hand protection selected for the specific task and the hazards present. There's no all-purpose glove: a glove built for one hazard can leave you exposed to another, or even make things worse."
+        ]
+      },
+      {
+        heading: "Match the glove to the hazard",
+        body: [
+          {
+            list: [
+              "Cuts and abrasion — cut-resistant gloves (rated by ANSI/ISEA 105 cut levels A1 up to A9); pick the level from how sharp the material is.",
+              "Chemicals — gloves whose material resists that specific chemical (nitrile, neoprene, butyl, PVC); check breakthrough time.",
+              "Heat and welding — leather or aluminized gloves rated for the temperature.",
+              "Electrical — insulating rubber gloves rated for the voltage, with leather protectors (see the electrical PPE topic).",
+              "General handling — leather or coated fabric for grip and abrasion."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Chemical gloves — breakthrough and permeation",
+        body: [
+          "For chemical work, \"waterproof\" isn't the question — chemicals soak through glove material over time even with no visible hole. That's permeation, and every glove/chemical pair has a breakthrough time: how long before the chemical reaches your skin.",
+          "Check the chemical's Safety Data Sheet and the glove manufacturer's chart to match the material to the substance, and swap gloves out before the breakthrough time is up. The wrong material can absorb and hold a chemical against your skin — worse than no glove at all."
+        ]
+      },
+      {
+        heading: "The one place gloves are the hazard",
+        body: [
+          "Around rotating or moving machinery — drills, lathes, augers, rebar benders — a glove can be caught and pull your hand in. Where a machine can grab a glove, gloves may be prohibited; follow the machine's rules and the site policy.",
+          "Otherwise, inspect gloves before use and replace them when you find holes, tears, thin spots, stiffness, swelling, or discoloration from chemical contact. A degraded glove gives false confidence."
+        ]
+      }
+    ]
+  },
+
+  "ppe/foot-and-leg-protection": {
+    description:
+      "Safety footwear ratings under ASTM F2413, what impact and compression numbers mean, and the specialty ratings — EH, metatarsal, puncture-resistant — for specific hazards.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Feet get hurt by dropped and rolling objects, by stepping on nails and sharp debris, by heavy equipment, and by electrical and chemical contact. Safety footwear is required where those hazards exist — which on most sites means everywhere on the working surface.",
+          "OSHA 1926.96 requires safety-toe footwear that meets the consensus standard, now ASTM F2413 (formerly ANSI Z41). The rating stamped inside the boot tells you what it's built to take."
+        ]
+      },
+      {
+        heading: "Reading the ASTM rating",
+        body: [
+          "F2413-rated footwear is marked inside with a line of codes. The first line covers the basic protective toe, tested for impact (I) and compression (C):",
+          {
+            list: [
+              "I/75 — protective toe rated to a 75 foot-pound impact.",
+              "C/75 — protective toe rated to a 2,500-pound compression load.",
+              "(75 is the highest class; 50 and 30 exist for lighter duty.)"
+            ]
+          },
+          "Additional lines call out specialty protection the boot also provides — so you can match footwear to the specific job, not just \"steel toe.\""
+        ]
+      },
+      {
+        heading: "Specialty ratings for specific hazards",
+        body: [
+          {
+            list: [
+              "EH — Electrical Hazard: a secondary defense against stepping on a live conductor in dry conditions. It is NOT rated for standing in water or direct electrical work.",
+              "Mt — Metatarsal: guards the top of the foot from heavy impact (paving, foundry, drop hazards).",
+              "PR — Puncture Resistant: a plate that stops nails and sharp debris coming up through the sole.",
+              "CD — Conductive: drains static in areas with explosive atmospheres.",
+              "SD — Static Dissipative: controls static for electronics work."
+            ]
+          },
+          "EH and CD do opposite jobs — one resists current, one carries it away. Wearing the wrong one in the wrong place removes the protection you think you have, so match the rating to the hazard."
+        ]
+      },
+      {
+        heading: "Fit, condition, and metatarsal add-ons",
+        body: [
+          "A safety toe only protects if the boot fits — too loose and your toes may sit outside the cap. Replace footwear when the toe cap is exposed or deformed, the sole is worn smooth or separating, or an EH-rated boot has cracks or holes that let water reach your foot.",
+          "Where there's no built-in metatarsal boot, strap-on metatarsal guards can add top-of-foot protection for high-impact tasks."
+        ]
+      }
+    ]
+  },
+
+  "ppe/respiratory-protection": {
+    description:
+      "Respirators are only safe inside a full program. Medical evaluation and fit testing come before use, cartridges must match the contaminant, and IDLH air needs supplied air — not a filter.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "You can't see or smell most of what damages your lungs — silica dust from cutting concrete, welding fume, asbestos, solvent vapor, carbon monoxide. A respirator is the protection, but it's the one piece of PPE that can give you a false sense of safety if it's the wrong type or doesn't seal.",
+          "OSHA 1910.134 governs respirators, and it's strict: a respirator is only safe when it's part of a full written program. First control the dust and fume at the source — ventilation, wet methods, enclosure — and use respirators for the exposure that's left."
+        ]
+      },
+      {
+        heading: "Before anyone wears one — the program",
+        body: [
+          "Two things happen before a required respirator ever goes on your face, in this order:",
+          {
+            list: [
+              "Medical evaluation — a respirator makes your heart and lungs work harder; a worker has to be cleared as fit to wear one before use.",
+              "Fit test — done before first use and at least annually, with the exact make, model, and size you'll wear, to prove it seals to your face."
+            ]
+          },
+          "The written program, run by a named administrator, also covers proper selection, training, cartridge change schedules, cleaning, storage, and evaluation. A dust mask handed out with no program isn't respiratory protection."
+        ]
+      },
+      {
+        heading: "Match the respirator to the contaminant — and the oxygen",
+        body: [
+          "Air-purifying respirators (APRs) filter the air you breathe — but only if the filter or cartridge matches the hazard, and only if there's enough oxygen to begin with.",
+          {
+            list: [
+              "Particulates (dust, fume) — an N/R/P-series filter (e.g. N95, P100).",
+              "Gases and vapors — a chemical cartridge specific to that gas; cartridges are color-coded and have a limited service life.",
+              "More protection — half-mask (assigned protection factor ~10) vs. full-face (~50)."
+            ]
+          },
+          "An air-purifying respirator does NOTHING for oxygen deficiency or an IDLH (Immediately Dangerous to Life or Health) atmosphere — no filter makes oxygen. Those conditions require supplied-air (SAR) or self-contained breathing apparatus (SCBA)."
+        ]
+      },
+      {
+        heading: "The seal is everything",
+        body: [
+          "A tight-fitting respirator only protects if it seals to skin. Facial hair along the sealing surface breaks the seal — no amount of tightening fixes a beard under the edge. So do scars, glasses temples running through the seal, or a wrong-size mask.",
+          "Do a user seal check every time you put it on (positive and negative pressure). If a worker can't get a seal, they need a different respirator — a loose-fitting powered air-purifying respirator (PAPR) is one option that doesn't rely on a tight face seal. Voluntary use of filtering facepieces still requires the basic information in Appendix D."
+        ]
+      }
+    ]
+  },
+
+  "ppe/high-visibility-clothing": {
+    description:
+      "Being seen is the protection. ANSI/ISEA 107 garment classes, when work-zone rules require Class 2 or 3, and why high-vis has to be kept clean and replaced when it fades.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When the hazard is a moving vehicle or a piece of equipment, being seen is the protection. Workers on foot around traffic, mobile equipment, cranes, and backing trucks need to stand out against a busy, changing background — day and night.",
+          "High-visibility safety apparel is built to two things at once: fluorescent background material that pops in daylight, and retroreflective tape that bounces headlights back at a driver in the dark. The consensus standard is ANSI/ISEA 107, which grades garments by how much of each they carry."
+        ]
+      },
+      {
+        heading: "The garment classes",
+        body: [
+          {
+            list: [
+              "Class 1 — the least material; for low-traffic areas well separated from the road (parking lots, warehouse yards).",
+              "Class 2 — more background and reflective material; for workers in or near a roadway right-of-way and moderate traffic.",
+              "Class 3 — the most conspicuous, with sleeves; for high-speed traffic, low light, and the highest-risk work zones.",
+              "Class E — high-visibility pants/gaiters that, combined with a Class 2 or 3 top, make the whole outfit Class 3."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When it's required",
+        body: [
+          "For road and highway work, the federal Manual on Uniform Traffic Control Devices (MUTCD) requires all workers and flaggers within the right-of-way of a federal-aid highway to wear high-visibility apparel meeting ANSI/ISEA 107 — generally Class 2 or Class 3 depending on traffic speed and volume.",
+          "Beyond the road, use high-vis anywhere workers are on foot around mobile equipment: laydown yards, loading zones, backing areas, and anywhere operators have limited sightlines. Pick the class from the speed and the light."
+        ]
+      },
+      {
+        heading: "Keep it working",
+        body: [
+          "High-vis wears out, and worn-out high-vis quietly stops protecting. Faded fluorescent fabric doesn't pop, and dirt, mud, paint, or overspray on the reflective tape kills the return of light at night.",
+          "Keep garments clean, and inspect for fading, tears, and damaged tape. Replace them when the color has washed out or the reflective striping is cracked, peeling, or coated over — a vest that looks 'good enough' in the yard may be invisible to a driver at night."
+        ]
+      }
+    ]
+  },
+
+  "ppe/protective-clothing-for-skin-and-body": {
+    description:
+      "Beyond the hard hat and gloves — chemical suits, welding leathers, and arc-rated clothing that protect skin and body from splash, sparks, flame, and arc flash.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Not every hazard aims at your head, hands, or feet. Chemical splashes burn skin, welding throws sparks and molten metal, and an electrical arc flash can ignite ordinary clothing. Protective clothing covers the skin and body against those exposures.",
+          "The type of garment is driven entirely by the hazard — a chemical suit, welding leathers, and arc-rated clothing are built to completely different jobs and aren't interchangeable. Match the clothing to the exposure the hazard assessment turned up."
+        ]
+      },
+      {
+        heading: "Chemical protective clothing",
+        body: [
+          "Skin contact with corrosives, solvents, and other hazardous substances causes burns, rashes, and absorption into the body. Chemical protective clothing — aprons, suits, coveralls, sleeves — has to be made of a material that resists the specific chemical, just like chemical gloves.",
+          "As with gloves, watch permeation and breakthrough time: a chemical can soak through the fabric with no visible damage. Check the Safety Data Sheet and the garment's chemical-resistance data, and for serious exposures follow the HAZWOPER protection levels (A through D) that set the ensemble."
+        ]
+      },
+      {
+        heading: "Welding and hot-work clothing",
+        body: [
+          "Welding, cutting, and grinding throw sparks, slag, and molten metal that set ordinary clothes — especially synthetics — on fire. OSHA 1926.353 and welding practice call for flame-resistant clothing and leathers.",
+          {
+            list: [
+              "Leather or flame-resistant jackets, aprons, sleeves, and leggings to shed sparks and slag.",
+              "No synthetic fabrics (polyester, nylon) that melt onto skin.",
+              "Cuffless pants and closed pockets so sparks can't lodge and smolder.",
+              "Cotton or FR base layers, not meltable synthetics, underneath."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Arc-rated clothing for electrical work",
+        body: [
+          "An electrical arc flash releases intense heat that can cause severe burns and ignite regular clothing, which then keeps burning. Workers exposed to arc-flash hazards wear arc-rated (AR) clothing, rated in calories per square centimeter (cal/cm²) to match the incident energy of the task.",
+          "Arc-rated clothing is always flame-resistant, and it must meet or exceed the arc rating the electrical hazard analysis calls for (see NFPA 70E and the electrical PPE topic). Never wear meltable synthetics near an arc-flash hazard — under an arc they make the injury worse."
+        ]
+      }
+    ]
+  },
+
+  "ppe/fall-protection-harnesses-as-ppe": {
+    description:
+      "The harness is the wearable piece of a fall arrest system. Full-body only, correct fit and D-ring position, inspection before every use, and out of service after any fall.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The full-body harness is the piece of fall protection you wear — the PPE end of a personal fall arrest system (PFAS). It only does its job if it fits right, is worn right, and is inspected every single time. This topic covers the harness as equipment; how the whole arrest system, anchorages, and rescue work is covered under Working at Heights.",
+          "OSHA 1926.502(d) sets the fall arrest requirements. The short version: full-body harnesses only, correct fit, inspect before every use, and out of service the moment it takes a fall or fails inspection."
+        ]
+      },
+      {
+        heading: "Full-body harness only",
+        body: [
+          "Body belts are prohibited for fall arrest — arresting a fall on a belt can cause serious internal injury and let a worker slip out. Only a full-body harness spreads the arrest forces across the thighs, pelvis, chest, and shoulders.",
+          "The dorsal D-ring (for a standard fall arrest connection) sits between the shoulder blades, so a fall leaves you upright and the forces land where your body can take them. Front, side, or shoulder D-rings are for specific uses like ladder-climbing systems or positioning — not general fall arrest."
+        ]
+      },
+      {
+        heading: "Fit and donning",
+        body: [
+          "A harness that's too loose lets you fall farther before it catches, can slip during the arrest, and makes suspension worse afterward. Put it on right:",
+          {
+            list: [
+              "Untangle it and slip it on like a jacket, dorsal D-ring centered between the shoulder blades.",
+              "Buckle and snug the leg straps — tight enough that a flat hand barely fits under the strap.",
+              "Fasten the chest strap across the mid-chest and adjust the shoulder straps so there's no slack.",
+              "Check that D-rings and buckles sit where they should and nothing is twisted."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect before every use — and after any fall",
+        body: [
+          "Run the whole harness through your hands before each use. Take it out of service for any of these:",
+          {
+            list: [
+              "Webbing with cuts, frays, burns, pulled or broken stitches, or chemical/heat damage.",
+              "Cracked, bent, corroded, or distorted D-rings, buckles, or hardware.",
+              "A deployed impact indicator (the warning fold that tears open when the harness has arrested a fall).",
+              "Missing or unreadable labels."
+            ]
+          },
+          "Any harness or lanyard that has arrested a fall is done — remove it from service immediately, even if it looks fine, because the fibers and hardware may be spent. Store harnesses out of sunlight, heat, and chemicals, and follow the manufacturer's service life."
+        ]
+      }
+    ]
+  },
+
+  "ppe/inspecting-maintaining-and-replacing-ppe": {
+    description:
+      "PPE that's present but damaged gives false confidence. Building inspection into daily use, keeping gear serviceable, and making replacement quick and no-fault.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A piece of PPE can be right there on the worker and still not protect — a cracked hard hat, scratched lenses, a stretched harness, a glove eaten by solvent, boots worn smooth. Present but defective gear is worse than none, because it gives false confidence.",
+          "Inspection isn't a separate chore; it's part of wearing PPE correctly. The goal is simple: every worker checks their gear before they use it, and defective gear comes out of service and gets replaced fast."
+        ]
+      },
+      {
+        heading: "Inspect before every use",
+        body: [
+          "Make a quick pre-use check the habit for every item. What to look for, item by item:",
+          {
+            list: [
+              "Hard hats — cracks, dents, dull/chalky shells, damaged suspension; anything that took an impact.",
+              "Eye/face — deep scratches, cracks, pitting, or a poor seal that lets particles in.",
+              "Gloves — holes, tears, thin spots, stiffness, or swelling from chemical contact.",
+              "Boots — exposed or deformed toe caps, worn-through soles, cracks in EH-rated footwear.",
+              "Respirators — cracked facepiece, hardened or torn straps, worn valves, expired or wrong cartridges.",
+              "Harnesses/lanyards — cut or frayed webbing, damaged hardware, deployed impact indicator."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Maintenance and service life",
+        body: [
+          "Keep gear working between inspections. Clean it per the manufacturer — dirt on reflective tape, grime on a respirator seal, or the wrong solvent on a hard hat all cut protection. Store PPE out of sunlight, heat, and chemicals that degrade it.",
+          "Respect service life and expiration. Respirator cartridges, hard hat suspensions and shells, and harness webbing all age out even when they look fine. Follow the dates and change schedules the manufacturer sets — 'it still looks okay' isn't the standard for life-safety gear."
+        ]
+      },
+      {
+        heading: "Make replacement quick and no-fault",
+        body: [
+          "Workers keep using bad gear when replacing it is a hassle. If it takes approval, paperwork, or a long walk across the site, damaged equipment stays in service. Stock replacement PPE where crews can get it, and make swapping out defective gear routine and blame-free.",
+          "Under OSHA Subpart E the employer provides and, with narrow exceptions, pays for required PPE — including replacements when gear wears out or is damaged in normal use. Cost and friction should never be the reason a worker is wearing protection that no longer protects."
+        ]
+      }
+    ]
   }
 };
 
