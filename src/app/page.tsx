@@ -84,7 +84,7 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="grid gap-4 border-t border-rule bg-bg p-6 sm:grid-cols-3">
+            <div className="grid gap-4 border-t border-rule bg-bg p-6 sm:grid-cols-2">
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{trainingCategories.length}</p>
                 <p className="eyebrow mt-1">Categories</p>
@@ -92,10 +92,6 @@ export default function HomePage() {
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}+</p>
                 <p className="eyebrow mt-1">Topic Articles</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl font-bold text-ink">Static</p>
-                <p className="eyebrow mt-1">No Backend Needed</p>
               </div>
             </div>
           </div>
