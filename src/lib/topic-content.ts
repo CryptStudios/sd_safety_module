@@ -2411,6 +2411,501 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "fire-safety/the-fire-triangle-and-classes-of-fire": {
+    description:
+      "The three things every fire needs to burn, and the five classes of fire — so you pick the right control and the right extinguisher instead of making a fire worse.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every fire needs three things at the same time: fuel, heat, and oxygen. Take away any one of them and the fire dies. That's the whole idea behind both preventing fires and putting them out.",
+          "It also matters what's burning. Wood burns differently than gasoline, and both are different from a live electrical panel. Match your response to the type of fire, or you'll make it worse."
+        ]
+      },
+      {
+        heading: "The fire triangle — and the fourth side",
+        body: [
+          "Picture a triangle. Each side is one thing a fire has to have:",
+          {
+            list: [
+              "Fuel — anything that burns: wood, paper, fuel, solvents, insulation, dust.",
+              "Heat — the ignition source: a spark, flame, hot surface, or friction.",
+              "Oxygen — normally the air around us, about 21%."
+            ]
+          },
+          "Break any side and the fire goes out. Water cools it (removes heat). A blanket or CO2 smothers it (removes oxygen). Shutting a fuel valve starves it (removes fuel). Dry-chemical extinguishers add a fourth control — they interrupt the chemical chain reaction that keeps the flame going, which is why the triangle is sometimes called the fire tetrahedron.",
+          "Prevention works the same way: keep ignition sources away from fuels and you never complete the triangle in the first place."
+        ]
+      },
+      {
+        heading: "Know the five classes of fire",
+        body: [
+          "Fires are grouped by what's burning. Extinguishers are rated for the classes they can handle:",
+          {
+            list: [
+              "Class A — ordinary combustibles: wood, paper, cloth, cardboard, most plastics, trash.",
+              "Class B — flammable liquids and gases: gasoline, diesel, oil, grease, solvents, propane.",
+              "Class C — energized electrical equipment: panels, cords, motors, tools that are still powered.",
+              "Class D — combustible metals: magnesium, titanium, sodium, lithium.",
+              "Class K — cooking oils and fats, mostly in kitchens."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Why the class matters",
+        body: [
+          "The class tells you what's safe to use. Water is great on Class A, but it's dangerous on the others. Throw water on a grease fire (Class B) and it flashes and spreads the burning liquid. Hit an energized panel (Class C) with water and you can get shocked through the stream. A combustible-metal fire (Class D) can react violently with water.",
+          "Most site extinguishers are ABC dry chemical because they cover the three you're most likely to meet. But before you grab anything, know what's on fire — that decides whether you fight it or get out and let it burn."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/recognizing-fire-hazards-on-site": {
+    description:
+      "Spotting the ignition sources and the fuel sources that combine into a fire — and the danger zones where the two overlap — before they meet.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A fire starts when an ignition source meets a fuel source with oxygen around. On a job site both are everywhere, so the skill is seeing where they line up before they touch.",
+          "Walk your area and ask two questions: what here could start a fire, and what here would feed it? Where the answers sit close together, that's your hazard."
+        ]
+      },
+      {
+        heading: "Ignition sources — what starts it",
+        body: [
+          "Anything that makes a spark, flame, or enough heat can be the ignition source:",
+          {
+            list: [
+              "Hot work — welding, cutting, grinding, brazing — throwing sparks and slag.",
+              "Electrical faults — damaged or overloaded cords, loose connections, arcing.",
+              "Temporary heaters and open flames.",
+              "Hot engine and exhaust surfaces on equipment and generators.",
+              "Friction, static electricity, and smoking outside designated areas."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Fuel sources — what feeds it",
+        body: [
+          "Then look at what would catch and carry the fire:",
+          {
+            list: [
+              "Combustible debris — scrap wood, cardboard, packaging, sawdust, rags.",
+              "Flammable and combustible liquids — gasoline, diesel, solvents, thinners, adhesives.",
+              "Flammable gases — propane, acetylene, and their leaking hoses.",
+              "Building materials — foam insulation, tarps, form lumber, plastics.",
+              "Fine dust from cutting wood or masonry, which can flash in the air."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The danger zones — where they overlap",
+        body: [
+          "The real hazard is where an ignition source sits next to fuel. Watch for hot work near flammable storage or debris, grinders near cardboard and sawdust, heaters near tarps and lumber, and battery charging or generators next to a trash pile.",
+          "Most of these are fixed by separation and housekeeping — move the fuel away, move the spark away, and clean up as you go. If you can't separate them, that task needs a permit, a fire watch, and an extinguisher standing by."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/storing-flammable-and-combustible-liquids": {
+    description:
+      "Storing and handling gasoline, diesel, solvents, and thinners so their vapors never find an ignition source — approved containers, cabinet limits, and static control per OSHA 1926.152.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Flammable and combustible liquids are on every site — fuel, solvents, thinners, adhesives. What burns isn't really the liquid, it's the vapor coming off it, and that vapor spreads, sinks, and travels to find a spark.",
+          "Store and handle these liquids right and you keep the vapor contained and away from ignition. OSHA 29 CFR 1926.152 sets the rules."
+        ]
+      },
+      {
+        heading: "Flammable vs. combustible — it's the flash point",
+        body: [
+          "Flash point is the lowest temperature at which a liquid gives off enough vapor to ignite. It's how these liquids are split:",
+          {
+            list: [
+              "Flammable liquid — flash point below 100°F (37.8°C). Gasoline flashes around −45°F, so it's giving off ignitable vapor at any job-site temperature.",
+              "Combustible liquid — flash point at or above 100°F (37.8°C), like diesel and many oils. Harder to light, but still burns once it's hot enough."
+            ]
+          },
+          "Either way, treat the vapor as the hazard. Keep containers closed, keep the area ventilated, and keep ignition sources back."
+        ]
+      },
+      {
+        heading: "Approved containers and safety cans",
+        body: [
+          "Store and carry these liquids only in approved containers. A safety can is self-closing, holds no more than 5 gallons, and has a flame arrester and a spring-loaded lid that relieves pressure and snuffs flashback.",
+          "Keep liquids in their original labeled containers or a properly labeled safety can. No open buckets, no unmarked jugs, no soda bottles — an unlabeled container is how someone pours the wrong thing or lights it off."
+        ]
+      },
+      {
+        heading: "Storage limits and cabinets",
+        body: [
+          "Don't let quantities build up in the work area. OSHA sets limits:",
+          {
+            list: [
+              "No more than 25 gallons of flammable liquids stored in containers outside of an approved storage cabinet in any one room.",
+              "A flammable storage cabinet holds no more than 60 gallons of Category 1, 2, or 3 flammable liquids, or 120 gallons of Category 4 combustible liquids.",
+              "No more than three storage cabinets grouped in one area.",
+              "Cabinets are labeled in conspicuous lettering: \"Flammable — Keep Fire Away.\""
+            ]
+          },
+          "Store away from exits, stairways, and ignition sources, out of direct sun, and where a spill can be contained."
+        ]
+      },
+      {
+        heading: "Bond, ground, and no ignition",
+        body: [
+          "Pouring liquid between metal containers builds up static — and one static spark in fuel vapor is all it takes. When you transfer flammable liquids, bond the containers together and ground them so the charge can't jump.",
+          "Post \"No Smoking or Open Flame\" signs at storage and dispensing areas and mean it — no smoking, no hot work, no running engines nearby. Clean up spills right away and get soaked rags into a covered metal container."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/housekeeping-and-combustible-debris-control": {
+    description:
+      "The cheapest fire control on site is a broom — clearing scrap, sawdust, packaging, and oily rags so a spark has nothing to catch. OSHA 1926.25 and 1926.151.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Good housekeeping is fire prevention. Scrap wood, cardboard, sawdust, oily rags, and packaging are all fuel. Clear them out and even if a spark happens, it has nothing to catch and grow on.",
+          "It's the cheapest control you have and it works every shift. OSHA 1926.25 requires you to keep the work area cleared as the job goes."
+        ]
+      },
+      {
+        heading: "Clear combustible scrap as you go",
+        body: [
+          "Don't wait for the pile to get big. OSHA 1926.25 says form and scrap lumber with protruding nails, and all other debris, has to be kept cleared from the work area, and combustible scrap and debris removed at regular intervals.",
+          "Break down boxes, bag the trash, and get sawdust and cutoffs out of the work zone. A tidy area isn't just neater — it's got far less to burn."
+        ]
+      },
+      {
+        heading: "Oily rags and spontaneous combustion",
+        body: [
+          "Rags soaked in linseed oil, stains, or some solvents can heat up on their own and burst into flame with no spark at all — that's spontaneous combustion. A pile of oily rags in the sun or in a warm corner is a fire waiting to happen.",
+          "Put used oily and solvent rags in a covered metal container, and empty it daily. Never leave them balled up in a bucket, a pocket, or on the floor overnight."
+        ]
+      },
+      {
+        heading: "Keep the safety gear clear",
+        body: [
+          "Housekeeping also means not burying the things you'd need in a fire. Keep debris and stored material away from exits, exit routes, fire extinguishers, alarm pulls, and electrical panels.",
+          "If a stack of materials is blocking an extinguisher or a doorway, it's a hazard even before anything burns — fix it now, not when the alarm sounds."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/controlling-ignition-sources-and-hot-work": {
+    description:
+      "Welding, cutting, and grinding throw sparks and slag that travel and smolder — controlling the ignition, the permit, and the fire watch per OSHA 1926.352.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hot work — welding, cutting, grinding, brazing — is a leading cause of site fires. The sparks and slag travel farther than you think, drop through openings, and smolder in hidden debris long after you've packed up.",
+          "Control the ignition or don't do the work. OSHA 1926.352 covers fire prevention during welding and cutting. (The Welding & Hot Work category goes deeper on the permit itself.)"
+        ]
+      },
+      {
+        heading: "Before hot work — clear or protect the area",
+        body: [
+          "Sparks and slag can travel 35 feet or more and roll even farther. Before you strike an arc:",
+          {
+            list: [
+              "Move the work at least 35 feet from combustibles, or move the combustibles away.",
+              "What can't be moved gets covered with fire blankets or noncombustible guards.",
+              "Cover floor and wall openings so sparks can't drop to a level below.",
+              "Wet down combustible floors and sweep up debris in the spark zone."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Hot work permit and fire watch",
+        body: [
+          "A hot work permit confirms someone checked the area, tested the air where needed, assigned a fire watch, and put an extinguisher in reach before the work started.",
+          "The fire watch is a trained person with an extinguisher who watches for sparks and smoldering while the work is going. Because slag stays hot and hidden fires can smolder before they show, the fire watch keeps watching for at least 30 minutes after the work stops. They know how to sound the alarm and call for help."
+        ]
+      },
+      {
+        heading: "The other ignition sources",
+        body: [
+          "Hot work is the big one, but not the only one. Keep smoking to designated areas well away from fuels. Don't run damaged or overloaded cords. Keep hot engine exhaust and generators away from combustibles and fumes.",
+          "The rule is the same for all of them: keep the heat source separated from anything that can burn."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/temporary-heating-devices": {
+    description:
+      "Salamanders and propane torpedo heaters keep cold-weather work going — and start fires and put out carbon monoxide when misused. Clearance, ventilation, and fuel handling per OSHA 1926.154.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Portable heaters — salamanders, propane torpedo heaters, and the like — keep work moving in cold weather. They also start fires when they're too close to combustibles, and they put out carbon monoxide that can kill in an enclosed space.",
+          "OSHA 1926.154 covers temporary heating devices. Two things keep them safe: clearance from anything that burns, and ventilation for the fumes."
+        ]
+      },
+      {
+        heading: "Clearance and stability",
+        body: [
+          "Keep the manufacturer's required clearance between the heater and any combustible — tarps, walls, wood, and stacked materials. A heater pointed at a tarp is a fire, not a warm-up.",
+          "Set the heater on a stable, level base so it can't tip or be knocked over, and keep the flame guarded. Don't use it to dry clothing or gear draped nearby."
+        ]
+      },
+      {
+        heading: "Ventilation and carbon monoxide",
+        body: [
+          "Fuel-fired heaters burn oxygen out of the air and give off carbon monoxide — an odorless, invisible gas that kills. In an enclosed or confined space, an unvented heater can drop the oxygen and build up CO fast.",
+          "Provide fresh-air ventilation whenever a fuel-fired heater runs indoors, and test for carbon monoxide in enclosed areas. Never use an unvented fuel heater in a tight space or anywhere crews sleep."
+        ]
+      },
+      {
+        heading: "Fuel and LP-gas handling",
+        body: [
+          "Most site heaters run on propane, and the fuel is its own hazard:",
+          {
+            list: [
+              "Solid-fuel heaters are not allowed inside enclosed buildings or structures.",
+              "Keep LP-gas cylinders upright and secured so they can't fall.",
+              "Shut the heater off and let it cool before refueling — never refuel a hot or running unit.",
+              "Store spare cylinders outside, not in the building.",
+              "Check hoses and connections for leaks with soapy water, never with a flame."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/the-site-fire-prevention-plan": {
+    description:
+      "Someone has to own fire safety on the project — the fire prevention plan names the hazards, the controls, and who's responsible, per OSHA 1926.150 and 1910.39.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Fire safety can't be left to chance — someone has to own it for the project. A fire prevention plan is how you lay out what the fire hazards are, how they're controlled, and who's responsible for each piece.",
+          "OSHA requires a fire protection program throughout all phases of the work (1926.150), and a fire prevention plan with specific elements (1910.39)."
+        ]
+      },
+      {
+        heading: "What the plan covers",
+        body: [
+          "A fire prevention plan (1910.39) spells out:",
+          {
+            list: [
+              "The major fire hazards on site and the proper handling and storage for each.",
+              "Potential ignition sources and how they're controlled.",
+              "The type of fire protection equipment provided.",
+              "Procedures to control accumulations of flammable and combustible waste.",
+              "Regular maintenance of heat-producing equipment so it doesn't become an ignition source.",
+              "The names or job titles of the people responsible for the equipment and for controlling fuel sources."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Fire protection through all phases",
+        body: [
+          "OSHA 1926.150(a) requires the employer to develop and maintain a fire protection program through all phases of construction and demolition. That means firefighting equipment is provided, conspicuously located, and maintained in working order, and crews have access to it at all times.",
+          "Where the work needs it, a water supply for firefighting is arranged. The point is that fire protection is planned in from the start, not scrambled together after a fire breaks out."
+        ]
+      },
+      {
+        heading: "Written, shared, and trained",
+        body: [
+          "If the employer has more than 10 employees, the fire prevention plan is put in writing and kept where workers can review it. A smaller employer can communicate it to the crew out loud.",
+          "Either way, workers get told the parts of the plan that affect their job — the hazards in their area, how to report a fire, and who's responsible for what."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/portable-fire-extinguishers-classes-and-placement": {
+    description:
+      "Picking and placing extinguishers so the right type is always close and charged — matching class to hazard and meeting OSHA 1926.150(c) travel-distance rules. (For how to use one, see Fire Extinguisher Safety.)",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "An extinguisher only helps if it's the right type for the fire, it's close enough to reach fast, and it's charged and ready. This is about picking and placing them.",
+          "Matching the extinguisher class to the hazard, and meeting OSHA's placement rules, is what makes the extinguisher useful before a small fire becomes a big one. (For how to actually operate one, see the Fire Extinguisher Safety category.)"
+        ]
+      },
+      {
+        heading: "Match the extinguisher to the fire class",
+        body: [
+          "The extinguisher has to match what's burning:",
+          {
+            list: [
+              "ABC dry chemical — covers Class A, B, and C. The most common all-around extinguisher on site.",
+              "CO2 — good on Class B and C (electrical); leaves no residue on equipment.",
+              "Class D — special dry powder for combustible-metal fires; a standard extinguisher won't work.",
+              "Class K — for cooking oils and fats, in kitchens and break areas."
+            ]
+          },
+          "Don't put a water or pressurized-water (Class A only) extinguisher on grease or energized electrical — it spreads the fire or shocks you."
+        ]
+      },
+      {
+        heading: "Placement and travel distance",
+        body: [
+          "OSHA 1926.150(c) sets how many and how close for construction sites:",
+          {
+            list: [
+              "At least one extinguisher rated not less than 2A for each 3,000 square feet of protected building area.",
+              "Travel distance from any point to the nearest extinguisher no more than 100 feet.",
+              "Where more than 5 gallons of flammable or combustible liquid, or 5 pounds of flammable gas, is used, a 10B-rated extinguisher within 50 feet.",
+              "A 55-gallon open drum of water with two fire pails may substitute for a 2A extinguisher.",
+              "On a multi-story building, at least one extinguisher next to the stairway on each floor."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep them ready",
+        body: [
+          "An extinguisher does no good buried behind material or discharged. Keep them mounted, visible, unobstructed, and accessible. Give each one a quick visual check monthly and a full maintenance check yearly, and recharge any extinguisher after it's used — even a short burst.",
+          "Protect them from freezing where that's a risk, and never hang gear on them or stack material in front of them."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/fire-alarm-and-detection-systems": {
+    description:
+      "The faster people know there's a fire, the more time they have to get out — a way to raise the alarm and, where required, detection that catches a fire early. OSHA 1926.150(e), 1910.164, 1910.165.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The faster people find out there's a fire, the more time they have to get out and the smaller the fire is when someone acts. That takes a reliable way to raise the alarm, and where it's required, detection that catches a fire early.",
+          "OSHA 1926.150(e) covers the site alarm; 1910.165 covers employee alarm systems and 1910.164 covers detection."
+        ]
+      },
+      {
+        heading: "Raising the alarm",
+        body: [
+          "OSHA 1926.150(e) requires an alarm system — a telephone, siren, air horn, or equivalent — so workers and the fire department can be alerted to a fire. The alarm code and the reporting instructions are posted conspicuously where everyone can see them.",
+          "Every worker needs to know two things cold: what the alarm signal sounds like, and how to report a fire if they're the one who finds it."
+        ]
+      },
+      {
+        heading: "Employee alarm systems",
+        body: [
+          "Under 1910.165, an employee alarm has to be perceived above the ambient noise and light on site — loud or bright enough that people actually notice it. Each signal is distinctive for its purpose, and the system is maintained and tested so it works when it's needed.",
+          "On a small, close-quarters job, a shouted warning or a manually operated device can be enough — as long as everyone can hear or see it and knows what it means."
+        ]
+      },
+      {
+        heading: "Detection systems",
+        body: [
+          "Where fire detection is installed (1910.164), the detectors have to be maintained and tested so they stay reliable, and restored to normal operation after any test or alarm. They're kept in working order at all times.",
+          "Detection is early warning — it buys time. It never replaces prevention and good housekeeping; it just tells you sooner when those have failed."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/exit-routes-and-means-of-egress": {
+    description:
+      "When a fire starts, people need a clear, known way out — enough exits, unobstructed and marked, every shift. OSHA 1910.36 and 1910.37.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When a fire starts, people need a clear, known way out — fast. That means exit routes that actually exist, that aren't blocked, and that are marked so nobody's guessing in smoke.",
+          "OSHA 1910.36 and 1910.37 set the requirements for means of egress. On a changing site the routes have to be re-checked as the work moves, not just drawn once."
+        ]
+      },
+      {
+        heading: "Enough exits, far enough apart",
+        body: [
+          "A workplace needs at least two exit routes, located as far apart from each other as practical, so that if one is blocked by fire or smoke the other is still usable. More than two are required if the number of workers, the size, or the layout of the space needs them.",
+          "The idea is simple: never let a single fire trap people with only one way out."
+        ]
+      },
+      {
+        heading: "Keep them clear and usable",
+        body: [
+          "An exit route only counts if you can actually get through it:",
+          {
+            list: [
+              "Unobstructed — never blocked by materials, equipment, or debris.",
+              "Doors unlocked from the inside and, where required, opening in the direction of travel.",
+              "Adequate lighting so the route is visible.",
+              "Minimum size kept clear — at least 28 inches wide and 7 feet 6 inches high.",
+              "No dead ends where someone thinks they're heading out and hits a wall."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Mark the way out",
+        body: [
+          "Each exit is marked by a plainly visible, illuminated \"EXIT\" sign. Where the path to an exit isn't obvious, signs point the way. A door or passage that could be mistaken for an exit but isn't one is marked \"Not an Exit\" or labeled for what it is, like \"Storeroom.\"",
+          "On a job site, walls go up, materials get stacked, and phases change — so re-walk the routes regularly and fix anything that's now blocked or confusing."
+        ]
+      }
+    ]
+  },
+
+  "fire-safety/evacuation-alarms-and-assembly-points": {
+    description:
+      "When the alarm sounds, everyone should already know what to do and where to go — the emergency action plan, evacuation, and the head count. OSHA 1910.38.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When the alarm sounds, nobody should be figuring out what to do — they should already know. That's what an emergency action plan is for: the steps, the routes, and the meeting point are set before anything happens.",
+          "OSHA 1910.38 covers the emergency action plan. The goal is a fast, orderly exit and a count that tells you everyone got out."
+        ]
+      },
+      {
+        heading: "The emergency action plan",
+        body: [
+          "An emergency action plan (1910.38) has to spell out, at a minimum:",
+          {
+            list: [
+              "How to report a fire or other emergency.",
+              "Evacuation procedures and exit route assignments.",
+              "Procedures for anyone who stays behind to shut down critical operations before they leave.",
+              "How all employees are accounted for after the evacuation.",
+              "Rescue and medical duties for the workers assigned to them.",
+              "The name or job title of who to contact for more information about the plan."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When the alarm sounds",
+        body: [
+          "Stop work and shut down or leave equipment the way you were trained. Take the nearest clear exit route — don't stop for tools or belongings, and don't use elevators. Help anyone who needs it, and keep moving away from the building.",
+          "The time to learn the route is now, not when it's full of smoke."
+        ]
+      },
+      {
+        heading: "Assembly points and head count",
+        body: [
+          "Go to the designated assembly point — a spot a safe distance from the building where the crew gathers. There, a supervisor counts everyone against the sign-in so it's clear whether anyone's missing.",
+          "If someone's unaccounted for, report it to the fire department — never go back inside to look yourself. As the site changes, keep the assembly points and routes current, review the plan with workers when they're assigned and when it changes, and run drills so the response is automatic."
+        ]
+      }
+    ]
   }
 };
 

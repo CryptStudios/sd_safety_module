@@ -494,6 +494,7 @@ const realContentCategories = new Set<string>([
   "working-at-heights",
   "electrical-safety",
   "excavation-safety",
+  "fire-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1211,12 +1212,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Fire Prevention Methods",
-      "Flammable Material Storage",
-      "Hot Work Permits",
-      "Evacuation Plans and Assembly Points",
-      "Fire Watch Responsibilities",
-      "Identifying Fire Hazards on Site"
+      "The Fire Triangle and Classes of Fire",
+      "Recognizing Fire Hazards on Site",
+      "Storing Flammable and Combustible Liquids",
+      "Housekeeping and Combustible Debris Control",
+      "Controlling Ignition Sources and Hot Work",
+      "Temporary Heating Devices",
+      "The Site Fire Prevention Plan",
+      "Portable Fire Extinguishers — Classes and Placement",
+      "Fire Alarm and Detection Systems",
+      "Exit Routes and Means of Egress",
+      "Evacuation, Alarms, and Assembly Points"
     ]
   }),
   createCategory({
