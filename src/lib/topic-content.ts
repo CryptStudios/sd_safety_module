@@ -1893,6 +1893,524 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "excavation-safety/recognizing-excavation-and-trench-hazards": {
+    description:
+      "Why trenching and excavation work kills workers every year, and the main hazards — cave-ins, falls, bad air, utilities, and traffic — you must control before anyone gets in the hole.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Digging looks like routine work, but trenches kill people every year. A wall can collapse in seconds with no warning, and the soil that buries you is far heavier than it looks. Before anyone gets in a trench, the whole crew needs to understand what makes this work dangerous.",
+          "OSHA puts it plainly: the fatality rate for excavation work runs well above general construction, and cave-ins are the deadliest hazard by far. This is governed by OSHA 29 CFR 1926 Subpart P."
+        ]
+      },
+      {
+        heading: "Excavation vs. trench",
+        body: [
+          "OSHA defines an excavation as any man-made cut, cavity, trench, or depression in the ground made by removing earth. A trench is a narrow excavation — deeper than it is wide — where the bottom is no wider than 15 feet.",
+          "The distinction matters because trenches are where most people die. Their steep, narrow walls have nothing holding the soil face, and a worker down in a trench has nowhere to go when a wall lets loose."
+        ]
+      },
+      {
+        heading: "The hazards you're managing",
+        body: [
+          "Cave-ins get the headlines, but a trench stacks several ways to get hurt at once:",
+          {
+            list: [
+              "Cave-ins — the number-one killer. A collapsing wall buries a worker faster than they can react.",
+              "Falls and falling loads — people, equipment, and material falling into the excavation.",
+              "Hazardous atmospheres — low oxygen or toxic/flammable gas collecting in the hole.",
+              "Mobile equipment — excavators, trucks, and loaders working at the edge.",
+              "Underground utilities — striking buried gas, electric, or fiber lines.",
+              "Water accumulation — softening the walls and drowning risk."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The rule that saves lives",
+        body: [
+          "The core requirement is simple: under 1926.652, every worker in an excavation must be protected from cave-ins by an adequate protective system — sloping, benching, shoring, or a shield (trench box).",
+          "There are only two exceptions: the excavation is made entirely in stable rock, or it's less than 5 feet deep and a competent person has examined it and found no sign of a potential cave-in. Any trench 5 feet or deeper gets a protective system, no exceptions on judgment alone.",
+          "A competent person — someone trained to spot the hazards and authorized to shut the work down — inspects the excavation before the shift and as conditions change. If you're not sure the trench is protected, you don't get in it."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/how-and-why-cave-ins-happen": {
+    description:
+      "The mechanics of a trench collapse — soil weight, tension cracks, and the conditions that make a wall fail — and why a buried worker rarely survives.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A cave-in is not a slow slide you can step away from. A trench wall fails in a second or two, and by the time you see it move, it's already on you. Understanding why walls collapse is what makes the protective systems make sense.",
+          "The reason cave-ins are so lethal comes down to weight. A single cubic yard of soil can weigh up to 3,000 pounds — about the weight of a small car. A few feet of that on top of a worker is more than enough to crush the chest and stop breathing."
+        ]
+      },
+      {
+        heading: "Why a wall lets go",
+        body: [
+          "When you dig a vertical trench, nothing is holding the soil face in place anymore. The ground behind the wall is still under pressure, and over time — sometimes minutes — a tension crack opens back from the edge. The slab between that crack and the trench then shears off and drops.",
+          "A worker buried to the waist usually can't pull themselves free — the soil grips like setting concrete. Buried above the chest, a worker is likely to suffocate before anyone can dig them out. That's why the goal is to prevent the collapse, not survive it."
+        ]
+      },
+      {
+        heading: "What makes a wall more likely to fail",
+        body: [
+          "Several things push a marginal trench over the edge:",
+          {
+            list: [
+              "Soil type — granular, sandy, or previously disturbed soil holds together poorly.",
+              "Water — rain, groundwater, or a leaking line softens the soil and adds weight.",
+              "Vibration — traffic, compactors, pile driving, or nearby equipment shakes the wall loose.",
+              "Surcharge loads — spoil piles, equipment, or material stacked near the edge press down on the wall.",
+              "Previously disturbed ground — old utility trenches and backfill are weaker than undisturbed soil.",
+              "Weather and time — freeze-thaw, drying, and simply leaving a trench open all degrade the walls."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The 5-foot line",
+        body: [
+          "OSHA draws the bright line at 5 feet. At 5 feet or deeper, a protective system is required unless the excavation is entirely in stable rock. Below 5 feet, a competent person still has to look at it — if there's any sign of a potential cave-in, it gets protected too.",
+          "Don't treat 5 feet as 'safe below, dangerous above.' People have been killed in trenches only 4 feet deep. Depth is a trigger for the rules, not a guarantee of safety."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/soil-classification-and-testing": {
+    description:
+      "How a competent person classifies soil as Stable Rock, Type A, B, or C — the strength thresholds and the visual and manual tests behind the call that drives your protective system.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every protective system starts with one question: what kind of soil are we in? Sloping angles, shoring, and shield selection all depend on the soil classification. Getting it wrong means building a system for stronger ground than you actually have.",
+          "OSHA's soil rules are in Appendix A of Subpart P. A competent person classifies the soil, and the classification has to be based on at least one visual test and at least one manual test of samples."
+        ]
+      },
+      {
+        heading: "The four categories",
+        body: [
+          "OSHA sorts soil by how well it holds together, measured as unconfined compressive strength in tons per square foot (tsf):",
+          {
+            list: [
+              "Stable Rock — solid natural mineral matter that can be excavated with vertical sides and stay intact.",
+              "Type A — cohesive soil with strength of 1.5 tsf or greater (clay, silty clay, hardpan). The strongest soil.",
+              "Type B — cohesive soil between 0.5 and 1.5 tsf, plus granular cohesionless soils like silt and sandy loam.",
+              "Type C — cohesive soil of 0.5 tsf or less, plus sand, gravel, and any soil with water freely seeping in. The weakest, and the most common on wet or disturbed sites."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When Type A gets downgraded",
+        body: [
+          "Soil that would otherwise be Type A can't be classified that way if any of these apply:",
+          {
+            list: [
+              "It's fissured (cracked).",
+              "It's subject to vibration from traffic, pile driving, or nearby equipment.",
+              "It's been previously disturbed — an old trench or backfill.",
+              "Water is seeping into it.",
+              "It's part of a sloped, layered system where the layers dip into the excavation."
+            ]
+          },
+          "In practice, a lot of jobsite soil that looks like solid clay ends up classified B or C once you account for traffic, past digging, or moisture."
+        ]
+      },
+      {
+        heading: "Visual and manual tests",
+        body: [
+          "A visual test means looking at the excavated soil and the sides of the opening — grain size, cracking, layering, signs of water, and whether it's clumping or running. A manual test checks the soil in hand or with a tool:",
+          {
+            list: [
+              "Plasticity — can you roll a moist sample into a thin thread without it breaking? Cohesive soils can.",
+              "Dry strength — a dry clump of cohesive soil resists crushing; granular soil crumbles.",
+              "Thumb penetration — press your thumb into the sample; Type A resists, Type C indents easily.",
+              "Pocket penetrometer or shearvane — gives an actual strength reading in tsf."
+            ]
+          },
+          "If conditions change during the job — it rains, the soil dries out, water shows up — the competent person reclassifies. Yesterday's Type B can be today's Type C."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/sloping-and-benching-systems": {
+    description:
+      "Cutting excavation walls back to a safe angle — the maximum allowable slopes for each soil type, when benching is allowed, and the depth limits that require an engineer.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Sloping and benching protect workers by removing the wall that could fall on them. Instead of a vertical face, you cut the sides back to an angle the soil can hold, so there's nothing overhead to collapse.",
+          "Sloping cuts the walls to an incline. Benching cuts a series of horizontal steps into the walls. Both are covered by 1926.652 and Appendix B, and the safe angle depends entirely on the soil classification."
+        ]
+      },
+      {
+        heading: "Maximum allowable slopes",
+        body: [
+          "For excavations less than 20 feet deep, OSHA sets the maximum allowable slope by soil type, written as horizontal-to-vertical (H:V):",
+          {
+            list: [
+              "Stable Rock — vertical (90°).",
+              "Type A — ¾:1, about a 53° angle.",
+              "Type B — 1:1, about a 45° angle.",
+              "Type C — 1½:1, about a 34° angle. The flatter the soil, the wider you cut."
+            ]
+          },
+          "Type C is the default when you're unsure — it's the flattest, safest cut. For a 10-foot-deep Type C trench, that means the top is roughly 30 feet wider than the bottom (15 feet of cutback on each side)."
+        ]
+      },
+      {
+        heading: "Benching and short-term limits",
+        body: [
+          "Benching — the stepped cut — is allowed in Type A and Type B soil only. You can't bench Type C: the steps won't hold, so Type C has to be sloped or protected with a support or shield system.",
+          "There's one short-term allowance: a Type A excavation 12 feet deep or less that will be open for 24 hours or less may be sloped at ½:1 (about 63°). Once it's open longer or deeper, that steeper cut no longer applies."
+        ]
+      },
+      {
+        heading: "When you need an engineer",
+        body: [
+          "Sloping works well where you have room, but it eats a lot of surface space, especially in Type C. Where there isn't room, you switch to shoring or a shield.",
+          "For any excavation deeper than 20 feet, the protective system — sloped or otherwise — must be designed by a registered professional engineer. The tabulated slope charts only cover up to 20 feet."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/shoring-systems": {
+    description:
+      "Support systems that hold the trench walls in place — timber and aluminum hydraulic shoring, how they're installed and removed, and the tabulated data that governs their use.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Where you don't have room to slope the walls back, you hold them in place instead. A support system — shoring — presses against the trench faces so the soil can't move. It's the difference between cutting the hazard away and bracing it back.",
+          "The common systems are timber shoring and aluminum hydraulic shoring. Both are covered by 1926.652 and its appendices, and both have to be installed and used according to the design or tabulated data."
+        ]
+      },
+      {
+        heading: "How shoring works",
+        body: [
+          "Shoring puts pressure back against the walls. In a typical trench, vertical members (uprights or sheeting) sit against the soil face, horizontal members (wales) run along them, and cross-braces or hydraulic cylinders push the two walls apart and hold them.",
+          "Aluminum hydraulic shoring uses pistons pressurized with hydraulic fluid, so a two-person crew can set it from the top without getting into an unprotected trench. Timber shoring uses sized lumber and screw jacks or trench jacks per the tabulated charts."
+        ]
+      },
+      {
+        heading: "Install from the top down, remove from the bottom up",
+        body: [
+          "The install sequence keeps workers out of unprotected ground:",
+          {
+            list: [
+              "Install shoring from the top down as the excavation deepens — never send someone into an unshored trench to place it.",
+              "Remove shoring from the bottom up, slowly, as you backfill.",
+              "Release hydraulic pressure from outside the trench where the design allows."
+            ]
+          },
+          "The most dangerous moments in shored work are installation and removal. Follow the sequence and stay out of the unprotected zone."
+        ]
+      },
+      {
+        heading: "Tabulated data and limits",
+        body: [
+          "You don't guess at member sizes and spacing. Timber shoring follows OSHA's Appendix C tables; aluminum hydraulic shoring follows Appendix D or the manufacturer's tabulated data. The tables set spacing based on soil type and depth, and they only go to 20 feet.",
+          "Keep the manufacturer's tabulated data on site. For excavations deeper than 20 feet, or anything outside the tables, the system must be designed by a registered professional engineer."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/trench-boxes-and-shield-systems": {
+    description:
+      "Using a trench box to protect the space workers occupy — how shields differ from shoring, the tabulated-data and depth rules, and staying inside the protected zone.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A shield — usually a trench box — doesn't try to stop the walls from moving. It protects the space the workers are standing in, so that if the soil does move, the box holds it back and the crew inside is safe.",
+          "That's the key difference from shoring: shoring prevents the collapse, a shield contains it. Both are legitimate protective systems under 1926.652 as long as they're rated for the depth and soil."
+        ]
+      },
+      {
+        heading: "Working inside the box",
+        body: [
+          "The protection only exists inside the box. The rules that follow all come down to keeping workers within that protected zone:",
+          {
+            list: [
+              "Stay inside the shield. Don't work outside the ends of the box or reach into unprotected soil.",
+              "The top of the box must extend at least 18 inches above the surrounding area when the ground is sloped toward the excavation.",
+              "Don't allow workers in the box while it's being installed, moved, or removed unless the shield is specifically designed for it.",
+              "Backfill against the outside of the box to keep it from shifting."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Depth and the 2-foot rule",
+        body: [
+          "A trench box is rated to a maximum depth by its manufacturer's tabulated data — the registration or data plate on the box. You can't put a box rated for one depth into a deeper trench and assume it holds.",
+          "A shield can be used in a trench deeper than the box if the excavation below the box is sloped or benched, but the vertical wall the box protects can't extend more than 2 feet below the bottom of the shield. Below that, the soil has to be cut back."
+        ]
+      },
+      {
+        heading: "Getting in and out",
+        body: [
+          "The box protects you inside it, but you still need a safe way in and out. A ladder or ramp within 25 feet still applies for any trench 4 feet or deeper — you don't climb the box or the cross-braces.",
+          "Keep the manufacturer's tabulated data on site, and have the competent person confirm the box is rated for the soil and depth before anyone gets in."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/the-competent-person-and-daily-inspections": {
+    description:
+      "Who the competent person is, the authority they must have, and OSHA's inspection schedule — before the shift, as conditions change, and after every rainstorm.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every excavation job needs a competent person on site. They're the one who classifies the soil, picks the protective system, and inspects the work — and they have the authority to stop it when something's wrong.",
+          "OSHA's definition has two parts, and both matter: a competent person is capable of identifying existing and predictable hazards, and is authorized to take prompt corrective measures to eliminate them. Knowledge without authority isn't enough."
+        ]
+      },
+      {
+        heading: "What the competent person does",
+        body: [
+          "On an excavation, the competent person owns the safety-critical calls:",
+          {
+            list: [
+              "Classifies the soil using visual and manual tests.",
+              "Selects and checks the protective system — slope, shoring, or shield.",
+              "Inspects the excavation and adjacent areas for hazards.",
+              "Removes workers from the excavation when a hazard appears.",
+              "Reclassifies and reassesses when conditions change."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The inspection schedule",
+        body: [
+          "Under 1926.651(k), the competent person inspects excavations, the adjacent areas, and the protective systems for signs of possible cave-ins, failing systems, hazardous atmospheres, or other dangers. Those inspections happen:",
+          {
+            list: [
+              "Before the start of work and as needed throughout the shift.",
+              "After every rainstorm.",
+              "After any other event that could increase the hazard — a nearby load, new vibration, a utility strike, soil sloughing."
+            ]
+          },
+          "These aren't paperwork inspections done from the truck. The competent person walks the excavation and looks at the actual ground."
+        ]
+      },
+      {
+        heading: "Acting on what they find",
+        body: [
+          "If the competent person sees evidence of a hazardous situation — a tension crack, sloughing, water coming in, a leaning wall — the workers come out of the excavation until the hazard is fixed. Nobody goes back in until the corrective measures are in place.",
+          "This is why the authority half of the definition matters. A competent person who spots a crack but can't stop the crew isn't protecting anyone."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/safe-access-and-egress": {
+    description:
+      "Getting workers in and out safely — the 4-foot rule for ladders and ramps, the 25-foot lateral-travel limit, and why you never climb shoring or a trench box.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When a wall starts to go, seconds count — and a worker who has to run 40 feet to reach a ladder isn't going to make it. Safe access and egress means a way out is always close by.",
+          "OSHA's rule is specific: in trench excavations 4 feet or deeper, there has to be a stairway, ladder, ramp, or other safe means of egress located within 25 feet of lateral travel from any worker. That's 1926.651(c)."
+        ]
+      },
+      {
+        heading: "The 4-foot and 25-foot rules",
+        body: [
+          "Two numbers drive access:",
+          {
+            list: [
+              "4 feet — the depth that triggers the requirement for a means of egress in a trench.",
+              "25 feet — the farthest a worker can be from the nearest ladder, ramp, or stairway, measured as lateral travel."
+            ]
+          },
+          "On a long trench, that often means more than one ladder. Space them so no one working anywhere in the trench is more than 25 feet from a way out."
+        ]
+      },
+      {
+        heading: "Ladders and ramps done right",
+        body: [
+          "A ladder used for egress has to be secured and extend at least 3 feet above the landing surface so workers have something to hold as they step off. Set it on firm footing, not on spoil or loose material.",
+          "Structural ramps used for worker access have to be designed by a competent person. Ramps built for equipment access that workers also use have to be designed by a competent person qualified in structural design, and made of uniform, connected material."
+        ]
+      },
+      {
+        heading: "Don't climb the protection",
+        body: [
+          "A trench box, its cross-braces, and shoring members are not ladders. Climbing them puts you in the pinch points and can shift the system.",
+          "Use the ladder or ramp every time. If getting a proper ladder within 25 feet is inconvenient, that's a planning problem to fix — not a rule to skip."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/locating-and-working-around-underground-utilities": {
+    description:
+      "Finding buried lines before you dig — the 811 one-call system, exposing utilities by hand or vacuum, the color code, and protecting lines you uncover.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The ground is full of things that can hurt you when you hit them — energized electric, high-pressure gas, water, sewer, and fiber. Striking a buried line can cause an explosion, electrocution, or a flood, and it's entirely preventable.",
+          "Under 1926.651(b), you have to determine the location of underground installations before you open the ground, and take steps to protect them. The starting point is the one-call system."
+        ]
+      },
+      {
+        heading: "Call before you dig",
+        body: [
+          "In the U.S., you call 811 before any digging. The one-call center notifies the utility owners, who send locators to mark their lines on the ground, usually within a few business days.",
+          {
+            list: [
+              "Call 811 (or your local one-call center) before the dig, within the required lead time.",
+              "Wait for the utilities to be located and marked before breaking ground.",
+              "If the excavation approaches a marked line, the exact location has to be established by a safe and acceptable means — hand-digging or vacuum excavation, not a machine bucket.",
+              "Support, protect, or remove exposed utilities as you go so no one is endangered."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Know the color code",
+        body: [
+          "Locators mark lines with a standard color code so you know what you're near before you dig. The common APWA colors:",
+          {
+            list: [
+              "Red — electric power.",
+              "Yellow — gas, oil, steam, or other flammable material.",
+              "Orange — communication, alarm, or signal lines and cable.",
+              "Blue — potable water.",
+              "Green — sewer and drain lines.",
+              "White — the proposed excavation itself."
+            ]
+          },
+          "Marks fade and get driven over. If they're gone or unclear, don't guess — get the line re-marked."
+        ]
+      },
+      {
+        heading: "The tolerance zone",
+        body: [
+          "Locate marks aren't exact — the line can be off to one side. Most states set a tolerance zone (often around 18 to 24 inches on either side of the mark) where you dig by hand or vacuum, not with a machine.",
+          "If you nick or damage a line — even a small scrape on a gas or electric line — stop, keep people clear, and report it to the utility owner. A scraped coating today is a failure and a leak later."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/spoil-piles-surcharge-loads-and-edge-protection": {
+    description:
+      "Keeping weight off the trench edge — the 2-foot setback for spoil and materials, how surcharge loads trigger collapse, and controlling equipment and traffic near the excavation.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The dirt you dig out and the equipment you park don't just clutter the site — set too close to the edge, they load the trench wall and help push it into the hole. Managing the edge is part of preventing the cave-in.",
+          "OSHA's rule is a hard number: under 1926.651(j), spoil, materials, and equipment are kept at least 2 feet back from the edge of the excavation, held back by a retaining device, or both."
+        ]
+      },
+      {
+        heading: "What a surcharge load does",
+        body: [
+          "A surcharge load is any weight near the top of the trench that adds pressure to the soil behind the wall — the spoil pile, stacked pipe or material, a parked excavator, or passing traffic. That extra pressure is often what tips a marginal wall into failing.",
+          "Keeping loads back reduces the pressure on the wall and keeps material from rolling in on top of the crew. The 2-foot setback is the minimum; more is better where you have room."
+        ]
+      },
+      {
+        heading: "Controlling the edge",
+        body: [
+          "Beyond the spoil pile, keep the whole edge disciplined:",
+          {
+            list: [
+              "Barricade the excavation so people and equipment don't wander to the edge.",
+              "Keep mobile equipment back from the edge, and use stop logs or barricades where equipment works nearby.",
+              "Don't let workers lean over or cross unprotected openings.",
+              "Scale or bench loose rock and soil that could roll or fall in on workers below."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Traffic and vibration",
+        body: [
+          "Vehicle traffic near a trench is both a surcharge and a source of vibration that shakes the wall loose. Route traffic away from the edge where you can, and treat a trench next to a live road as a higher-risk condition the competent person watches closely.",
+          "Workers exposed to public or site traffic wear high-visibility warning vests, and the work zone is set up to keep vehicles and the excavation apart."
+        ]
+      }
+    ]
+  },
+
+  "excavation-safety/hazardous-atmospheres-water-and-emergency-response": {
+    description:
+      "The conditions that turn a trench deadly beyond cave-ins — low oxygen and toxic gas, accumulating water, and why you never jump in to rescue a buried co-worker.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A trench can kill without a cave-in. Bad air collects in the hole, water softens the walls and rises around your legs, and when someone does go down, an untrained rescue often buries a second worker. These are the conditions 1926.651 tells you to plan for.",
+          "Deep or contaminated excavations behave like confined spaces. The lower you go, and the closer you are to landfills, sewers, or stored chemicals, the more the air and water become the hazard."
+        ]
+      },
+      {
+        heading: "Hazardous atmospheres",
+        body: [
+          "Under 1926.651(g), where a hazardous atmosphere exists or could reasonably be expected — near a landfill, a sewer, or stored hazardous substances — the air in excavations deeper than 4 feet is tested before workers enter.",
+          {
+            list: [
+              "Oxygen must stay between 19.5% and 23.5%.",
+              "Flammable gas must stay below 10% of the lower explosive limit.",
+              "Toxic gases must stay below their exposure limits.",
+              "Where a hazard is found, control it with ventilation and re-test."
+            ]
+          },
+          "Where a hazardous atmosphere exists or could develop, emergency rescue equipment — such as breathing apparatus, a harness and line, or a basket stretcher — is kept ready and attended."
+        ]
+      },
+      {
+        heading: "Water accumulation",
+        body: [
+          "Workers don't work in an excavation where water has accumulated, or is accumulating, unless adequate precautions are taken — 1926.651(h). Water adds weight, softens the walls, and hides how unstable the ground has become.",
+          {
+            list: [
+              "Use special support or shield systems rated for the water.",
+              "Pump the water out and control the level, with the removal monitored by the competent person.",
+              "Use a harness and lifeline where there's a drowning risk.",
+              "Inspect the excavation after every rainstorm before anyone re-enters, and divert surface runoff away from the edge."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When someone is buried",
+        body: [
+          "The instinct is to jump in and dig your co-worker out. Don't. The soil that collapsed once is even less stable now, and secondary collapses kill would-be rescuers — a large share of trench-collapse deaths are the second person who went in.",
+          {
+            list: [
+              "Call 911 and request trained trench rescue immediately.",
+              "Keep everyone else out of the trench and back from the edge.",
+              "Shut down equipment and traffic that's adding vibration.",
+              "Don't dig with a machine near a buried worker — you'll injure them and destabilize the walls further."
+            ]
+          },
+          "Trench rescue is a specialized job with shoring and vacuum equipment. The best thing the crew can do is not become the next victims."
+        ]
+      }
+    ]
   }
 };
 
