@@ -643,6 +643,683 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "working-at-heights/recognizing-fall-hazards": {
+    description:
+      "Where fall hazards hide on a site, and the point at which OSHA requires you to be protected — before you're near the edge.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Falls are the number-one killer in construction. Most aren't from dramatic heights — they're from ladders, edges, roofs, and holes that workers walked past a hundred times. Recognizing the hazard before you're exposed is the whole game.",
+          "The rule is simple: in construction, if you can fall 6 feet or more to a lower level, you need fall protection — and it has to be in place before you get near the edge, not rigged up after you're already exposed."
+        ]
+      },
+      {
+        heading: "The 6-foot rule",
+        body: [
+          "In construction, OSHA requires fall protection at any height of 6 feet or more above a lower level (general industry is 4 feet). That covers:",
+          {
+            list: [
+              "Unprotected sides and edges.",
+              "Leading edges where you're building the floor or roof out.",
+              "Holes in floors and roofs, and openings in walls.",
+              "Roofs, ramps, runways, and elevated platforms.",
+              "Work above dangerous equipment, at any height."
+            ]
+          },
+          "Below 6 feet you can still get badly hurt — the rule is a floor, not a guarantee."
+        ]
+      },
+      {
+        heading: "The hierarchy — best control first",
+        body: [
+          "Control fall hazards in order of effectiveness:",
+          {
+            list: [
+              "Eliminate the hazard — do the work from the ground or a lower level if you can.",
+              "Guardrails or a covered hole — passive protection that doesn't depend on the worker.",
+              "Personal fall arrest — a harness system that stops you if you fall.",
+              "Administrative controls — warning lines, safety monitors, controlled access zones — only where the higher options aren't feasible."
+            ]
+          },
+          "Passive protection beats gear you have to remember to clip into. Reach for a guardrail before a harness whenever the work allows."
+        ]
+      },
+      {
+        heading: "Where falls actually happen",
+        body: [
+          "The everyday spots that catch people:",
+          {
+            list: [
+              "Ladders — overreaching, wrong angle, or missing the last step.",
+              "Roof edges and skylights — a skylight is a hole, not a surface.",
+              "Floor holes and pits left uncovered, or with a cover kicked aside.",
+              "Scaffolds without complete guardrails or planking.",
+              "The edge you 'only step near for a second.'"
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Plan before you're exposed",
+        body: [
+          "Fall protection is decided before the work starts — what system, what anchor, who inspects it. If you get to the edge and start figuring it out then, you're already exposed. If the protection isn't there, stop and set it up. No task is worth a 6-foot fall onto rebar or concrete."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/guardrail-systems": {
+    description:
+      "Passive edge protection that works whether or not a worker remembers to clip in — the specs that make a guardrail actually protective.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A guardrail is the simplest, most reliable fall protection there is: a physical barrier at the edge that protects everyone, all the time, without anyone clipping into anything. When guardrails are an option, they usually beat a harness because they don't depend on the worker doing something right."
+        ]
+      },
+      {
+        heading: "Guardrail specs",
+        body: [
+          "A compliant guardrail system has:",
+          {
+            list: [
+              "A top rail 42 inches (plus or minus 3) above the walking surface.",
+              "A midrail about halfway up, around 21 inches, when there's no wall or equivalent below the top rail.",
+              "A toeboard (at least 3.5 inches) where tools or material could fall on someone below.",
+              "Enough strength to take a 200-pound force in any outward or downward direction on the top rail without dropping below 39 inches."
+            ]
+          },
+          "If a rail flexes below 39 inches under that push, it's not protecting anyone — it just looks like it is."
+        ]
+      },
+      {
+        heading: "Build it and keep it complete",
+        body: [
+          {
+            list: [
+              "Guard every open side and edge 6 feet or more above a lower level.",
+              "Cover openings and holes with guardrails or a secured cover.",
+              "Surfaces must be smooth enough not to cut hands or snag clothing.",
+              "Banding is not a top rail; wire rope used as a top rail must be flagged and kept tensioned."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Don't defeat it",
+        body: [
+          "A guardrail only works if it stays up and complete. The common failures:",
+          {
+            list: [
+              "A section removed for a material delivery and never put back.",
+              "A gap at a ladder or hoist point left unguarded.",
+              "Material leaned or stored against the rail so it can't take the load.",
+              "Sitting, standing, or climbing on the rail."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When a section comes down",
+        body: [
+          "If you remove part of a guardrail to move material or reach a point, that edge is now unprotected — anyone working there needs personal fall arrest until the rail goes back. Put it back the moment the task is done. Most guardrail-related falls are through a gap someone meant to close later."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/personal-fall-arrest-systems": {
+    description:
+      "The harness system that stops a fall — the ABCs of anchorage, body harness, and connectors, and how to rig it so it actually saves you.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When you can't eliminate the hazard or put up a guardrail, a personal fall arrest system (PFAS) stops you after you fall. It only works if all its parts are right and it's rigged to catch you before you hit anything. A harness clipped to the wrong point, or with too much slack, can still let you die.",
+          "Think of it as the ABC: Anchorage, Body harness, and Connectors."
+        ]
+      },
+      {
+        heading: "A — Anchorage",
+        body: [
+          "The anchor is what everything hangs from. It has to be:",
+          {
+            list: [
+              "Capable of supporting 5,000 pounds per attached worker — or designed by a qualified person with a safety factor of at least two.",
+              "Independent of any anchorage used to support or suspend platforms.",
+              "Overhead where possible, to limit free fall and swing."
+            ]
+          },
+          "Covered in more detail in the anchorage-points talk."
+        ]
+      },
+      {
+        heading: "B — Body harness",
+        body: [
+          {
+            list: [
+              "Use a full-body harness — body belts are not allowed for fall arrest.",
+              "The attachment D-ring sits between the shoulder blades, on your back.",
+              "Snug all the straps; a loose harness lets you slip or takes the shock in the wrong places.",
+              "Chest strap across the chest, leg straps firm but not cutting."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "C — Connectors",
+        body: [
+          "Lanyards, shock absorbers, and self-retracting lifelines (SRLs) tie the harness to the anchor.",
+          {
+            list: [
+              "Use locking snaphooks and carabiners only — they can't roll open.",
+              "A shock-absorbing lanyard or SRL limits the forces on your body when it catches you.",
+              "Never tie a knot in a lanyard or connect two together to reach — it wrecks the rating."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Rig it to actually catch you",
+        body: [
+          "The system has to stop you before you hit the level below. That means:",
+          {
+            list: [
+              "Limit free fall to 6 feet or less — anchor high and keep the slack out.",
+              "Account for the shock absorber's deployment and your body length below the anchor (total fall clearance).",
+              "Rig to prevent a swing fall into nearby structures.",
+              "Any harness or lanyard that has arrested a fall is taken out of service immediately."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/choosing-and-using-anchorage-points": {
+    description:
+      "The single point everything depends on in a fall — what makes an anchor strong enough, and the mistakes that turn a harness into a false sense of safety.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Your harness and lanyard are only as good as what they're tied to. The anchor point is the one part of a fall arrest system that, if it fails, guarantees a fatal fall. Picking a strong, correct anchor is the most important decision in the whole setup."
+        ]
+      },
+      {
+        heading: "What a real anchor can hold",
+        body: [
+          {
+            list: [
+              "5,000 pounds for each worker attached to it — that's the default rule.",
+              "Or, if designed and installed by a qualified person as part of a complete system, a safety factor of at least two (twice the arresting force).",
+              "Fall-arrest anchors must be separate from anchors holding up scaffolds or platforms."
+            ]
+          },
+          "5,000 pounds sounds huge because a falling body generates enormous force in a fraction of a second."
+        ]
+      },
+      {
+        heading: "Anchor high and in line",
+        body: [
+          {
+            list: [
+              "Tie off overhead when you can — it cuts your free fall and keeps you upright.",
+              "Keep the anchor roughly above your work so a fall doesn't swing you sideways into a wall or column.",
+              "The lower the anchor, the farther you fall before the system catches — and the more clearance you need below."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Never anchor to these",
+        body: [
+          "Do not tie off to something that can't take the load or wasn't meant for it:",
+          {
+            list: [
+              "Guardrails, standpipes, conduit, ductwork, or small pipe.",
+              "Rebar, form ties, or light steel decking.",
+              "Ladders, scaffolding not rated as an anchor, or a structure next to an aerial lift.",
+              "Anything you only 'think' will hold — if you're not sure, it's not an anchor."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Use engineered anchors where they exist",
+        body: [
+          "Permanent anchor points, certified anchor straps, beam clamps, and horizontal lifelines are designed and rated for the job — use them over improvised tie-offs. When in doubt, get a competent or qualified person to confirm the anchor before you trust your life to it."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/ladder-safety": {
+    description:
+      "Ladders cause a huge share of falls — the setup, angle, and habits that keep a simple climb from putting you in the hospital.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Ladders look harmless, which is exactly why they hurt so many people. Most ladder falls come from small things: the wrong angle, overreaching, a skipped inspection, or rushing the last step. Set it up right and climb it right, every time."
+        ]
+      },
+      {
+        heading: "Set it up right",
+        body: [
+          {
+            list: [
+              "Extension ladders at a 4-to-1 angle — 1 foot out from the wall for every 4 feet of height.",
+              "Extend the side rails at least 3 feet above the landing you're stepping onto.",
+              "Put it on firm, level ground; secure or tie off the top so it can't shift.",
+              "Keep ladders at least 10 feet from power lines, and use non-conductive ladders near electricity."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Climb it right",
+        body: [
+          {
+            list: [
+              "Face the ladder and keep three points of contact — two hands and a foot, or two feet and a hand.",
+              "One person on a ladder at a time.",
+              "Don't carry tools in your hands — use a tool belt or hoist them up.",
+              "Keep your belt buckle between the rails; if you have to reach past them, get down and move the ladder."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Use the right ladder",
+        body: [
+          {
+            list: [
+              "Pick a ladder rated for your weight plus tools (its duty rating).",
+              "Don't stand on the top cap or top step of a stepladder.",
+              "Fully open a stepladder and lock the spreaders; never lean it like an extension ladder.",
+              "Don't use a ladder as a walkboard, brace, or platform."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect before every use",
+        body: [
+          "A competent person inspects ladders, and so should you before you climb:",
+          {
+            list: [
+              "Check for cracked or bent rails, broken or missing rungs, and loose parts.",
+              "Clean mud, grease, or ice off the rungs and your boots.",
+              "Take any damaged ladder out of service and tag it so no one else grabs it."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/scaffold-safety": {
+    description:
+      "Scaffolds put crews to work at height all day — the planking, guardrails, access, and competent-person checks that keep them from collapsing or dropping someone.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Scaffolds let a crew work at height for hours, which means a scaffold problem exposes a lot of people at once. Falls, collapses, and falling objects are the big three. A safe scaffold is fully built, fully planked, guarded, and checked by a competent person — not thrown together to save time."
+        ]
+      },
+      {
+        heading: "Built and inspected by a competent person",
+        body: [
+          {
+            list: [
+              "A competent person supervises erecting, moving, altering, and dismantling.",
+              "That person inspects the scaffold before each work shift and after anything that could affect its integrity.",
+              "Supported scaffolds sit on solid footing (base plates and mud sills), plumb and level.",
+              "Don't use a scaffold that's tagged incomplete or hasn't been inspected."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Guardrails, planking, and capacity",
+        body: [
+          {
+            list: [
+              "Guardrails on platforms more than 10 feet above a lower level.",
+              "Fully plank the work platform — no gaps to step or drop through.",
+              "Each scaffold supports its own weight plus at least 4 times the maximum intended load.",
+              "For supported scaffolds, keep the height no more than 4 times the minimum base width unless it's tied, guyed, or braced."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Get on and off safely",
+        body: [
+          {
+            list: [
+              "Use a proper ladder, stair tower, or ramp — never climb the cross-braces.",
+              "Keep platforms clear of clutter and material you can trip on.",
+              "Don't overload a platform or pile material at one point."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Watch the surroundings",
+        body: [
+          "Scaffold hazards aren't only falls:",
+          {
+            list: [
+              "Keep at least 10 feet from power lines.",
+              "Use toeboards, screens, or netting so tools don't fall on people below.",
+              "Don't work on scaffolds in high wind, storms, or when they're covered in ice or snow.",
+              "Watch the load — moving heavy material shifts the scaffold's balance."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/aerial-and-scissor-lift-safety": {
+    description:
+      "Boom lifts and scissor lifts move workers up fast — the fall protection, ground conditions, and limits that keep them from tipping or ejecting someone.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Aerial lifts (boom lifts) and scissor lifts get people up high quickly, but they fail in ugly ways: tip-overs, ejections, and crushing against overhead structures. Each type has its own rules, and the fastest way into trouble is treating them the same or leaning out of the basket."
+        ]
+      },
+      {
+        heading: "Boom (aerial) lifts — tie off to the lift",
+        body: [
+          {
+            list: [
+              "Wear a full-body harness with a lanyard attached to the boom or basket anchor — never to a structure next to the lift.",
+              "Stand firmly on the floor of the basket; don't climb, sit, or lean out over the rails.",
+              "Keep the basket controls clear and never override them.",
+              "A sudden boom movement or 'catapult' effect can throw an untethered worker out."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Scissor lifts — stay inside the rails",
+        body: [
+          {
+            list: [
+              "The guardrails are the fall protection — keep your feet on the platform and your body inside them.",
+              "Don't stand on the rails or use planks or ladders to gain height.",
+              "Only extend the platform when it's rated and on firm ground.",
+              "Keep the chains or gates closed."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Set up on solid, level ground",
+        body: [
+          {
+            list: [
+              "Firm, level surface; use outriggers and chock or level as required.",
+              "Watch for slopes, soft ground, holes, drop-offs, and edges.",
+              "Check overhead for power lines and structures before you raise — keep clear of energized lines.",
+              "Don't move an elevated lift unless it's designed for it, and watch travel speed and grade."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect and know the limits",
+        body: [
+          "Before use:",
+          {
+            list: [
+              "Do the pre-use inspection — controls, tires, hydraulics, guardrails, and emergency lowering.",
+              "Know the rated capacity and don't exceed it with people plus material.",
+              "Only trained, authorized operators run the lift.",
+              "Watch the weather — wind can tip a raised lift."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/roof-and-leading-edge-work": {
+    description:
+      "Roofs and leading edges are where fall protection gets skipped 'just for a minute' — and where a slip means going over the side or through a skylight.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Roof work and leading-edge work put you near an edge all day, often on a surface that slopes, gets slick, or has holes you can't see coming. This is where people cut corners for a quick task and go over the side or through a skylight. The protection has to be up before you step onto the roof."
+        ]
+      },
+      {
+        heading: "Protect the edge before you go up",
+        body: [
+          "Depending on the roof and the work, use:",
+          {
+            list: [
+              "Guardrails at the edge — the most reliable, and they protect everyone.",
+              "Personal fall arrest tied to a rated anchor.",
+              "On low-slope roofs, a warning line and safety monitor, or a controlled access zone — only where guardrails or PFAS aren't feasible.",
+              "Cover and mark every skylight and hole — a skylight will not hold your weight."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Leading-edge work",
+        body: [
+          "A leading edge is the edge of a floor or roof you're actively building out — it moves as you work.",
+          {
+            list: [
+              "Fall protection is required at leading edges 6 feet or more above a lower level.",
+              "Because the edge changes, so do your anchor and rigging — reset them as you advance.",
+              "Watch for the unprotected edge behind and beside you, not just in front."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Watch the surface",
+        body: [
+          {
+            list: [
+              "Slope, wet membrane, frost, dew, dust, and loose material all cut your footing.",
+              "Skylights, smoke vents, and old patched holes are hidden fall points.",
+              "Roofing debris and tools underfoot cause the trip that starts the fall.",
+              "Wind is stronger at the edge and can move you or your materials."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "No 'just for a second'",
+        body: [
+          "The most common roof fatality is a quick, unprotected task — measuring, a small repair, grabbing a tool near the edge. If you're within a fall's distance of the edge or a hole, you're protected or you're not up there. There is no safe version of skipping it for a minute."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/floor-holes-and-wall-openings": {
+    description:
+      "Openings you can fall into or through — how to cover, guard, and mark them so no one steps into a hole that was 'obviously' there.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Holes in floors and roofs, and openings in walls, are easy to walk into because they blend in — a covered hole looks like floor, an open wall looks like a doorway. People fall through covers that weren't secured and out of openings that weren't guarded. Every hole and opening gets protected the moment it exists."
+        ]
+      },
+      {
+        heading: "Floor and roof holes",
+        body: [
+          "Any hole a person could step or fall into or through needs one of:",
+          {
+            list: [
+              "A cover that supports at least twice the maximum expected load, secured so it can't shift or blow off.",
+              "A guardrail system around the hole.",
+              "A personal fall arrest system for anyone working at the hole."
+            ]
+          },
+          "Mark covers so everyone knows what's underneath — a cover that isn't obvious is a trap."
+        ]
+      },
+      {
+        heading: "Wall openings",
+        body: [
+          {
+            list: [
+              "Guard any wall opening with an outside drop of 6 feet or more where a worker could fall through.",
+              "That includes window openings, shafts, and unfinished wall sections at height.",
+              "Use guardrails or covers rated for the opening."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Don't defeat the protection",
+        body: [
+          {
+            list: [
+              "Never remove a hole cover and walk away — if you open it, you guard it or you stay with it.",
+              "Don't slide a cover aside to look and leave it.",
+              "Don't store material on a cover that isn't rated to hold it.",
+              "Report a missing or damaged cover immediately — the next person may not see the hole."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Skylights count",
+        body: [
+          "A skylight is a hole with glass or plastic over it. It will not hold a worker who trips, kneels, or falls onto it. Treat every skylight as an open hole — screen it, cover it with a rated guard, or guardrail it."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/inspecting-fall-protection-equipment": {
+    description:
+      "A harness only saves you if it's in good shape — how to inspect your gear before every use and pull damaged equipment out of service.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Fall protection gear takes abuse — sun, chemicals, sharp edges, and the shock of a hard day. A harness with a cut strap or a lanyard with a deployed shock pack can fail exactly when you need it. Inspect it before every use; it takes a minute, and it's the minute that saves you."
+        ]
+      },
+      {
+        heading: "Inspect the harness",
+        body: [
+          "Before you put it on, check:",
+          {
+            list: [
+              "Webbing — cuts, frays, burns, chemical stains, or stiffness.",
+              "Stitching — pulled, cut, or broken threads, especially at the D-ring and buckles.",
+              "Hardware — the D-ring, buckles, and adjusters for cracks, distortion, sharp edges, or corrosion.",
+              "Labels — legible; if you can't confirm what it is or how old it is, don't use it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect lanyards, SRLs, and connectors",
+        body: [
+          {
+            list: [
+              "Lanyard webbing or rope for cuts, fraying, and wear.",
+              "Shock absorber pack — if it's torn open or deployed, the gear already caught a fall and is done.",
+              "Snaphooks and carabiners — they must lock and not roll or gate open.",
+              "Self-retracting lifelines — the line pulls out and retracts smoothly and locks up when you tug it fast."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Pull it from service when",
+        body: [
+          {
+            list: [
+              "It has arrested a fall — any gear in a fall is retired immediately.",
+              "You find any cut, burn, deformation, corrosion, or deployed indicator.",
+              "It's past the manufacturer's service life or missing its labels.",
+              "You're not sure it's sound — when in doubt, take it out."
+            ]
+          },
+          "Tag or destroy retired gear so no one grabs it by mistake."
+        ]
+      },
+      {
+        heading: "Store and care for it",
+        body: [
+          "Keep harnesses and lanyards clean, dry, and out of direct sun and chemicals when not in use. Sunlight and solvents quietly weaken webbing long before it looks bad. Gear thrown in the bottom of a gang box with sharp tools gets damaged there, not on the job."
+        ]
+      }
+    ]
+  },
+
+  "working-at-heights/rescue-and-suspension-trauma-after-a-fall": {
+    description:
+      "Stopping the fall is only half the job — a worker hanging in a harness can die within minutes, so rescue has to be planned before anyone goes up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A fall arrest system stops the fall — but then the worker is hanging in a harness, and that's its own emergency. Hanging motionless can kill in minutes through suspension trauma. That's why a rescue plan has to be in place before anyone ties off, not figured out while a coworker dangles."
+        ]
+      },
+      {
+        heading: "Why hanging is deadly — suspension trauma",
+        body: [
+          "When a person hangs still in a harness, the leg straps trap blood in the legs. Blood stops returning to the heart and brain, and the worker can lose consciousness and die — sometimes within minutes, even though the fall itself was survived.",
+          "It's called suspension trauma, or orthostatic intolerance, and it's why a suspended worker is a time-critical rescue, not a 'wait for the fire department' situation."
+        ]
+      },
+      {
+        heading: "Plan rescue before the work",
+        body: [
+          {
+            list: [
+              "Have a rescue plan for anyone using personal fall arrest.",
+              "Know how you'll reach and lower a suspended worker quickly — a lift, ladder, rescue system, or trained team.",
+              "Don't rely only on calling 911 — response time may be longer than the worker has.",
+              "Make sure the means of rescue is on site before the work starts."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Buy time while suspended",
+        body: [
+          {
+            list: [
+              "Suspension-trauma relief straps let a hanging worker stand in the straps and keep blood moving.",
+              "The worker should keep pumping their legs and pushing against a surface if they can.",
+              "Get them down as fast as safely possible — minutes matter."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "After the rescue",
+        body: [
+          "A rescued worker needs medical attention even if they seem fine — the effects of suspension can hit after they're brought down. And the gear that caught the fall is finished: any harness, lanyard, or SRL involved in a fall is removed from service and never reused."
+        ]
+      }
+    ]
   }
 };
 

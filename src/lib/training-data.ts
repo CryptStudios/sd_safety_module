@@ -489,7 +489,10 @@ function buildTopics(categorySlug: string, topicTitles: string[]): TrainingTopic
  * array is the final list. Others keep the placeholder expansion until they
  * are authored.
  */
-const realContentCategories = new Set<string>(["confined-space"]);
+const realContentCategories = new Set<string>([
+  "confined-space",
+  "working-at-heights",
+]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
   const topicTitles = realContentCategories.has(input.slug)
@@ -789,13 +792,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Fall Protection Equipment",
-      "Scaffolding Safety",
+      "Recognizing Fall Hazards",
+      "Guardrail Systems",
+      "Personal Fall Arrest Systems",
+      "Choosing and Using Anchorage Points",
       "Ladder Safety",
-      "Aerial Work Platform Safety",
-      "Roof Work Safety",
-      "Leading Edge Hazards",
-      "Guardrails and Safety Nets"
+      "Scaffold Safety",
+      "Aerial and Scissor Lift Safety",
+      "Roof and Leading-Edge Work",
+      "Floor Holes and Wall Openings",
+      "Inspecting Fall Protection Equipment",
+      "Rescue and Suspension Trauma After a Fall"
     ]
   }),
   createCategory({
