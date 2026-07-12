@@ -495,6 +495,7 @@ const realContentCategories = new Set<string>([
   "electrical-safety",
   "excavation-safety",
   "fire-safety",
+  "ppe",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -739,15 +740,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Hard Hats and Head Protection",
+      "Hazard Assessment and Selecting the Right PPE",
+      "Head Protection — Hard Hats",
       "Eye and Face Protection",
       "Hearing Protection",
-      "Hand and Glove Protection",
+      "Hand and Arm Protection",
       "Foot and Leg Protection",
       "Respiratory Protection",
       "High-Visibility Clothing",
-      "Fall Protection Harnesses",
-      "Inspecting and Replacing Faulty PPE"
+      "Protective Clothing for Skin and Body",
+      "Fall Protection Harnesses as PPE",
+      "Inspecting, Maintaining, and Replacing PPE"
     ]
   }),
   createCategory({

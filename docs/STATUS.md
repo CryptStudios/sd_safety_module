@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 5 / 24 categories authored (~21%).**
+**Progress: 6 / 24 categories authored (25%). All 6 SME-reviewed ✅.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,14 +11,45 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** PPE (`ppe`) — pending. (#6 in the priority order.)
+- **Next category:** Forklift Safety (`forklift-safety`) — pending. (#7 in the
+  priority order; OSHA 1910.178 Powered Industrial Trucks.)
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
   Handling — see plan). Confined Space, Working at Heights, Electrical Safety,
-  Excavation Safety, and Fire Safety were authored to OSHA.
+  Excavation Safety, Fire Safety, and PPE were authored to OSHA.
 
 ---
 
 ## Completed categories
+
+### ✅ PPE (Personal Protective Equipment) — `ppe`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Hazard Assessment and Selecting the Right PPE
+  2. Head Protection — Hard Hats
+  3. Eye and Face Protection
+  4. Hearing Protection
+  5. Hand and Arm Protection
+  6. Foot and Leg Protection
+  7. Respiratory Protection
+  8. High-Visibility Clothing
+  9. Protective Clothing for Skin and Body
+  10. Fall Protection Harnesses as PPE
+  11. Inspecting, Maintaining, and Replacing PPE
+- **Sources:** OSHA 29 CFR 1926 Subpart E (§95 general/employer duty & payment,
+  §96 foot, §100 head, §101 hearing, §102 eye/face, §103 respiratory) + 1910
+  Subpart I (§132 hazard assessment, §133 eye/face, §134 respiratory, §135 head,
+  §136 foot, §138 hand); 1926.52 (noise) / 1910.95 (hearing conservation);
+  1926.353 (welding clothing); 1926.502(d) (fall arrest); consensus standards —
+  ANSI Z89.1 (hard hats), Z87.1 (eye/face), ANSI/ISEA 105 (cut), 107 (hi-vis),
+  ASTM F2413 (footwear), MUTCD Part 6, NFPA 70E (arc rating).
+- **Scope note:** PPE-level treatment; deep fall-arrest system/anchorage/rescue
+  stays in Working at Heights, and electrical insulating PPE detail in Electrical
+  Safety — cross-referenced, not duplicated.
+- **Verified:** tsc clean · `next build` clean (all pages prerender) · 11 exported
+  HTML files in `out/training/ppe/` · authored content present (`ASTM F2413`,
+  `1910.134`, `85 dBA`, `ANSI/ISEA 107`, `dorsal D-ring`, `cal/cm²`), placeholder
+  `plain site language` gone.
+- **SME review:** ✅ complete (2026-07-12).
 
 ### ✅ Fire Safety — `fire-safety`
 - **Session:** 2026-07-12
@@ -47,7 +78,7 @@ Update this file at the end of every session (`/end-session`).
   HTML files in `out/training/fire-safety/` · authored content present
   (`flash point`, `1926.152`, `1910.38`, `35 feet`), placeholder
   `plain site language` gone.
-- **SME review:** ⬜ pending.
+- **SME review:** ✅ complete (2026-07-12).
 
 ### ✅ Excavation Safety — `excavation-safety`
 - **Session:** 2026-07-12
@@ -71,7 +102,7 @@ Update this file at the end of every session (`/end-session`).
 - **Verified:** tsc clean · build clean (all pages prerender) · 11 built HTML
   files · authored content present (`tension crack`, `APWA`, `19.5`), placeholder
   `plain site language` gone.
-- **SME review:** ⬜ pending.
+- **SME review:** ✅ complete (2026-07-12).
 
 ### ✅ Electrical Safety — `electrical-safety`
 - **Session:** 2026-07-12
@@ -91,7 +122,7 @@ Update this file at the end of every session (`/end-session`).
   1910.147 (Lockout/Tagout); NFPA 70E approach/arc-flash boundaries; OSHA 1904.
 - **Verified:** tsc clean · build clean (1872 pages) · 11 built HTML files ·
   authored content present (`live-dead-live`), placeholder `plain site language` gone.
-- **SME review:** ⬜ pending.
+- **SME review:** ✅ complete (2026-07-12).
 
 ### ✅ Working at Heights — `working-at-heights`
 - **Session:** 2026-07-12
@@ -110,7 +141,7 @@ Update this file at the end of every session (`/end-session`).
 - **Sources:** OSHA 29 CFR 1926 Subpart M (Fall Protection), Subpart X (ladders),
   Subpart L (scaffolds); OSHA 1926.502/501; NIOSH.
 - **Verified:** tsc clean · build clean (1945 pages) · all 11 routes 200 · authored.
-- **SME review:** ⬜ pending.
+- **SME review:** ✅ complete (2026-07-12).
 
 ### ✅ Confined Space Safety — `confined-space`
 - **Session:** 2026-07-12
@@ -128,7 +159,7 @@ Update this file at the end of every session (`/end-session`).
   11. Emergency Rescue and Retrieval Systems
 - **Sources:** OSHA 29 CFR 1926 Subpart AA / 1910.146; NIOSH/CPWR toolbox talks.
 - **Verified:** tsc clean · build clean (2011 pages) · all 11 routes 200 · authored.
-- **SME review:** ⬜ pending.
+- **SME review:** ✅ complete (2026-07-12).
 
 ---
 
@@ -141,6 +172,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
 | 2026-07-12 | Excavation Safety | 11 | Fourth category. OSHA Subpart P (§650–652 + App A/B/C/D). Soil classes, slopes, shoring/shields, 811, competent person. |
 | 2026-07-12 | Fire Safety | 11 | Fifth category. OSHA Subpart F (§150–152/.154/.352, .25) + 1910 Subpart L (§36–39, §157, §164/.165). Fire triangle/classes, flammable storage, hot work, heaters, prevention plan, egress/EAP. Extinguisher use + hot-work permits deferred to dedicated categories. |
+| 2026-07-12 | PPE | 11 | Sixth category. OSHA 1926 Subpart E + 1910 Subpart I. Hazard assessment/hierarchy lead, head/eye/hearing/hand/foot/respiratory, hi-vis, skin & body clothing, harness-as-PPE, inspect/replace. ANSI/ASTM/MUTCD/NFPA 70E consensus standards. **All 6 authored categories SME-reviewed ✅ this date.** |
 
 ---
 
