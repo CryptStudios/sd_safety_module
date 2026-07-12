@@ -496,6 +496,7 @@ const realContentCategories = new Set<string>([
   "excavation-safety",
   "fire-safety",
   "ppe",
+  "forklift-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1334,12 +1335,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Pre-Operation Inspection",
-      "Safe Operating Practices",
-      "Blind Spots and Pedestrian Safety",
-      "Load Capacity and Stability",
-      "Forklift Maintenance Tasks",
-      "Spotter and Communication Protocols"
+      "Powered Industrial Truck Types and Classifications",
+      "Operator Training, Evaluation, and Authorization",
+      "Daily Pre-Operation Inspection",
+      "Understanding the Stability Triangle",
+      "Load Capacity, Data Plates, and Center of Gravity",
+      "Safe Traveling — Speed, Visibility, Ramps, and Grades",
+      "Load Handling — Lifting, Stacking, and Tiering",
+      "Pedestrian Safety and Struck-By Prevention",
+      "Loading Docks, Trailers, and Rail Cars",
+      "Fueling, Battery Charging, and LP Gas Safety",
+      "Attachments, Modifications, and Removing a Truck from Service"
     ]
   }),
   createCategory({
