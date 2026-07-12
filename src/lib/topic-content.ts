@@ -3419,6 +3419,531 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "forklift-safety/powered-industrial-truck-types-and-classifications": {
+    description:
+      "The forklift is one machine in a family of powered industrial trucks — and the type you're on, its fuel, and its rating for the space you're in all change how it must be run.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "\"Forklift\" is the everyday word, but OSHA calls the whole family powered industrial trucks — any mobile, power-driven truck used to carry, push, pull, lift, stack, or tier material. That covers sit-down riders, stand-up reach trucks, order pickers, pallet jacks, and rough-terrain machines. They don't all behave the same, and a license to run one doesn't mean you're cleared to run another.",
+          "Two things decide whether a given truck is safe for a given job: the type of truck and its load design, and whether it's rated for the atmosphere it's working in. Get either wrong and you can tip a load, stall in a spot you can't handle, or set off a fire in a flammable area."
+        ]
+      },
+      {
+        heading: "The main truck types you'll see",
+        body: [
+          "The trucks split roughly by how you ride them and what they're built to do:",
+          {
+            list: [
+              "Sit-down counterbalanced rider — the classic forklift; a counterweight in the back offsets the load on the forks.",
+              "Stand-up rider and reach trucks — narrow-aisle warehouse trucks; the reach truck extends the forks forward into racking.",
+              "Order pickers — the operator platform rises with the forks; used to pick stock off high shelves.",
+              "Motorized hand and hand/rider pallet trucks — low-lift trucks for moving pallets at floor level.",
+              "Rough-terrain and telehandler trucks — big pneumatic tires for outdoor, uneven ground and reach over distance."
+            ]
+          },
+          "Each handles, brakes, and tips differently. A reach truck's stability and an order picker's fall exposure have nothing in common with a sit-down rider, which is exactly why OSHA training is truck-specific."
+        ]
+      },
+      {
+        heading: "Fuel and power designations",
+        body: [
+          "OSHA 1910.178(b) sorts trucks by power source, and each carries a letter designation you'll find on the data plate — for example D, DS, and DY for diesel; G and GS for gasoline; LP and LPS for liquid propane; and E, ES, EE, and EX for electric. The extra letters mean added safeguards (S for safety features against fire and ignition, EE for fully enclosed electrics, EX for explosion-proof).",
+          "This isn't trivia. Internal-combustion trucks (diesel, gas, propane) put out carbon monoxide and can't run indoors without serious ventilation. Electric trucks are cleaner for enclosed spaces but bring battery-charging hazards. Know what you're standing on and what it's exhausting."
+        ]
+      },
+      {
+        heading: "Match the truck to the atmosphere",
+        body: [
+          "OSHA 1910.178(c) forbids running an ordinary truck in an area with flammable gases, vapors, combustible dust, or hazardous concentrations — like paint spray areas, grain handling, or spaces with volatile liquids. Those locations require trucks specifically approved and marked for that classification (the EX and similar designations exist for exactly this).",
+          "Before you drive into a new area, ask whether the space is a designated hazardous location and whether this truck is rated for it. A standard forklift's sparks, hot surfaces, and exhaust are ignition sources — the right rating is the difference between a normal shift and an explosion."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/operator-training-evaluation-and-authorization": {
+    description:
+      "Only a trained, evaluated, and authorized operator may run a forklift — and that authorization is tied to the specific truck and the specific workplace.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1910.178(l) is blunt: only workers who have been trained and authorized may operate a powered industrial truck. Handing the keys to someone because they \"used to drive one\" or \"picked it up\" doesn't meet the standard and it's how people get hurt.",
+          "Training isn't a one-time video. It's formal instruction, hands-on practice, and an evaluation of the operator actually driving — all tied to the type of truck they'll run and the site they'll run it on."
+        ]
+      },
+      {
+        heading: "What real training covers",
+        body: [
+          "Proper training combines three parts: formal instruction (classroom, video, or written), practical training (demonstration and hands-on driving), and an evaluation of the operator's performance in the workplace. It has to cover both truck-related and workplace-related topics, such as:",
+          {
+            list: [
+              "This truck's controls, instruments, engine, steering, and visibility differences from a car.",
+              "Capacity, stability, and how attachments change the machine.",
+              "Loading, maneuvering, and any operating limits for this truck.",
+              "The surfaces, ramps, aisles, pedestrian traffic, and load types at this site.",
+              "Hazardous or classified locations where the truck may or may not go."
+            ]
+          },
+          "Trainees may operate only under the direct supervision of someone with the knowledge and experience to train, and only where it won't endanger anyone."
+        ]
+      },
+      {
+        heading: "Evaluation and refresher training",
+        body: [
+          "Certification isn't permanent. OSHA requires the employer to evaluate each operator's performance at least once every three years. On top of that, refresher training and re-evaluation are required when:",
+          {
+            list: [
+              "The operator is seen driving unsafely.",
+              "They're involved in an accident or a near-miss.",
+              "An evaluation shows they aren't operating safely.",
+              "They're assigned to a different type of truck.",
+              "Conditions in the workplace change in a way that affects safe operation."
+            ]
+          },
+          "The employer must certify the training and evaluation, keeping a record of the operator's name, the training date, the evaluation date, and who did it."
+        ]
+      },
+      {
+        heading: "Authorization is specific",
+        body: [
+          "Being cleared on a sit-down rider doesn't clear you for a reach truck, a telehandler, or an order picker — each is a different machine with different training. And authorization is site-aware: an operator who's solid in one warehouse still needs to know the ramps, blind corners, and traffic of a new job.",
+          "If you're asked to run a truck you weren't trained and authorized on, that's a stop-and-ask moment. Note too that OSHA generally bars anyone under 18 from operating powered industrial trucks in non-agricultural work."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/daily-pre-operation-inspection": {
+    description:
+      "Every forklift gets checked before it's used and at least once a day — a documented walk-around that catches defects before they put you or a pedestrian in the hospital.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1910.178(q)(7) requires that a powered industrial truck be examined before being placed in service, and it must not be put in service if the exam shows any condition that affects the safety of the vehicle. That check happens at least daily — and where trucks run around the clock, after each shift.",
+          "This is a real walk-around, not a glance. You're looking for the things that fail at the worst moment: brakes, steering, the horn, the mast, the tires, and leaks. Find them in the yard, not in a loaded turn."
+        ]
+      },
+      {
+        heading: "Engine-off checks (walk-around)",
+        body: [
+          "Start with the truck shut down and do a visual and hands-on pass:",
+          {
+            list: [
+              "Tires — condition, pressure on pneumatics, no chunks missing or splits.",
+              "Forks — no cracks, bends, or excessive wear at the heel; positioning locks work.",
+              "Mast and chains — no damaged or kinked chains, no leaks, guards in place.",
+              "Overhead guard and load backrest — present, not bent or cracked.",
+              "Hydraulic hoses, fittings, and the floor under the truck — no leaks or puddles.",
+              "Fluid levels — engine oil, coolant, hydraulic fluid; fuel or battery charge.",
+              "Data plate and warning decals — present and legible.",
+              "LP tank (if fitted) — secure, hose and fittings sound, no gas smell."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Engine-on / operational checks",
+        body: [
+          "With the truck running, test the systems that keep it under control:",
+          {
+            list: [
+              "Service brake and parking brake — hold and stop firmly.",
+              "Steering — smooth, no excessive play.",
+              "Horn — works (it's your main warning to pedestrians).",
+              "Lights and backup alarm — working if fitted.",
+              "Lift, lower, and tilt controls — smooth, no drift or grabbing.",
+              "Seat belt — latches and retracts.",
+              "Gauges and warning lights — reading normal."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Tag it out and report it",
+        body: [
+          "If anything on the check fails, the truck comes out of service until it's fixed by authorized personnel. Don't \"nurse it through the shift\" — a soft brake or a dead horn is exactly what leads to a struck-by or a runaway.",
+          "Report defects on the daily inspection form so there's a record and the next operator knows the truck's history. Repairs get done by qualified people, and the fix gets noted before the truck goes back on the floor."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/understanding-the-stability-triangle": {
+    description:
+      "A sit-down forklift balances on a three-point stance, and every load and turn shifts its center of gravity — understand the stability triangle and you understand why forklifts tip.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A sit-down counterbalanced forklift doesn't sit on four solid corners like a car. It pivots. Understand how it balances and you understand why it tips — and tip-overs are the single leading cause of forklift deaths.",
+          "The idea is simple: the truck and its load balance on a triangle. Keep the combined center of gravity inside that triangle and the truck stays upright. Push it outside — with a heavy load, a fast turn, or a raised fork — and the truck goes over."
+        ]
+      },
+      {
+        heading: "The three-point stance",
+        body: [
+          "A forklift is supported at three points: the two front wheels, and a single pivot point at the center of the rear axle. Connect those three points and you get the stability triangle. Because the rear axle pivots, the back end swings side to side over that single point — which is why the rear of a forklift steers and swings out.",
+          "The truck stays stable as long as the combined center of gravity of the truck and its load stays inside that triangle. The counterweight built into the back of the truck is what keeps the balance point forward and inside the triangle when you pick up a load."
+        ]
+      },
+      {
+        heading: "What moves the center of gravity",
+        body: [
+          "The center of gravity isn't fixed — it moves with what you do:",
+          {
+            list: [
+              "Picking up a load moves it forward, toward the front wheels.",
+              "A heavier load, or a load carried further out on the forks, moves it forward and up.",
+              "Raising the load raises the center of gravity, making the truck far tippier.",
+              "Turning throws the center of gravity sideways, toward the outside of the turn.",
+              "Traveling on a slope or over uneven ground shifts it toward the low side."
+            ]
+          },
+          "Stack these up — a raised, heavy load taken through a fast turn — and you push the balance point right out of the triangle. That's a lateral tip-over, and it happens fast."
+        ]
+      },
+      {
+        heading: "Driving inside the triangle",
+        body: [
+          "You keep the center of gravity where it belongs by how you drive: carry loads low and tilted back, slow down before turns, and never turn with the load raised. Take grades straight, not at an angle. Smooth and slow keeps the balance point inside the lines.",
+          "One more thing every operator must know: in a tip-over, do not jump. Stay in the seat, hold the wheel, brace your feet, and lean away from the fall. The overhead guard and seat belt are built to protect you if you stay put — operators who jump get crushed by the falling mast or overhead guard."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/load-capacity-data-plates-and-center-of-gravity": {
+    description:
+      "Every forklift has a rated capacity stamped on its data plate — at a specific load center — and exceeding it, or loading past that center, is how you overload and tip a truck.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every forklift has a limit, and it's printed right on the machine. The data plate (nameplate) tells you the rated capacity — the most the truck can safely lift — and the conditions that rating assumes. OSHA 1910.178 requires that plate to be there and legible, and requires you to stay within it.",
+          "The number matters, but so does a detail people miss: capacity is rated at a specific load center. Carry the weight further out than that, and the truck can't lift what the plate says. Overloading and off-center loads are a direct path to tipping forward or dropping a load."
+        ]
+      },
+      {
+        heading: "Reading the data plate",
+        body: [
+          "The data plate is your source of truth for the truck. It lists:",
+          {
+            list: [
+              "Rated capacity — the maximum weight the truck can lift, in pounds.",
+              "Rated load center — the distance the capacity is measured at, commonly 24 inches from the face of the forks.",
+              "Maximum lift height the rating applies to.",
+              "Truck model, serial number, weight, and fuel/power type designation.",
+              "Any attachments the truck is configured with, and the derated capacity for them."
+            ]
+          },
+          "If the plate is missing, unreadable, or doesn't match the attachment on the truck, the truck isn't ready to work. Get it corrected before you load."
+        ]
+      },
+      {
+        heading: "Load center and why it changes capacity",
+        body: [
+          "Load center is the distance from the front face of the forks to the center of gravity of the load. The plate's capacity assumes the load is centered at the rated distance — say 24 inches. A load that's longer, or shifted out on the forks, has a load center further from the truck.",
+          "The further out the weight sits, the harder it levers the truck forward — that's load moment, weight multiplied by distance. Double the distance and you roughly double the tipping force, so a long or deep load can put you over the limit even when its weight is under the rated capacity. When in doubt, treat a bulky or oddly-shaped load as reducing your safe capacity."
+        ]
+      },
+      {
+        heading: "Attachments and stable loads",
+        body: [
+          "Attachments — clamps, side-shifters, extensions, booms — add weight out front and lower the truck's rated capacity. The truck must be marked with the derated capacity for the attachment fitted, and you operate to that number, not the bare-truck number.",
+          "OSHA 1910.178(o) also requires that only stable, safely arranged loads within the rated capacity be handled. If a load is unstable, unevenly stacked, or you're not sure of its weight, don't lift it and hope — arrange it, weigh it, or break it down first."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/safe-traveling-speed-visibility-ramps-and-grades": {
+    description:
+      "How you travel a forklift — speed, fork height, which way you face, and how you take a ramp — decides whether you keep control or lose a load, hit a pedestrian, or roll on a grade.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most of a forklift's day is spent traveling, and that's where a lot of the risk lives. OSHA 1910.178(n) lays out the traveling rules, and they come down to control: the right speed, the right fork height, a clear view of where you're going, and grades taken the right way.",
+          "A forklift can't stop or swerve like a car — it's heavy, top-loaded, and steers from the rear. Give yourself room and keep it slow and predictable."
+        ]
+      },
+      {
+        heading: "Speed, fork height, and following distance",
+        body: [
+          "Travel with the load low and tilted back — forks just a few inches off the ground, high enough to clear surfaces but low enough to keep the center of gravity down. Obey the speed limits for the site, and slow down for wet or slippery floors, blind corners, doorways, and congestion.",
+          {
+            list: [
+              "Keep at least three truck lengths (about 10 feet) behind another truck.",
+              "Slow down and sound the horn at cross aisles, doorways, and blind corners.",
+              "No passing another truck at intersections, blind spots, or dangerous spots.",
+              "Keep your whole body inside the truck — never an arm or leg outside the running lines.",
+              "Cross railroad tracks diagonally, and don't park within 8 feet of the center of a track."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep a clear view — and reverse when you can't",
+        body: [
+          "You have to be able to see where you're going. If the load blocks your forward view, travel in reverse so you're looking in your direction of travel — the one exception is going up a ramp, where a loaded truck faces upgrade regardless.",
+          "Look toward the path of travel and keep it clear. Use a spotter for loads that block your view or for tight, congested moves. And whatever you do, don't rely on backup alarms alone to keep pedestrians clear — they tune them out."
+        ]
+      },
+      {
+        heading: "Ramps and grades",
+        body: [
+          "Grades are where forklifts tip and loads slide. The rule for which way to face depends on whether you're loaded:",
+          {
+            list: [
+              "Loaded: drive with the load pointing upgrade — forks facing up the slope, going up or down.",
+              "Unloaded: drive with the forks pointing downgrade.",
+              "Never turn on a ramp or grade — take it straight up and straight down.",
+              "Don't raise or lower the load while on the incline.",
+              "Keep the load tilted back and travel slowly."
+            ]
+          },
+          "Keeping the heavy end uphill keeps the center of gravity inside the stability triangle. Turn or reverse the load on a slope and you invite a downhill tip-over or a runaway load."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/load-handling-lifting-stacking-and-tiering": {
+    description:
+      "Picking up, carrying, and stacking a load is where the forklift does its real work — approach square, tilt back, lift smooth, and keep every load stable and within capacity.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Handling the load is the whole point of the truck, and it's where a lot goes wrong — dropped loads, struck pedestrians, and forward tip-overs. OSHA 1910.178(o) sets the load-handling rules, and they build on one idea: only handle stable, safely arranged loads within the truck's rated capacity.",
+          "Good load handling is smooth and deliberate. You line up square, get the forks fully under the load, tilt back to cradle it, and lift and lower without jerking. Rushing the pick or the stack is what spills a load."
+        ]
+      },
+      {
+        heading: "Picking up a load",
+        body: [
+          "Approach the load slowly and squarely, so you're straight on before the forks go in:",
+          {
+            list: [
+              "Set the forks level and spaced as wide as the load or pallet allows.",
+              "Drive in until the load rests against the fork backrest — get the forks fully under it.",
+              "Lift the load clear, then tilt the mast back to settle it against the backrest.",
+              "Lower the load to travel height — a few inches off the ground — before moving.",
+              "Check the load is stable and within capacity before you travel."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Carrying and unstable loads",
+        body: [
+          "Carry loads low and tilted back so the weight stays cradled and the center of gravity stays down. If a load is loose, long, high, or wide, it needs extra care — bind or arrange it, use a spotter, and take it slow. A load you can't see over means you travel in reverse.",
+          "Never handle a load heavier than the rated capacity or one that's stacked so it can shift or topple. If it isn't safely arranged, fix it before you lift — don't try to \"balance it\" on the forks and hope it holds through a turn."
+        ]
+      },
+      {
+        heading: "Stacking and tiering",
+        body: [
+          "When you're placing or pulling loads in racking or a stack, precision matters more than speed:",
+          {
+            list: [
+              "Square up to the rack before raising the load.",
+              "Raise or lower with the mast vertical or tilted back only slightly.",
+              "Use just enough backward tilt to stabilize the load — no more.",
+              "Once the load is placed, level the forks before withdrawing them.",
+              "Back straight out, then lower the forks to travel height."
+            ]
+          },
+          "Tilting a raised load forward, or turning with the mast up, moves the center of gravity out over the front wheels — the classic way to pitch a load and the truck forward. Keep the mast up only as long as you need to place the load."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/pedestrian-safety-and-struck-by-prevention": {
+    description:
+      "Forklifts and people share the same floor, and struck-by injuries are among the deadliest forklift hazards — separation, visibility, and communication keep pedestrians out of the truck's path.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The most dangerous thing about a forklift often isn't the operator's skill — it's that trucks and people share the same space. Struck-by and crushing injuries are among the leading causes of forklift deaths, and the person hurt is usually a pedestrian, not the operator.",
+          "Keeping people safe around forklifts takes three things working together: physical separation, visibility, and communication. Rely on any one alone and you'll eventually have a close call become a hit."
+        ]
+      },
+      {
+        heading: "Separation — keep people and trucks apart",
+        body: [
+          "The best control is to not have people in the truck's path at all. Where the layout allows:",
+          {
+            list: [
+              "Mark and enforce separate pedestrian walkways, kept clear of truck routes.",
+              "Use physical barriers, rails, or bollards to protect walkways and work areas.",
+              "Set up exclusion zones around active forklift work — no foot traffic during the lift.",
+              "Add convex mirrors at blind corners and intersections.",
+              "Control access so only trained people are in the truck operating area."
+            ]
+          },
+          "OSHA 1910.178(m) is firm on one point: no one is allowed to stand or pass under the elevated portion of any truck, loaded or empty. A raised load or fork is never something to walk beneath."
+        ]
+      },
+      {
+        heading: "Visibility and blind spots",
+        body: [
+          "A loaded forklift has a big blind spot straight ahead — the load blocks the operator's forward view. That's why the rule is to travel in reverse when the load obstructs the view (except going up ramps). Operators must look toward the path of travel and keep a clear view of the route.",
+          "Pedestrians carry responsibility too: make eye contact with the operator before crossing, never assume you've been seen, and stay out of the swing area at the rear — remember the back of the truck swings wide when it turns."
+        ]
+      },
+      {
+        heading: "Communication and right of way",
+        body: [
+          "Horns and eye contact close the gap between separation and visibility. Operators sound the horn at cross aisles, doorways, and blind corners, and slow down where sightlines are poor. Pedestrians get the right of way.",
+          "One rule removes a whole class of injuries: no riders. Nobody rides on the forks, the load, or any part of the truck not designed as a seat. And no one reaches or steps between the mast uprights — an arm or leg in there gets crushed when the mast moves."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/loading-docks-trailers-and-rail-cars": {
+    description:
+      "Driving a forklift into a trailer or rail car, or working the edge of a dock, adds falling and trailer-movement hazards — chock the wheels, secure the trailer, check the floor, and mind the edge.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Loading docks are one of the most dangerous places a forklift works. You're driving a heavy truck across a gap, onto a trailer or rail car floor that might not hold, next to a drop-off, near a trailer that could roll or tip. Several forklift fatalities every year happen right here.",
+          "The controls are specific and non-negotiable: secure the vehicle so it can't move, bridge the gap with a rated dockboard, check the floor before you drive on, and respect the dock edge. Skip one and the trailer rolls, the floor gives, or the truck drives off the dock."
+        ]
+      },
+      {
+        heading: "Secure the trailer or truck first",
+        body: [
+          "Before a forklift drives onto any trailer, truck, or rail car, that vehicle has to be locked in place so it can't move away from the dock:",
+          {
+            list: [
+              "Set the vehicle's brakes and chock the wheels — OSHA 1910.178(k) and (m) require it.",
+              "Use a dock lock or restraint where the dock has one.",
+              "For a trailer not coupled to a tractor, set fixed jacks (trailer stands) under the nose to stop it from upending under the weight of the truck.",
+              "For rail cars, use wheel stops or blocks and derails, and follow blue-flag protection so the car can't be moved while you're in it."
+            ]
+          },
+          "\"Trailer creep\" and pulling away with a forklift still inside are real events — the restraint is what stops them."
+        ]
+      },
+      {
+        heading: "Check the floor and the dockboard",
+        body: [
+          "The floor of a truck, trailer, or rail car has to be checked for breaks and weak points before you drive a loaded forklift onto it — a soft or rotten floor won't take the weight. Look before you commit.",
+          "Bridge the gap with a dockboard or bridge plate that's rated for the load and properly secured so it can't shift. Portable dockboards should be anchored or have curbs to keep the truck from running off the side. Watch for the gap and the lip every time — don't assume it's set."
+        ]
+      },
+      {
+        heading: "Mind the dock edge",
+        body: [
+          "The open edge of a loading dock is a fall hazard for the truck and for people. Driving a forklift off the edge of a dock is one of the classic fatal incidents — it happens when an operator misjudges the edge, or a trailer pulls away leaving an open drop where the operator expected floor.",
+          "Keep clear of the dock edge, don't back up to it without knowing where it is, and keep the area well lit. When trucks aren't loading, close or barrier open dock doors so no one — on foot or on a truck — goes over the edge."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/fueling-battery-charging-and-lp-gas-safety": {
+    description:
+      "Refueling a forklift, swapping a propane cylinder, or charging a battery all bring fire, explosion, and chemical hazards — done only in designated areas, with the engine off and ignition sources away.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The energy that runs a forklift is also its most concentrated hazard off the job of driving. Gasoline and diesel are flammable, propane is a flammable gas under pressure, and battery charging gives off explosive hydrogen and involves corrosive acid. OSHA 1910.178(g) and (p) set the rules for handling all of it.",
+          "The common thread: do it in a designated area, keep ignition sources away, and follow the specific steps for the fuel type. Refueling and charging areas are where a careless spark becomes a fire."
+        ]
+      },
+      {
+        heading: "Refueling liquid-fuel trucks",
+        body: [
+          "For gasoline and diesel trucks, refuel only in designated areas and treat the fuel like the fire hazard it is:",
+          {
+            list: [
+              "Shut the engine off before fueling.",
+              "No smoking, open flame, or spark sources anywhere near the fueling area.",
+              "Don't overfill; clean up any spill before restarting.",
+              "Have fire protection available in the fueling area."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "LP gas (propane) cylinders",
+        body: [
+          "Propane trucks run off a pressurized cylinder, and swapping it has its own routine. Shut the engine off, close the cylinder valve, and let the engine burn off the line before disconnecting. Then:",
+          {
+            list: [
+              "Wear gloves — liquid propane escaping under pressure causes frostbite burns.",
+              "Seat the replacement cylinder correctly with the locating pin, and mount it with the pressure-relief valve positioned as the maker specifies.",
+              "Check for leaks with soapy water or a leak detector — never a flame.",
+              "Store and change cylinders outdoors or in well-ventilated designated areas, away from heat and ignition sources."
+            ]
+          },
+          "Propane is heavier than air, so a leak pools low where it can find an ignition source — which is exactly why you never test for leaks with a flame."
+        ]
+      },
+      {
+        heading: "Battery charging",
+        body: [
+          "Charging electric-truck batteries releases hydrogen gas, which is explosive, and the electrolyte is sulfuric acid. OSHA 1910.178(g) requires charging to happen in a designated area with the right facilities:",
+          {
+            list: [
+              "Ventilation to carry off the hydrogen gas the battery gives off while charging.",
+              "Facilities for flushing and neutralizing spilled electrolyte, plus an eyewash and shower nearby.",
+              "Fire protection, and no smoking, sparks, or open flame in the charging area.",
+              "PPE — face shield, apron, and gloves — for handling acid and batteries.",
+              "Keep the battery cover open during charge to let heat and gas escape, and reinstall vent caps before use."
+            ]
+          },
+          "Position the truck and set the brake before connecting or disconnecting, and keep metal tools and jewelry away from battery terminals — a dead short across a battery throws a lot of energy."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/attachments-modifications-and-removing-a-truck-from-service": {
+    description:
+      "Bolting on an attachment or modifying a forklift changes how it lifts and balances — it needs the manufacturer's approval and updated capacity marking, and an unsafe truck comes out of service until it's repaired.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A forklift is engineered as a balanced package — truck, counterweight, and rated capacity all matched. Bolt something onto the front, or change how it's built, and you change that balance. OSHA 1910.178(a) doesn't let you do that on your own judgment; it requires the manufacturer's involvement.",
+          "The flip side is knowing when a truck is no longer safe to run. A forklift with a defect that affects safe operation comes out of service and stays out until qualified people fix it. Both rules protect the same thing: a truck that behaves the way its data plate says it will."
+        ]
+      },
+      {
+        heading: "Modifications need manufacturer approval",
+        body: [
+          "OSHA 1910.178(a)(4) is clear: no modifications or additions that affect capacity or safe operation may be made without the manufacturer's prior written approval. That covers changes to the counterweight, mast, hydraulics, or anything that alters how the truck lifts and balances.",
+          "When approval is given, the capacity, operation, and maintenance plates, tags, and decals have to be changed to match. You don't fabricate a mast extension in the shop or add a homemade counterweight — the balance math behind the data plate stops being true, and the truck can tip on a load it used to handle."
+        ]
+      },
+      {
+        heading: "Attachments change the rating",
+        body: [
+          "Adding a legitimate attachment — a clamp, rotator, side-shifter, or fork extension — adds weight out front and changes the load center, which lowers the truck's safe capacity. OSHA 1910.178(a)(5) requires that when a truck is equipped with front-end attachments not factory-installed, it be marked to identify the attachment and show the approximate combined weight of the truck and attachment at maximum elevation with the load laterally centered.",
+          "Operate to the attachment's derated capacity, not the bare-truck number, and make sure the marking reflects the attachment that's actually on the truck. An attachment the operator doesn't account for is an overload waiting to happen."
+        ]
+      },
+      {
+        heading: "Removing a truck from service",
+        body: [
+          "When a truck isn't safe, it comes off the floor. OSHA 1910.178(p) and (q) require that trucks in unsafe condition be removed from service, and that repairs be made only by authorized, qualified personnel. Tag it out so no one runs it in the meantime.",
+          "Common reasons to pull a truck immediately:",
+          {
+            list: [
+              "Brakes, steering, or the horn not working right.",
+              "A hydraulic, fuel, or oil leak.",
+              "Damaged forks, mast, chains, or overhead guard.",
+              "An engine or LP system emitting hazardous sparks or fumes, or overheating.",
+              "A missing or illegible data plate, or an unapproved modification."
+            ]
+          },
+          "The daily inspection is what usually catches these — when it does, the truck's day is done until it's fixed and signed off."
+        ]
+      }
+    ]
   }
 };
 

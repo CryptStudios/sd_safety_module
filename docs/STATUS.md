@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 6 / 24 categories authored (25%). All 6 SME-reviewed ✅.**
+**Progress: 7 / 24 categories authored (29%). 6 SME-reviewed ✅; Forklift Safety pending SME review.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,15 +11,43 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** Forklift Safety (`forklift-safety`) — pending. (#7 in the
-  priority order; OSHA 1910.178 Powered Industrial Trucks.)
+- **Next category:** Welding and Hot Work (`welding-and-hot-work`) — pending.
+  (#8 in the priority order; OSHA 1926 Subpart J / 1910 Subpart Q.)
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). Confined Space, Working at Heights, Electrical Safety,
-  Excavation Safety, Fire Safety, and PPE were authored to OSHA.
+  Handling — see plan). All 7 authored categories to date were authored to OSHA.
 
 ---
 
 ## Completed categories
+
+### ✅ Forklift Safety — `forklift-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Powered Industrial Truck Types and Classifications
+  2. Operator Training, Evaluation, and Authorization
+  3. Daily Pre-Operation Inspection
+  4. Understanding the Stability Triangle
+  5. Load Capacity, Data Plates, and Center of Gravity
+  6. Safe Traveling — Speed, Visibility, Ramps, and Grades
+  7. Load Handling — Lifting, Stacking, and Tiering
+  8. Pedestrian Safety and Struck-By Prevention
+  9. Loading Docks, Trailers, and Rail Cars
+  10. Fueling, Battery Charging, and LP Gas Safety
+  11. Attachments, Modifications, and Removing a Truck from Service
+- **Sources:** OSHA 29 CFR 1910.178 (Powered Industrial Trucks) — (a) modifications/
+  attachments & marking, (b)/(c) type & power designations and hazardous locations,
+  (g) battery charging, (k)/(m) trucks/docks/traveling & load handling protections,
+  (l) operator training/evaluation, (n) traveling, (o) loading, (p) removing from
+  service, (q)(7) daily examination; ASME B56.1 (data plate / stability / load center).
+- **Scope note:** authored at the powered-industrial-truck operating level; deep
+  battery-room electrical and LOTO detail stays in Electrical Safety, and rigging/
+  sling detail in Rigging & Material Handling — cross-referenced, not duplicated.
+- **Verified:** tsc clean (after clearing stale `.next/types` duplicates) · `next
+  build` clean (all pages prerender) · 11 exported HTML files in
+  `out/training/forklift-safety/` · authored content present (`1910.178`, `stability
+  triangle`, `24 inches`, `load center`, `trailer stands`, `hydrogen`), placeholder
+  `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ PPE (Personal Protective Equipment) — `ppe`
 - **Session:** 2026-07-12
@@ -173,6 +201,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Excavation Safety | 11 | Fourth category. OSHA Subpart P (§650–652 + App A/B/C/D). Soil classes, slopes, shoring/shields, 811, competent person. |
 | 2026-07-12 | Fire Safety | 11 | Fifth category. OSHA Subpart F (§150–152/.154/.352, .25) + 1910 Subpart L (§36–39, §157, §164/.165). Fire triangle/classes, flammable storage, hot work, heaters, prevention plan, egress/EAP. Extinguisher use + hot-work permits deferred to dedicated categories. |
 | 2026-07-12 | PPE | 11 | Sixth category. OSHA 1926 Subpart E + 1910 Subpart I. Hazard assessment/hierarchy lead, head/eye/hearing/hand/foot/respiratory, hi-vis, skin & body clothing, harness-as-PPE, inspect/replace. ANSI/ASTM/MUTCD/NFPA 70E consensus standards. **All 6 authored categories SME-reviewed ✅ this date.** |
+| 2026-07-12 | Forklift Safety | 11 | Seventh category. OSHA 1910.178 (Powered Industrial Trucks) + ASME B56.1. Truck types/designations, operator training/eval, daily inspection, stability triangle, capacity/data plate/load center, traveling & ramps, load handling/tiering, pedestrian/struck-by, docks/trailers/rail cars, fuel/battery/LP gas, attachments & removal from service. Blocker doesn't apply (OSHA basis). Progress 7/24 (29%). SME review pending. |
 
 ---
 
