@@ -1,8 +1,43 @@
 @import "tailwindcss";
 
-:root {
-  --background: #f7f8fb;
-  --foreground: #08101d;
+/*
+  Submit Daily — Design System
+  Adopted from design-system/App Design System.html
+  Brand: safety orange on warm paper, slab-serif display, mono eyebrow labels,
+  fixed 64px grid texture.
+*/
+
+@theme {
+  /* Surfaces */
+  --color-bg: #f7f7f5;
+  --color-paper: #ffffff;
+  --color-bg-2: #ffffff;
+
+  /* Ink (text) */
+  --color-ink: #18150f;
+  --color-ink-2: #3b362c;
+  --color-ink-3: #6c6557;
+
+  /* Highlight — safety orange */
+  --color-hi: #ff5a02;
+  --color-hi-deep: #e14e00;
+  --color-hi-soft: #ffe2cc;
+
+  /* Secondary — moss */
+  --color-moss: #4f5a3d;
+
+  /* Rules / borders */
+  --color-rule: rgba(24, 21, 15, 0.14);
+  --color-rule-2: rgba(24, 21, 15, 0.06);
+
+  /* Type families (wired to next/font CSS vars in layout.tsx) */
+  --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-roboto-slab), "Rockwell", "Courier New", serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "JetBrains Mono", monospace;
+
+  /* Grid texture */
+  --grid-size: 64px;
+  --grid-opacity: 0.04;
 }
 
 html {
@@ -10,15 +45,37 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(250, 204, 21, 0.08), transparent 28%),
-    linear-gradient(180deg, #f9fafb 0%, #f3f5f8 100%);
-  color: var(--foreground);
-  font-family:
-    "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(to right, rgba(24, 21, 15, var(--grid-opacity)) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 21, 15, var(--grid-opacity)) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Slab-serif display for headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
 }
 
 ::selection {
-  background: #facc15;
-  color: #08101d;
+  background: var(--color-hi);
+  color: #ffffff;
+}
+
+/* Mono uppercase eyebrow label — the recurring section-label pattern */
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-ink-3);
 }

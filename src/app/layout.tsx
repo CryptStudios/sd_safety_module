@@ -1,9 +1,30 @@
 import type { Metadata } from "next";
+import { DM_Sans, JetBrains_Mono, Roboto_Slab } from "next/font/google";
 
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
 import "./globals.css";
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+  display: "swap"
+});
+
+const robotoSlab = Roboto_Slab({
+  subsets: ["latin"],
+  weight: ["400", "500", "700", "800"],
+  variable: "--font-roboto-slab",
+  display: "swap"
+});
+
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-jetbrains",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: "SD Safety Module",
@@ -35,8 +56,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body className="min-h-screen">
+    <html
+      lang="en"
+      className={`${dmSans.variable} ${robotoSlab.variable} ${jetBrainsMono.variable}`}
+    >
+      <body className="min-h-screen bg-bg text-ink">
         <div className="flex min-h-screen flex-col">
           <SiteHeader />
           <main className="flex-1">{children}</main>
