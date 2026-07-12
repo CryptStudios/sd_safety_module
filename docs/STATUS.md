@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 3 / 24 categories authored.**
+**Progress: 4 / 24 categories authored.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,14 +11,38 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** Excavation Safety (`excavation-safety`) — pending. (#4 in the priority order.)
+- **Next category:** Fire Safety (`fire-safety`) — pending. (#5 in the priority order.)
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). Confined Space, Working at Heights, and Electrical Safety
-  were authored to OSHA.
+  Handling — see plan). Confined Space, Working at Heights, Electrical Safety, and
+  Excavation Safety were authored to OSHA.
 
 ---
 
 ## Completed categories
+
+### ✅ Excavation Safety — `excavation-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Recognizing Excavation and Trench Hazards
+  2. How and Why Cave-Ins Happen
+  3. Soil Classification and Testing
+  4. Sloping and Benching Systems
+  5. Shoring Systems
+  6. Trench Boxes and Shield Systems
+  7. The Competent Person and Daily Inspections
+  8. Safe Access and Egress
+  9. Locating and Working Around Underground Utilities
+  10. Spoil Piles, Surcharge Loads, and Edge Protection
+  11. Hazardous Atmospheres, Water, and Emergency Response
+- **Sources:** OSHA 29 CFR 1926 Subpart P (Excavations); §650 (definitions),
+  §651 (specific requirements: utilities, access/egress, atmospheres, water,
+  spoil, inspections), §652 (protective systems); Appendices A (soil
+  classification), B (sloping/benching), C/D (timber/aluminum hydraulic shoring);
+  OSHA Trenching & Excavation eTool; APWA uniform color code.
+- **Verified:** tsc clean · build clean (all pages prerender) · 11 built HTML
+  files · authored content present (`tension crack`, `APWA`, `19.5`), placeholder
+  `plain site language` gone.
+- **SME review:** ⬜ pending.
 
 ### ✅ Electrical Safety — `electrical-safety`
 - **Session:** 2026-07-12
@@ -86,6 +110,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
+| 2026-07-12 | Excavation Safety | 11 | Fourth category. OSHA Subpart P (§650–652 + App A/B/C/D). Soil classes, slopes, shoring/shields, 811, competent person. |
 
 ---
 

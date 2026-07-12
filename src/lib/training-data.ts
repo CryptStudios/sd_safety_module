@@ -493,6 +493,7 @@ const realContentCategories = new Set<string>([
   "confined-space",
   "working-at-heights",
   "electrical-safety",
+  "excavation-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1092,13 +1093,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "General Excavation Requirements",
-      "Trench Safety and Cave-In Prevention",
-      "Shoring and Sloping Methods",
-      "Utility Location Before Digging",
-      "Spoil Pile Placement",
-      "Access and Egress for Excavations",
-      "Inspections After Rain or Disturbance"
+      "Recognizing Excavation and Trench Hazards",
+      "How and Why Cave-Ins Happen",
+      "Soil Classification and Testing",
+      "Sloping and Benching Systems",
+      "Shoring Systems",
+      "Trench Boxes and Shield Systems",
+      "The Competent Person and Daily Inspections",
+      "Safe Access and Egress",
+      "Locating and Working Around Underground Utilities",
+      "Spoil Piles, Surcharge Loads, and Edge Protection",
+      "Hazardous Atmospheres, Water, and Emergency Response"
     ]
   }),
   createCategory({
