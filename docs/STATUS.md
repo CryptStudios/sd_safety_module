@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 2 / 24 categories authored.**
+**Progress: 3 / 24 categories authored.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,13 +11,34 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** Electrical Safety (`electrical-safety`) — pending. (#3 in the priority order.)
+- **Next category:** Excavation Safety (`excavation-safety`) — pending. (#4 in the priority order.)
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). Confined Space and Working at Heights were authored to OSHA.
+  Handling — see plan). Confined Space, Working at Heights, and Electrical Safety
+  were authored to OSHA.
 
 ---
 
 ## Completed categories
+
+### ✅ Electrical Safety — `electrical-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Recognizing Electrical Hazards on Site
+  2. Shock, Arc Flash, and Arc Blast
+  3. Overhead Power Lines and Safe Approach Distances
+  4. Grounding and Bonding Basics
+  5. GFCIs and the Assured Equipment Grounding Program
+  6. Inspecting Cords, Plugs, and Portable Power Tools
+  7. Lockout/Tagout for Electrical Work
+  8. Working On or Near Energized Parts
+  9. Temporary Wiring and Extension Cords
+  10. Electrical PPE and Insulated Tools
+  11. Responding to an Electrical Incident
+- **Sources:** OSHA 29 CFR 1926 Subpart K (Electrical); 1926.404/.405/.416/.417;
+  1910.147 (Lockout/Tagout); NFPA 70E approach/arc-flash boundaries; OSHA 1904.
+- **Verified:** tsc clean · build clean (1872 pages) · 11 built HTML files ·
+  authored content present (`live-dead-live`), placeholder `plain site language` gone.
+- **SME review:** ⬜ pending.
 
 ### ✅ Working at Heights — `working-at-heights`
 - **Session:** 2026-07-12
@@ -64,6 +85,7 @@ Update this file at the end of every session (`/end-session`).
 |------|----------|-------------|-------|
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
+| 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
 
 ---
 
