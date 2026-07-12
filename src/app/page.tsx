@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { CategoryCard } from "@/components/category-card";
+import { CategorySearch } from "@/components/category-search";
 import {
   BoltIcon,
   ClipboardIcon,
@@ -27,7 +27,7 @@ const processSteps = [
     icon: <BoltIcon />
   },
   {
-    title: "Record Submitted",
+    title: "Submit Record",
     description: "Completion records are handled through the external company-approved form system.",
     icon: <ShieldIcon />
   }
@@ -37,14 +37,14 @@ export default function HomePage() {
   return (
     <div className="pb-16">
       <section className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-16">
-        <div className="rounded-[16px] border border-white/10 bg-ink p-8 text-[#f5efe2] lg:p-12">
-          <p className="eyebrow text-hi">SD Safety Module</p>
-          <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] sm:text-6xl">
+        <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
+          <p className="eyebrow text-hi-deep">SD Safety Module</p>
+          <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
             Safety learning
             <br />
             <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-[#c9c2b2]">
+          <p className="mt-6 max-w-xl text-lg leading-8 text-ink-2">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
@@ -57,7 +57,7 @@ export default function HomePage() {
             </Link>
             <Link
               href="#how-it-works"
-              className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-[#f5efe2] transition hover:border-hi hover:text-hi"
+              className="inline-flex items-center justify-center rounded-full border border-rule px-6 py-3 text-sm font-semibold text-ink transition hover:border-hi hover:text-hi-deep"
             >
               Learn More
             </Link>
@@ -137,22 +137,20 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {trainingCategories.map((category) => (
-            <CategoryCard key={category.id} category={category} />
-          ))}
+        <div className="mt-10">
+          <CategorySearch categories={trainingCategories} showHeading={false} />
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-6 rounded-[16px] border border-white/10 bg-ink p-8 text-[#f5efe2] shadow-[0_20px_50px_rgba(24,21,15,0.1)] lg:grid-cols-[1fr_auto] lg:items-center">
+        <div className="grid gap-6 rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:grid-cols-[1fr_auto] lg:items-center">
           <div className="flex gap-5">
             <MedicalIcon />
             <div>
-              <h3 className="font-serif text-3xl font-bold tracking-[-0.02em]">
+              <h3 className="font-serif text-3xl font-bold tracking-[-0.02em] text-ink">
                 Clearer learning. Simpler review.
               </h3>
-              <p className="mt-3 max-w-2xl text-sm leading-7 text-[#c9c2b2]">
+              <p className="mt-3 max-w-2xl text-sm leading-7 text-ink-2">
                 Each topic is organized so workers can read, understand, and complete the
                 related acknowledgment without extra clutter.
               </p>

@@ -1,3 +1,5 @@
+import { getAuthoredTopic } from "@/lib/topic-content";
+
 export type TrainingTopic = {
   id: string;
   title: string;
@@ -24,9 +26,16 @@ export type TrainingSourceLink = {
   url: string;
 };
 
+/**
+ * A block of article content: a plain string is a paragraph; a `{ list }`
+ * object renders as a bullet list. Generated content uses strings only;
+ * authored content can mix paragraphs and lists.
+ */
+export type ArticleBlock = string | { list: string[] };
+
 export type TrainingArticleSection = {
   heading: string;
-  body: string[];
+  body: ArticleBlock[];
 };
 
 export type TrainingSlide = {
@@ -447,13 +456,17 @@ function expandTopicTitles(topicTitles: string[]) {
 }
 
 function buildTopics(categorySlug: string, topicTitles: string[]): TrainingTopic[] {
-  return topicTitles.map((title, index) => ({
+  return topicTitles.map((title, index) => {
+    const slug = slugify(title);
+    const authored = getAuthoredTopic(categorySlug, slug);
+
+    return {
     id: `${categorySlug}-${index + 1}`,
     title,
-    slug: slugify(title),
-    description: topicDescriptionTemplates[index % topicDescriptionTemplates.length],
+    slug,
+    description: authored?.description ?? topicDescriptionTemplates[index % topicDescriptionTemplates.length],
     articleIntro: buildTopicIntro(categorySlug, title),
-    articleSections: buildTopicSections(categorySlug, title),
+    articleSections: authored?.sections ?? buildTopicSections(categorySlug, title),
     toolboxTalk: buildToolboxTalk(title),
     keyPoints: buildTopicKeyPoints(categorySlug, title),
     hazardSignals: buildTopicHazardSignals(title),
@@ -466,14 +479,27 @@ function buildTopics(categorySlug: string, topicTitles: string[]): TrainingTopic
     meetingPoints: buildTopicMeetingPoints(categorySlug, title),
     slides: buildSlides(categorySlug, title),
     boloFormUrl: placeholderUrl,
-  }));
+    };
+  });
 }
 
+/**
+ * Categories that have been given their real toolbox-talk topic list and
+ * authored content. These skip the synthetic 11x expansion — their topics
+ * array is the final list. Others keep the placeholder expansion until they
+ * are authored.
+ */
+const realContentCategories = new Set<string>(["confined-space"]);
+
 function createCategory(input: CategoryInput): TrainingCategory {
+  const topicTitles = realContentCategories.has(input.slug)
+    ? input.topics
+    : expandTopicTitles(input.topics);
+
   return {
     ...input,
     sourceLinks: [toolboxTalkSourceLink, ...(categorySourceLinks[input.slug] ?? [])],
-    topics: buildTopics(input.slug, expandTopicTitles(input.topics)),
+    topics: buildTopics(input.slug, topicTitles),
   };
 }
 
@@ -822,11 +848,16 @@ const coreTrainingCategories: TrainingCategory[] = [
     ],
     topics: [
       "Hazard Identification in Confined Spaces",
-      "Atmospheric Testing and Monitoring",
-      "Permit-Required Confined Space Entry",
-      "Ventilation Requirements",
-      "Emergency Rescue Procedures",
-      "Attendant Duties and Responsibilities"
+      "Permit-Required vs. Non-Permit Confined Spaces",
+      "Atmospheric Testing and Air Monitoring",
+      "Ventilating a Confined Space",
+      "Isolation and Lockout Before Entry",
+      "Engulfment and Entrapment Hazards",
+      "The Confined Space Entry Permit",
+      "Authorized Entrant Duties",
+      "Attendant (Hole Watch) Duties",
+      "Entry Supervisor Duties",
+      "Emergency Rescue and Retrieval Systems"
     ]
   }),
   createCategory({
