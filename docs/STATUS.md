@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 4 / 24 categories authored.**
+**Progress: 5 / 24 categories authored (~21%).**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,14 +11,43 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** Fire Safety (`fire-safety`) — pending. (#5 in the priority order.)
+- **Next category:** PPE (`ppe`) — pending. (#6 in the priority order.)
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). Confined Space, Working at Heights, Electrical Safety, and
-  Excavation Safety were authored to OSHA.
+  Handling — see plan). Confined Space, Working at Heights, Electrical Safety,
+  Excavation Safety, and Fire Safety were authored to OSHA.
 
 ---
 
 ## Completed categories
+
+### ✅ Fire Safety — `fire-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. The Fire Triangle and Classes of Fire
+  2. Recognizing Fire Hazards on Site
+  3. Storing Flammable and Combustible Liquids
+  4. Housekeeping and Combustible Debris Control
+  5. Controlling Ignition Sources and Hot Work
+  6. Temporary Heating Devices
+  7. The Site Fire Prevention Plan
+  8. Portable Fire Extinguishers — Classes and Placement
+  9. Fire Alarm and Detection Systems
+  10. Exit Routes and Means of Egress
+  11. Evacuation, Alarms, and Assembly Points
+- **Sources:** OSHA 29 CFR 1926 Subpart F (Fire Protection & Prevention);
+  §150 (fire protection program, extinguisher placement/travel distance, alarm),
+  §151 (ignition hazards), §152 (flammable/combustible liquids, cabinets),
+  §154 (temporary heating devices), §352 (hot work); §1926.25 (housekeeping);
+  1910 Subpart L — §157 (portable extinguishers), §164/.165 (detection/alarm),
+  §36–37 (means of egress), §38 (emergency action plan), §39 (fire prevention plan).
+- **Scope note:** kept at the fire-prevention-program level; extinguisher *use*
+  (PASS) and full hot-work permitting deferred to their dedicated categories
+  (#15 Fire Extinguisher Safety, #16 Welding & Hot Work).
+- **Verified:** tsc clean · `next build` clean (all pages prerender) · 11 exported
+  HTML files in `out/training/fire-safety/` · authored content present
+  (`flash point`, `1926.152`, `1910.38`, `35 feet`), placeholder
+  `plain site language` gone.
+- **SME review:** ⬜ pending.
 
 ### ✅ Excavation Safety — `excavation-safety`
 - **Session:** 2026-07-12
@@ -111,6 +140,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
 | 2026-07-12 | Excavation Safety | 11 | Fourth category. OSHA Subpart P (§650–652 + App A/B/C/D). Soil classes, slopes, shoring/shields, 811, competent person. |
+| 2026-07-12 | Fire Safety | 11 | Fifth category. OSHA Subpart F (§150–152/.154/.352, .25) + 1910 Subpart L (§36–39, §157, §164/.165). Fire triangle/classes, flammable storage, hot work, heaters, prevention plan, egress/EAP. Extinguisher use + hot-work permits deferred to dedicated categories. |
 
 ---
 
