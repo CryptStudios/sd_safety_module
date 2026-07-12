@@ -1320,6 +1320,579 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  // ── Electrical Safety ─────────────────────────────────────────────
+  // OSHA 29 CFR 1926 Subpart K (Electrical); 1910.147 (LOTO);
+  // NFPA 70E approach/arc-flash boundaries referenced by OSHA.
+
+  "electrical-safety/recognizing-electrical-hazards-on-site": {
+    description:
+      "The four ways electricity hurts you on a job site — shock, burns, arc events, and falls — and why current, not voltage, is what kills.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Electricity doesn't announce itself. A cord looks the same energized or dead, and a panel gives no warning before it bites. That's why electrocution is one of OSHA's construction Focus Four — the hazards that kill the most workers on site. Everyone needs to recognize the danger, not just the electricians.",
+          "You don't have to be working on wiring to get hurt. Laborers, operators, and carpenters run into cords, temporary panels, damaged tools, and overhead lines every day. Knowing what to look for — and when to stop — is the whole job here."
+        ]
+      },
+      {
+        heading: "The four ways electricity injures you",
+        body: [
+          "Electrical contact hurts people in four main ways, and often more than one at once:",
+          {
+            list: [
+              "Electrocution — current passing through the body stops the heart. This is the fatal one.",
+              "Electric shock — a jolt that can throw you, freeze your muscles, or knock you off a ladder.",
+              "Burns — the most common electrical injury, from current through the body, from arc flash, or from touching hot equipment.",
+              "Falls and other injuries — a shock high up sends workers off scaffolds, ladders, and roofs."
+            ]
+          },
+          "That last one matters on construction sites. A shock that wouldn't kill you at ground level can put you over a guardrail. Treat every electrical hazard as a fall hazard too when you're up high."
+        ]
+      },
+      {
+        heading: "Current kills, not voltage",
+        body: [
+          "It's the amount of current — the amps — flowing through your body that does the damage, and it takes surprisingly little. Some reference points:",
+          {
+            list: [
+              "About 1 milliamp (mA) — you can just feel it.",
+              "10 mA — muscles clamp and you may not be able to let go of the source.",
+              "100 mA or so, across the heart — enough to send it into fibrillation and kill you."
+            ]
+          },
+          "OSHA treats 50 volts and above as a shock hazard, but even ordinary 120-volt jobsite power kills people every year. What decides how much current flows is how good a path you make: wet skin, sweat, standing water, and metal all drop your resistance and drive the current up. Don't judge a hazard by how 'low' the voltage sounds."
+        ]
+      },
+      {
+        heading: "Where the exposure comes from",
+        body: [
+          "Most jobsite shocks trace back to a short list of conditions. Watch for:",
+          {
+            list: [
+              "Damaged or worn cords and tools — cuts, cracks, exposed conductors, missing ground pins.",
+              "Missing or defeated grounding, and no GFCI protection on temporary power.",
+              "Overhead and buried power lines near cranes, ladders, scaffolds, and digging.",
+              "Wet conditions — rain, puddles, and washdown that turn everything into a conductor.",
+              "Overloaded circuits, daisy-chained cords, and makeshift 'temporary' wiring that never gets fixed."
+            ]
+          },
+          "If you can name the hazard, you can stop before it gets you. When a tool, cord, or setup looks wrong, take it out of service and tell your supervisor — no production goal is worth a contact."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/shock-arc-flash-and-arc-blast": {
+    description:
+      "Three distinct electrical dangers — shock through the body, the intense heat of an arc flash, and the pressure wave of an arc blast — and what protects against each.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "People lump all electrical injuries together, but there are really three different events, and they hurt you in different ways. Shock is current through your body. Arc flash is an explosion of heat and light. Arc blast is the pressure wave that comes with it.",
+          "You can be hurt by one without touching a wire at all. An arc flash can burn a worker standing several feet from the equipment. Knowing which hazard you're facing tells you what protection you actually need."
+        ]
+      },
+      {
+        heading: "Shock — current through the body",
+        body: [
+          "Shock happens when you become part of the circuit and current flows through you — usually hand to hand or hand to foot, straight across the chest and heart. The results range from a jolt to cardiac arrest depending on how much current flows and how long it lasts.",
+          "The defenses against shock are the ones you already know: de-energize and lock out before you work, keep grounding intact, use GFCI protection on temporary power, and keep insulation — gloves, mats, tools — between you and any live part you can't kill."
+        ]
+      },
+      {
+        heading: "Arc flash — an explosion of heat",
+        body: [
+          "An arc flash is a fault where current jumps through the air between conductors. It releases a burst of heat and light that can reach roughly 35,000°F at the arc — several times hotter than the surface of the sun. It happens in a fraction of a second.",
+          "Arc flash burns skin, ignites clothing, and damages eyes, and it can reach you without any direct contact. Common triggers are dropping a tool across bus bars, loose or corroded connections, and racking breakers in and out. This is why work near energized gear calls for arc-rated (AR) clothing and a face shield — regular cotton or synthetics can catch fire and make the burn worse."
+        ]
+      },
+      {
+        heading: "Arc blast — the pressure wave",
+        body: [
+          "The same fault that makes the flash also vaporizes copper and superheats the air, and that expansion creates a pressure wave — the arc blast. It can throw a worker across a room, rupture eardrums, and turn tools and molten metal into shrapnel.",
+          "You can't 'PPE' your way fully out of an arc blast — the real control is not being in front of the equipment when it's energized. That's the point of approach boundaries and of de-energizing whenever you can: distance and dead equipment beat any amount of gear. When energized work truly can't be avoided, it takes trained, qualified workers with the right rated PPE and a plan, not someone reaching in to 'just check something.'"
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/overhead-power-lines-and-safe-approach-distances": {
+    description:
+      "Keeping crews, equipment, and materials clear of overhead lines — the 10-foot rule, how clearance grows with voltage, and what to do when you can't stay clear.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Overhead power lines kill construction workers every year, and the victims usually never touched the line — a crane boom, a ladder, a scaffold, or a length of pipe did it for them. The lines carry enough voltage that current can jump the gap before you even make contact.",
+          "The rule is simple: stay away. Assume every overhead line is energized and deadly until the utility confirms otherwise in writing, and plan the work so nothing — no person, no tool, no machine — gets inside the safe distance."
+        ]
+      },
+      {
+        heading: "How far is far enough",
+        body: [
+          "OSHA sets minimum clearance distances that grow with voltage. For most jobsite exposure to lines you don't control:",
+          {
+            list: [
+              "Lines up to 50 kV — stay at least 10 feet away, in every direction.",
+              "Over 50 kV — add 4 inches of clearance for every 10 kV above 50 kV.",
+              "For cranes and lifting gear near lines up to 50 kV, OSHA requires a 10-foot minimum unless the line is de-energized and grounded or the clearance is increased for higher voltage."
+            ]
+          },
+          "Those distances count the whole reach: a raised dump bed, an extended boom, a swinging load, or a long piece of conduit on your shoulder. Measure the worst case, not where the machine sits parked."
+        ]
+      },
+      {
+        heading: "Planning work near lines",
+        body: [
+          "Before equipment or elevated work goes anywhere near overhead lines, plan it out:",
+          {
+            list: [
+              "Identify the lines and their voltage — call the utility if you don't know it.",
+              "Keep equipment clear, or get the line de-energized, moved, or covered by the utility.",
+              "Post a dedicated spotter whose only job is watching clearance, and mark a boundary with barricades or flags.",
+              "Use non-conductive tag lines to control loads, and lower booms/beds before traveling."
+            ]
+          },
+          "A spotter only works if they have your full attention and a way to stop the operation instantly. If clearance can't be guaranteed, the work doesn't start."
+        ]
+      },
+      {
+        heading: "If contact happens",
+        body: [
+          "If a machine contacts a line, the ground around it can be energized too. The operator should stay put:",
+          {
+            list: [
+              "Stay in the cab if you can — you're safest not becoming the path to ground.",
+              "Try to break contact by moving the equipment clear if it's safe to do so.",
+              "If you must get off because of fire, jump clear with both feet together, don't touch the machine and the ground at once, and shuffle or hop away in small steps."
+            ]
+          },
+          "Everyone else stays back — the ground can be live for a good distance. Keep clear, keep others clear, and don't approach until the utility confirms the line is dead."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/grounding-and-bonding-basics": {
+    description:
+      "What grounding and bonding actually do, why the equipment grounding conductor is your last line of defense, and how a lost ground turns a tool into a killer.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Grounding is the safety net built into every properly wired tool and circuit, and most workers never think about it until it's missing. Its whole job is to carry fault current safely away instead of through you.",
+          "Two words get used together — grounding and bonding — and they're not the same thing. Understanding the difference helps you spot when the protection has been defeated, which on a jobsite happens more often than it should."
+        ]
+      },
+      {
+        heading: "Grounding vs. bonding",
+        body: [
+          "They work as a team, but they do different jobs:",
+          {
+            list: [
+              "Grounding connects the electrical system to the earth, giving fault current a safe path to ground and holding equipment at a safe voltage.",
+              "Bonding ties all the metal parts — tool housings, boxes, conduit, equipment frames — together so they stay at the same voltage and there's no shock between them."
+            ]
+          },
+          "Together they make sure that if a hot wire touches metal it shouldn't, the current races back through the grounding path and trips the breaker — instead of sitting there waiting for someone to touch it."
+        ]
+      },
+      {
+        heading: "The equipment grounding conductor",
+        body: [
+          "That third prong on a plug is the equipment grounding conductor (EGC), and it's your last line of defense. Normally it carries no current — it just sits there. But the instant a fault energizes the metal body of a tool, the EGC gives that current an easy path back to source, popping the breaker and keeping the tool's housing from becoming live in your hand.",
+          "Break that path and the protection is gone with no visible sign. The tool still runs — which is exactly why a lost ground is so dangerous. Common ways it gets defeated:",
+          {
+            list: [
+              "A snapped-off or bent-back ground pin on a plug.",
+              "A 'cheater' adapter that lifts the ground on a three-prong tool.",
+              "A damaged cord with a broken ground wire inside the jacket.",
+              "Ungrounded receptacles or improvised connections."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keeping the ground intact on site",
+        body: [
+          "Grounding only protects you if it's whole, so treat it as something to verify, not assume:",
+          {
+            list: [
+              "Never cut, file, or bend off a ground pin — retire the cord or tool instead.",
+              "Don't use three-to-two adapters to force a grounded plug into an ungrounded outlet.",
+              "Use double-insulated tools (marked with a square-in-a-square) where grounding can't be guaranteed — they're built so a fault can't reach you.",
+              "Pair grounding with GFCI protection on temporary power; grounding and GFCIs cover each other's gaps."
+            ]
+          },
+          "If you can't confirm a tool or circuit is grounded, treat it as unsafe until it's proven otherwise. Grounding under OSHA is covered in 29 CFR 1926.404."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/gfcis-and-the-assured-equipment-grounding-program": {
+    description:
+      "The two options OSHA gives you for protecting temporary power on construction sites — GFCIs and the Assured Equipment Grounding Conductor Program — and how each one works.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Construction runs on temporary power — cords, spider boxes, and portable tools dragged through mud, water, and traffic. That's exactly where grounds fail, so OSHA requires extra protection on top of normal grounding for temporary power on construction sites.",
+          "OSHA gives you two acceptable ways to provide it: GFCI protection, or a written Assured Equipment Grounding Conductor Program (AEGCP). You use one or the other — and on most sites, GFCIs are the simpler, safer choice."
+        ]
+      },
+      {
+        heading: "How a GFCI protects you",
+        body: [
+          "A Ground-Fault Circuit Interrupter watches the current going out and the current coming back. Those should be equal. If some current goes missing — because it found another path, like through a worker to ground — the GFCI sees the imbalance and cuts power fast.",
+          "It trips at a small leakage, on the order of 5 milliamps, and does it in a fraction of a second — quick enough to prevent a fatal shock. Use them right:",
+          {
+            list: [
+              "Protect all 120-volt, single-phase, 15- and 20-amp receptacles used for temporary power.",
+              "Use built-in GFCI receptacles, GFCI breakers, or portable plug-in GFCI units.",
+              "Test them with the TEST and RESET buttons before each use — a GFCI can fail.",
+              "A GFCI stops shock, but it doesn't stop arc flash or fix a bad ground — keep everything else in good shape too."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The Assured Equipment Grounding Conductor Program",
+        body: [
+          "The AEGCP is the other option: instead of GFCIs, you run a strict written program that inspects and tests every cord and grounded tool on a schedule so you know the grounding path is intact. It's more work, and it depends on people actually doing the tests.",
+          "OSHA requires the program to cover, at minimum:",
+          {
+            list: [
+              "A visual inspection of cords and equipment for damage before each day's use.",
+              "Continuity tests of the equipment grounding conductor, plus a test that it's connected to the correct terminals.",
+              "Testing before first use, before returning to service after repair, after any event that could damage it (like being run over), and at least every 3 months.",
+              "A written record and a color-code tape system marking which items passed and when."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Which one, and why it matters",
+        body: [
+          "You must have one or the other on temporary power — not neither. Most contractors choose GFCIs because they protect automatically and don't rely on someone remembering to test every cord on schedule. The AEGCP catches a bad ground, but only if the inspections actually happen.",
+          "Whichever your site uses, the worker's job is the same: use the protection that's provided, test GFCIs before you plug in, check for the current color-code tape if you're on an AEGCP site, and pull anything damaged out of service. This requirement lives in OSHA 29 CFR 1926.404(b)(1)."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/inspecting-cords-plugs-and-portable-power-tools": {
+    description:
+      "A pre-use inspection routine for extension cords, plugs, and portable electric tools — what damage to look for and when to take gear out of service.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Cords and portable tools take the worst beating on any site — dragged over rebar, run over by traffic, left in puddles, and yanked out by the cord. That abuse is exactly why so many shocks come from everyday gear, not high-voltage gear.",
+          "A quick look before you plug in catches most of it. Inspection isn't paperwork — it's the thirty seconds that keeps a damaged cord from putting current through your hands."
+        ]
+      },
+      {
+        heading: "Inspecting cords and plugs",
+        body: [
+          "Before each use, run the cord through your hands and look it over end to end. Take it out of service if you find:",
+          {
+            list: [
+              "Cuts, cracks, fraying, or the inner conductors showing through the jacket.",
+              "A missing or bent ground pin, or a loose, cracked, or burned plug.",
+              "Melting, scorching, or a hot spot — signs of overload or a bad connection.",
+              "Damaged strain relief where the cord meets the plug, or repairs held together with tape.",
+              "Wet connectors, or a cord that's been spliced with electrical tape."
+            ]
+          },
+          "Use the right cord too: jobsite extension cords must be the three-wire grounded type rated for hard or extra-hard service, not the light 'household' cords. Never repair a damaged cord with tape — retire it."
+        ]
+      },
+      {
+        heading: "Inspecting portable power tools",
+        body: [
+          "The tool itself needs the same look before you pick it up:",
+          {
+            list: [
+              "Cracked or broken housing that could expose live parts or let water in.",
+              "A ground pin that's intact — unless the tool is double-insulated (marked with a square inside a square).",
+              "Guards in place, switch working properly, and no smell of burning or overheating.",
+              "No sign the tool's been dunked or rained on."
+            ]
+          },
+          "A double-insulated tool doesn't have or need a ground pin — it's built with two layers of insulation so a fault can't reach you. But if the housing is cracked, that protection is gone; take it out of service."
+        ]
+      },
+      {
+        heading: "Take it out of service — don't work around it",
+        body: [
+          "When gear fails inspection, the rule is simple: tag it, remove it, and report it so no one else grabs it. A damaged tool doesn't get 'used carefully until the end of the shift' — it gets pulled.",
+          "Keep the odds in your favor while you work: don't carry or hoist tools by the cord, don't yank the plug out by the wire, keep cords out of walkways and standing water, and plug into GFCI-protected power. OSHA covers tool and cord condition in 29 CFR 1926.403 and 1926.405."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/lockout-tagout-for-electrical-work": {
+    description:
+      "De-energizing electrical equipment the right way — the lockout/tagout sequence and the live-dead-live test that proves zero energy before you touch anything.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The safest electrical work is done on dead equipment, and lockout/tagout (LOTO) is how you make sure it stays dead while you're in it. It stops a circuit from being switched back on, and it proves the energy is actually gone before you make contact.",
+          "The deadly mistake is assuming. Someone flips a breaker at the panel, walks away, and someone else turns it back on not knowing you're downstream. LOTO takes that decision out of anyone else's hands."
+        ]
+      },
+      {
+        heading: "The lockout/tagout sequence",
+        body: [
+          "The order matters. Work through it every time:",
+          {
+            list: [
+              "Plan — identify every energy source feeding the equipment, including secondary and backfeed sources.",
+              "Shut down the equipment through the normal stop.",
+              "Isolate — open the disconnect or breaker to cut the energy.",
+              "Lock and tag — apply your own lock and a tag naming who, why, and when at the isolation point.",
+              "Release stored energy — capacitors, and stored mechanical or hydraulic energy, can hold a charge after disconnect.",
+              "Verify — test to confirm the circuit is truly dead before you touch it."
+            ]
+          },
+          "Each worker applies their own lock and keeps the only key. If several people are on the job, each one puts their own lock on — the equipment doesn't come alive until the last lock comes off."
+        ]
+      },
+      {
+        heading: "Verify zero energy — the live-dead-live test",
+        body: [
+          "A lock on the disconnect isn't proof the circuit is dead — you might have locked the wrong breaker. The only proof is a test with a meter, done in a way that also proves your meter works. This is the live-dead-live test:",
+          {
+            list: [
+              "Live — test your meter on a known live source and confirm it reads voltage.",
+              "Dead — test the circuit you're about to work on; it should read zero.",
+              "Live — test your meter again on the known live source to confirm it didn't fail between readings."
+            ]
+          },
+          "Skip that middle-and-final check and a dead meter can tell you a live circuit is safe. Treat every conductor as energized until your own test proves otherwise."
+        ]
+      },
+      {
+        heading: "Tags, and getting power back",
+        body: [
+          "A tag is a warning, not a lock — it tells people why the equipment is down and who to talk to, but it doesn't physically stop anyone. Where the disconnect can accept a lock, use a lock; use a tag alone only where locking truly isn't possible, and add other protection.",
+          "Restoring power is its own careful step: confirm the work is done and tools and people are clear, remove your lock and tag yourself (never cut off someone else's), and let people know before you re-energize. OSHA's control-of-energy requirements are in 29 CFR 1910.147, with construction tagging in 1926.417."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/working-on-or-near-energized-parts": {
+    description:
+      "When de-energizing isn't possible — approach boundaries, who counts as qualified, and the controls that keep energized electrical work from becoming a fatality.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The first rule of energized work is don't — de-energize and lock out whenever you can. OSHA expects live parts to be shut off before work, and treats energized work as the exception, not the routine.",
+          "Sometimes it genuinely can't be avoided: de-energizing would create a greater hazard, or it's truly infeasible for the task. When that's the case, energized work is only for qualified workers, with a plan, boundaries, and the right protection — not for someone reaching in to check one thing."
+        ]
+      },
+      {
+        heading: "When energized work is allowed",
+        body: [
+          "Live work is justified only in narrow cases — for example, when shutting down would introduce a bigger hazard (like killing life-support or ventilation) or when the task itself, such as certain testing and troubleshooting, can't be done dead. 'It's faster' and 'it's a hassle to lock out' are never on that list.",
+          "Even when it's justified, the bar is high: a qualified person, an energized-work plan, the correct rated PPE and insulated tools, and — for anything but the simplest tasks — a second person aware of the work. If those aren't in place, the job waits until the equipment can be de-energized."
+        ]
+      },
+      {
+        heading: "Approach boundaries",
+        body: [
+          "Near exposed energized parts, distance is protection, so there are defined boundaries around them (from NFPA 70E, which OSHA references):",
+          {
+            list: [
+              "Limited approach boundary — no unqualified person crosses it without an escort and protection.",
+              "Restricted approach boundary — only qualified workers, using rated insulating PPE, get this close.",
+              "Arc flash boundary — the distance at which arc-flash heat could cause a second-degree burn; arc-rated PPE is required inside it."
+            ]
+          },
+          "The higher the voltage, the bigger these distances. If you're not qualified for the equipment, you stay outside the limited approach boundary — full stop."
+        ]
+      },
+      {
+        heading: "Qualified vs. unqualified, and guarding",
+        body: [
+          "OSHA draws a hard line between qualified and unqualified workers. A qualified person is trained on the specific equipment and its hazards and knows the safe approach distances; an unqualified person is everyone else. Unqualified workers keep well clear of energized parts and never do electrical work on them.",
+          "Where live parts can't be shut off, they get guarded so people can't contact them by accident — enclosures, barriers, covers, and insulation, plus signs and barricades to keep the unqualified out. If a live part is exposed and unguarded, that's a stop-work condition. The requirement to protect workers from contact is in OSHA 29 CFR 1926.416."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/temporary-wiring-and-extension-cords": {
+    description:
+      "Running temporary power safely — the right cords for the job, protecting them from damage, and the makeshift setups OSHA prohibits.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Almost all jobsite power is temporary — cords, spider boxes, and portable panels that move with the work. It carries the same voltage as permanent wiring but takes far more abuse, so it needs its own rules.",
+          "The trouble is that 'temporary' gets treated as 'anything goes.' A cord run through a doorway, a splice wrapped in tape, a panel with no cover — these are the setups that put current where it doesn't belong."
+        ]
+      },
+      {
+        heading: "Use the right cords and equipment",
+        body: [
+          "Temporary power gear has to be built for the environment it's in:",
+          {
+            list: [
+              "Extension cords must be three-wire, grounded, and rated for hard or extra-hard service — not light indoor cords.",
+              "All 120-volt temporary receptacles need GFCI protection (or an AEGCP).",
+              "Cords and connectors used in wet or damp areas must be rated and listed for that use.",
+              "Boxes and panels need covers and no exposed live parts; every conductor gets properly terminated, not just twisted and taped."
+            ]
+          },
+          "Match the cord's amp rating to the load, too. An undersized cord overheats, and a long run drops voltage and can cook a tool's motor."
+        ]
+      },
+      {
+        heading: "Protect cords from damage",
+        body: [
+          "Most temporary-wiring failures come from where and how the cords are run. Keep them out of harm's way:",
+          {
+            list: [
+              "Don't run cords through doorways, windows, or anywhere they get pinched or crushed.",
+              "Keep them out of walkways and traffic lanes, or protect them with cord ramps or covers where they must cross.",
+              "Keep connections up out of standing water and mud.",
+              "Support cords properly — don't hang them by staples, wire, or anything that pierces the jacket.",
+              "Never yank a cord by the wire to unplug it, and don't hoist tools by the cord."
+            ]
+          },
+          "A cord that's been crushed, cut, or spliced comes out of service — no field repairs with tape."
+        ]
+      },
+      {
+        heading: "Setups OSHA prohibits",
+        body: [
+          "Some common shortcuts are flat-out not allowed, because they've all killed people:",
+          {
+            list: [
+              "Splicing or repairing cords with tape instead of proper fittings.",
+              "Using cords with missing ground pins or defeated grounding.",
+              "Overloading circuits by daisy-chaining cords and strips.",
+              "Leaving boxes and panels open with live parts exposed.",
+              "Using indoor-rated cords and connectors outdoors or in wet areas."
+            ]
+          },
+          "If temporary wiring looks improvised or damaged, treat it as a hazard and get it fixed before use. OSHA's temporary wiring and cord rules are in 29 CFR 1926.405."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/electrical-ppe-and-insulated-tools": {
+    description:
+      "The personal protective equipment for electrical work — rubber insulating gloves and their voltage classes, arc-rated clothing, and rated insulated tools.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "PPE is the last layer of electrical protection, not the first. De-energizing, distance, and guarding come first; the gloves and arc-rated gear are what stand between you and injury when a live part can't be avoided.",
+          "Electrical PPE only works if it matches the hazard and it's in good shape. A glove rated for the wrong voltage, or one with a pinhole in it, gives you false confidence — which is worse than none."
+        ]
+      },
+      {
+        heading: "Rubber insulating gloves",
+        body: [
+          "Rubber insulating gloves are the core of shock protection for live work, and they're rated by voltage class. You pick the class for the voltage you're working on:",
+          {
+            list: [
+              "Class 00 — up to 500 volts.",
+              "Class 0 — up to 1,000 volts.",
+              "Class 1 — up to 7,500 volts.",
+              "Class 2 — up to 17,000 volts.",
+              "Class 3 — up to 26,500 volts.",
+              "Class 4 — up to 36,000 volts."
+            ]
+          },
+          "Always wear leather protector gloves over the rubber to guard against cuts and punctures. Before each use, inspect the rubber and air-test it — roll it up to trap air and check for leaks — and honor the periodic test dates. A pinhole makes the rating meaningless."
+        ]
+      },
+      {
+        heading: "Arc-rated clothing and face protection",
+        body: [
+          "Where there's an arc-flash hazard, you need clothing that won't ignite and will slow the heat. Arc-rated (AR) clothing is rated in cal/cm² — its arc thermal performance value (ATPV) — and that rating has to meet or beat the arc-flash energy at the task.",
+          "Round it out for the flash hazard:",
+          {
+            list: [
+              "AR shirt, pants, or coveralls rated for the job — never meltable synthetics like untreated nylon or polyester next to the skin.",
+              "An arc-rated face shield or hood, plus safety glasses under it.",
+              "Hard hat, and hearing protection for higher-energy work.",
+              "Rubber insulating gloves and dielectric footwear as the task requires."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Insulated tools and PPE care",
+        body: [
+          "Working near live parts calls for insulated hand tools — screwdrivers, pliers, and wrenches rated and marked for 1,000 volts, with the insulation molded on and undamaged. A regular tool that touches two conductors, or a conductor and ground, makes an instant fault.",
+          "Keep the whole kit trustworthy: inspect insulated tools for cracks or nicks in the insulation and retire damaged ones, store rubber goods away from heat, sunlight, and chemicals that degrade them, and keep gloves and blankets on their required retest schedule. PPE that's out of test date or damaged doesn't go on the job."
+        ]
+      }
+    ]
+  },
+
+  "electrical-safety/responding-to-an-electrical-incident": {
+    description:
+      "What to do when a co-worker is shocked — why you can't just grab them, how to break the contact safely, and the first aid and reporting that follow.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When someone gets caught by electricity, the instinct is to grab them and pull them off — and that instinct kills would-be rescuers. If they're still in the circuit and you touch them, the current runs through you too.",
+          "The first job at an electrical incident is to make the scene safe before you touch anyone. A few clear steps keep one victim from becoming two."
+        ]
+      },
+      {
+        heading: "Break the contact — safely",
+        body: [
+          "If the person is still in contact with the source, don't touch them until the power is off. In order:",
+          {
+            list: [
+              "Shut off the power at the source — unplug it, trip the breaker, or open the disconnect.",
+              "If you can't kill the power fast, and only then, use a dry, non-conductive object — a dry wood or fiberglass handle — to move the source or the person clear. Never use anything metal or damp, and don't use your bare hands.",
+              "Watch for water and downed lines around the victim, and keep others back.",
+              "For high-voltage or overhead-line contact, stay clear and wait for the utility — a downed line can energize the ground for a wide radius."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "First aid after contact",
+        body: [
+          "Once the victim is clear of the source, get help moving and start care:",
+          {
+            list: [
+              "Call 911 (or site emergency number) immediately — every electrical shock gets medical evaluation.",
+              "Check breathing and pulse; if absent, start CPR and use an AED if one is on site and you're trained.",
+              "Treat electrical burns — cool them and cover with a clean, dry dressing. Look for both an entry and an exit burn.",
+              "Keep the person still and watch for shock; the heart can develop a dangerous rhythm even after they seem fine."
+            ]
+          },
+          "Electrical injuries fool people — the surface burn can look small while the current has done real damage along its path through the body. Anyone who's taken a shock gets checked by a medical professional, even if they wave it off."
+        ]
+      },
+      {
+        heading: "Secure the scene and report",
+        body: [
+          "After the person is cared for, don't let the same hazard catch someone else. Keep the faulty equipment or circuit de-energized and tagged out, and keep people away until it's inspected and fixed.",
+          "Then report it. Every shock and near-miss gets reported so the cause can be found and corrected — a near-miss today is the warning before the fatality tomorrow. Serious injuries carry OSHA reporting duties under 29 CFR 1904 (a fatality within 8 hours; an inpatient hospitalization, amputation, or eye loss within 24 hours)."
+        ]
+      }
+    ]
   }
 };
 

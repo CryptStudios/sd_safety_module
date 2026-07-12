@@ -492,6 +492,7 @@ function buildTopics(categorySlug: string, topicTitles: string[]): TrainingTopic
 const realContentCategories = new Set<string>([
   "confined-space",
   "working-at-heights",
+  "electrical-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -674,13 +675,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Inspecting Equipment and Wiring",
-      "Power Supply and Connection Safety",
-      "Lock-Out Tag-Out Procedures",
-      "PPE for Electrical Work",
-      "Burns and Shock Prevention",
-      "Working Near Energized Lines",
-      "Ground Fault Protection"
+      "Recognizing Electrical Hazards on Site",
+      "Shock, Arc Flash, and Arc Blast",
+      "Overhead Power Lines and Safe Approach Distances",
+      "Grounding and Bonding Basics",
+      "GFCIs and the Assured Equipment Grounding Program",
+      "Inspecting Cords, Plugs, and Portable Power Tools",
+      "Lockout/Tagout for Electrical Work",
+      "Working On or Near Energized Parts",
+      "Temporary Wiring and Extension Cords",
+      "Electrical PPE and Insulated Tools",
+      "Responding to an Electrical Incident"
     ]
   }),
   createCategory({
