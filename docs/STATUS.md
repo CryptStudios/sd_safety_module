@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 8 / 24 categories authored (33%). 6 SME-reviewed ✅; Forklift Safety and Welding & Hot Work pending SME review.**
+**Progress: 9 / 24 categories authored (38%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, and Fire Extinguisher Safety pending SME review.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,15 +11,47 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — recommend Fire Extinguisher Safety (`fire-extinguisher-safety`,
-  OSHA 1910.157; pairs with Fire Safety, which deferred extinguisher *use*/PASS here)
-  or continue the priority list. All 8 authored categories to date are OSHA-based.
+- **Next category:** open — remaining priority-list items include Compressed Gas
+  and Air Tool Safety (`compressed-gas-and-air-tool-safety`, OSHA 1926.302 /
+  1910.101; pairs with the welding cylinder content) or Vehicle and Driver Safety
+  (`vehicle-and-driver-safety`, OSHA 1926 Subpart O). All 9 authored categories
+  to date are OSHA-based.
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
   Handling — see plan). Does not affect the OSHA-based categories authored so far.
 
 ---
 
 ## Completed categories
+
+### ✅ Fire Extinguisher Safety — `fire-extinguisher-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Classes of Fire — A, B, C, D, and K
+  2. Types of Portable Extinguishers and What They Put Out
+  3. Reading the Label — Ratings and Listings
+  4. Size-Up — When to Fight a Fire and When to Get Out
+  5. The PASS Technique
+  6. Selecting and Distributing Extinguishers
+  7. Placement, Mounting, and Access
+  8. The Monthly Visual Inspection
+  9. Annual Maintenance and Recharging
+  10. Hydrostatic Testing Schedules
+  11. Employee Training and the Extinguisher Program
+- **Sources:** OSHA 29 CFR 1910.157 — (c) placement/mounting/access, (d) selection
+  & distribution + travel distances (Class A ≤75 ft, Class B ≤50 ft, Class D ≤75 ft),
+  (e) monthly visual inspection + annual maintenance/recharge, (f) hydrostatic
+  testing intervals (water/foam/wet chem/CO₂ 5 yr; dry chemical/halon/dry powder
+  12 yr), (g) training at hire + annually and the total-evacuation option;
+  NFPA 10 (consensus) — mounting heights (≤40 lb top ≤5 ft; >40 lb top ≤3½ ft),
+  Class K ≤30 ft, ratings (1A ≈ 1¼ gal water; Class B ≈ sq ft). PASS technique.
+- **Scope note:** owns extinguisher **use** (PASS, size-up) that Fire Safety (#14)
+  deferred here. Class K/D/C special hazards woven into classes/types/selection.
+  Emergency action plan cross-refs Fire Safety.
+- **Verified:** tsc clean · `next build` clean (1472 pages, all prerender) · 11
+  exported HTML files in `out/training/fire-extinguisher-safety/` · authored
+  content present (`75 feet`, `50 feet`, `1910.157`, `PASS`, `hydrostatic`,
+  `6 to 8 feet`), placeholder `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Welding and Hot Work — `welding-and-hot-work`
 - **Session:** 2026-07-12
@@ -236,6 +268,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | PPE | 11 | Sixth category. OSHA 1926 Subpart E + 1910 Subpart I. Hazard assessment/hierarchy lead, head/eye/hearing/hand/foot/respiratory, hi-vis, skin & body clothing, harness-as-PPE, inspect/replace. ANSI/ASTM/MUTCD/NFPA 70E consensus standards. **All 6 authored categories SME-reviewed ✅ this date.** |
 | 2026-07-12 | Forklift Safety | 11 | Seventh category. OSHA 1910.178 (Powered Industrial Trucks) + ASME B56.1. Truck types/designations, operator training/eval, daily inspection, stability triangle, capacity/data plate/load center, traveling & ramps, load handling/tiering, pedestrian/struck-by, docks/trailers/rail cars, fuel/battery/LP gas, attachments & removal from service. Blocker doesn't apply (OSHA basis). Progress 7/24 (29%). SME review pending. |
 | 2026-07-12 | Welding and Hot Work | 11 | Eighth category. OSHA 1926 Subpart J (§350–354) + 1910 Subpart Q (§252–254). Hot work permit & when required, 35 ft area prep, fire watch + ≥30 min post-work, oxy-fuel (acetylene ≤15 psig), cylinder storage (20 ft O₂/fuel), regulators/hoses/flashback arrestors, arc welding grounding, fumes (Cr(VI)/Mn/Zn) & ventilation, hot work in confined spaces, coatings/containers (§354), welder PPE & filter shades. Owns hot-work permit + fire-watch detail deferred from Fire Safety. Progress 8/24 (33%). SME review pending. |
+| 2026-07-12 | Fire Extinguisher Safety | 11 | Ninth category. OSHA 1910.157 (c–g) + NFPA 10. Classes A/B/C/D/K, extinguisher types/agents, ratings/labels, size-up (fight vs evacuate), PASS, selection & distribution (75/50/30 ft travel), placement/mounting heights, monthly visual inspection, annual maintenance/recharge, hydrostatic intervals (5/12 yr), training (hire + annual) & total-evacuation option. Owns extinguisher use/PASS deferred from Fire Safety. Progress 9/24 (38%). SME review pending. |
 
 ---
 

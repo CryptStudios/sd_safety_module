@@ -498,6 +498,7 @@ const realContentCategories = new Set<string>([
   "ppe",
   "forklift-safety",
   "welding-and-hot-work",
+  "fire-extinguisher-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1161,11 +1162,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Types of Fire and Matching Extinguisher",
-      "Locating Fire Extinguishers on Site",
-      "How to Use a Fire Extinguisher",
-      "Inspecting Tags and Seals",
-      "Roles During a Fire Emergency"
+      "Classes of Fire — A, B, C, D, and K",
+      "Types of Portable Extinguishers and What They Put Out",
+      "Reading the Label — Ratings and Listings",
+      "Size-Up — When to Fight a Fire and When to Get Out",
+      "The PASS Technique",
+      "Selecting and Distributing Extinguishers",
+      "Placement, Mounting, and Access",
+      "The Monthly Visual Inspection",
+      "Annual Maintenance and Recharging",
+      "Hydrostatic Testing Schedules",
+      "Employee Training and the Extinguisher Program"
     ]
   }),
   createCategory({
