@@ -13560,6 +13560,646 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
     ]
   },
 
+  "heat-and-cold-stress-prevention/heat-stress-how-your-body-overheats": {
+    description:
+      "How your body sheds heat, why it fails on a hot job, and the warning signs that mean you're losing the fight.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Your body runs at about 98.6°F and works hard to stay there. On a hot day, doing heavy work, it dumps heat mostly by sweating and by pushing blood to your skin. When the air is hot and humid, or you're wearing gear that traps heat, that system starts to lose ground and your core temperature climbs.",
+          "Once you can't shed heat as fast as you make it, heat illness sets in. It runs on a scale from a nagging rash up to heat stroke, which kills. Knowing how you overheat is the first step to catching it early.",
+        ],
+      },
+      {
+        heading: "How the body cools itself",
+        body: [
+          "You lose heat four ways: sweating (and the sweat evaporating), radiating heat off your skin, air moving across you, and contact with cooler surfaces. Sweat evaporating is the big one. When humidity is high, sweat can't evaporate, so it just drips and you get almost no cooling out of it.",
+          "Heavy work is a heat source too. The harder you push, the more heat your muscles make. Add sun, hot surfaces, and no breeze, and heat piles up faster than your body can move it out.",
+        ],
+      },
+      {
+        heading: "When the system fails",
+        body: [
+          "Heat builds inside faster than you can shed it, and your core temperature rises. Early on you feel it as thirst, tiredness, and irritability. Push past that and you slide into cramps, then heat exhaustion, then heat stroke.",
+          "The danger is that it creeps up. You're focused on the work, you feel a little off, and you talk yourself into finishing the task. That's how people end up down. Treat early signs as a stop-work signal, not something to power through.",
+        ],
+      },
+      {
+        heading: "Why this is on us to manage",
+        body: [
+          "There's no specific federal OSHA heat standard. OSHA enforces heat hazards under the General Duty Clause, Section 5(a)(1) of the OSH Act, which requires a workplace free of recognized hazards likely to cause death or serious harm. A federal heat rule was proposed but is not final, so the numbers here are OSHA and NIOSH guidance, not a legal exposure limit.",
+          "Guidance or not, the physiology is real. Water, rest, shade, and building up to the heat are what keep crews upright. → see Water, Rest, and Shade and Acclimatization for the specifics.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/recognizing-heat-illness": {
+    description:
+      "The five heat illnesses from mild to deadly — heat rash, cramps, syncope, exhaustion, and stroke — with the signs and first aid for each.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Heat illness isn't one thing. It runs on a scale, and each step has its own signs and its own first aid. Catch it low on the scale and a break in the shade fixes it. Miss it and it climbs to heat stroke, which is a medical emergency.",
+          "Learn all five so you can name what you're looking at on yourself and on your crew.",
+        ],
+      },
+      {
+        heading: "Heat rash and heat cramps",
+        body: [
+          "Heat rash is red clusters of pimples or small blisters, usually on the neck, upper chest, or in skin folds, from sweat that can't evaporate. Get to a cooler, less humid spot and keep the area dry. Don't put ointment on it.",
+          "Heat cramps are muscle pains or spasms, often in the belly, arms, or legs, from losing salt and water in sweat. What to do:",
+          {
+            list: [
+              "Stop the activity and sit in a cool place.",
+              "Drink water, and have a snack or a drink that replaces carbs and electrolytes, like a sports drink, every 15 to 20 minutes.",
+              "Don't go back to hard work for a few hours after the cramps settle — that can lead to heat exhaustion or stroke.",
+              "Get medical help if the cramps don't ease within an hour, or if the worker has heart problems or is on a low-sodium diet.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Heat syncope and heat exhaustion",
+        body: [
+          "Heat syncope is fainting or dizziness, usually from standing too long or getting up fast in the heat, often in people who aren't acclimatized. Sit or lie the person down in a cool place and have them slowly sip water.",
+          "Heat exhaustion is the serious warning shot. Signs are heavy sweating, cold and clammy pale skin, a fast weak pulse, headache, nausea, dizziness, and feeling weak or faint. First aid:",
+          {
+            list: [
+              "Move the worker to a cool, shaded, or air-conditioned area.",
+              "Give cool water or a sports drink, small sips.",
+              "Loosen clothing; put cool wet cloths on the body or have them wash face, neck, and arms with cool water.",
+              "Have them rest. Get medical help if symptoms get worse or last longer than an hour, or if they start vomiting or acting confused — confusion means it may be turning into heat stroke.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Heat stroke — the emergency",
+        body: [
+          "Heat stroke is the top of the scale and it kills. The body can no longer control its temperature and it climbs fast. Signs are confusion, slurred speech, passing out, seizures, and very high body temperature — skin may be hot and dry OR hot and sweaty.",
+          "This is a call-911 emergency. Cool the worker right away while help is coming. → see Heat Stroke — A Medical Emergency for the full response.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/heat-stroke-a-medical-emergency": {
+    description:
+      "Heat stroke can kill or cause permanent damage in minutes — how to spot it and cool the worker fast while 911 is on the way.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Heat stroke is the most serious heat illness. The body's cooling system has failed and core temperature shoots up — it can climb to 106°F or higher within 10 to 15 minutes. A core temperature above 104°F (40°C) is the medical line for heat stroke.",
+          "This is a true emergency. Brain, kidneys, and muscles start taking damage fast, and delay costs lives. Every minute of cooling counts.",
+        ],
+      },
+      {
+        heading: "How to spot it",
+        body: [
+          "The tell is the brain. When someone working in heat starts acting wrong, treat it as heat stroke until proven otherwise. Watch for:",
+          {
+            list: [
+              "Confusion, slurred speech, acting drunk or agitated",
+              "Passing out or not making sense",
+              "Seizures",
+              "Very high body temperature",
+              "Hot skin that may be dry OR may still be sweaty — don't rule out heat stroke just because the person is sweating",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What to do — call 911 and cool now",
+        body: [
+          "Do not wait for the ambulance to start cooling. Aggressive cooling in the first minutes is what saves the person.",
+          {
+            list: [
+              "Call 911 immediately and stay with the worker.",
+              "Move them to a cool or shaded area and strip off outer clothing and gear.",
+              "Cool fast and hard: cold-water or ice immersion if you can, or soak them with cold water and fan them, and put ice packs at the neck, armpits, and groin.",
+              "If they're alert and can swallow, give cool water in small sips. Never give fluids to someone who is confused or not fully awake.",
+              "Stay with them until EMS takes over. Report their condition and how long they've been down.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Why speed matters",
+        body: [
+          "Most on-the-job heat deaths trace back to a delayed response — the worker was left too long before anyone acted, or cooling didn't start until EMS arrived. Once you recognize heat stroke, the clock is running. Getting the body temperature down in those first minutes is the difference between a recovery and a fatality.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/water-rest-and-shade": {
+    description:
+      "OSHA's core heat message — how much to drink and how often, why rest breaks matter, and what real shade looks like.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Water. Rest. Shade. That's OSHA's whole heat campaign in three words, and it's both how you prevent heat illness and how you treat it. Get all three right every hot day and most heat illness never happens.",
+          "The trick is doing it before you feel bad. By the time you're thirsty or worn out, you're already behind.",
+        ],
+      },
+      {
+        heading: "Water — drink before you're thirsty",
+        body: [
+          "Thirst lags behind what your body actually needs, so drink on a schedule, not on thirst. OSHA and NIOSH guidance:",
+          {
+            list: [
+              "Drink about 1 cup (8 ounces) of water every 15 to 20 minutes while working in the heat.",
+              "That works out to roughly ¾ to 1 quart (24–32 ounces) per hour.",
+              "Small, frequent drinks beat chugging a lot at once.",
+              "For jobs longer than 2 hours, add a sports drink to replace electrolytes — don't rely on water alone all day.",
+              "Skip large amounts of caffeine and alcohol; they work against hydration.",
+            ],
+          },
+          "Don't overdo it either. Drinking more than about 48 ounces (1½ quarts) in a single hour, or more than roughly 12 quarts in a day, can drop your blood salt dangerously low. Steady is the goal, not flooding.",
+        ],
+      },
+      {
+        heading: "Rest — breaks that let you recover",
+        body: [
+          "Rest breaks let your body dump heat before it builds up. As the heat and your workload go up, breaks need to get longer and more frequent. The length and timing depend on the environmental heat and how hard you're working — hotter and harder means more rest.",
+          "Take breaks in a genuinely cooler spot, not just a pause standing in the sun. A break in the heat isn't a break.",
+        ],
+      },
+      {
+        heading: "Shade — a real cool-down spot",
+        body: [
+          "Shade means a place that actually lets you cool off: a shaded area, an air-conditioned vehicle or trailer, a nearby building or tent, or an area with fans and misting. The inside of a hot metal box in the sun doesn't count.",
+          "Set the cool-down area up before the shift and make sure the whole crew knows where it is. It doubles as your first-aid spot when someone goes down.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/acclimatization-building-up-to-the-heat": {
+    description:
+      "New and returning workers have to build heat tolerance over days — the Rule of 20% and why the first week is the deadliest.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Your body can adapt to working in heat, but it takes days, not hours. That adjustment is called acclimatization — you sweat sooner, sweat more, and hold onto salt better. Until that happens, you're at high risk even if you're fit.",
+          "This is the single most important thing to get right. Most workers who die of heat aren't the veterans — they're new, returning, or working through the first heat wave of the season.",
+        ],
+      },
+      {
+        heading: "The Rule of 20%",
+        body: [
+          "The simple way to build up new workers is the Rule of 20%:",
+          {
+            list: [
+              "First day: work no more than 20% of the normal duration in the heat.",
+              "Each following day: add no more than about 20% more.",
+              "By the end of the first week, a fit worker with no medical issues is up to a full schedule.",
+              "Some workers need longer — up to 14 days to fully adapt.",
+            ],
+          },
+          "General acclimatization typically takes 7 to 14 days of gradually increasing time in the heat. Don't rush it to make a deadline.",
+        ],
+      },
+      {
+        heading: "Returning workers count too",
+        body: [
+          "Heat tolerance fades fast when you're away from it. A worker who's been off a week or longer — vacation, injury, a stretch of cool weather — loses acclimatization and has to build back up like a new hire, for at least a week.",
+          "Same goes for the first hot spell of the year. Nobody on the crew is acclimatized to a sudden heat wave, so ease everyone in.",
+        ],
+      },
+      {
+        heading: "Why the first days are deadly",
+        body: [
+          "The numbers are blunt: over 70% of heat-related deaths happen during a worker's first week on the job, and almost half happen on the very first day or the first day back after time off. Failing to build up tolerance is the most common thread in fatal cases.",
+          "So watch new and returning workers closest during those first days — shorter shifts, more breaks, and someone keeping an eye on them.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/heat-risk-factors-and-the-heat-index": {
+    description:
+      "What drives heat risk — weather, workload, gear, and personal factors — plus how the heat index and WBGT help you plan.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Not every hot day carries the same risk, and not every worker faces the same danger on the same day. Heat risk comes from the environment, the work, and the person, stacked together.",
+          "Knowing what raises the risk lets you plan the day instead of reacting to a downed worker.",
+        ],
+      },
+      {
+        heading: "What raises the risk",
+        body: [
+          "Environmental and job factors:",
+          {
+            list: [
+              "High air temperature and high humidity (humidity stops sweat from evaporating)",
+              "Direct sun and radiant heat off pavement, metal, and roofing",
+              "Heavy physical exertion",
+              "No breeze or air movement",
+              "Heat sources on site — ovens, engines, hot tar",
+              "Heavy, non-breathable clothing, PPE, or impermeable suits that trap heat and sweat",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Personal factors",
+        body: [
+          "Two workers side by side can be at very different risk. Things that raise personal risk:",
+          {
+            list: [
+              "Not yet acclimatized (new, returning, or first heat wave)",
+              "Age, excess weight, and low physical fitness",
+              "Certain medications and medical conditions (heart, blood pressure)",
+              "Alcohol or drug use",
+              "A previous heat illness — once you've had one, you're more prone to another",
+              "Dehydration going into the shift",
+            ],
+          },
+          "Nobody should be singled out or shamed for this. The point is to know who needs closer watching on a hot day.",
+        ],
+      },
+      {
+        heading: "Reading the heat — heat index and WBGT",
+        body: [
+          "The heat index combines temperature and humidity into a single 'feels like' number, and the free NIOSH/OSHA Heat Safety Tool app will give it to you from your phone with plain risk levels and reminders.",
+          "For a more accurate on-site read, OSHA points to a wet bulb globe temperature (WBGT) meter, which also accounts for sun and wind. Whichever you use, check it against the forecast and step up water, rest, and shade as the number climbs.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/planning-work-in-hot-weather": {
+    description:
+      "Building the hot day around the hazard — scheduling, engineering controls, a buddy system, and a written plan.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The best time to deal with heat is before the shift starts. A little planning — when to do the hard work, where the shade is, who's watching whom — beats scrambling when someone goes down.",
+          "OSHA expects employers to have a heat plan when workers face high heat. Here's what goes into a workable one.",
+        ],
+      },
+      {
+        heading: "Schedule around the heat",
+        body: [
+          "Move work to fit the day, not the other way around:",
+          {
+            list: [
+              "Do the heaviest work in the cooler parts of the day — early morning or, where it works, evening.",
+              "Slow the pace or rotate crews through hot tasks.",
+              "Build in more, longer breaks as the heat climbs.",
+              "Watch National Weather Service heat advisories and warnings and adjust the plan when one's in effect.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Engineering and work controls",
+        body: [
+          "Take the heat out of the job where you can:",
+          {
+            list: [
+              "Provide shade or a cooled break area — trailer, tent, or air-conditioned vehicle.",
+              "Use fans, misting, or air conditioning indoors and shields against radiant heat sources.",
+              "Reduce manual workload where possible, and use cooling gear like cooling vests for hot tasks.",
+              "Keep cool water within easy reach of the whole crew, not a long walk away.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "People, plan, and the buddy system",
+        body: [
+          "A written heat plan should name who's in charge of it each day, how new and returning workers build up, how heat is measured, and the first-aid and 911 steps if someone goes down. That person watches conditions and workers all day and is trained to spot early heat illness and act.",
+          "Pair workers up. In heat, judgment goes before people realize it, so a buddy who's watching you is more reliable than you watching yourself. → see Watching Out for Each Other in Temperature Extremes.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/cold-stress-how-your-body-loses-heat": {
+    description:
+      "How cold, wind, and wet pull heat out of you faster than you make it — and where cold stress starts.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Cold stress is the flip side of heat: your body loses heat faster than it can make it, and your core temperature starts to drop. It doesn't take arctic weather. Wind and wet can bring on cold injuries at temperatures well above freezing.",
+          "When your core cools, the same things that keep you sharp and moving — blood flow to hands and feet, clear thinking — start shutting down. That's when cold turns dangerous.",
+        ],
+      },
+      {
+        heading: "The four ways you lose heat",
+        body: [
+          "Cold pulls heat out of you through several paths at once:",
+          {
+            list: [
+              "Convection — wind stripping the warm layer of air off your skin (this is wind chill).",
+              "Conduction — heat draining into cold surfaces you touch, like metal tools, cold water, or the ground.",
+              "Evaporation — sweat and wet clothing pulling heat as they dry.",
+              "Radiation — heat coming off exposed skin, especially the head, hands, and face.",
+            ],
+          },
+          "Wet is the killer multiplier. Wet clothing loses its insulation, and wet feet lose heat about 25 times faster than dry feet.",
+        ],
+      },
+      {
+        heading: "When your core drops",
+        body: [
+          "Your body defends the core first — heart, lungs, brain. It pulls blood in from the hands and feet, which is why fingers and toes go numb early, and it makes you shiver to generate heat.",
+          "If heat keeps draining, the core temperature falls and you slide toward hypothermia. Normal is about 98.6°F; below 95°F (35°C) is hypothermia and a medical emergency. → see Hypothermia.",
+        ],
+      },
+      {
+        heading: "The cold injuries",
+        body: [
+          "Cold stress shows up as a handful of injuries depending on how cold, how wet, and how long:",
+          {
+            list: [
+              "Hypothermia — whole-body core cooling; the deadly one.",
+              "Frostbite — tissue actually freezing, usually fingers, toes, nose, ears.",
+              "Trench foot — wet, cold feet, even above freezing.",
+              "Chilblains — repeated skin exposure to cold, damaging small blood vessels.",
+            ],
+          },
+          "→ see Hypothermia and Frostbite, Trench Foot, and Chilblains for signs and first aid.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/hypothermia": {
+    description:
+      "The deadliest cold injury — how to spot hypothermia through its stages and warm a worker safely while help is coming.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hypothermia is when your core temperature drops too low — below 95°F (35°C). At that point the cold is affecting your brain, so you can't think clearly or move well, which is exactly why the person often doesn't realize how bad off they are.",
+          "It can happen at temperatures above freezing, especially if you're wet, tired, or windblown. Left alone, it's fatal, so treat it as a medical emergency.",
+        ],
+      },
+      {
+        heading: "Reading the stages",
+        body: [
+          "Hypothermia moves through stages. Catch it early:",
+          {
+            list: [
+              "Early: shivering, fatigue, loss of coordination, confusion and disorientation.",
+              "Late: shivering STOPS, skin goes blue, pupils dilate, pulse and breathing slow, then loss of consciousness.",
+            ],
+          },
+          "When shivering stops in a cold worker, don't relax — that's a bad sign, not a good one. It means the body's running out of the ability to warm itself.",
+        ],
+      },
+      {
+        heading: "First aid — warm gradually",
+        body: [
+          "The goal is to warm the core slowly and get medical help. Do not warm too fast and do not rub the person.",
+          {
+            list: [
+              "Call for medical help and move the worker into a warm room or shelter.",
+              "Take off wet clothing.",
+              "Warm the center of the body first — chest, neck, head, and groin — with an electric blanket, or skin-to-skin contact under loose dry blankets, clothing, or towels.",
+              "If they're alert and can swallow, give warm sweet drinks (no alcohol) to help warm them and raise energy.",
+              "Handle them gently and keep them still. Even someone who seems dead may be revivable — keep warming until EMS arrives.",
+            ],
+          },
+          "If help is more than 30 minutes out, warm sweetened drinks for alert workers and warm packs to the armpits, sides of the chest, and groin can help.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/frostbite-trench-foot-and-chilblains": {
+    description:
+      "The localized cold injuries — freezing tissue, wet-cold feet, and damaged skin vessels — with signs and the right first aid.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Besides hypothermia, cold attacks the parts of you farthest from the core — fingers, toes, ears, nose, feet. These injuries can cripple you even when your core stays warm, and the wrong first aid makes them worse.",
+          "The rule that ties them together: never rub a cold-injured body part, and warm carefully.",
+        ],
+      },
+      {
+        heading: "Frostbite — frozen tissue",
+        body: [
+          "Frostbite is tissue actually freezing. It can cause permanent damage and, in bad cases, cost you the body part. Signs are numbness or tingling, aching or stinging, then skin that goes white or grayish and feels waxy, firm, or hard.",
+          {
+            list: [
+              "Get the worker somewhere warm and get medical help.",
+              "Do NOT rub or massage the area — that tears frozen tissue.",
+              "Do NOT use a heating pad, heat lamp, stove, fireplace, or radiator; the area is numb and burns easily.",
+              "Do NOT thaw a frostbitten part if it could refreeze before you reach help — refreezing does far worse damage. Better to keep it frozen and get to care.",
+              "Don't walk on frostbitten feet unless you have no choice.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Trench foot — wet and cold",
+        body: [
+          "Trench foot, or immersion foot, comes from feet being wet and cold for a long time — and it doesn't need freezing weather. It can happen at temperatures as high as 60°F if the feet stay wet. Wet feet lose heat about 25 times faster than dry, so circulation shuts down and tissue starts to die.",
+          "Signs: reddening skin, numbness, leg cramps, swelling, tingling or pain, blisters, and in bad cases skin turning purple, blue, or gray. First aid: remove boots and wet socks, dry the feet, and keep the worker off their feet. Get medical help.",
+        ],
+      },
+      {
+        heading: "Chilblains",
+        body: [
+          "Chilblains come from repeated exposure of bare skin to cold — anywhere from just above freezing up to about 60°F — which damages the small blood vessels near the skin. The damage can be permanent, and it flares up again with each cold exposure.",
+          "Signs are redness, itching, blistering, inflammation, and sometimes ulcers on exposed skin, often the cheeks and ears. Warm the area gently, don't scratch it, keep it dry, and see a medic if the skin breaks down.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/dressing-for-cold-and-wet-work": {
+    description:
+      "Layering right for cold, wet jobs — the three-layer system, protecting hands, feet, and head, and staying dry.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "In the cold, your clothing is your first line of defense, and getting it right is mostly about layers and staying dry. Sweating into your clothes or getting soaked can leave you colder than no jacket at all.",
+          "The goal: trap warm air, block wind and water, and be able to add or shed layers as your workload changes.",
+        ],
+      },
+      {
+        heading: "The three-layer system",
+        body: [
+          "OSHA recommends at least three layers of loose-fitting clothing — loose because tight clothes cut circulation, and trapped air between loose layers is what insulates.",
+          {
+            list: [
+              "Base layer: a moisture-wicking material that pulls sweat off your skin. Avoid cotton, which soaks up sweat and stays wet.",
+              "Middle layer: insulation like wool or synthetic fleece to hold your heat in.",
+              "Outer layer: a wind- and water-resistant shell to block wind and rain while letting some moisture escape.",
+            ],
+          },
+          "Peel a layer before you get sweaty on hard work, and put it back on when you slow down or break.",
+        ],
+      },
+      {
+        heading: "Hands, feet, and head",
+        body: [
+          "You lose a lot of heat from the extremities, and that's also where frostbite and trench foot hit. Cover them:",
+          {
+            list: [
+              "A knit hat or liner under your hard hat — a lot of heat escapes off an uncovered head.",
+              "Insulated, water-resistant gloves warm enough for the task.",
+              "Insulated, waterproof boots, and keep spare dry socks on hand.",
+              "Something over the face and neck in wind, so exposed skin isn't bare to the cold.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Stay dry",
+        body: [
+          "Wet is what turns cold into an injury. Wet clothing loses most of its insulation, and wet feet lose heat about 25 times faster than dry. Change out of wet gloves, socks, and clothes as soon as you can, and keep dry spares in the warming area.",
+          "If you're working around cold water or slush, waterproof outer gear isn't optional. → see Frostbite, Trench Foot, and Chilblains for what wet-cold does to your feet.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/wind-chill-and-cold-risk-factors": {
+    description:
+      "Why the thermometer lies in the wind, and what stacks the odds toward a cold injury on the job.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The air temperature only tells part of the story in the cold. Wind and wet can make a mild-looking day dangerous, and personal factors decide who goes down first.",
+          "Wind chill is the big one people underestimate — the thermometer says one thing, your body feels another.",
+        ],
+      },
+      {
+        heading: "Wind chill — what your body actually feels",
+        body: [
+          "Wind strips the warm layer of air off your skin, so a windy day feels and acts far colder than the thermometer reads. For example, 40°F air with a 35 mph wind feels like about 28°F — below freezing, from air that's well above it.",
+          "Wind chill is what drives exposed-skin frostbite. Check the wind chill, not just the temperature, when you're deciding how to dress and how long to stay out.",
+        ],
+      },
+      {
+        heading: "What raises cold risk",
+        body: [
+          "Cold injuries get more likely when these stack up:",
+          {
+            list: [
+              "Wet clothing or skin — from rain, snow, sweat, or standing water",
+              "Wind, which multiplies the cold through wind chill",
+              "Contact with cold metal, tools, or cold liquids (fuel, water)",
+              "Exhaustion and long hours — a tired body makes less heat",
+              "Dehydration (you still need fluids in the cold)",
+              "Poor or wet clothing, and no warm break area",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Personal factors",
+        body: [
+          "Some workers feel the cold harder. Higher risk comes with certain health conditions — heart disease, diabetes, high blood pressure — and with poor physical fitness, some medications, and alcohol or drug use. Alcohol especially is a trap: it feels warming but actually speeds heat loss and clouds judgment.",
+          "As with heat, this isn't about singling anyone out. It's about knowing who to keep a closer eye on when it's cold, wet, and windy.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/planning-work-in-cold-weather": {
+    description:
+      "Setting up the cold day to win — warm-up breaks, scheduling, wind shields and heaters, and warm fluids.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Cold work goes better when you plan it. Where's the warm-up shelter, when do we take the hard tasks, how do we block the wind — sort that before the shift and cold injuries mostly don't happen.",
+          "The tools are simple: warm breaks, smart scheduling, blocking wind, and warm fluids.",
+        ],
+      },
+      {
+        heading: "Warm-up breaks and scheduling",
+        body: [
+          "Regular warm-up breaks in a heated space let your core and your hands recover before cold injury sets in — and the colder and windier it is, the more often you need them.",
+          {
+            list: [
+              "Provide a heated break area — a warm trailer, tent, or vehicle.",
+              "Schedule the coldest, most exposed work for the warmer part of the day where you can.",
+              "Take frequent short warm-up breaks in bad conditions rather than one long stint.",
+              "New workers and returning workers ease into cold, physical work too — don't send someone straight into a full day of hard work in the cold.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Engineering and fluids",
+        body: [
+          "Take the bite out of the conditions where you can:",
+          {
+            list: [
+              "Put up wind shields or barriers to cut the wind chill at the work area.",
+              "Use radiant heaters where it's safe to do so.",
+              "Insulate cold metal handles and equipment so bare skin isn't gripping frozen steel.",
+              "Provide warm, sweet, non-alcoholic drinks in the break area — they help keep workers warm and keep energy up.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Watch the forecast and each other",
+        body: [
+          "Check the temperature and the wind chill before and during the shift, and adjust the plan when a cold snap or storm rolls in. Like heat, cold stress hazards fall under OSHA's General Duty Clause — there's no specific cold standard, but the duty to protect workers from a recognized deadly hazard still applies.",
+          "Pair workers up so someone's watching for the early signs. → see Watching Out for Each Other in Temperature Extremes.",
+        ],
+      },
+    ],
+  },
+  "heat-and-cold-stress-prevention/watching-out-for-each-other-in-temperature-extremes": {
+    description:
+      "Why the buddy system beats self-monitoring in heat and cold — both illnesses cloud judgment, so your crew catches it first.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Heat illness and cold stress share a nasty trait: they both mess with your head before you realize anything's wrong. Confusion is a symptom, which means the person in trouble is the worst-placed to judge it. That's why crews watch each other.",
+          "A buddy who notices you acting off can get you help while you still can be helped. Left to yourself, you might talk yourself right into the ground.",
+        ],
+      },
+      {
+        heading: "Set up the buddy system",
+        body: [
+          "In hot or cold extremes, pair workers so nobody's judging their own condition:",
+          {
+            list: [
+              "Assign partners at the start of the shift and keep them in sight of each other.",
+              "Check in on each other by name during breaks — a straight answer tells you their head is clear.",
+              "Make sure at least one person on site is trained to spot heat and cold illness and to act.",
+              "Know before you start where the cool-down or warm-up area is, where the water or warm drinks are, and how to call 911.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What your buddy is watching for",
+        body: [
+          "The early signs are easier to see from the outside than to feel from the inside:",
+          {
+            list: [
+              "In heat: stumbling, slurred speech, confusion, irritability, someone who's stopped sweating or is acting off — any of these can mean heat stroke.",
+              "In cold: heavy shivering, fumbling hands, poor coordination, confusion — or shivering that suddenly stops.",
+              "In both: a worker who goes quiet, gets clumsy, or stops making sense.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Speak up early",
+        body: [
+          "If your buddy looks off, don't wait to be sure — stop them, get them to the cool-down or warm-up area, start first aid, and call 911 if it's heat stroke or hypothermia. Nobody's ever been hurt by a break they turned out not to need.",
+          "And say something about yourself too. Telling your partner 'I'm getting a headache' or 'I can't feel my fingers' isn't weakness — it's how the whole crew makes it home. Report early signs; don't push through them.",
+        ],
+      },
+    ],
+  },
+
 };
 
 export function getAuthoredTopic(

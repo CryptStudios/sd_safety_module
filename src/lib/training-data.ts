@@ -512,6 +512,7 @@ const realContentCategories = new Set<string>([
   "asbestos-awareness",
   "coshh-hazardous-substances",
   "manual-handling",
+  "heat-and-cold-stress-prevention",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1598,16 +1599,20 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Heat Illness Basics",
-      "Hydration and Break Planning",
-      "Shade and Rest Cycles",
-      "Acclimatization",
-      "Recognizing Heat Exhaustion",
-      "Cold Stress Warning Signs",
-      "Hypothermia and Frostbite",
-      "Weather Monitoring",
-      "Clothing Selection for Temperature Extremes",
-      "Emergency Response for Temperature Stress",
+      "Heat Stress — How Your Body Overheats",
+      "Recognizing Heat Illness",
+      "Heat Stroke — A Medical Emergency",
+      "Water, Rest, and Shade",
+      "Acclimatization — Building Up to the Heat",
+      "Heat Risk Factors and the Heat Index",
+      "Planning Work in Hot Weather",
+      "Cold Stress — How Your Body Loses Heat",
+      "Hypothermia",
+      "Frostbite, Trench Foot, and Chilblains",
+      "Dressing for Cold and Wet Work",
+      "Wind Chill and Cold Risk Factors",
+      "Planning Work in Cold Weather",
+      "Watching Out for Each Other in Temperature Extremes",
     ],
   }),
   createCategory({
