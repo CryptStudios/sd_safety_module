@@ -5018,6 +5018,571 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "compressed-gas-and-air-tool-safety/compressed-gas-cylinder-hazards": {
+    description:
+      "A compressed gas cylinder holds a huge amount of stored energy in a thin steel shell — snap the valve off and it becomes an unguided rocket, so every cylinder gets treated as full and dangerous.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The cylinders you see around a site — nitrogen, argon, CO₂, compressed air, and the fuel and oxygen for cutting — hold gas at very high pressure, often a couple thousand psi. That's an enormous amount of stored energy behind a valve and a thin steel wall. OSHA 1910.101 points to the Compressed Gas Association's handling rules, and they all come back to respecting that stored energy.",
+          "The classic failure is a cylinder that falls and snaps its valve off. The escaping gas can drive the cylinder through a block wall like a torpedo. Treat every cylinder as full and pressurized, even the one you think is empty."
+        ]
+      },
+      {
+        heading: "The main hazards",
+        body: [
+          "Cylinders bring several distinct dangers at once:",
+          {
+            list: [
+              "Stored pressure — a broken valve turns the cylinder into a projectile.",
+              "The gas itself — inert gases (nitrogen, argon, CO₂) displace oxygen and can suffocate you in an enclosed space with no warning; fuel gases are flammable; oxygen makes everything burn harder.",
+              "Weight — a full cylinder is heavy and top-heavy, easy to drop on a foot or a hand.",
+              "Heat — a cylinder heated by fire or the sun can over-pressurize and rupture."
+            ]
+          },
+          "The specific gas decides the specific danger, so know what's in the bottle before you handle it."
+        ]
+      },
+      {
+        heading: "Handling habits that keep you safe",
+        body: [
+          "Most cylinder injuries trace back to a few skipped basics:",
+          {
+            list: [
+              "Keep the valve protection cap on whenever the cylinder isn't connected and in use — the cap protects the one vulnerable part.",
+              "Keep cylinders secured and upright so they can't fall.",
+              "Never drop, drag, or roll a cylinder on its side carelessly, and never strike an arc on one.",
+              "Keep cylinders away from heat, sparks, slag, and electrical circuits.",
+              "Only use cylinders labeled for their contents — never rely on color alone, and never use an unmarked cylinder."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Where welding cylinders fit",
+        body: [
+          "Oxygen and fuel-gas cylinders for cutting and welding follow these same rules plus extra ones — the 20-foot oxygen-to-fuel separation, the acetylene pressure limit, flashback protection, and regulator handling. Those specifics are covered under Welding and Hot Work.",
+          "This category covers compressed gas cylinders generally and the air-powered tools that run off them. If you're on a torch, pair this with the welding cylinder topics; the fundamentals here apply either way."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/storing-compressed-gas-cylinders": {
+    description:
+      "Cylinders in storage stay upright, secured, and capped in a ventilated spot — with oxygen and oxidizers kept well away from fuel gases and anything that burns.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "How cylinders are stored decides how safe they are before anyone even picks one up. OSHA 1910.101 follows the Compressed Gas Association's storage practices, and they're mostly common sense applied consistently: keep cylinders upright, secured, capped, cool, ventilated, and with incompatible gases separated.",
+          "A storage area is also a fire and asphyxiation concern, so where and how you stage cylinders matters as much as that you secured them."
+        ]
+      },
+      {
+        heading: "Basic storage rules",
+        body: [
+          "Every cylinder in storage should be:",
+          {
+            list: [
+              "Upright and secured — chained, strapped, or racked so it can't tip or fall.",
+              "Capped — valve protection cap in place on any cylinder not connected for use.",
+              "Valve closed — even on \"empty\" cylinders, to keep contaminants and moisture out.",
+              "In a dry, well-ventilated area, out of walkways, stairwells, and exits.",
+              "Away from heat sources and kept below about 125°F — not against a heater or baking in direct sun.",
+              "Separated into full and empty groups so crews grab the right one and rotate stock."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Separate oxygen and fuel gases",
+        body: [
+          "Oxidizers and flammables don't get stored together. Oxygen cylinders in storage are kept away from fuel-gas cylinders and combustible materials — especially oil and grease — by at least 20 feet, or separated by a noncombustible barrier at least 5 feet high with a half-hour fire rating.",
+          "The reason is simple: an oxygen leak next to a fuel leak, or next to something that burns, is a fire waiting for an ignition source. Keep flammable gases away from oxidizers, and keep both away from ignition sources and corrosives."
+        ]
+      },
+      {
+        heading: "Ventilation and asphyxiation risk",
+        body: [
+          "Store cylinders where any leak can disperse. Inert gases like nitrogen, argon, and CO₂ have no smell and no color — a leak in a closed room quietly pushes the oxygen out, and someone walking in can pass out before they realize anything's wrong.",
+          "That's why ventilation isn't optional for a cylinder store, and why you never stage cylinders in a confined or unventilated space. If you suspect a leak, ventilate the area, keep people out, and shut the valve if you can reach it safely."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/moving-and-transporting-cylinders": {
+    description:
+      "Most cylinder injuries happen while moving them — so caps go on, regulators come off, valves close, and the cylinder rides a proper cart chained in place, never dragged or lifted by the cap.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Cylinders get damaged and people get hurt more often during moving than during the actual work. A cylinder tipping off a cart, rolling onto a hand, or having its valve knocked in transit is the common story. Moving them the slow, boring, correct way prevents almost all of it.",
+          "The rule of thumb: before a cylinder travels any distance, make it safe to travel — cap on, regulator off, valve closed."
+        ]
+      },
+      {
+        heading: "Before you move it",
+        body: [
+          "Prep the cylinder so nothing can go wrong in transit:",
+          {
+            list: [
+              "Close the cylinder valve.",
+              "Release the pressure from and remove the regulator.",
+              "Put the valve protection cap back on — it protects the valve if the cylinder falls.",
+              "Confirm it's the cylinder you mean to move and that it's labeled."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Moving it safely",
+        body: [
+          "Use the right equipment and never take shortcuts:",
+          {
+            list: [
+              "Move cylinders on a hand truck or cart designed for them, with the cylinder chained or strapped in place.",
+              "Never lift a cylinder by the valve or the cap, and never use them as a handle.",
+              "Don't drag, slide, or roll cylinders on their side; if you must reposition a capped cylinder short distances, tilt and roll it on its bottom edge under control.",
+              "Never carry a cylinder on your shoulder or drop it off a truck bed.",
+              "Keep cylinders clear of vehicle traffic and falling-object zones while staged."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Lifting and vehicle transport",
+        body: [
+          "When cylinders have to be lifted or hauled, do it with proper equipment:",
+          {
+            list: [
+              "Lift with a cradle, platform, or rack made for cylinders — never with a magnet or by a sling choked around the body.",
+              "Secure cylinders upright in the vehicle so they can't roll or fall, valves closed and capped.",
+              "Keep the load ventilated — don't transport cylinders in a sealed cab or trunk where a leak can build up.",
+              "Follow DOT requirements for transporting cylinders on public roads."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/cylinder-valves-regulators-and-connections": {
+    description:
+      "The valve, regulator, and fittings are where leaks start — so you crack the valve to clear it, open it slowly standing to the side, check for leaks with soapy water, and never force a mismatched connection.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The business end of a cylinder is the valve, the regulator that steps the pressure down, and the fittings that connect it all to your equipment. It's where leaks, blowouts, and wrong-gas mix-ups happen. A few careful habits at connection time prevent most of them.",
+          "Connections are deliberately designed so you can't easily hook the wrong gas to the wrong equipment — but only if you don't force or adapt them."
+        ]
+      },
+      {
+        heading: "Opening a cylinder valve",
+        body: [
+          "How you open the valve matters:",
+          {
+            list: [
+              "Before attaching the regulator, crack the valve slightly to blow dirt out of the outlet, pointing it away from people and ignition sources.",
+              "Stand to the side of the regulator when opening the valve — never in front of or behind the gauge face, in case it blows out.",
+              "Open the valve slowly so the regulator doesn't get a sudden high-pressure surge.",
+              "Open it all the way for valves designed to back-seat, or as the gas requires — and only use the valve wheel or the proper wrench, never a pipe or cheater bar."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Regulators and connections",
+        body: [
+          "Regulators are precision equipment and the fittings are safety features:",
+          {
+            list: [
+              "Match the regulator to the gas and pressure — CGA connections differ by gas on purpose, so never file, adapt, or force a fitting to make it fit.",
+              "Keep regulators, valves, and fittings clean and free of oil and grease — oil plus oxygen equals fire.",
+              "Back the regulator's adjusting screw out before opening the cylinder valve, then set the working pressure.",
+              "Use the right thread and don't overtighten to the point of galling; replace a regulator that creeps or won't hold pressure."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Leak checks and shutdown",
+        body: [
+          "Never hunt for a leak with a flame. Check connections with soapy water or an approved leak-detector solution — bubbles show you the leak. If you smell fuel gas or hear a hiss, shut the valve and fix the connection before going on.",
+          "When you're done, close the cylinder valve first, then bleed the pressure from the lines and back the regulator screw out so nothing stays under load. A system left pressurized and unattended is how slow leaks and blowouts find their moment. Oxy-fuel torch specifics are covered under Welding and Hot Work."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/compressed-air-hazards-and-the-30-psi-cleaning-limit": {
+    description:
+      "Compressed air can inject through skin and kill — never blow it at yourself or others, and never use it to clean unless it's dropped below 30 psi with chip guarding and eye protection.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Compressed air seems harmless because it's \"just air,\" and that's exactly why it hurts people. The same line that runs your tools can drive dirt, metal, and air itself into and through skin, into eyes, and into the bloodstream. OSHA 1926.302(b) and 1910.242(b) set hard limits on how it's used.",
+          "Two rules carry most of the safety here: never point compressed air at yourself or anyone else, and never use it for cleaning unless the pressure is reduced below 30 psi with the right guarding and PPE."
+        ]
+      },
+      {
+        heading: "Injection and blow-off injuries",
+        body: [
+          "Compressed air can cause injuries that look minor and turn deadly:",
+          {
+            list: [
+              "Air forced against or into the skin can enter the bloodstream and cause an air embolism — a potentially fatal bubble in the circulation.",
+              "A blast into the ear can rupture the eardrum; into the eye can rupture the globe; into the mouth can injure the lungs or intestines.",
+              "Blowing dust and chips off clothing or skin drives particles into eyes and flesh.",
+              "It only takes a low pressure to do serious harm — this is not an exaggeration of the risk."
+            ]
+          },
+          "Never use compressed air to blow off your clothes, your skin, or your hair, and never aim it as a joke."
+        ]
+      },
+      {
+        heading: "The 30 psi cleaning rule",
+        body: [
+          "When compressed air is used for cleaning surfaces or equipment, OSHA requires that it be reduced to less than 30 psi — and even then, only with effective chip guarding and personal protective equipment.",
+          "The 30 psi limit is measured at the nozzle when the outlet is dead-ended (blocked) — special safety nozzles are built to bleed off pressure so a blocked tip can't build back up to a dangerous level. Chip guarding (a guard or the nozzle design) keeps blown debris from flying back, and eye and face protection is required for the person doing it and anyone nearby."
+        ]
+      },
+      {
+        heading: "Safer cleaning practices",
+        body: [
+          "Compressed air is often the wrong tool for cleaning in the first place:",
+          {
+            list: [
+              "Use a vacuum, brush, or sweep instead of blowing debris around whenever you can.",
+              "If you must use air, use a regulated safety nozzle rated to stay under 30 psi dead-ended.",
+              "Wear eye and face protection, and clear the area of other workers first.",
+              "Never substitute compressed air for cleaning dust off yourself."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/pneumatic-tool-safety-basics": {
+    description:
+      "Air tools fire attachments and kick hard, so the tool gets clipped to the hose so it can't fly loose, percussion tools get retainers, and you never carry a tool by the hose or point it at anyone.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Pneumatic tools — chippers, drills, impact wrenches, riveters, grinders, and the rest — run on the stored energy of compressed air. That energy makes them powerful and makes them dangerous in specific ways: attachments can be ejected, tools can disconnect and whip, and the tool can kick or drive into you. OSHA 1926.302(b) sets the requirements.",
+          "The tool, the connection, and the attachment all need to be secured so nothing becomes a projectile."
+        ]
+      },
+      {
+        heading: "Positive connections and retainers",
+        body: [
+          "Two OSHA requirements prevent the two worst failures:",
+          {
+            list: [
+              "Pneumatic tools must be secured to the hose or whip by a positive means — a pin, clip, or lanyard — so the tool can't accidentally disconnect and fly off under pressure.",
+              "Impact (percussion) tools — chipping hammers, riveters — must have safety clips or retainers installed and maintained so the chisel, die, or bit can't be expelled from the barrel.",
+              "Check both before you pull the trigger; a missing retainer turns the attachment into a spear."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Handling air tools safely",
+        body: [
+          "The daily habits that keep air tools from hurting you:",
+          {
+            list: [
+              "Never carry a tool by its hose, and never yank the hose to move or disconnect the tool.",
+              "Point the tool at the work, never at yourself or anyone else, and keep your hands clear of the business end.",
+              "Bleed the pressure and disconnect the tool before changing bits, clearing a jam, or setting it down for a while.",
+              "Keep a firm grip and brace for the tool's kick and torque — impact and rotary tools can twist your wrist or pull you off balance.",
+              "Don't exceed the tool's rated air pressure."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "PPE and surroundings",
+        body: [
+          "Air tools throw debris and make noise. Eye and face protection is required against flying chips and particles, and hearing protection is usually needed — chippers, grinders, and impact tools are loud enough to damage hearing over a shift.",
+          "Watch your footing and your hose routing, mind other workers in the line of fire, and keep the work secured so it can't move under the tool. Nail guns, grinders, and hoses each have their own specifics covered in the topics that follow."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/air-hoses-couplings-and-whip-checks": {
+    description:
+      "A charged air hose that breaks loose whips with enough force to break bones — so hoses are rated for the pressure, kept out of traffic, and fitted with whip checks so a failed coupling can't turn the hose into a weapon.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The hose is the part of an air system that's underfoot, run over, dragged, and forgotten — and it's under pressure the whole time. A hose or coupling that lets go doesn't just leak; it whips violently and blasts air and debris. OSHA 1926.302(b) requires hoses and connections built for the pressure and service they see.",
+          "Two things keep hoses from hurting people: keeping them in good condition and out of harm's way, and fitting safety devices so a failure can't turn into a whipping hose."
+        ]
+      },
+      {
+        heading: "Whip checks and safety devices",
+        body: [
+          "A charged hose that breaks free at a coupling snaps back and forth with real force — enough to break a jaw or an arm. Guard against it:",
+          {
+            list: [
+              "Install whip checks (safety cables) across every hose-to-hose and hose-to-tool coupling, so if the coupling fails the hose can't fly.",
+              "Use excess-flow or safety devices at the air supply that cut or reduce flow if a hose downstream ruptures.",
+              "Make sure couplings are the right type, fully engaged, and locked — not just push-fit and hoping.",
+              "Depressurize before you connect or disconnect, so a coupling never lets go under full pressure in your hands."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Hose condition and routing",
+        body: [
+          "Most hose failures are visible before they happen if you look:",
+          {
+            list: [
+              "Inspect hoses for cuts, cracks, soft spots, bulges, worn covers, and damaged fittings, and take bad hose out of service.",
+              "Match the hose to the pressure and service — don't run a light hose at high pressure.",
+              "Keep hoses out of walkways, off sharp edges and hot surfaces, and clear of traffic that can crush or cut them.",
+              "Don't kink a hose to stop flow, and don't use tape to patch a leak — replace the section."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Trip hazards and housekeeping",
+        body: [
+          "Air hoses snaking across a work area are one of the most common trip hazards on any site. Route them overhead or along walls where you can, cover or ramp them where they cross a walkway, and reel them back in when the job's done.",
+          "A hose left charged and coiled on the floor is both a trip hazard and a stored-energy hazard. Bleed it down and put it away — deliberate shutdown is part of the job, not an afterthought."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/nail-guns-and-pneumatic-fasteners": {
+    description:
+      "Pneumatic nailers fire fasteners fast enough to bury them in a stud — or a hand — so the trigger type, the muzzle safety, and keeping your hand out of the firing line are what keep nails in the wood.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Pneumatic nailers and staplers are among the most common — and most injuring — air tools on a site. They drive fasteners with enough force to sink a nail through framing, which is exactly the force that sends one through a hand, a foot, or into a bystander. OSHA 1926.302(b) and the NIOSH/OSHA nail gun guidance cover them.",
+          "Most nail gun injuries come from unintended firing and double-fires — and both are strongly affected by the trigger type."
+        ]
+      },
+      {
+        heading: "Trigger types and the muzzle safety",
+        body: [
+          "Not all triggers are equally safe:",
+          {
+            list: [
+              "Full sequential trigger — you must press the nose against the work first, then pull the trigger; each nail needs a fresh trigger pull. This is the safest and prevents double-fires.",
+              "Contact (bump) trigger — holding the trigger down lets the gun fire every time the nose bumps a surface, which is fast but causes double-fires and unintended shots.",
+              "OSHA requires a safety device on the muzzle of automatic-feed nailers operating over 100 psi at the tool, so the tool won't eject a fastener unless the muzzle is pressed against the work surface.",
+              "Use the full sequential trigger for placement work and anywhere near hands, ladders, or tight spots."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Safe firing habits",
+        body: [
+          "How you hold and fire the gun keeps fasteners in the wood:",
+          {
+            list: [
+              "Keep your free hand well away from the firing line — never within reach of where the nail comes out.",
+              "Never bypass, wire down, or remove the muzzle safety or trigger safety.",
+              "Don't rest a finger on the trigger while carrying the gun, and never carry it with the trigger squeezed.",
+              "Don't fire toward yourself, other workers, or through material where a nail can pass and exit the far side.",
+              "Shoot into solid backing — nails can blow through knots, edges, and thin stock and become projectiles."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Jams, disconnects, and PPE",
+        body: [
+          "Clearing and handling a nailer safely:",
+          {
+            list: [
+              "Disconnect the air before clearing a jam, loading, adjusting depth, or handing the tool off — a jam-clearing that fires a nail is a classic injury.",
+              "Treat every gun as loaded and pressurized until you've disconnected it.",
+              "Wear eye protection and hearing protection — misfires and ricochets go for the eyes.",
+              "Report a gun that double-fires or fires without the muzzle pressed, and take it out of service until it's fixed."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/pneumatic-grinders-and-abrasive-wheels": {
+    description:
+      "An abrasive wheel spun past its rated speed or run without a guard can shatter and throw fragments like shrapnel — so wheels get ring-tested, guarded, speed-matched, and their work rests set within 1/8 inch.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Air-powered grinders spin abrasive wheels at high speed, and a wheel that fails doesn't just crack — it bursts, throwing pieces at bullet speed. OSHA 1926.303 sets the rules for abrasive wheels and tools, and they're all about keeping the wheel intact and containing it if it isn't.",
+          "The two big killers are running a wheel faster than it's rated and running it without a guard. Both are avoidable every single time."
+        ]
+      },
+      {
+        heading: "Wheel speed and the ring test",
+        body: [
+          "The wheel has to be right for the tool and undamaged:",
+          {
+            list: [
+              "Never exceed the maximum operating speed (RPM) marked on the wheel — and confirm the grinder's speed doesn't exceed it. An air grinder can overspeed if the pressure is too high or the governor fails.",
+              "Match the wheel to the tool and the job — the right diameter, arbor size, and type for the material.",
+              "Ring-test a bonded wheel before mounting: tap it gently and listen for a clear ring; a dull thud means a cracked wheel — discard it.",
+              "Inspect wheels for cracks, chips, and damage, and don't use one that's been dropped."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Guards and rests",
+        body: [
+          "Guarding is what stands between you and a burst wheel:",
+          {
+            list: [
+              "Keep the wheel guard in place — it's designed to contain fragments and deflect them away from the operator. Never remove it.",
+              "On bench and pedestal grinders, set the work rest to within 1/8 inch of the wheel so work can't jam between the rest and the wheel.",
+              "Set the tongue guard (spark deflector) to within 1/4 inch of the wheel.",
+              "Mount wheels with the correct blotters and flanges, and don't overtighten."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Operating safely",
+        body: [
+          "Running the grinder without becoming the target:",
+          {
+            list: [
+              "Stand to the side of the wheel's plane when starting up, and let a new wheel run up to speed briefly before use.",
+              "Grind on the face of the wheel as designed — don't grind on the side of a wheel not made for it.",
+              "Don't jam the work into the wheel or overload it; let the wheel do the work.",
+              "Wear a face shield over safety glasses, plus hearing protection — grinding throws sparks and metal and is loud."
+            ]
+          },
+          "Bench-mounted grinding also comes up under hand and power tool safety; here the focus is the pneumatic tool and the wheel."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/air-compressors-and-receivers": {
+    description:
+      "The compressor and its air receiver are pressure vessels storing serious energy — they need working safety relief valves, correct pressure limits, and regular draining so they can't over-pressurize or hide a failing tank.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The compressor and the air receiver (the storage tank) are the source of everything downstream — and they're pressure vessels holding a lot of stored energy. A receiver that over-pressurizes or corrodes through can rupture with explosive force. The safety devices on them exist for exactly that reason.",
+          "You don't have to be the mechanic to work safely around a compressor, but you should know what keeps it safe and what a problem looks like."
+        ]
+      },
+      {
+        heading: "Pressure protection",
+        body: [
+          "The receiver's defenses against over-pressure:",
+          {
+            list: [
+              "A safety relief valve set at or below the maximum working pressure, so the tank vents before it can over-pressurize — never plug, adjust, or paint over it.",
+              "A working pressure gauge showing tank pressure.",
+              "Operating within the receiver's rated (ASME) working pressure — don't override the pressure switch to push more.",
+              "Test the relief valve periodically per the manufacturer to confirm it lifts freely."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Moisture, drains, and corrosion",
+        body: [
+          "Compressed air carries water that collects in the tank:",
+          {
+            list: [
+              "Drain the receiver regularly — daily on many units — so water doesn't accumulate and corrode the tank from the inside.",
+              "Internal corrosion is the hidden killer of receivers; a tank that looks fine outside can be thinning from within.",
+              "Keep the tank on its schedule of inspection, and take a receiver with dents, heavy rust, or a weeping seam out of service.",
+              "Drain moisture from lines and filters too, so it doesn't reach the tools."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Around the compressor",
+        body: [
+          "Working safely near a running compressor:",
+          {
+            list: [
+              "Keep guards over belts, pulleys, and couplings in place — rotating parts catch gloves and sleeves.",
+              "Give an engine-driven compressor ventilation for its exhaust; carbon monoxide indoors is deadly.",
+              "Watch the noise — compressors are loud enough to need hearing protection nearby.",
+              "Relieve system pressure before servicing the compressor, receiver, or the lines coming off it."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/inspecting-and-maintaining-air-tools-and-hoses": {
+    description:
+      "A quick pre-use check of the tool, the hose, the couplings, and the safety devices catches the failures before they happen — and depressurizing before any service keeps the stored energy from biting you.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Air systems fail at predictable places — worn hoses, loose couplings, missing retainers, tired safety devices. Almost all of it shows up in a quick look before use. A minute of inspection at the start of the job is what keeps a hose from bursting or an attachment from flying loose mid-task.",
+          "And the golden rule for any maintenance on an air system: relieve the pressure first. Stored air doesn't care that the tool is \"off.\""
+        ]
+      },
+      {
+        heading: "Pre-use inspection",
+        body: [
+          "Before you connect and run an air tool, check:",
+          {
+            list: [
+              "The hose — no cuts, cracks, bulges, or soft spots; fittings tight and undamaged.",
+              "The couplings — right type, fully engaged, and whip checks in place.",
+              "The tool's positive connection to the hose and, on percussion tools, the safety clip or retainer.",
+              "The trigger and any muzzle or safety device — working and not bypassed.",
+              "The tool itself — no cracks or damage, guards in place on grinders, correct attachment fitted."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Depressurize before service",
+        body: [
+          "Servicing an air system safely comes down to killing the stored energy first:",
+          {
+            list: [
+              "Shut off the air and bleed the line before disconnecting, changing bits or wheels, clearing jams, or opening the tool.",
+              "Disconnect the tool from the air before you work on it — don't rely on the trigger being off.",
+              "Drain the receiver and relieve system pressure before working on the compressor or fixed lines.",
+              "Never look into or reach into a tool that's still connected to air."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Maintenance and taking tools out of service",
+        body: [
+          "Keep the tools running right and pull the ones that aren't:",
+          {
+            list: [
+              "Lubricate and maintain air tools per the manufacturer so they run at the intended speed and force.",
+              "Tag and remove from service any tool that leaks, runs rough, overspeeds, double-fires, or has a defeated safety.",
+              "Replace damaged hoses and worn couplings rather than patching them.",
+              "Report defects rather than working around them — a worked-around defect is the next incident."
+            ]
+          }
+        ]
+      }
+    ]
   }
 };
 
