@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 22 / 24 categories authored (92%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), and Manual Handling pending SME review.**
+**Progress: 23 / 24 categories authored (96%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), Manual Handling, and Heat & Cold Stress Prevention pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,10 +19,10 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — 2 remaining, both OSHA/NIOSH/EPA-based: Heat & Cold
-  Stress (`heat-and-cold-stress-prevention`, OSHA heat illness / NIOSH) and
-  Environmental Controls & Spill Response (`environmental-controls-and-spill-response`,
-  EPA SPCC / HAZWOPER 1910.120). COSHH/HazCom and Manual Handling authored 2026-07-13.
+- **Next category:** open — 1 remaining: Environmental Controls & Spill Response
+  (`environmental-controls-and-spill-response`, EPA SPCC 40 CFR 112 / NPDES CGP /
+  OSHA HAZWOPER 1910.120). COSHH/HazCom, Manual Handling, and Heat & Cold Stress
+  authored 2026-07-13.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -31,6 +31,63 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Heat and Cold Stress Prevention — `heat-and-cold-stress-prevention`
+- **Session:** 2026-07-13
+- **Topics authored:** 14 (real toolbox-talk list covering BOTH heat and cold,
+  flexed above the 11 floor — OSHA heat-illness guidance + OSHA/NIOSH cold-stress
+  guidance support it; synthetic expansion disabled)
+  1. Heat Stress — How Your Body Overheats
+  2. Recognizing Heat Illness
+  3. Heat Stroke — A Medical Emergency
+  4. Water, Rest, and Shade
+  5. Acclimatization — Building Up to the Heat
+  6. Heat Risk Factors and the Heat Index
+  7. Planning Work in Hot Weather
+  8. Cold Stress — How Your Body Loses Heat
+  9. Hypothermia
+  10. Frostbite, Trench Foot, and Chilblains
+  11. Dressing for Cold and Wet Work
+  12. Wind Chill and Cold Risk Factors
+  13. Planning Work in Cold Weather
+  14. Watching Out for Each Other in Temperature Extremes
+- **Legal-basis note:** OSHA has **no specific heat or cold standard** — both are
+  enforced under the **General Duty Clause (OSH Act §5(a)(1))**. A federal heat rule
+  was proposed (NPRM) but is **not final**. All thresholds are **OSHA/NIOSH
+  guidance**, not regulatory PELs — stated as such in-copy.
+- **Sources:** **OSHA heat-illness prevention** (osha.gov/heat) — Water·Rest·Shade
+  core message; hydration **~1 cup (8 oz) every 15–20 min ≈ ¾–1 qt/hr**, cap
+  **~48 oz/hr / ~12 qt/day**; **Rule of 20%** acclimatization (full schedule by end
+  of week 1; **7–14 days** to adapt; returning workers re-acclimatize); **>70% of
+  heat deaths in first week, ~half on first day/first day back**; heat index +
+  **NIOSH/OSHA Heat Safety Tool** app + **WBGT**. **NIOSH heat-related illnesses**
+  (cdc.gov/niosh) — rash, cramps, syncope, exhaustion, and **stroke** (medical
+  emergency, **104°F/40°C** line, can hit **106°F+ in 10–15 min**, hot skin dry-or-
+  wet, **call 911 + cool immediately** via cold-water/ice immersion). **OSHA Cold
+  Stress Guide** (osha.gov) + NIOSH — hypothermia (**core <95°F/35°C**, warm center
+  first, don't rub, warm sweet drinks, help if >30 min away); frostbite (white/waxy
+  skin, don't rub, don't thaw if refreeze possible, no direct heat); trench foot
+  (wet-cold up to **60°F**, feet lose heat **~25× faster** wet); chilblains
+  (freezing–60°F); **wind chill 40°F + 35 mph ≈ 28°F**; **≥3 loose layers**
+  (wicking base / insulating mid / wind-water outer).
+- **Scope note:** owns temperature-extreme illness — heat physiology, the five heat
+  illnesses + heat-stroke emergency, water/rest/shade, acclimatization, heat risk
+  factors/index, hot-weather planning; and cold physiology, hypothermia, frostbite/
+  trench foot/chilblains, cold-weather dress, wind chill/cold risk, cold-weather
+  planning, and the buddy system across both. Clinical first-aid depth → First Aid;
+  hi-vis/PPE selection → PPE — cross-ref'd.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build` clean
+  (all pages prerender) · 14 exported HTML files in
+  `out/training/heat-and-cold-stress-prevention/` · authored content present
+  (`104`, `Rule of 20`, `General Duty Clause`, `hypothermia`, `trench foot`,
+  `wind chill`), placeholder `plain site language` gone (0 files).
+- **SME review:** ⏳ pending — **elevated priority: contains clinical emergency
+  first-aid guidance.** Facts grounded against osha.gov + cdc.gov/niosh via research
+  subagent — Water·Rest·Shade quantities, Rule of 20% / 7–14 day acclimatization,
+  first-week fatality statistics, heat-stroke temperature lines, hypothermia/
+  frostbite/trench-foot thresholds, and wind-chill example confirmed against OSHA/
+  NIOSH guidance; all flagged as guidance, not PELs. CPR/cooling protocols should be
+  confirmed against current AHA/Red Cross guidance at SME review.
 
 ### ✅ Manual Handling — `manual-handling`
 - **Session:** 2026-07-13
@@ -943,7 +1000,7 @@ Update this file at the end of every session (`/end-session`).
 
 | Date | Category | Topics done | Notes |
 |------|----------|-------------|-------|
-| 2026-07-13 | Manual Handling | 12 | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
+| 2026-07-13 | Heat & Cold Stress Prevention | 14 | Twenty-third category (96%). OSHA heat-illness + OSHA/NIOSH cold-stress **guidance** (no specific heat/cold standard — General Duty Clause §5(a)(1) basis; federal heat rule proposed, not final). Heat: overheating physiology, the five heat illnesses (rash/cramps/syncope/exhaustion/stroke), heat-stroke emergency (104°F/40°C, 106°F+ in 10-15 min, call 911 + cold-water/ice immersion), Water·Rest·Shade (1 cup/15-20 min ≈ ¾-1 qt/hr, cap 48 oz/hr & 12 qt/day), acclimatization (Rule of 20%, 7-14 days, >70% deaths first week / ~half first day), risk factors + heat index/WBGT + NIOSH-OSHA Heat app, hot-weather planning. Cold: heat-loss physiology, hypothermia (core <95°F/35°C, warm center first, don't rub, shivering-stops = bad), frostbite/trench foot (60°F, 25× faster wet)/chilblains, three-layer dress, wind chill (40°F+35mph≈28°F) + cold risk factors, cold-weather planning, and a shared buddy-system talk (both illnesses cloud judgment). Flexed to 14. Facts grounded vs osha.gov + cdc.gov/niosh via research subagent; all figures = OSHA/NIOSH guidance not PELs. Replaced 10-topic placeholder. First Aid + PPE cross-ref'd. Build all pages prerender. SME review pending (elevated — clinical emergency content). | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
