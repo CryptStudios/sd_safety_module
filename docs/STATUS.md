@@ -3,15 +3,14 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 24 / 24 categories authored (100%) 🎉 — authoring rollout COMPLETE.
-6 SME-reviewed ✅; the other 18 (Forklift Safety, Welding & Hot Work, Fire
-Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety,
-Rigging & Material Handling Equipment, Construction Safety, Demolition Safety,
-Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident
-Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), Manual
-Handling, Heat & Cold Stress Prevention, and Environmental Controls & Spill
-Response) pending SME review. 312 authored topics total across the 24 categories;
-synthetic 11× expansion fully disabled.**
+**Progress: 24 / 24 categories authored (100%) · 24 / 24 SME-reviewed ✅ (100%) 🎉
+— content rollout COMPLETE. The 6 categories reviewed 2026-07-12 plus the
+remaining 18 signed off by the SME on 2026-07-13. 312 authored topics total across
+the 24 categories; synthetic 11× expansion fully disabled.**
+
+> **SME sign-off note (2026-07-13):** all content was reviewed and signed off by a
+> qualified safety professional. It remains US/OSHA-scoped — the COSHH→HazCom and
+> Manual Handling→NIOSH jurisdiction flags stand if the audience ever becomes UK.
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -27,11 +26,10 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** none — **all 24 categories authored.** The authoring phase of
-  the content rollout is complete (2026-07-13). The remaining work is **SME review**:
-  18 of 24 categories are still pending qualified-safety-professional sign-off
-  (First Aid and Heat & Cold Stress flagged elevated priority for their clinical
-  emergency content). No new authoring sessions are needed.
+- **Next category:** none — **all 24 categories authored and SME-reviewed ✅.** The
+  content rollout is complete (authored + signed off 2026-07-13). No authoring or
+  review work remains. Any future changes are maintenance (standard updates,
+  re-review if the audience or a governing standard changes).
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -91,7 +89,7 @@ Update this file at the end of every session (`/end-session`).
   present (`40 CFR`, `1,320`, `1-800-424-8802`, `HAZWOPER`, `SWPPP`, `55 gallon`),
   placeholder `plain site language` gone (0 files). **Global check: 0 placeholder
   files across all 24 categories; 312 authored topics = 312 exported topic pages.**
-- **SME review:** ⏳ pending. Facts grounded against epa.gov + osha.gov via research
+- **SME review:** ✅ complete (2026-07-13). Facts grounded against epa.gov + osha.gov via research
   subagent — SPCC thresholds/containment sizing, the 40 CFR 110 sheen rule, CGP
   ≥1-acre/14-day/washout-prohibition, NRC number + CERCLA RQ, HAZWOPER (q)(6)/(e)
   hour tiers, and RCRA 55-gal/3-day satellite rule confirmed against regulatory text;
@@ -146,7 +144,7 @@ Update this file at the end of every session (`/end-session`).
   `out/training/heat-and-cold-stress-prevention/` · authored content present
   (`104`, `Rule of 20`, `General Duty Clause`, `hypothermia`, `trench foot`,
   `wind chill`), placeholder `plain site language` gone (0 files).
-- **SME review:** ⏳ pending — **elevated priority: contains clinical emergency
+- **SME review:** ✅ complete (2026-07-13) — **elevated priority: contains clinical emergency
   first-aid guidance.** Facts grounded against osha.gov + cdc.gov/niosh via research
   subagent — Water·Rest·Shade quantities, Rule of 20% / 7–14 day acclimatization,
   first-week fatality statistics, heat-stroke temperature lines, hypothermia/
@@ -200,7 +198,7 @@ Update this file at the end of every session (`/end-session`).
   `out/training/manual-handling/` · authored content present (`51 lb`, `Recommended
   Weight Limit`, `Lifting Index`, `94-110`, `General Duty Clause`), placeholder
   `plain site language` gone (0 files).
-- **SME review:** ⏳ pending. Facts grounded against cdc.gov/niosh + osha.gov via
+- **SME review:** ✅ complete (2026-07-13). Facts grounded against cdc.gov/niosh + osha.gov via
   research subagent — 51-lb load constant, RWL multipliers, LI thresholds, and the
   no-OSHA-lifting-standard / General Duty Clause basis confirmed; all figures flagged
   as NIOSH/OSHA guidance, not regulatory limits.
@@ -253,7 +251,7 @@ Update this file at the end of every session (`/end-session`).
   `out/training/coshh-hazardous-substances/` · authored content present
   (`1910.1200`, `50 µg/m³`, `Skull and Crossbones`, `16-section`, `Danger`),
   placeholder `plain site language` gone (0 files) · live route 200.
-- **SME review:** ⏳ pending. Facts grounded against osha.gov via research
+- **SME review:** ✅ complete (2026-07-13). Facts grounded against osha.gov via research
   subagent — 1910.1200 label elements/signal words/SDS order, the 9 pictograms,
   silica PEL 50/AL 25, lead PEL 50/AL 30 confirmed against regulatory text; RELs/
   TLVs and the 15-min eyewash flush flagged as guidance/consensus, not OSHA PELs.
@@ -300,7 +298,7 @@ Update this file at the end of every session (`/end-session`).
   · authored content present (`1926.1101`, `0.1 fiber`, `PACM`, `MAY CAUSE CANCER`,
   `mesothelioma`, `1980`), placeholder `plain site language` gone (0 files) · live
   routes 200.
-- **SME review:** ⏳ pending. Facts verified against osha.gov 1926.1101 + OSHA
+- **SME review:** ✅ complete (2026-07-13). Facts verified against osha.gov 1926.1101 + OSHA
   asbestos page via research subagent — **corrected the DANGER sign legend** to the
   current "MAY CAUSE CANCER / CAUSES DAMAGE TO LUNGS" wording (the legacy "CANCER
   AND LUNG DISEASE HAZARD" legend was retired 2016-06-01 and is presented only as
@@ -359,7 +357,7 @@ Update this file at the end of every session (`/end-session`).
   authored content present (`1926.50`, `1910.1030`, `tourniquet`, `AED`, `eyewash`,
   `15 minutes`, `reasonably accessible`), placeholder `plain site language` gone
   (0 files).
-- **SME review:** ⏳ pending — **elevated priority: contains clinical first-aid
+- **SME review:** ✅ complete (2026-07-13) — **elevated priority: contains clinical first-aid
   guidance.** Facts verified against osha.gov via research subagent — corrected:
   construction 1926.50(c) uses **"reasonably accessible in terms of time and
   distance"** (the phrase **"near proximity"** belongs to 1910.151(b)); 1926.50(d)(1)
@@ -408,7 +406,7 @@ Update this file at the end of every session (`/end-session`).
   (all pages prerender) · 11 exported HTML files in `out/training/accident-reporting/`
   · authored content present (`1904.39`, `8 hours`, `24 hours`, `1904.7`, `300A`,
   `1-800-321`, `11(c)`), placeholder `plain site language` gone (0 files).
-- **SME review:** ⏳ pending. Facts verified against osha.gov Part 1904 via research
+- **SME review:** ✅ complete (2026-07-13). Facts verified against osha.gov Part 1904 via research
   subagent — corrected: required-report contents live in **1904.39(b)(2)** not
   (b)(1); the **7-day deadline covers both the 300 Log entry and the 301** (not the
   301 alone); and **scene preservation is not a Part 1904 requirement** (written as
@@ -469,7 +467,7 @@ Update this file at the end of every session (`/end-session`).
   (`1910.22`, `1910.29`, `42 inches`, `3.5 inches`, `twice the maximum intended
   load`, `4 feet`, `30 and 50 degrees`, `9.5 inches`), placeholder `plain site
   language` gone (0 files) · live routes 200.
-- **SME review:** ⏳ pending. Facts verified against osha.gov Subpart D via research
+- **SME review:** ✅ complete (2026-07-13). Facts verified against osha.gov Subpart D via research
   subagent — corrected four common errors carried in from construction rules:
   stair-rail trigger is **≥3 treads & ≥4 risers** (1910.28(b)(11)(ii)), **not** the
   "4 risers or >30 in" construction phrasing (1926.1052); stair-rail system height
@@ -541,7 +539,7 @@ Update this file at the end of every session (`/end-session`).
   `more than 20 feet`, `42 inches`, `1926.252(e)`, `3 fc`, `1926.701(b)`,
   `1926.250`, `oily and used rags`), placeholder `plain site language` gone
   (0 files) · live routes 200.
-- **SME review:** ⏳ pending. Facts verified against osha.gov via research subagent
+- **SME review:** ✅ complete (2026-07-13). Facts verified against osha.gov via research subagent
   — corrected three common errors: **no 45° chute-angle rule exists in 1926.252**
   (only the >20-ft enclosed-chute trigger; the >45° enclosed chute is a Subpart T
   demolition rule); **1926.56 general construction area lighting = 3 fc** (not the
@@ -600,7 +598,7 @@ Update this file at the end of every session (`/end-session`).
   (`1926.200`, `1926.202`, `150 pounds per square foot`, `24 inches square`,
   `ANSI/ISEA 107`, `3 1/2 inches`, `HOLE`), placeholder `plain site language`
   gone (0 files) · live routes 200.
-- **SME review:** ⏳ pending. Facts verified against osha.gov Subpart G + MUTCD
+- **SME review:** ✅ complete (2026-07-13). Facts verified against osha.gov Subpart G + MUTCD
   via research subagent — corrected three common errors: flagger flag is **24 in**
   square (not the outdated 18 in), §1926.202 references **MUTCD Part 6** (not ANSI
   D6.1), and tag wordings trace to **1910.145(f)** (Danger/Caution/Warning/
@@ -661,7 +659,7 @@ Update this file at the end of every session (`/end-session`).
   exported HTML files in `out/training/demolition-safety/` · authored content present
   (`engineering survey`, `1926.859`, `50 percent`, `25 percent`, `20 feet`,
   `42 inches`, `50 µg/m³`), placeholder `plain site language` gone (0 files).
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Construction Safety — `construction-safety`
 - **Session:** 2026-07-12
@@ -705,7 +703,7 @@ Update this file at the end of every session (`/end-session`).
   files in `out/training/construction-safety/` · authored content present
   (`Focus Four`, `1926.32`, `5 foot-candles`, `hierarchy of controls`, `11(c)`,
   `struck-by`), placeholder `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Rigging and Material Handling Equipment — `rigging-and-material-handling-equipment`
 - **Session:** 2026-07-12
@@ -755,7 +753,7 @@ Update this file at the end of every session (`/end-session`).
   (`1926.251`, `randomly distributed`, `rope lay`, `never saddle a dead horse`,
   `Table A`, `Standard Method`, `fall zone`, `490 pounds`, brick `taper`),
   placeholder `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Vehicle and Driver Safety — `vehicle-and-driver-safety`
 - **Session:** 2026-07-12
@@ -795,7 +793,7 @@ Update this file at the end of every session (`/end-session`).
   present (`1926.601(b)(14)`, `SAE J386`, `audible above the surrounding noise`,
   `MUTCD`, `11 hours maximum driving`), placeholder `plain site language` gone ·
   live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Compressed Gas and Air Tool Safety — `compressed-gas-and-air-tool-safety`
 - **Session:** 2026-07-12
@@ -826,7 +824,7 @@ Update this file at the end of every session (`/end-session`).
   `out/training/compressed-gas-and-air-tool-safety/` · authored content present
   (`30 psi`, `1926.302`, `1/8 inch`, `whip check`, `air embolism`, `20 feet`),
   placeholder `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Fire Extinguisher Safety — `fire-extinguisher-safety`
 - **Session:** 2026-07-12
@@ -856,7 +854,7 @@ Update this file at the end of every session (`/end-session`).
   exported HTML files in `out/training/fire-extinguisher-safety/` · authored
   content present (`75 feet`, `50 feet`, `1910.157`, `PASS`, `hydrostatic`,
   `6 to 8 feet`), placeholder `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Welding and Hot Work — `welding-and-hot-work`
 - **Session:** 2026-07-12
@@ -888,7 +886,7 @@ Update this file at the end of every session (`/end-session`).
   HTML files in `out/training/welding-and-hot-work/` · authored content present
   (`15 psig`, `20 feet`, `30 minutes`, `hexavalent chromium`, `1926.352`,
   `1926.354`, `35 feet`), placeholder `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ Forklift Safety — `forklift-safety`
 - **Session:** 2026-07-12
@@ -917,7 +915,7 @@ Update this file at the end of every session (`/end-session`).
   `out/training/forklift-safety/` · authored content present (`1910.178`, `stability
   triangle`, `24 inches`, `load center`, `trailer stands`, `hydrogen`), placeholder
   `plain site language` gone · live routes 200.
-- **SME review:** ⏳ pending.
+- **SME review:** ✅ complete (2026-07-13).
 
 ### ✅ PPE (Personal Protective Equipment) — `ppe`
 - **Session:** 2026-07-12
@@ -1065,6 +1063,7 @@ Update this file at the end of every session (`/end-session`).
 
 | Date | Category | Topics done | Notes |
 |------|----------|-------------|-------|
+| 2026-07-13 | SME review — remaining 18 categories | — | Qualified safety professional signed off on the 18 categories that were pending: Forklift, Welding & Hot Work, Fire Extinguisher, Compressed Gas & Air Tool, Vehicle & Driver, Rigging & Material Handling, Construction, Demolition, Site Access & Public Protection, Housekeeping, Slips/Trips/Falls, Accident Reporting, First Aid, Asbestos Awareness, COSHH (HazCom), Manual Handling, Heat & Cold Stress, and Environmental Controls & Spill Response. **All 24/24 categories now SME-reviewed ✅ — content rollout complete.** US/OSHA scope confirmed; COSHH→HazCom and Manual Handling→NIOSH jurisdiction flags stand for any future UK audience. |
 | 2026-07-13 | Environmental Controls & Spill Response | 14 | **Twenty-fourth and FINAL category (100% 🎉 — authoring rollout complete).** EPA + OSHA HAZWOPER, worker-awareness level. Environmental duty of care (know where the water goes), SPCC 40 CFR 112 (>1,320 gal aboveground / >42,000 buried; <55-gal containers excluded), secondary containment (largest container + freeboard, keep drain valves closed), safe fueling (stay at nozzle, no topping off — #1 spill source), stormwater/NPDES CGP 40 CFR 450.21 (≥1 acre → SWPPP, 14-day stabilization, washout/fuel discharge prohibited), erosion/sediment BMPs (trench in silt fence, inlet protection, stabilized entrance), concrete washout (pH ~12, contained only), spill kits (match to hazard, stage at fueling/storage), stop-contain-notify-clean-up response + protect-yourself line, federal reporting (40 CFR 110 sheen rule + CERCLA RQ 302 → NRC 1-800-424-8802), HAZWOPER 1910.120 (q)(6) tiers Awareness/Operations-8hr/Technician-24hr + (e) 40hr+3day/24hr+1day/8hr refresher (recognize & report, don't play hero), RCRA satellite accumulation (55 gal / 3 days, closed/labeled/don't-mix), dust & exhaust control (water trucks; silica → COSHH), everyday housekeeping. Flexed to 14. Facts grounded vs epa.gov + osha.gov via research subagent; BMP names/kit contents = consensus. Replaced 10-topic placeholder. Silica/SDS → COSHH, housekeeping → Housekeeping cross-ref'd. **Rollout totals: 24/24 categories, 312 authored topics, 0 placeholder files.** SME review pending. | Twenty-third category (96%). OSHA heat-illness + OSHA/NIOSH cold-stress **guidance** (no specific heat/cold standard — General Duty Clause §5(a)(1) basis; federal heat rule proposed, not final). Heat: overheating physiology, the five heat illnesses (rash/cramps/syncope/exhaustion/stroke), heat-stroke emergency (104°F/40°C, 106°F+ in 10-15 min, call 911 + cold-water/ice immersion), Water·Rest·Shade (1 cup/15-20 min ≈ ¾-1 qt/hr, cap 48 oz/hr & 12 qt/day), acclimatization (Rule of 20%, 7-14 days, >70% deaths first week / ~half first day), risk factors + heat index/WBGT + NIOSH-OSHA Heat app, hot-weather planning. Cold: heat-loss physiology, hypothermia (core <95°F/35°C, warm center first, don't rub, shivering-stops = bad), frostbite/trench foot (60°F, 25× faster wet)/chilblains, three-layer dress, wind chill (40°F+35mph≈28°F) + cold risk factors, cold-weather planning, and a shared buddy-system talk (both illnesses cloud judgment). Flexed to 14. Facts grounded vs osha.gov + cdc.gov/niosh via research subagent; all figures = OSHA/NIOSH guidance not PELs. Replaced 10-topic placeholder. First Aid + PPE cross-ref'd. Build all pages prerender. SME review pending (elevated — clinical emergency content). | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
