@@ -40,9 +40,7 @@ export default function HomePage() {
         <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
           <p className="eyebrow text-hi-deep">SD Safety Module</p>
           <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
-            Safety learning
-            <br />
-            <span className="text-hi">by category and topic.</span>
+            Safety learning <span className="text-hi">by category and topic.</span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-ink-2">
             Browse category-based safety learning modules, open detailed topic articles,
