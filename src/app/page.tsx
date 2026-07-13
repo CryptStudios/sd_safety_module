@@ -50,7 +50,7 @@ export default function HomePage() {
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
-              href="/training"
+              href="#categories"
               className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
             >
               View Training Categories
@@ -121,7 +121,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+      <section id="categories" className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="eyebrow text-hi-deep">Browse Training Categories</p>
@@ -130,7 +130,7 @@ export default function HomePage() {
             </h2>
           </div>
           <Link
-            href="/training"
+            href="#categories"
             className="inline-flex w-fit items-center rounded-full bg-ink px-6 py-3 text-sm font-semibold text-[#f5efe2] transition hover:bg-hi hover:text-white"
           >
             Browse All Categories
@@ -157,7 +157,7 @@ export default function HomePage() {
             </div>
           </div>
           <Link
-            href="/training"
+            href="#categories"
             className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
           >
             Review Categories
