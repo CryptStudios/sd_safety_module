@@ -7351,6 +7351,707 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "rigging-and-material-handling-equipment/rigging-basics-and-the-qualified-rigger": {
+    description:
+      "What rigging is, the rules that govern it, and why OSHA requires a qualified rigger to attach and guide loads on a crane lift.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Rigging is how you connect a load to the hook so it lifts level, stays put, and comes down where you want it. Get it right and the lift is boring. Get it wrong and a load drops, swings into someone, or tips the crane. Most rigging failures trace back to three things: gear that should have been pulled out of service, a load nobody weighed, or people who didn't know what they were doing under the hook.",
+          "Rigging gear is covered by OSHA 29 CFR 1926.251, and crane lifts add Subpart CC (1926.1400 and on). The rules come down to a few habits: inspect before you use it, never load past the rating, and put a qualified person on the rigging."
+        ]
+      },
+      {
+        heading: "The rules that govern rigging",
+        body: [
+          "Every piece of rigging has a rated capacity — the working load limit the maker set. That number is the ceiling, and you never go over it. Under 1926.251:",
+          {
+            list: [
+              "Inspect rigging before use on each shift, and again during the shift as conditions change.",
+              "Pull defective or damaged gear out of service immediately — don't hang it back on the rack.",
+              "Never load a sling, shackle, or hook past its rated capacity.",
+              "Every sling carries a durable, legible identification tag with its rated capacity and type. No tag, no lift — set it aside."
+            ]
+          },
+          "Rated capacities are printed for a reason. A sling's capacity also changes with how you rig it — the angle and the hitch — which the later talks cover."
+        ]
+      },
+      {
+        heading: "Who is a qualified rigger",
+        body: [
+          "A qualified rigger isn't just whoever's standing closest to the hook. OSHA defines one as a person who, through a degree, certificate, or extensive knowledge, training, and experience, can solve problems related to the specific rigging in front of them. They know how to pick slings, read a load, figure the angles, and protect the gear from edges.",
+          "Subpart CC requires a qualified rigger in specific moments — during assembly and disassembly when workers are in the fall zone, and whenever a worker in the fall zone is hooking, unhooking, or guiding a load, or doing the initial connection to a structure (1926.1425(c)). In those moments the person on the rigging must be qualified, not just available."
+        ]
+      },
+      {
+        heading: "Before every lift",
+        body: [
+          "Whoever rigs the load owns these questions before it leaves the ground:",
+          {
+            list: [
+              "How much does it weigh, and is that inside the crane's and the rigging's rating?",
+              "Where's the center of gravity, and will it lift level?",
+              "Is the gear the right type, inspected, and protected from sharp edges?",
+              "Who's clear of the fall zone, and who's giving signals?"
+            ]
+          },
+          "If any answer is a guess, stop and get it right. A rigging job is planned on the ground, not fixed in the air."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/sling-types-and-how-to-choose-one": {
+    description:
+      "The main sling families — wire rope, alloy steel chain, and synthetic web or round — and how to match the right one to the load, the edges, and the environment.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The sling is the link between the hook and the load, and picking the wrong one is how a lift goes bad before it starts. Each type has jobs it's good at and jobs that ruin it. Chain shrugs off heat and rough edges but is heavy. Wire rope is a solid all-rounder. Synthetic slings are gentle on finished surfaces but a sharp corner will cut one in half.",
+          "Match the sling to the load, the edges it wraps, the temperature, and the environment. And whatever you grab, it has to carry a legible tag with its rated capacity, size, and type."
+        ]
+      },
+      {
+        heading: "The main sling families",
+        body: [
+          "Four types cover most site work:",
+          {
+            list: [
+              "Alloy steel chain — tough, takes heat and abrasion, good for rough or hot loads and repeated hard use. For overhead lifting it must be alloy steel, never hardware-store proof coil chain.",
+              "Wire rope — the general-purpose workhorse; strong and reasonably flexible, but broken wires and kinks retire it.",
+              "Synthetic web (nylon or polyester) — flat, flexible, light, and easy on finished or fragile surfaces; cuts, abrades, and burns easily.",
+              "Synthetic round slings — an endless polyester core in a protective cover; strong for their weight, mold to the load, and a worn cover warns you before the core."
+            ]
+          },
+          "Metal mesh and fiber rope slings show up for special cases — mesh for edges and heat, fiber for delicate light loads."
+        ]
+      },
+      {
+        heading: "Choosing the right one",
+        body: [
+          "Walk through the load before you pick:",
+          {
+            list: [
+              "Weight — is the sling's rated capacity above the load share it'll carry at the angle you'll rig?",
+              "Edges — sharp corners cut synthetics fast; use chain or wire rope, or protect the sling with softeners.",
+              "Temperature — synthetic web and round slings have real heat limits (commonly around 180 to 194 degrees F for polyester and nylon); chain and wire rope take far more.",
+              "Environment — nylon weakens in acids, polyester in strong alkalis; chemicals and sunlight degrade synthetics over time.",
+              "The surface — a polished or coated load calls for a soft sling that won't mar it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Every sling needs a tag",
+        body: [
+          "No sling goes on the hook without a durable, readable identification tag. Depending on type it shows the rated capacity, the size, the material or grade, and the maker. If the tag is missing or you can't read it, you don't know the rating — so the sling is out of service until it's identified.",
+          "Store slings off the ground, out of the weather and sun, and away from chemicals. A sling that lives in mud and sunlight won't last, and you won't be able to trust the tag when it counts."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/wire-rope-slings-inspection-and-removal-criteria": {
+    description:
+      "How to inspect a wire rope sling and the specific defects — broken wires, kinks, wear, and heat damage — that require you to take it out of service.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Wire rope slings are the workhorse of the yard, and they fail from the inside out. A rope that looks fine can be hiding broken wires, crushing, or heat damage that dropped its strength well below the rating. That's why OSHA 1926.251(c) wants them inspected before use on each shift and pulled the moment they hit a removal criterion.",
+          "You're looking and feeling for damage along the whole length and especially at the end fittings, where most breaks start. Run a rag along it — snags catch broken wires you'd miss by eye."
+        ]
+      },
+      {
+        heading: "Broken-wire removal limits",
+        body: [
+          "The clearest retirement rule is broken wires. For a wire rope sling, take it out of service when you find:",
+          {
+            list: [
+              "Ten randomly distributed broken wires in one rope lay, or",
+              "Five broken wires in one strand in one rope lay."
+            ]
+          },
+          "A rope lay is one full wrap of a strand around the rope. Broken wires cluster where the rope bends over the hook and at the swaged or spliced end fittings — check those areas closely, because a break at the end connection is an automatic removal."
+        ]
+      },
+      {
+        heading: "Other damage that retires a sling",
+        body: [
+          "Broken wires aren't the only killers. Pull the sling if you find:",
+          {
+            list: [
+              "Kinking, crushing, birdcaging, or any distortion of the rope structure.",
+              "Evidence of heat damage — from a torch, an arc, or a fire.",
+              "End attachments that are cracked, deformed, or worn.",
+              "Hooks opened more than 15 percent of the normal throat, or twisted more than 10 degrees.",
+              "Severe corrosion of the rope, end fittings, or clips.",
+              "Wear that has worn away a third of the original diameter of the outside individual wires."
+            ]
+          },
+          "Any one of these is enough. You don't average defects or hope it holds — a retired sling is retired."
+        ]
+      },
+      {
+        heading: "End connections and clips",
+        body: [
+          "How the eye is made matters as much as the rope. A swaged or spliced eye should be clean and undamaged; an eye splice must have at least three full tucks. When wire rope clips form the connection, they have to be the right number, sized to the rope, and spaced per the maker — and the saddle goes on the live (load) side with the U-bolt on the dead end. The old line is 'never saddle a dead horse.'",
+          "Protect the rope in service: pad sharp corners, don't drag slings out from under loads, and don't shorten a wire rope sling with knots or bolts. When a sling reaches any removal criterion, cut the eye or tag it so it can't be picked back up by mistake."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/alloy-steel-chain-slings-inspection-and-use": {
+    description:
+      "Why overhead chain slings must be alloy steel, how to inspect for stretch, wear, and cracks, and the periodic-inspection recordkeeping OSHA requires.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Chain slings take abuse that would kill a synthetic — heat, sharp edges, rough repeated lifts — which is why they show up on the heavy, dirty jobs. But that toughness hides trouble: a stretched or cracked link doesn't look dramatic right before it lets go. Alloy steel chain slings are covered by OSHA 1926.251(b), and the rules are strict because these carry the heavy loads.",
+          "First rule: only alloy steel chain is allowed for overhead lifting. Proof coil or hardware-store chain is not rated for it, no matter how heavy it looks."
+        ]
+      },
+      {
+        heading: "The identification tag",
+        body: [
+          "Every welded alloy steel chain sling carries a permanently affixed, durable identification tag showing its size, grade, rated capacity, and reach. Any hooks, rings, oblong links, or coupling links attached to the chain must have a rated capacity at least equal to the chain itself — a Grade 100 chain with a weak hook is only as strong as the hook.",
+          "No tag or an unreadable tag means you don't know the rating. That sling is out of service until it's identified."
+        ]
+      },
+      {
+        heading: "Inspecting for wear and damage",
+        body: [
+          "Go link by link, and check the hooks and connectors too. Remove the sling from service for:",
+          {
+            list: [
+              "Cracks, nicks, or gouges in any link.",
+              "Stretch — links that have elongated or a chain that's grown longer than its marked reach.",
+              "Bent, twisted, or otherwise distorted links.",
+              "Wear at any point of a link beyond the manufacturer's allowance (OSHA Table H-2).",
+              "Heat damage, weld splatter, or evidence of burning.",
+              "Hooks that are opened, worn, twisted, or missing a working latch."
+            ]
+          },
+          "Don't repair a chain sling in the field. No shortening it with knots, bolts, or makeshift links, and no welding or heating a link back into shape — repairs must go through a qualified source and be proof-tested."
+        ]
+      },
+      {
+        heading: "Periodic inspection and records",
+        body: [
+          "Beyond the shift inspection, OSHA requires a thorough periodic inspection at intervals no greater than 12 months, with the employer keeping a record of the most recent inspection. The interval tightens with heavy service, severe conditions, or a sling's history — hard-used chain gets looked at more often.",
+          "Heat also cuts capacity: alloy chain can work at elevated temperatures, but rated capacity drops as temperature climbs, so check the maker's derating before lifting hot loads. When a link fails any criterion, pull the whole sling — one bad link condemns it."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/synthetic-web-and-round-slings-inspection-and-protection": {
+    description:
+      "The removal criteria for nylon and polyester web and round slings, plus how to protect soft slings from the sharp edges and chemicals that destroy them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Synthetic slings — flat web and covered round slings — are light, flexible, and gentle on finished surfaces, which makes them the go-to for delicate or coated loads. The trade-off is that they're fragile in ways steel isn't: a sharp edge cuts one in a single lift, and acids, alkalis, and sunlight quietly rot the fibers. OSHA 1926.251(e) sets the removal criteria for web slings, and round slings follow the same logic.",
+          "Because the damage is easy to miss, you inspect the full length before every use and protect the sling from anything that can cut or burn it."
+        ]
+      },
+      {
+        heading: "Web sling removal criteria",
+        body: [
+          "Take a synthetic web sling out of service for any of these (1926.251(e)):",
+          {
+            list: [
+              "Acid or caustic burns.",
+              "Melting or charring of any part of the sling.",
+              "Snags, punctures, tears, or cuts.",
+              "Broken or worn stitches, especially in the load-bearing splices.",
+              "Distortion of end fittings, or fittings that are cracked, pitted, or corroded.",
+              "A missing or unreadable identification tag."
+            ]
+          },
+          "Any one of these retires the sling. Fibers don't heal — a cut web sling is scrap, not a repair job."
+        ]
+      },
+      {
+        heading: "Round slings and their warning covers",
+        body: [
+          "A round sling is an endless bundle of load-bearing yarns inside a protective cover. The cover is a warning system: it wears first. Inspect the cover for cuts, snags, abrasion, and heat damage — and if you can see the inner core or a colored warning yarn showing through, the sling is done.",
+          "Because you can't see the core directly, treat any cover damage seriously. Feel along the whole length for lumps, hard spots, or thin areas that signal core damage underneath."
+        ]
+      },
+      {
+        heading: "Protecting soft slings in use",
+        body: [
+          "Most synthetic-sling failures are avoidable with a little protection:",
+          {
+            list: [
+              "Pad every sharp corner and edge with sleeves, wear pads, or corner protectors — a plate edge will slice through webbing under load.",
+              "Keep slings off the ground and out of grit; abrasion and embedded dirt cut fibers from the inside.",
+              "Match the material to the chemistry — nylon resists many acids but not strong alkalis; polyester is the opposite.",
+              "Store out of direct sunlight; UV breaks down synthetic fibers over time.",
+              "Don't drag a load across a sling or pull the sling out from under a set-down load."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/rated-capacity-sling-angles-and-load-charts": {
+    description:
+      "Why the tension in a sling leg climbs as the angle flattens, how to read a load angle factor, and why sling angles under 30 degrees are dangerous.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The number stamped on a sling is its rated capacity in a straight pull. The moment you rig two legs at an angle, each leg carries more than its share of the load — and the flatter the angle, the worse it gets. Riggers get surprised by this because the load didn't get heavier, but the tension in the sling did.",
+          "Understanding sling angle is the difference between a sling working at half its rating and a sling working past it. This is basic geometry, and the load doesn't forgive it."
+        ]
+      },
+      {
+        heading: "Why angle multiplies the load",
+        body: [
+          "Measure the sling angle from horizontal. As that angle drops, the tension in each leg climbs fast. For a load split evenly between two legs:",
+          {
+            list: [
+              "At 90 degrees (straight up) — each leg carries its plain share.",
+              "At 60 degrees from horizontal — tension is about 1.15 times the vertical share.",
+              "At 45 degrees — about 1.41 times.",
+              "At 30 degrees — about 2 times the vertical share."
+            ]
+          },
+          "So a 2,000-pound load split between two legs is 1,000 pounds per leg straight up, but roughly 2,000 pounds per leg at a 30-degree angle. The horizontal pull also tries to crush or collapse the load inward."
+        ]
+      },
+      {
+        heading: "Reading load charts and angle factors",
+        body: [
+          "Sling capacity charts list a rated capacity for each hitch and often a load angle factor for each angle. To find the real capacity at your angle, apply the factor from the chart — don't eyeball it. Two more things change the number:",
+          {
+            list: [
+              "The D/d ratio — bending a sling around a small-diameter pin or a tight corner reduces its capacity; keep the load-contact diameter generous.",
+              "Load distribution — with three or more legs, the load may not actually split evenly, so rig assuming the worst-loaded legs carry more."
+            ]
+          },
+          "Two legs never means double capacity. The rating depends on the angle and how the load shares out."
+        ]
+      },
+      {
+        heading: "Keep the angle up",
+        body: [
+          "The practical rule: keep sling angles as steep as you can, and never go below 30 degrees from horizontal — OSHA and ASME guidance treat angles under 30 degrees as a condition to avoid because the tension runs away and the load-crushing force gets extreme.",
+          "If the angle is coming out too flat, use longer slings, a spreader bar, or a different pick point to open it back up. Fixing the geometry on the ground is cheap; overloading a sling in the air is not."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/hitches-vertical-choker-and-basket": {
+    description:
+      "The three basic hitches — vertical, choker, and basket — how each changes a sling's capacity, and when to use each one.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "How you wrap the sling around the load is the hitch, and it changes both how much the sling can carry and how well the load stays put. The three basics are vertical, choker, and basket. Pick the wrong one and you either overload the sling or let the load slip out of it.",
+          "Each hitch has a rated capacity — usually printed right on the sling tag for all three — because the same sling carries very different loads depending on how it's rigged."
+        ]
+      },
+      {
+        heading: "Vertical (straight) hitch",
+        body: [
+          "A vertical hitch is a single sling straight from the hook to the load — the full rated capacity, since the sling pulls in a straight line. It's simple and strong, but it does nothing to keep the load from spinning or tipping.",
+          "Use it for a load that's balanced and won't rotate, or add a tag line to control spin. A single vertical hitch on an unbalanced load will let it swing and turn under the hook."
+        ]
+      },
+      {
+        heading: "Choker hitch",
+        body: [
+          "A choker hitch loops the sling around the load and back through itself, cinching down to grip. It's how you grab pipe, bundles, and loose material that a basket would let slide. The catch is capacity: a choker reduces the sling's rating — commonly to about 75 to 80 percent of vertical — because of the sharp bend where it chokes.",
+          "That reduction assumes a wide choke angle (around 120 degrees or more). Cinch the loop tighter than that and the capacity drops further. A single choker also doesn't fully lock a load against sliding — for a long load, use two chokers spread apart."
+        ]
+      },
+      {
+        heading: "Basket hitch",
+        body: [
+          "A basket hitch cradles the load with the sling passing under it and both ends on the hook. With the legs vertical it can carry up to twice the vertical rating, since two sling parts share the load — but that doubling only holds when the legs are straight up. As the basket legs angle in, the same angle math from the load-chart talk cuts the capacity right back down.",
+          "A basket only works if the load is balanced and won't roll or slip out of the cradle. Watch the D/d ratio where the sling bends under the load, and keep the pick points spread so the load rides level. When in doubt about slip, choke it instead."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/rigging-hardware-shackles-hooks-and-eyebolts": {
+    description:
+      "How to select and inspect the connecting hardware — shackles, hooks, and eyebolts — and the loading mistakes that quietly cut their capacity.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Slings get the attention, but the load usually hangs off a shackle, a hook, or an eyebolt — and a lift is only as strong as its weakest connector. OSHA 1926.251(f) covers shackles and hooks, and the theme is the same as slings: use the rated capacity, inspect before use, and load it the way it was designed to be loaded.",
+          "Most hardware failures aren't mystery breaks. They're a side-loaded eyebolt, a shackle pin replaced with a bolt, or a load riding on the tip of a hook."
+        ]
+      },
+      {
+        heading: "Shackles",
+        body: [
+          "Use the shackle's rated capacity (OSHA Table H-19 lists safe working loads) and never exceed it. A few rules keep them honest:",
+          {
+            list: [
+              "Match the pin to the shackle — never replace a shackle pin with a random bolt; the bolt isn't rated for it.",
+              "Screw-pin shackles can back out under a rotating load; use a bolt-type (with nut and cotter pin) for long-term or dynamic pulls.",
+              "Load in line with the shackle; side-loading reduces the rating and has to be figured with the maker's reduction.",
+              "Retire a shackle that's bent, stretched, worn, corroded, or has a pin that won't seat fully."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Hooks",
+        body: [
+          "Hooks follow the manufacturer's rated capacity, and most lifting hooks need a working safety latch to keep the sling from jumping out. Load rides in the bowl (the saddle) of the hook, never on the tip — tip-loading can cut a hook's capacity dramatically. Pull a hook from service when you find:",
+          {
+            list: [
+              "A throat opening stretched more than 15 percent beyond normal.",
+              "A twist of more than 10 degrees from the plane of the hook.",
+              "Cracks, gouges, sharp wear, or a latch that won't close and hold."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Eyebolts and other connectors",
+        body: [
+          "Eyebolts are the most misused connector on site because angled pulls quietly overload them. Key points:",
+          {
+            list: [
+              "Use shoulder-type eyebolts for any angled load, and seat the shoulder flush against the surface.",
+              "An angled pull sharply reduces an eyebolt's capacity — a side load can drop it to a fraction of the straight-pull rating, so keep the pull aligned with the eye or use a swivel hoist ring.",
+              "Thread the eyebolt fully into the tapped hole; partial engagement strips the threads under load.",
+              "For turnbuckles and wire rope clips, follow the maker's torque and orientation — clips get the saddle on the live side, tightened to spec."
+            ]
+          },
+          "Inspect all hardware before use, and treat the connector with the same respect as the sling — it's carrying the same load."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/determining-load-weight-and-center-of-gravity": {
+    description:
+      "How to find a load's true weight before you lift, and how to rig to the center of gravity so it lifts level and doesn't tip.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Two numbers decide whether a lift is safe before any gear touches it: how much the load weighs, and where its center of gravity sits. Guess the weight and you can overload the sling or tip the crane. Miss the center of gravity and the load lifts crooked, swings, or flips as it clears the ground.",
+          "Neither is optional. Overloading from a bad weight guess is one of the top causes of rigging and crane failures, and it's completely preventable."
+        ]
+      },
+      {
+        heading: "Finding the real weight",
+        body: [
+          "Never guess a load's weight. Get it from a reliable source:",
+          {
+            list: [
+              "Shipping papers, packing lists, or the manufacturer's name plate.",
+              "Engineered or fabrication drawings that list weights.",
+              "A calculation from volume and material density — steel is about 490 pounds per cubic foot, concrete about 150, water about 62.4.",
+              "A load-indicating device or crane scale when nothing else is reliable."
+            ]
+          },
+          "Add for anything riding along — water trapped inside, mud, ice, attached rigging, and the below-the-hook devices. A tank that's 'empty' may be holding hundreds of pounds of residue."
+        ]
+      },
+      {
+        heading: "Rigging to the center of gravity",
+        body: [
+          "The center of gravity is the point the load balances around. For a level lift, the hook has to end up directly above it — otherwise the load will swing under the hook until it finds that balance, and that swing is where people get struck.",
+          "For a load that isn't symmetrical, the center of gravity is off to the heavy side, so you adjust: move the pick points or use different sling lengths so the hook lands over the true center. If the load lifts and immediately tilts, set it down — the rig isn't over the center of gravity."
+        ]
+      },
+      {
+        heading: "Stability and pick points",
+        body: [
+          "Where the slings attach relative to the center of gravity decides whether the load is stable. Attach above the center of gravity and the load hangs stable like a pendulum. Attach at or below it and the load can roll or flip the instant it's free.",
+          "Spread the pick points wide enough to keep the load level and resist tipping, and keep the sling angles up. When a load is tall, top-heavy, or oddly shaped, plan the pick points deliberately — a tag line controls rotation, but only good geometry keeps the load from turning over."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/planning-the-lift-the-lift-plan-and-roles": {
+    description:
+      "What goes into a lift plan, when a lift is critical enough to need a written one, and who does what — operator, rigger, signal person, and lift director.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every lift has a plan, even if it's a quick one in your head for a light, routine pick. The bigger, heavier, or riskier the lift, the more the plan needs to be written down and walked through before anyone touches the controls. The plan is where weight, crane capacity, rigging, ground, path, and signals all get checked against each other — on the ground, where mistakes are cheap.",
+          "A lift plan also settles who's in charge of what. Confusion over roles — two people signaling, nobody watching the load path — is how good gear still ends in an incident."
+        ]
+      },
+      {
+        heading: "What a lift plan covers",
+        body: [
+          "A solid plan answers all of these before the pick:",
+          {
+            list: [
+              "Load weight and center of gravity, including rigging and anything trapped inside.",
+              "Crane configuration, the radius, and the capacity from the load chart at that radius — with real margin, not right at the line.",
+              "Rigging selection — sling type, hitch, angles, and hardware, all rated above the load.",
+              "Ground conditions and the setup — outriggers, mats, level.",
+              "The load path and the exclusion zone, including overhead obstructions and power lines.",
+              "Signals, communication method, and the weather limits that stop the lift."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "When a lift is critical",
+        body: [
+          "Some lifts carry enough risk that they get a written, engineered plan and a pre-lift meeting. Treat a lift as critical when it's:",
+          {
+            list: [
+              "Near the crane's rated capacity for the configuration.",
+              "A multi-crane or tandem pick.",
+              "Over occupied buildings, live process equipment, or the public.",
+              "A personnel lift, or a pick where a drop would be catastrophic.",
+              "Unusual — blind, complex rigging, or a one-of-a-kind load."
+            ]
+          },
+          "Critical lifts get more eyes, tighter margins, and a plan on paper that everyone reviews before the pick."
+        ]
+      },
+      {
+        heading: "Who does what",
+        body: [
+          "Clear roles keep the lift from turning into a crowd around the load:",
+          {
+            list: [
+              "Operator — runs the crane, owns the right to refuse or stop an unsafe lift.",
+              "Qualified rigger — selects and attaches the rigging and reads the load.",
+              "Qualified signal person — directs crane movement when the operator can't see the load or the path.",
+              "Lift director or supervisor — oversees the whole operation and makes the call on go or no-go."
+            ]
+          },
+          "One person signals at a time. But a stop signal from anyone on the crew gets honored, no questions asked."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/crane-signals-and-communication": {
+    description:
+      "When a signal person is required, the standard methods of communication, and the rules that keep crane signaling clear and unambiguous.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A crane operator often can't see the load, the landing spot, or the path in between. That's what the signal person is for — the operator's eyes. When signaling breaks down, the operator is running blind, and blind moves are how loads hit people and structures. OSHA Subpart CC (1926.1419 through 1422) sets the rules for how crane signals work.",
+          "The whole system depends on one thing: clear, agreed, unambiguous communication between one operator and one signal person."
+        ]
+      },
+      {
+        heading: "When a signal person is required",
+        body: [
+          "You need a designated signal person whenever:",
+          {
+            list: [
+              "The point of operation — where the load is being landed or handled — is not in full view of the operator.",
+              "The operator's view is obstructed in the direction the crane or load is traveling.",
+              "Site or safety concerns (near power lines, tight clearances) make signals necessary even if there's some view."
+            ]
+          },
+          "If none of those apply and the operator has a clear view the whole time, a signal person may not be required — but the moment the view is blocked, someone qualified has to take over the eyes."
+        ]
+      },
+      {
+        heading: "Methods of communication",
+        body: [
+          "Signals come in three forms, and everyone agrees on which before the lift:",
+          {
+            list: [
+              "Hand signals — use the Standard Method (the ASME B30 hand signals), and post a chart of them at the site.",
+              "Voice signals — over a dedicated radio channel; the signal person names the function, the direction, the distance, and calls the stop.",
+              "Audible signals — horn or whistle patterns, agreed and understood before the lift."
+            ]
+          },
+          "For hand signals the signal person stays in clear view of the operator. For radio, the channel is dedicated and working — and if communication is lost, all crane movement stops until it's back."
+        ]
+      },
+      {
+        heading: "Rules that keep signals safe",
+        body: [
+          "A few rules prevent mixed messages:",
+          {
+            list: [
+              "One designated signal person per lift — the operator takes direction from that person only.",
+              "The signal person must be qualified: they know the signals, can judge clearances and load travel, and understand the crane's operation.",
+              "A stop signal from anyone on the crew is obeyed immediately, no matter who gives it.",
+              "If the operator doesn't understand a signal, the operator stops and holds until it's clear."
+            ]
+          },
+          "Never guess at an unclear signal. A held load is safe; a guessed move is not."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/working-around-suspended-loads-and-tag-lines": {
+    description:
+      "The fall zone rule, why nobody works under a suspended load, and how tag lines control a load safely from a distance.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A suspended load is stored energy hanging in the air. If it drops, swings, or rotates, anyone underneath or in its path is in serious trouble — and loads do all three when a sling slips, the wind picks up, or the pick is off balance. The core rule is simple and OSHA backs it up in 1926.1425: stay out from under the load and out of the fall zone.",
+          "You control a load from a safe distance, not by putting hands on it in the air. That's what tag lines are for."
+        ]
+      },
+      {
+        heading: "The fall zone",
+        body: [
+          "The fall zone is the area the load could reach if it fell during the lift — not just straight down, but where it could swing or roll. While the boom is being raised, lowered, or swung, no one is allowed in the fall zone except the workers actually needed to hook, unhook, guide, or make the initial connection.",
+          "Even those workers only stay in the zone under specific conditions: the load is rigged to prevent it from shifting, the hooks have working latches, and the connection is done by someone qualified. Everyone else routes around and waits for the load to land."
+        ]
+      },
+      {
+        heading: "Using tag lines",
+        body: [
+          "A tag line is a rope tied to the load so a worker can steady it and control rotation from off to the side, well clear of the fall zone. Use one when the load is long, has sail area, or could spin — wind and momentum turn a free-hanging load, and a tag line keeps it aimed.",
+          "Handle tag lines right: keep enough distance to stay out from under the load, never wrap the line around your hand or body, and let go rather than get pulled in if the load lurches. Near power lines, use a non-conductive tag line — a wet rope can carry current."
+        ]
+      },
+      {
+        heading: "Rules for staying clear",
+        body: [
+          "A few habits keep the load path safe:",
+          {
+            list: [
+              "Never walk or stand under a suspended load, even for a second.",
+              "Never ride the load, the hook, or the ball.",
+              "Plan the load path to keep it away from workers, and warn crews before the load moves overhead.",
+              "Watch the swing radius of the crane's counterweight as well — the back end sweeps a crush zone as it rotates."
+            ]
+          },
+          "If a load is drifting toward someone, the signal person calls the stop and the load holds until the area is clear."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/mobile-crane-setup-ground-conditions-outriggers-and-power-lines": {
+    description:
+      "Setting a mobile crane on firm ground, deploying outriggers on proper cribbing, and keeping the required clearance from overhead power lines.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A mobile crane is only as stable as what it's parked on and how it's set up. Most crane tip-overs and collapses trace back to the setup — soft ground under an outrigger, pads that weren't big enough, or a boom that swung into a power line. OSHA Subpart CC covers this ground: 1926.1402 for ground conditions and 1926.1408 for power lines.",
+          "The setup is done before the first pick, deliberately, with the load chart in hand — not adjusted on the fly once the crane is working."
+        ]
+      },
+      {
+        heading: "Ground conditions",
+        body: [
+          "The crane needs ground that's firm, drained, and graded enough — with supporting materials like mats, cribbing, or blocking — to hold it and the load without settling. The controlling entity is supposed to tell the crane crew about hazards it knows of underneath: voids, backfilled trenches, buried utilities, and septic or basement areas that could collapse under an outrigger.",
+          "Set outriggers over solid support, and watch for ground that looks fine but hides trouble — recent backfill, a covered trench, or saturated soil after rain can give way under load."
+        ]
+      },
+      {
+        heading: "Outriggers and stabilizers",
+        body: [
+          "Outriggers put the crane's stability where the load chart assumes it is. Set them up right:",
+          {
+            list: [
+              "Extend outriggers or stabilizers fully, or to the exact position the load chart specifies for a partial setup — and use the matching chart.",
+              "Set the pads on cribbing or mats sized to spread the load over enough ground; a small float on soft soil will punch through.",
+              "Get the crane level, within the manufacturer's tolerance (commonly about 1 percent) — an out-of-level crane loses capacity fast.",
+              "When required, get the tires up off the ground so the outriggers carry the load, not the suspension."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Power lines and swing radius",
+        body: [
+          "Assume every overhead line is energized until the utility confirms it's deenergized and grounded. Keep the crane, load, and rigging clear per OSHA Table A (1926.1408):",
+          {
+            list: [
+              "Up to 50 kV — at least 10 feet of clearance.",
+              "Over 50 kV up to 200 kV — at least 15 feet.",
+              "Higher voltages need more; when the voltage is unknown, keep the larger clearance until you confirm it."
+            ]
+          },
+          "If you can't guarantee the clearance, the options are to deenergize and ground the line, or use the encroachment-prevention measures Subpart CC requires (a dedicated spotter, warnings, and range-control devices). And barricade the crane's swing radius (1926.1424) so no one can walk into the space the rotating superstructure and counterweight sweep through."
+        ]
+      }
+    ]
+  },
+
+  "rigging-and-material-handling-equipment/material-storage-stacking-and-housekeeping": {
+    description:
+      "How to store and stack materials so they don't slide or collapse — the height limits, taper rules, and blocking OSHA 1926.250 requires — plus the housekeeping that keeps a lay-down area safe.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Material handling isn't just what hangs off a crane — it's the pipe, brick, block, lumber, and steel stacked around the site. Stacked material that slides, rolls, or collapses crushes feet, pins legs, and buries people, and it happens in the lay-down yard where nobody's thinking about a lift. OSHA 1926.250 sets the rules for storing and stacking so a pile stays a pile.",
+          "The theme is stability: stack it so it can't slide or topple, keep it off the walkways, and don't load a floor past what it can hold."
+        ]
+      },
+      {
+        heading: "General storage rules",
+        body: [
+          "Whatever you're staging, the basics from 1926.250(a) hold:",
+          {
+            list: [
+              "Store material so it's stable and secured against sliding, rolling, or collapse.",
+              "Post the maximum safe load limits for floors and don't exceed them — stored material can overload a deck.",
+              "Keep aisles and passageways clear, in good repair, and wide enough for the equipment that uses them.",
+              "Keep storage clear of exits, stairways, and fire equipment, and back at least the required distance from openings and edges."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stacking heights and taper rules",
+        body: [
+          "Different materials have specific stacking rules under 1926.250(b):",
+          {
+            list: [
+              "Brick — no higher than 7 feet; once a stack passes 4 feet, taper it back 2 inches for every foot of height above 4 feet.",
+              "Masonry block — when stacked over 6 feet high, taper back one-half block per tier above the 6-foot level.",
+              "Lumber — pull or bend over protruding nails, and stack it stable and self-supporting; manually-handled stacks no higher than 16 feet, and 20 feet when handled by forklift.",
+              "Bagged material — stack it by stepping back the layers and cross-keying the bags at least every 10 layers so it won't slump.",
+              "Pipe, bar stock, poles, and structural steel — block, rack, or chock it to stop it rolling or sliding out of the pile."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Housekeeping in the lay-down area",
+        body: [
+          "A tidy storage area is a safe one. Under 1926.25, keep the site clear of scrap, form lumber, and debris as the work goes, and stage materials where they won't block routes or pinch a walkway. Watch for:",
+          {
+            list: [
+              "Banding and dunnage left underfoot after a load is opened — trip and roll hazards.",
+              "Loads leaned against walls, racks, or scaffolds that could topple when disturbed.",
+              "Water, ice, or mud building up under a stack and softening its base."
+            ]
+          },
+          "Restack anything that's shifted, and don't pull material from the bottom or the middle of a pile — take it off the top so the stack stays stable."
+        ]
+      }
+    ]
   }
 };
 

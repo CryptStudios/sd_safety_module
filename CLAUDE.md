@@ -84,7 +84,10 @@ Status: [docs/STATUS.md](docs/STATUS.md).
 2. Read `docs/CONTENT_PLAN.md` → that category's primary source and scope.
 3. Ensure the dev server is running (`npm run dev`, http://localhost:3000); start it if not.
 4. Define/confirm the category's ~11 real topic titles (research if not set).
-5. State the session goal: which category, how many topics, primary source.
+5. State the session goal: which category, how many topics, primary source — then
+   **proceed directly** into researching and authoring the confirmed topics (no
+   separate go-ahead needed). Stop and ask only if a genuine decision or blocker
+   comes up mid-way.
 
 ### `/end-session`
 
