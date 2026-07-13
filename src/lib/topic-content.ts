@@ -13055,6 +13055,510 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
       },
     ],
   },
+  "manual-handling/why-manual-handling-injuries-happen": {
+    description:
+      "Manual handling is one of the biggest sources of injury in construction — sprains, strains, and back injuries that build up over time. Why they happen and what actually causes them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Lifting, carrying, pushing, and pulling material by hand is where a huge share of construction injuries come from. NIOSH data shows sprains, strains, and back injuries from heavy manual material handling are the most common injury and illness in commercial construction. Back injuries alone in U.S. construction have run about 50 percent higher than the average for all other industries.",
+          "These are called musculoskeletal disorders, or MSDs — damage to the muscles, tendons, ligaments, nerves, and discs that hold you together and let you move. Some come from one bad lift. Most build up slowly from doing the same demanding work day after day."
+        ]
+      },
+      {
+        heading: "What an MSD actually is",
+        body: [
+          "An MSD is soft-tissue and joint damage caused or made worse by the physical demands of the job. On a jobsite that usually shows up as:",
+          {
+            list: [
+              "Low back strains and disc problems from lifting, stooping, and twisting.",
+              "Shoulder and rotator cuff injuries from overhead and forceful work.",
+              "Muscle strains and pulls in the back, shoulders, and arms.",
+              "Nerve problems in the wrists and hands from gripping and repetition."
+            ]
+          },
+          "The OSHA Technical Manual notes back disorders can develop gradually from repeated micro-damage over time, or all at once from a single bad event. Both count, and both are preventable."
+        ]
+      },
+      {
+        heading: "Sudden vs. wear-and-tear",
+        body: [
+          "A sudden injury is the one you feel right away — you lift something awkward, twist, and something gives. The wear-and-tear kind is sneakier. Do enough marginal lifts, enough bent-over work, enough repetition, and the tissue breaks down a little at a time until one ordinary lift is the one that hurts.",
+          "That's why 'I've done it this way for years' isn't proof it's safe. The damage adds up quietly. The good news is the same thing cuts both risks: reduce how much you handle, handle it smarter, and use equipment instead of your back."
+        ]
+      },
+      {
+        heading: "Why OSHA cares even without a lifting rule",
+        body: [
+          "There is no OSHA standard that sets a maximum weight you're allowed to lift — OSHA has confirmed it has no standards limiting how much a worker can lift or carry. Ergonomic and manual-handling hazards are still covered under the General Duty Clause, Section 5(a)(1) of the OSH Act, which requires employers to keep the workplace free of recognized serious hazards. OSHA cites ergonomic hazards under that clause, and in construction it evaluates them through targeted inspections and worker complaints.",
+          "So the number on the box isn't the whole story. The rest of these talks walk through how to size up a lift, do it right, and use aids and staging so your body isn't the material handler of last resort."
+        ]
+      }
+    ]
+  },
+  "manual-handling/ergonomic-risk-factors-force-posture-repetition": {
+    description:
+      "MSDs come from a handful of physical risk factors that stack on top of each other — force, awkward posture, repetition, and more. Learn to spot them so you can cut them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "MSDs don't come out of nowhere. NIOSH ties them to a specific set of physical risk factors, and the more of them a task has — and the longer you're exposed — the higher the risk. Learning to name these factors is the first step to designing them out of the job.",
+          "The big ones are force, awkward and static postures, and repetition. Vibration, contact stress, and duration pile on top."
+        ]
+      },
+      {
+        heading: "The main risk factors",
+        body: [
+          {
+            list: [
+              "Force — how hard you have to push, pull, lift, or grip. Heavy loads and forceful movements are directly linked to low back disorders.",
+              "Awkward posture — bending, stooping, kneeling, twisting, or reaching overhead instead of working in a neutral position.",
+              "Static posture — holding one position (like a bent-over or overhead hold) without moving, which starves muscles and fatigues them.",
+              "Repetition — doing the same motion over and over so the tissue never gets to recover.",
+              "Vibration — whole-body vibration from riding equipment and hand-arm vibration from power tools; both are recognized low-back and hand risk factors.",
+              "Contact stress — pressing part of your body against a hard edge or tool.",
+              "Duration — how long you're exposed. Even a mild task becomes a hazard when you do it all shift."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "They stack",
+        body: [
+          "One factor by itself might be manageable. The danger is the combination. Lifting a heavy block (force) while bent and twisted (awkward posture), a hundred times a day (repetition, duration) is a different animal than lifting it once, close to your body, at waist height.",
+          "NIOSH's own risk-scoring approach adds exertion, posture, repetition, duration, and vibration together — because that's how the body experiences them. When you size up a task, don't ask 'is this one thing bad?' Ask 'how many of these am I doing at once, and for how long?'"
+        ]
+      },
+      {
+        heading: "Design the factors out",
+        body: [
+          "You can't always change the material, but you can usually change one or more factors. Cut the force with a cart or a lighter load. Cut the awkward posture by staging material at waist height. Cut repetition and duration with job rotation and rest. Every factor you remove drops the total risk — you don't have to fix all of them to make a real difference."
+        ]
+      }
+    ]
+  },
+  "manual-handling/niosh-lifting-equation-and-recommended-weight-limit": {
+    description:
+      "The NIOSH Lifting Equation is the standard tool for judging whether a two-handed lift is safe. What the 51-lb load constant, the RWL, and the Lifting Index mean in plain terms.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Since OSHA sets no maximum lift weight, the go-to yardstick is the Revised NIOSH Lifting Equation (NIOSH Publication No. 94-110). It doesn't just ask 'how heavy?' — it accounts for where the load is, how far it moves, and how often you lift it, then tells you a safe recommended weight for that specific lift.",
+          "You don't have to run the math on the floor. What matters is understanding what drives it, so you know which conditions make a lift more dangerous."
+        ]
+      },
+      {
+        heading: "The 51-pound starting point",
+        body: [
+          "The equation starts with a Load Constant of 51 lb (23 kg). That's the most NIOSH considers safe for nearly all healthy workers under a perfect, ideal lift. An ideal lift means:",
+          {
+            list: [
+              "The load is right in front of you, close to your body.",
+              "It starts around knuckle-to-shoulder height — roughly 30 inches off the floor, not the ground and not overhead.",
+              "You lift it a short vertical distance.",
+              "No twisting — you're square to the load.",
+              "It's an occasional lift, not repeated all shift.",
+              "You have a good, solid grip."
+            ]
+          },
+          "Almost no real jobsite lift is ideal. So the equation takes that 51 lb and cuts it down for every condition that's worse than perfect."
+        ]
+      },
+      {
+        heading: "The Recommended Weight Limit",
+        body: [
+          "The Recommended Weight Limit (RWL) is the 51-lb constant multiplied by six factors, each a number between 0 and 1 that shaves weight off as conditions get worse:",
+          {
+            list: [
+              "RWL = 51 × HM × VM × DM × AM × FM × CM",
+              "HM — horizontal: how far the load is out in front of you. Farther out = smaller number (in inches, HM = 10 divided by that distance).",
+              "VM — vertical: how high the lift starts; best around 30 in, penalized down near the floor or overhead.",
+              "DM — distance: how far the load travels up or down.",
+              "AM — asymmetry: how much you have to twist or reach off to the side.",
+              "FM — frequency: how often you lift; more lifts per minute = smaller number.",
+              "CM — coupling: the quality of your grip (good, fair, or poor handles)."
+            ]
+          },
+          "The takeaway: the same box gets a lower safe weight the farther it is from your body, the lower or higher it sits, the more you twist, and the more often you lift it."
+        ]
+      },
+      {
+        heading: "The Lifting Index — the score that matters",
+        body: [
+          "Once you have the RWL, the Lifting Index (LI) is simple: the actual weight you're lifting divided by the RWL.",
+          {
+            list: [
+              "LI = load weight ÷ RWL.",
+              "LI at or below 1.0 — the lift is within the recommended limit for nearly all healthy workers.",
+              "LI above 1.0 — risk of low-back injury goes up, and keeps climbing as the number rises.",
+              "LI above 3.0 — high risk; this task needs to be redesigned, not just done more carefully."
+            ]
+          },
+          "If a lift is scoring high, the fix isn't willpower — it's changing the lift: lighten the load, bring it closer, raise the starting height, kill the twist, or put a machine on it. A qualified person can run the full equation when you need real numbers."
+        ]
+      }
+    ]
+  },
+  "manual-handling/sizing-up-a-lift-before-you-do-it": {
+    description:
+      "Most manual-handling injuries are decided before the load leaves the ground. A quick size-up — weight, path, grip, and whether you should lift it at all — that takes seconds.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The best lift is the one you plan for two seconds before you start. OSHA's own guidance is to plan the lift and eliminate the ones you don't need to make. A fast size-up catches the load that's too heavy, the path that's blocked, and the grip that's going to slip — before your back finds out the hard way.",
+          "It costs seconds. A back injury costs months."
+        ]
+      },
+      {
+        heading: "Test the load first",
+        body: [
+          "Never trust a box by its size — the light-looking ones are sometimes the heavy ones. Before you commit:",
+          {
+            list: [
+              "Nudge or tip it to feel the weight and whether it shifts inside.",
+              "Check the label or ask if there's a weight marked.",
+              "Decide honestly: can you handle this alone, or is it a two-person or a cart job?",
+              "Look for a good grip — handles, cutouts, or a stable spot to hold."
+            ]
+          },
+          "If it's too heavy, awkward, or shifting, stop right there. Get help or get an aid. That decision is the whole ballgame."
+        ]
+      },
+      {
+        heading: "Clear the path and the ends",
+        body: [
+          "Know where the load is going before you pick it up. Walk the route in your head: is it clear, is the floor level, are there stairs, is there a trip hazard or a puddle? Good housekeeping and clear paths are part of manual handling — most drops happen because the destination or the walkway wasn't ready.",
+          "Set up the landing spot too. If you have to fumble for somewhere to put it down, you'll end up holding it in a bad position while you figure it out."
+        ]
+      },
+      {
+        heading: "Set your body up",
+        body: [
+          "Once you've decided to lift, get positioned before you strain: feet about shoulder-width for a stable base, load centered in front of you and close, and squared up so you won't have to twist to move it. A good setup is what makes the actual lift boring — which is exactly what you want."
+        ]
+      }
+    ]
+  },
+  "manual-handling/safe-lifting-technique": {
+    description:
+      "When you do have to lift by hand, technique protects your spine. Bend the knees not the back, keep the load close, lift with your legs, and never twist under load.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Technique isn't a substitute for using a cart or getting help — but when a lift is on you, doing it right is what keeps your spine out of a bad position. The core idea is simple: let your legs do the work, keep the load close, and keep your back in its natural, neutral shape.",
+          "None of this is fancy. It's the same handful of moves every time, done deliberately."
+        ]
+      },
+      {
+        heading: "The lift, step by step",
+        body: [
+          {
+            list: [
+              "Set your feet about shoulder-width for a stable base, load close in front of you.",
+              "Bend at the knees and hips — not the waist. Keep your back in its natural curve, not rounded over.",
+              "Get a firm grip, keep your elbows in close to your body.",
+              "Lift smoothly by straightening your legs. Let the legs power it, not the back. No jerking.",
+              "Keep the load close to your body the whole way — the farther it's out front, the more strain on your low back.",
+              "Keep the lift between mid-thigh and shoulder height where you can."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Never twist under load",
+        body: [
+          "Twisting while lifting or carrying is one of the fastest ways to hurt your back — especially when you're bent forward. OSHA's guidance is blunt about it: don't twist. When you need to change direction, turn by moving your feet, not by rotating your spine. Point your toes where the load is going and step around.",
+          "The same rule holds setting it down: face the spot, feet first, then lower with your legs."
+        ]
+      },
+      {
+        heading: "Set it down under control",
+        body: [
+          "The put-down hurts people too. Don't drop the last few inches or let it get away from you — lower it the same way you lifted it, bending the knees and keeping the back neutral and the load close. If you're placing it low, crouch down with it rather than bending over at the last second. Control the whole motion, start to finish."
+        ]
+      }
+    ]
+  },
+  "manual-handling/team-lifting-and-communication": {
+    description:
+      "Some loads are two-person loads — and a team lift only works if everyone moves together. How to pick a team, assign a caller, and lift as one.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When a load is too heavy or too awkward for one person, the answer isn't to muscle through — it's to team lift. OSHA's ergonomic guidance flatly recommends that heavy loads be lifted by two people rather than one. But a team lift done out of sync is its own hazard, so it needs a plan and a caller.",
+          "Two people lifting badly can hurt each other. Two people lifting together make a heavy load easy."
+        ]
+      },
+      {
+        heading: "Match the team",
+        body: [
+          "Team lifting works best when the load is shared evenly. Where you can, pair people of similar height and reach so the load stays level and one person isn't carrying more than their share. Agree on who's where before anyone bends down.",
+          "Decide the route and the landing spot together, same as a solo lift — except now two people have to agree on it."
+        ]
+      },
+      {
+        heading: "One caller, clear commands",
+        body: [
+          "Pick one person to call the lift. Everyone else follows that voice. Agree on the commands before you start so there's no confusion:",
+          {
+            list: [
+              "A clear count to lift together — 'ready, lift' — so you rise at the same instant.",
+              "Calls for moving, turning, and changing pace along the way.",
+              "A clear command to set it down together.",
+              "An agreed word for 'stop' if anything goes wrong."
+            ]
+          },
+          "The whole point is that the load moves as one. If one person lifts early or sets down first, all the weight dumps onto the other."
+        ]
+      },
+      {
+        heading: "Same rules, shared load",
+        body: [
+          "Good technique doesn't go out the window in a team lift — everyone still bends the knees, keeps the load close, and turns with their feet instead of twisting. Move slower than you would solo, keep the load level, and keep talking. If communication breaks down mid-carry, call a stop and reset. A team lift is only safe as long as everyone knows what happens next."
+        ]
+      }
+    ]
+  },
+  "manual-handling/mechanical-aids-and-equipment": {
+    description:
+      "The safest lift is the one a machine does for you. Carts, dollies, hand trucks, hoists, and lifts that take the load off your back — and why they sit at the top of the controls hierarchy.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Ask the NIOSH and OSHA hierarchy of controls what beats good lifting technique, and the answer is: not lifting at all. Engineering controls — using a device to move the load instead of your body — are the most effective way to prevent manual-handling injuries, ahead of training and technique.",
+          "NIOSH's construction guidance is direct: have forklifts, hand trucks, carts, or dollies available to move materials to the work location. The equipment exists. Using it is the job."
+        ]
+      },
+      {
+        heading: "Aids that take the load",
+        body: [
+          {
+            list: [
+              "Carts and dollies — for moving material horizontally so you're not carrying it. Dollies can even move sheet goods through narrow openings.",
+              "Hand trucks — for stacking and wheeling boxes and bags instead of hauling them.",
+              "Forklifts and powered equipment — for pallets and heavy loads.",
+              "Hoists, cranes, and material lifts — for raising loads instead of manhandling them up.",
+              "Vacuum lifts and lift tables — for handling awkward slabs, sheets, and panels, and for raising work to a good height."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Use it right",
+        body: [
+          "An aid only helps if it's the right one, it's in good shape, and you use it. Grab a cart before you start carrying by hand — not after your arms give out halfway across the site. Check wheels, brakes, and hooks before you load up. Don't overload it past its rating, and keep loads stable and low so it doesn't tip.",
+          "And remember pushing a loaded cart still has its own hazards — that's covered in the carrying, pushing, and pulling talk. The aid changes the risk; it doesn't erase it."
+        ]
+      },
+      {
+        heading: "When there's no aid",
+        body: [
+          "If the right equipment isn't on site, that's a hazard to flag, not a reason to wreck your back. Speak up so it gets ordered or staged. In the meantime, fall back on the next best controls: team lifting, smaller loads, and shorter carries. The default should never be 'just lift it' when a machine could do it."
+        ]
+      }
+    ]
+  },
+  "manual-handling/carrying-pushing-and-pulling-loads": {
+    description:
+      "Handling isn't just lifting — carrying, pushing, and pulling load up your back and shoulders too. Why pushing beats pulling and how to move loads without straining.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A lot of manual-handling injury happens after the lift — while you're carrying a load across the site or moving a loaded cart. Pushing and pulling carts full of material, equipment, and tools can strain your back, shoulders, and arms just like a bad lift. The rules for moving loads are as important as the rules for picking them up.",
+          "One rule stands out: when you have to move something on wheels, push it — don't pull it."
+        ]
+      },
+      {
+        heading: "Push, don't pull",
+        body: [
+          "OSHA's guidance is to push rather than pull whenever possible, and the OSHA Technical Manual puts it plainly: high-force push-pull is undesirable, but pushing is better than pulling. When you push, you can use your body weight and keep your back in a stronger, more neutral position. When you pull, you tend to twist and load your shoulders and lower back awkwardly.",
+          "So set carts up to be pushed. Keep your hands around waist height, get behind the load, and lean into it with your legs rather than yanking with your arms and back."
+        ]
+      },
+      {
+        heading: "Keep push-pull forces down",
+        body: [
+          "The amount of force it takes to get a load moving and keep it moving is what does the damage. Cut it wherever you can:",
+          {
+            list: [
+              "Keep wheels and casters in good shape and the right size — bad wheels multiply the force.",
+              "Keep floors and paths clear, level, and firm; ramps and rough ground spike the force needed.",
+              "Don't overload the cart — split it into two trips before you split your back.",
+              "Get it rolling smoothly instead of jerking it into motion, and keep loads low and stable."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Carrying smart",
+        body: [
+          "When you do carry by hand, keep the load close to your body and split it between both hands so you stay balanced instead of leaning to one side. Keep it below shoulder height and out of the way of your feet. Watch the path and set the load down to rest and re-grip on a long carry rather than pushing through fatigue — tired muscles are where the strains happen."
+        ]
+      }
+    ]
+  },
+  "manual-handling/awkward-postures-overhead-and-repetitive-work": {
+    description:
+      "Not all handling injuries come from heavy loads — bending, kneeling, overhead reaching, and doing the same motion all day wear the body down. How to break up the bad postures.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "You can hurt yourself handling light material if you do it in a bad position long enough. Awkward postures — stooping, kneeling, twisting, reaching overhead — and repeating the same motion are recognized MSD risk factors on their own, no heavy load required. NIOSH points to trades like brick masons, whose repetitive forward bending and forceful overhead work are classic examples.",
+          "The fix is to get the work into a better position and to break up the exposure."
+        ]
+      },
+      {
+        heading: "Overhead work",
+        body: [
+          "Reaching and working overhead loads your shoulders and neck and quickly fatigues them, especially when you're also holding weight up there (static posture plus force). To cut it:",
+          {
+            list: [
+              "Use platforms, scaffolds, or lifts to bring yourself up to the work instead of reaching for it.",
+              "Use extension tools where they let you keep your arms lower.",
+              "Support the weight of tools and material with rests or counterbalances where you can.",
+              "Take micro-breaks to drop your arms and let the shoulders recover."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Bending, kneeling, and twisting",
+        body: [
+          "Work down low is just as hard on the body from the other direction. Bring the work up to a comfortable height with lift tables, stands, or by staging material off the ground so you're not folded over all day. When you have to be down low, use knee pads and change position often instead of holding one static pose. And keep twisting out of it — move your feet to face the work rather than rotating your spine."
+        ]
+      },
+      {
+        heading: "Break up repetition",
+        body: [
+          "Repetition and duration are what turn an awkward posture into an injury — the tissue never gets a chance to recover. Rotate workers between different tasks so no one does the same demanding motion all shift, alternate heavy tasks with lighter ones, and build in short recovery breaks. NIOSH's manual-handling guidance specifically calls for alternating heavy and light tasks and providing recovery time. Changing what your body is doing is itself a control."
+        ]
+      }
+    ]
+  },
+  "manual-handling/staging-materials-to-reduce-handling": {
+    description:
+      "Where material sits decides how much your body pays to handle it. Staging loads at the right height and the right place cuts lifts, carries, and bad postures before work even starts.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The cheapest injury to prevent is the lift you never make. How and where material gets staged decides how many times someone bends, carries, and reaches for it. Get the staging right and you delete handling from the job instead of doing it more carefully.",
+          "NIOSH's construction guidance is specific here: deliver materials to the place where they'll be installed — not to a common drop area you then have to haul everything from."
+        ]
+      },
+      {
+        heading: "Deliver to the point of use",
+        body: [
+          "Every extra time material gets touched is another chance to get hurt. Cut the touches:",
+          {
+            list: [
+              "Have material delivered directly to where it's installed, not to a central pile.",
+              "Coordinate deliveries so loads land close to the work, not across the site.",
+              "Order smaller, lighter units where you can so individual handling is easier.",
+              "Use carts and equipment to move staged material the last stretch."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stage at the right height",
+        body: [
+          "Material stacked on the ground means every piece starts with a stoop. Material stacked up high means every piece starts with an overhead reach. The sweet spot is knuckle-to-shoulder height — right where the NIOSH Lifting Equation says a lift is safest. Stage loads on stands, pallets, tables, or racks so the first grab is at a good height, not off the floor.",
+          "As a stack gets used up, restage it so people aren't reaching down to the bottom of an empty pallet by the end."
+        ]
+      },
+      {
+        heading: "Keep paths and areas clear",
+        body: [
+          "Staging is also housekeeping. Keep walkways and work areas clear so carts roll and carries are short and unobstructed. Don't stage material where it blocks the path to the next task or forces people to carry loads the long way around. A clean, well-planned layout is quietly one of the best manual-handling controls there is."
+        ]
+      }
+    ]
+  },
+  "manual-handling/warming-up-conditioning-and-pacing": {
+    description:
+      "Warm-ups, fitness, and sensible pacing help your body handle physical work — as support for engineering controls, never a replacement. What actually helps and what it can't fix.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Your body is the tool you handle material with, and a warmed-up, rested body handles it better than a cold, exhausted one. Warm-ups, general fitness, and pacing all help you tolerate the physical demands of the work — but they are support, not a fix. They don't make an unsafe lift safe.",
+          "Keep the order straight: first reduce and re-engineer the handling, then use these to help your body cope with what's left."
+        ]
+      },
+      {
+        heading: "Warm up before demanding work",
+        body: [
+          "Cold muscles strain more easily. Easing into the shift and loosening up before heavy handling can help you move better and reduce that first-lift-of-the-day strain. Start the shift with lighter tasks where you can and build up, rather than going straight from the truck to the heaviest load on site.",
+          "Treat a warm-up like you'd treat any tool prep — a few minutes that make the rest of the work go smoother."
+        ]
+      },
+      {
+        heading: "Pace the work and recover",
+        body: [
+          "Fatigue is when technique falls apart and MSDs happen. NIOSH's manual-handling guidance calls for alternating heavy tasks with light ones, adjusting work pace and practices, and building in recovery time such as short rest breaks. Don't try to move the whole load in one heroic push — spread the demanding handling across the day and let tired muscles recover before they're the reason you get hurt.",
+          "Stay hydrated and don't skip breaks. Recovery time isn't lost time; it's what keeps you working."
+        ]
+      },
+      {
+        heading: "What conditioning can't do",
+        body: [
+          "Being fit and warmed up raises what your body can take — it does not raise how much you should have to. A strong worker lifting a 3.0-plus Lifting Index load is still a worker getting hurt, just a little slower. If a task needs a fitness program to survive, the task is the problem. Warm up, stay conditioned, pace yourself — and still push to fix the handling itself with aids, staging, and smaller loads."
+        ]
+      }
+    ]
+  },
+  "manual-handling/recognizing-and-reporting-early-warning-signs": {
+    description:
+      "MSDs give you warning before they become injuries — soreness, stiffness, numbness, tingling. Catching and reporting them early is how a twinge stays a twinge instead of a surgery.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Manual-handling injuries rarely show up out of nowhere. Because most MSDs build up gradually from repeated strain, your body usually sends warning signs first. Learn to notice them and report them early, and you can fix the task before a nagging ache turns into a serious, lasting injury.",
+          "The instinct to tough it out is exactly backwards here. Early is when these things are cheap to fix."
+        ]
+      },
+      {
+        heading: "Know the early signs",
+        body: [
+          "Pay attention to your body during and after handling work. Warning signs of a developing MSD include:",
+          {
+            list: [
+              "Aching, soreness, or pain in the back, shoulders, arms, or hands.",
+              "Stiffness or reduced range of motion — trouble standing up straight or moving normally.",
+              "Numbness or tingling ('pins and needles') in the hands or fingers.",
+              "Swelling, or a weakening grip.",
+              "Symptoms that linger after the shift, or come back a little worse each day."
+            ]
+          },
+          "The OSHA Technical Manual describes back trouble showing up as pain assuming a normal posture, decreased mobility, and pain standing or rising. If a symptom keeps coming back, that's a signal — not something to wait out."
+        ]
+      },
+      {
+        heading: "Report it early",
+        body: [
+          "Say something as soon as symptoms show up — don't wait until you can't work. OSHA's guidance stresses early reporting of injuries and symptoms, because early is when the task can be changed and the problem caught before it becomes permanent. Reporting a sore back that's building isn't complaining; it's how the hazard behind it gets found and fixed for you and everyone doing the same task.",
+          "→ See Accident Reporting for how and when to report, and First Aid for getting symptoms looked at."
+        ]
+      },
+      {
+        heading: "Early beats tough",
+        body: [
+          "A twinge reported today might mean a lighter task, a cart, or a better setup tomorrow. The same twinge ignored for months can mean a chronic back, a shoulder that won't heal, or surgery. There's no toughness award for wrecking your body quietly. The strongest move on the crew is the one who flags the early sign and gets the task fixed before it takes someone out."
+        ]
+      }
+    ]
+  },
 
 };
 
