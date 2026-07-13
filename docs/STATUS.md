@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 20 / 24 categories authored (83%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, and Asbestos Awareness pending SME review.**
+**Progress: 21 / 24 categories authored (88%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, and COSHH (Hazardous Substances) pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,12 +19,11 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — 4 remaining, all OSHA/EPA-based: COSHH/HazCom
-  (`coshh-hazardous-substances`, OSHA HazCom 1910.1200), Manual Handling
+- **Next category:** open — 3 remaining, all OSHA/NIOSH/EPA-based: Manual Handling
   (`manual-handling`, NIOSH lifting equation / OSHA ergonomics), Heat & Cold Stress
   (`heat-and-cold-stress-prevention`, OSHA heat illness / NIOSH), and Environmental
   Controls & Spill Response (`environmental-controls-and-spill-response`, EPA SPCC /
-  HAZWOPER 1910.120). All 20 authored categories to date are OSHA-based.
+  HAZWOPER 1910.120). COSHH/HazCom authored 2026-07-13.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -33,6 +32,59 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ COSHH (Hazardous Substances) — `coshh-hazardous-substances`
+- **Session:** 2026-07-13
+- **Topics authored:** 14 (real toolbox-talk list, flexed above the 11 floor —
+  OSHA Hazard Communication 1910.1200 + substance-specific construction standards
+  support it; synthetic expansion disabled)
+  1. What Counts as a Hazardous Substance
+  2. The Hazard Communication Program and Your Right to Know
+  3. GHS Labels and Signal Words
+  4. The Nine GHS Pictograms
+  5. Reading a Safety Data Sheet
+  6. How Substances Get Into Your Body
+  7. Permissible Exposure Limits and Air Monitoring
+  8. Respirable Crystalline Silica
+  9. Lead and Other Heavy Metals
+  10. Dusts, Vapors, Fumes, and Mists Created by the Work
+  11. Controlling Exposure — the Hierarchy of Controls
+  12. Storing and Segregating Chemicals Safely
+  13. Secondary Containers and Workplace Labeling
+  14. Chemical Spills, Skin Contact, and Emergency Response
+- **Jurisdiction note:** authored entirely to the **US/OSHA** equivalent — OSHA
+  Hazard Communication **1910.1200** (GHS), not UK COSHH. If the audience ever
+  becomes UK-based, the UK COSHH Regulations 2002 and WELs must be confirmed/
+  re-authored at SME review.
+- **Sources:** OSHA 29 CFR **1910.1200** (HazCom) — six GHS label elements +
+  signal words **Danger** (severe) vs **Warning** (f); written program (e);
+  training (h); the **16-section SDS** order (g); secondary-container/workplace
+  labeling + the portable-container exception (f)(6); the **9 GHS pictograms**
+  (Health Hazard, Skull & Crossbones, Exclamation Mark, Corrosion, Flame, Flame
+  Over Circle, Exploding Bomb, Gas Cylinder, Environment [non-mandatory]).
+  Substance standards: silica **1926.1153** (PEL **50 µg/m³** TWA / AL **25**,
+  Table 1 wet methods + LEV 99%-filter), lead **1926.62** (PEL **50** / AL **30
+  µg/m³**), hex chrome **1926.1126**, cadmium **1926.1127**; PEL framework
+  **1926.55 / 1910.1000** Z-tables. NIOSH RELs / ACGIH TLVs cited as guidance,
+  not law. The **15-min** eyewash flush is ANSI Z358.1 / first-aid convention
+  (cross-ref First Aid), not a numeric CFR threshold here.
+- **Scope note:** owns the chemical hazard-communication chain — recognizing
+  hazardous substances (incl. those created by the work), the HazCom program &
+  right-to-know, GHS labels/pictograms, SDS reading, exposure routes, PELs/air
+  monitoring, silica, lead & heavy metals, dust/vapor/fume/mist forms, hierarchy
+  of controls, chemical storage/segregation, workplace labeling, and chemical
+  spill/skin-contact response. Respirator selection/fit → PPE; clinical first aid →
+  First Aid; silica in demolition → Demolition; spill environmental reporting →
+  Environmental Controls & Spill Response — cross-ref'd, not duplicated.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build`
+  clean (all pages prerender, +558 topic paths) · 14 exported HTML files in
+  `out/training/coshh-hazardous-substances/` · authored content present
+  (`1910.1200`, `50 µg/m³`, `Skull and Crossbones`, `16-section`, `Danger`),
+  placeholder `plain site language` gone (0 files) · live route 200.
+- **SME review:** ⏳ pending. Facts grounded against osha.gov via research
+  subagent — 1910.1200 label elements/signal words/SDS order, the 9 pictograms,
+  silica PEL 50/AL 25, lead PEL 50/AL 30 confirmed against regulatory text; RELs/
+  TLVs and the 15-min eyewash flush flagged as guidance/consensus, not OSHA PELs.
 
 ### ✅ Asbestos Awareness — `asbestos-awareness`
 - **Session:** 2026-07-13
@@ -841,6 +893,7 @@ Update this file at the end of every session (`/end-session`).
 
 | Date | Category | Topics done | Notes |
 |------|----------|-------------|-------|
+| 2026-07-13 | COSHH (Hazardous Substances) | 14 | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |
