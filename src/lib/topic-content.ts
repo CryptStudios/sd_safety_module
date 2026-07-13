@@ -4496,6 +4496,528 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "fire-extinguisher-safety/classes-of-fire-a-b-c-d-and-k": {
+    description:
+      "Fires are sorted into five classes by what's burning — and grabbing the wrong extinguisher for the class can do nothing, spread the fire, or get you shocked or blown back.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every portable extinguisher is built for certain kinds of fire, and fires are grouped into five classes by the fuel that's burning: A, B, C, D, and K. Match the extinguisher to the class and you knock the fire down. Grab the wrong one and you can waste the whole bottle, spread the fire, or hurt yourself.",
+          "You don't need to be a firefighter to use this. You need to look at what's on fire, name the class, and reach for an extinguisher rated for it."
+        ]
+      },
+      {
+        heading: "The five classes",
+        body: [
+          "Here's what each class means and what's burning:",
+          {
+            list: [
+              "Class A — ordinary combustibles: wood, paper, cloth, cardboard, rubber, and most plastics.",
+              "Class B — flammable and combustible liquids and gases: gasoline, diesel, oil, grease, solvents, paint, propane.",
+              "Class C — energized electrical equipment: live wiring, panels, motors, tools, and machinery still under power.",
+              "Class D — combustible metals: magnesium, titanium, sodium, potassium, lithium, and zirconium, often as chips, turnings, or powder.",
+              "Class K — cooking media: vegetable and animal oils and fats in commercial kitchen equipment."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Why the class decides the agent",
+        body: [
+          "The class isn't trivia — it changes what's safe to put on the fire:",
+          {
+            list: [
+              "Water on a Class B liquid fire spreads the burning liquid; on Class C it can conduct current back to you.",
+              "Water or a standard extinguisher on Class D can react violently with the hot metal.",
+              "Class K grease fires re-ignite unless you use an agent that cools and seals the surface.",
+              "A Class C fire becomes a Class A or B fire once you kill the power — de-energizing is often the first real move."
+            ]
+          },
+          "So the first question at any fire isn't \"where's an extinguisher\" — it's \"what's burning,\" because that's what tells you which extinguisher will actually work."
+        ]
+      },
+      {
+        heading: "Reading the class off the fuel",
+        body: [
+          "On a job site you'll usually be sizing this up in seconds. Ordinary trash and lumber is A. Anything from a fuel can, a solvent drum, or a gas line is B. If it's plugged in or energized, treat it as C until the power's off. Grinding dust or shavings from magnesium or titanium is D. Fryer or cooking oil is K.",
+          "When more than one fuel is involved — say a fuel spill near energized equipment — you need an extinguisher rated for every class present, which is exactly why multipurpose ABC extinguishers are so common on site. The next topic covers the extinguisher types that cover these classes."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/types-of-portable-extinguishers-and-what-they-put-out": {
+    description:
+      "Water, foam, CO₂, dry chemical, wet chemical, and dry powder each fight different classes — knowing what's in the bottle in your hand tells you what it will and won't put out.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The extinguisher on the wall is defined by what's inside it. Each agent works on certain fire classes and fails — sometimes dangerously — on others. Knowing the common types tells you at a glance what a given bottle can handle.",
+          "The one you'll see most on a construction or industrial site is the multipurpose dry chemical ABC. But it's not the only one, and it's not right for every hazard."
+        ]
+      },
+      {
+        heading: "The common agents",
+        body: [
+          "These are the types you're most likely to meet and the classes they cover:",
+          {
+            list: [
+              "Water (APW) — Class A only. Cools ordinary combustibles. Never on B, C, or D.",
+              "Foam (AFFF) — Class A and B. Blankets a liquid surface to smother it. Conductive, so not for energized equipment.",
+              "Carbon dioxide (CO₂) — Class B and C. Smothers and leaves no residue, so it's good for electronics and electrical — but short range and easily blown away outdoors.",
+              "Dry chemical, multipurpose (ABC) — Class A, B, and C. The site workhorse. Leaves a corrosive powder residue.",
+              "Ordinary dry chemical (BC) — Class B and C only, no A rating.",
+              "Wet chemical — Class K (and light A). Cools and saponifies cooking grease so it won't re-flash.",
+              "Dry powder — Class D only. A special metal-fire agent — not the same thing as dry chemical."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Strengths and limits to know",
+        body: [
+          "A few practical points that catch people out:",
+          {
+            list: [
+              "CO₂ has a short reach (a few feet) and displaces oxygen — dangerous in a small enclosed space, and it can frostbite bare skin at the horn.",
+              "Dry chemical residue is corrosive and makes a mess of electronics and machined surfaces — CO₂ or a clean agent is better around sensitive equipment.",
+              "Foam and water conduct electricity — keep them off anything energized.",
+              "\"Dry chemical\" and \"dry powder\" sound alike but are not interchangeable: only dry powder is made for combustible-metal (Class D) fires."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Match the bottle to the hazard",
+        body: [
+          "Before you rely on an extinguisher, read its faceplate and confirm it covers the fire classes you could actually face at that spot. A welding bay with fuel and energized gear wants ABC coverage; a metal-grinding station wants a Class D unit staged nearby; a kitchen wants Class K.",
+          "If the only extinguisher in reach is wrong for the hazard, that's a gap to flag before there's a fire — not something to discover with flames in front of you."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/reading-the-label-ratings-and-listings": {
+    description:
+      "The faceplate tells you exactly what an extinguisher can do — the letter classes it fights and the numbers that rate how big a fire it can handle.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every listed extinguisher carries a rating on its faceplate — a mix of numbers and letters like 4A:80B:C. That rating isn't decoration; it tells you which classes of fire the unit fights and, for A and B, roughly how much fire it can put out.",
+          "Learning to read it takes a minute and tells you whether the bottle in your hand is up to the fire in front of you."
+        ]
+      },
+      {
+        heading: "Letters and numbers",
+        body: [
+          "The rating combines a class letter with, for A and B, a number in front of it:",
+          {
+            list: [
+              "The letter (A, B, C, D, K) is the class of fire the unit is listed for.",
+              "The Class A number runs roughly 1A to 40A and reflects extinguishing capacity — a 1A rating is about the equivalent of 1¼ gallons of water.",
+              "The Class B number is the approximate square feet of flammable-liquid fire a non-expert operator can put out — a 10B handles about 10 square feet.",
+              "Class C carries no number — it just means the agent is non-conductive and safe on energized equipment; the unit's A or B numbers still apply once the power's off.",
+              "Class D and K units are rated for specific hazards, with details on the faceplate rather than a simple number."
+            ]
+          },
+          "So 4A:80B:C means it'll handle a moderate ordinary-combustible fire, about 80 square feet of liquid fire, and it's safe on energized equipment."
+        ]
+      },
+      {
+        heading: "Listings and markings",
+        body: [
+          "A trustworthy extinguisher is listed and labeled by a nationally recognized testing lab — you'll see a UL (or similar) listing mark. That listing is what backs up the rating on the plate.",
+          "Modern labels also use pictured symbols: a picture of the fire type in a blue box means the unit works on it; the same symbol with a red slash means it does not. Those pictographs are a fast way to check suitability without decoding the alphanumeric rating."
+        ]
+      },
+      {
+        heading: "Use the rating to plan, not just to react",
+        body: [
+          "Ratings matter before the fire, too. OSHA's distribution rules (covered under selecting and distributing) are built around Class A and B ratings and how far apart units can be. A higher-rated extinguisher covers more hazard and can allow greater spacing.",
+          "When you check an extinguisher, glance at the rating and ask whether it fits the hazard where it's mounted. A 2A:10B:C by a large fuel storage area is undersized — the rating tells you that at a glance."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/size-up-when-to-fight-a-fire-and-when-to-get-out": {
+    description:
+      "A portable extinguisher is for a small, early fire and nothing more — the most important skill is honestly judging when to fight and when to drop the bottle and get out.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A portable extinguisher is built for an incipient fire — a small, early-stage fire you catch in the first moments. Past that stage, no handheld bottle is going to win, and trying turns a property loss into a life loss.",
+          "The single most valuable skill in this whole category isn't technique — it's the honest size-up: deciding fast whether this is a fire to fight or a fire to run from. Life safety comes before property, every time."
+        ]
+      },
+      {
+        heading: "Only fight the fire if all of these are true",
+        body: [
+          "Fight it only when every one of these holds:",
+          {
+            list: [
+              "The alarm's been raised and people are getting out.",
+              "The fire is small, contained, and not spreading — still in its early stage.",
+              "You have the right extinguisher for the class, and it's fully charged.",
+              "You're trained and confident using it.",
+              "The smoke and heat are light enough to approach safely.",
+              "You have a clear, unobstructed escape route at your back — you're between the fire and the exit, never the other way around."
+            ]
+          },
+          "If any one of these is missing, don't fight it."
+        ]
+      },
+      {
+        heading: "Get out when",
+        body: [
+          "Back out and evacuate the moment you see any of these:",
+          {
+            list: [
+              "The fire is spreading, has reached the ceiling, or has moved beyond where it started.",
+              "The room is filling with smoke, or you can't see or breathe easily.",
+              "The extinguisher empties and the fire's still going — you get one bottle, not a duel.",
+              "You're unsure of the fuel, the extinguisher, or your escape.",
+              "Your instinct says it's too big — trust it."
+            ]
+          },
+          "Close doors behind you if you can, keep low under smoke, and get everyone to the assembly point."
+        ]
+      },
+      {
+        heading: "Know your site's policy",
+        body: [
+          "Not every employer wants workers fighting fires. Under OSHA some sites require total evacuation and train nobody to use extinguishers; others designate and train specific people. Know which one your site is before an alarm sounds — fighting a fire you were told to evacuate from helps no one.",
+          "Either way, the rule that never changes: raise the alarm and get people out first. A portable extinguisher buys you a clear path or a chance at a truly small fire — it is not a reason to stay in a building that's beginning to burn."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/the-pass-technique": {
+    description:
+      "PASS — Pull, Aim, Squeeze, Sweep — is how you actually use an extinguisher: aim at the base of the fire, not the flames, from a safe distance back.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Once you've decided the fire is small enough to fight and you've got the right extinguisher, the technique is simple and worth knowing cold: PASS — Pull, Aim, Squeeze, Sweep. Under stress people forget it, so it's exactly the kind of thing a toolbox talk should drill.",
+          "The core idea behind all four steps: hit the base of the fire — the fuel — not the flames above it."
+        ]
+      },
+      {
+        heading: "The four steps",
+        body: [
+          "PASS stands for:",
+          {
+            list: [
+              "Pull the pin — this breaks the tamper seal and frees the handle.",
+              "Aim low, at the base of the fire, not at the flames. The flames go out when the fuel stops burning.",
+              "Squeeze the handle to discharge the agent in a controlled stream.",
+              "Sweep from side to side across the base of the fire, keeping it aimed at the fuel until the fire is out."
+            ]
+          },
+          "Do a quick test squeeze before you approach, so you know the extinguisher works and get a feel for the range."
+        ]
+      },
+      {
+        heading: "Distance, position, and watching for re-flash",
+        body: [
+          "How you stand matters as much as the steps:",
+          {
+            list: [
+              "Start about 6 to 8 feet back — most portable extinguishers have a short range and only 8 to 15 seconds of discharge.",
+              "Keep your back to your exit so you never have to move toward or past the fire to escape.",
+              "Move in as the fire shrinks, keeping the stream on the base.",
+              "After it's out, watch for re-flash — liquids and grease especially can re-ignite — and keep the extinguisher ready.",
+              "Back away from the fire when done; don't turn your back on it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "After you've used it",
+        body: [
+          "A used extinguisher is a dead extinguisher until it's serviced — even a one-second squeeze can bleed the pressure over time. So once you've discharged one, even partially, take it out of service, report it, and get it recharged or replaced.",
+          "Never hang a used extinguisher back on the bracket. The next person to grab it is counting on a full bottle, and finding an empty one in a fire is the worst possible time."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/selecting-and-distributing-extinguishers": {
+    description:
+      "OSHA ties extinguisher selection to the hazard and caps how far you can be from one — 75 feet for Class A, 50 feet for Class B — so the right unit is always within reach.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1910.157(d) requires extinguishers to be selected and distributed based on the classes of fire that could happen in the area and the size and degree of the hazard. In plain terms: the right type of extinguisher, enough of them, and never too far to reach one.",
+          "The rule sets maximum travel distances — how far a worker should ever have to walk to get to an extinguisher — and those distances depend on the fire class."
+        ]
+      },
+      {
+        heading: "Maximum travel distances",
+        body: [
+          "The distance limits are the numbers to know:",
+          {
+            list: [
+              "Class A hazards — no more than 75 feet of travel distance to an extinguisher.",
+              "Class B hazards — no more than 50 feet, because flammable-liquid fires grow fast.",
+              "Class C hazards — extinguishers distributed on the basis of the Class A or B pattern that applies to the area.",
+              "Class D hazards — within 75 feet of the combustible-metal work.",
+              "Class K hazards — within 30 feet of the cooking equipment (per NFPA 10)."
+            ]
+          },
+          "Travel distance means the actual walking path around benches, racks, and walls — not a straight line through solid objects."
+        ]
+      },
+      {
+        heading: "Selecting for the hazard",
+        body: [
+          "Selection is about matching type and size to what's actually there:",
+          {
+            list: [
+              "Identify every fire class present in the area — often more than one.",
+              "Choose extinguishers rated for all of those classes (multipurpose ABC covers the common mix).",
+              "Size the rating to the hazard — bigger fuel loads need higher A and B ratings, not just more small bottles.",
+              "Stage special units where they're needed: Class D near combustible-metal work, Class K near cooking, CO₂ or clean agent near sensitive electronics."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Distribution on a changing site",
+        body: [
+          "On construction sites the hazards move as the work moves. Fuel storage, a new welding area, or a temporary generator all change where extinguishers need to be. Distribution isn't a one-time layout — it gets revisited as the site and its hazards shift.",
+          "When you set up a new operation with a fire hazard, part of the setup is confirming a properly rated extinguisher is within the required travel distance before the work starts."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/placement-mounting-and-access": {
+    description:
+      "An extinguisher only helps if you can find it and grab it fast — so OSHA requires them mounted, visible, identified, and never blocked, at heights anyone can lift them from.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1910.157(c) says extinguishers must be provided, mounted, located, and identified so they're readily accessible without putting anyone at risk to reach them. A properly rated extinguisher does nothing if it's hidden behind a pallet or lying on the floor under a tarp.",
+          "Placement is one of the easiest things to get wrong on a busy site and one of the easiest to fix — most of it is just discipline about where the bottle lives and keeping the path to it clear."
+        ]
+      },
+      {
+        heading: "Mounting and height",
+        body: [
+          "Extinguishers are mounted on brackets or in cabinets, not left standing on the floor where they get knocked over, wet, or buried. Height matters so anyone can lift one down safely (per NFPA 10):",
+          {
+            list: [
+              "Units weighing 40 pounds or less: mounted so the top is no more than 5 feet above the floor.",
+              "Units heavier than 40 pounds (except wheeled): mounted so the top is no more than 3½ feet above the floor.",
+              "Keep a clearance of at least 4 inches between the bottom of the extinguisher and the floor.",
+              "Secure the unit in its bracket so vibration or a bump can't drop it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Visibility and access",
+        body: [
+          "You have to be able to see it and reach it fast:",
+          {
+            list: [
+              "Keep extinguishers in plain sight; where they'd be visually obstructed, use signs or arrows to mark the location.",
+              "Never block the extinguisher or its path with stored material, equipment, cords, or parked vehicles.",
+              "Locate them along normal travel routes and near exits, so grabbing one keeps you moving toward the way out.",
+              "Keep the location consistent so crews learn where they are."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep it that way",
+        body: [
+          "Placement isn't set-and-forget. Material gets stacked in front of extinguishers, they get borrowed and not returned, and temporary work blocks the path. That's exactly what the monthly visual inspection is meant to catch.",
+          "In a fire, people go to where the extinguisher is supposed to be. If it's not there, or they can't get to it, the seconds they lose looking are the seconds the fire uses to grow. Access is a life-safety issue, not housekeeping."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/the-monthly-visual-inspection": {
+    description:
+      "Once a month, someone lays eyes on every extinguisher to confirm it's there, charged, and ready — a 30-second check that catches the empty or blocked bottle before you need it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1910.157(e) requires portable extinguishers to be visually inspected at least monthly. It's a quick look — not a teardown — to confirm each unit is in its place and ready to work. Anyone can be trained to do it.",
+          "The whole point is to find the dead or missing extinguisher on a calm Tuesday, not in the middle of a fire. A surprising number of extinguishers fail this simple check."
+        ]
+      },
+      {
+        heading: "What to check every month",
+        body: [
+          "Walk each extinguisher and confirm:",
+          {
+            list: [
+              "It's in its assigned spot, visible, and not blocked or obstructed.",
+              "The pressure gauge needle sits in the green (operable) range — not in the red on either side.",
+              "The tamper seal and pin are intact, showing it hasn't been used or fiddled with.",
+              "There's no visible damage, dents, corrosion, or leakage, and the nozzle or horn is clear.",
+              "The instruction label faces out and is legible.",
+              "For CO₂ and cartridge units, the weight is right if your site weighs them."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Recording it",
+        body: [
+          "The monthly check gets recorded. In practice that's a date and initial on the tag attached to the extinguisher, and often a log as well. The record shows the inspection is actually happening month after month.",
+          "If you find a problem — low pressure, a broken seal, damage, or a missing unit — tag it, report it, and get it serviced or replaced. Don't leave a suspect extinguisher on the wall giving people false confidence."
+        ]
+      },
+      {
+        heading: "Inspection vs. maintenance",
+        body: [
+          "The monthly visual inspection is the quick look anyone can do. It's different from the annual maintenance check, which is a thorough, hands-on examination by a trained person — that's the next topic.",
+          "Think of it this way: the monthly inspection catches the obvious (missing, blocked, discharged, damaged); the annual maintenance catches the internal and mechanical problems a glance can't. You need both."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/annual-maintenance-and-recharging": {
+    description:
+      "Once a year every extinguisher gets a thorough hands-on check by a trained person — and any extinguisher that's been used, even for a second, gets recharged before it goes back up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "On top of the monthly look, OSHA 1910.157(e) requires a thorough maintenance check at least once a year, done by someone trained to do it. This is the hands-on examination that catches the problems a visual inspection can't — internal condition, mechanical parts, and the agent itself.",
+          "Recharging is the partner to maintenance: any extinguisher that's been discharged, even partially, has to be recharged before it's put back in service."
+        ]
+      },
+      {
+        heading: "The annual maintenance check",
+        body: [
+          "The yearly maintenance is a complete examination of the extinguisher's mechanical parts, the extinguishing agent, and the expelling means. The servicer verifies the unit is fully charged and operable and repairs or replaces what's needed.",
+          "OSHA requires the maintenance to be recorded and the record kept. The date of the last annual maintenance is marked on the tag, and the record is retained for at least one year after the check (or the life of the shell if the unit is discarded)."
+        ]
+      },
+      {
+        heading: "Recharging after use",
+        body: [
+          "An extinguisher is a one-and-done tool until it's recharged:",
+          {
+            list: [
+              "Recharge any extinguisher after any use — even a quick test squeeze or a partial discharge bleeds pressure and agent.",
+              "Recharge rechargeable units per the manufacturer's instructions with the correct agent.",
+              "Non-rechargeable (disposable) units are replaced, not refilled, once used or expired.",
+              "Never put a used or under-pressure extinguisher back on the bracket."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Internal exams and stored-pressure units",
+        body: [
+          "Some extinguishers also need periodic internal examination between hydrostatic tests. For example, stored-pressure dry chemical units in the 12-year hydrostatic category get emptied and examined internally at intervals not exceeding 6 years.",
+          "You don't have to memorize every interval — that's the servicer's job — but you should know that maintenance is more than the annual glance-over, and that an extinguisher pulled for internal exam or hydrostatic test needs to be covered by a spare so the area isn't left unprotected. Hydrostatic testing itself is the next topic."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/hydrostatic-testing-schedules": {
+    description:
+      "The pressure vessel itself has a lifespan — hydrostatic testing pressure-checks the shell on a set schedule (5 years for CO₂ and water, 12 for dry chemical) so it can't rupture under pressure.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "An extinguisher is a pressure vessel, and the shell and hose can weaken over years of service. Hydrostatic testing pressure-tests the cylinder and hose to make sure they can safely hold their charge and won't rupture. OSHA 1910.157(f) requires it on a set schedule, done by trained people with the proper equipment.",
+          "This is specialist work — not something done on the job site — but crews should understand why extinguishers periodically disappear for testing and come back with a new date stamped on them."
+        ]
+      },
+      {
+        heading: "Test intervals by type",
+        body: [
+          "The interval depends on the extinguisher type. The common ones:",
+          {
+            list: [
+              "Water, foam (AFFF), and wet chemical — every 5 years.",
+              "Carbon dioxide (CO₂) — every 5 years.",
+              "Dry chemical, stored-pressure and cartridge — every 12 years.",
+              "Halon and halocarbon (clean agent) — every 12 years.",
+              "Dry powder (Class D) — every 12 years.",
+              "CO₂ hose assemblies with a shutoff — every 5 years."
+            ]
+          },
+          "The test date is recorded on the extinguisher, so you can read when it was last done and when it's due."
+        ]
+      },
+      {
+        heading: "Why it matters and who does it",
+        body: [
+          "A corroded or damaged shell can fail catastrophically under pressure — the test exists to catch that before it happens. Testing must be performed by trained persons with suitable equipment and facilities, following the procedure for that extinguisher type.",
+          "Units that fail the test, or that show cupping, corrosion, dents, or damaged threads, are condemned and taken out of service — not repaired and returned."
+        ]
+      },
+      {
+        heading: "Coverage while units are out",
+        body: [
+          "When extinguishers go off for hydrostatic testing, the area they protected can't be left bare. Spare or loaner extinguishers of the right type and rating go up in their place so the required coverage and travel distances still hold.",
+          "For crews, the practical takeaway is simple: don't assume an empty bracket is fine because \"it's just out for testing.\" Report a missing extinguisher so a replacement is confirmed to be covering that spot."
+        ]
+      }
+    ]
+  },
+  "fire-extinguisher-safety/employee-training-and-the-extinguisher-program": {
+    description:
+      "If extinguishers are provided for workers to use, OSHA requires training on how and when to use them — at hire and at least once a year — so nobody's learning the tool during a fire.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Providing extinguishers isn't enough on its own. OSHA 1910.157(g) says that where an employer provides portable extinguishers for employees to use, it must also provide training so they know how to use them and understand the hazards of fighting even a small fire.",
+          "Nobody should be reading the label for the first time with a fire in front of them. The training is what turns a bottle on the wall into something a worker can actually use safely — or correctly decide not to."
+        ]
+      },
+      {
+        heading: "What the training covers",
+        body: [
+          "Effective extinguisher training gives workers:",
+          {
+            list: [
+              "The general principles of extinguisher use and the hazards of early-stage (incipient) firefighting.",
+              "How to read the classes and ratings and match an extinguisher to the fire.",
+              "The PASS technique and safe distance and positioning.",
+              "The size-up decision — when to fight and when to evacuate.",
+              "Where the extinguishers are on their site and how to raise the alarm."
+            ]
+          },
+          "Hands-on practice with a real or simulated extinguisher makes the difference under stress far better than a talk alone."
+        ]
+      },
+      {
+        heading: "When training is required",
+        body: [
+          "Timing is set by the standard:",
+          {
+            list: [
+              "Upon initial employment or assignment — before a worker would be expected to use an extinguisher.",
+              "At least annually thereafter — a refresher every year.",
+              "Employees specifically designated to use firefighting equipment under an emergency action plan get trained in that equipment on assignment and at least yearly."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The total-evacuation option",
+        body: [
+          "OSHA also allows a different approach: an employer with an emergency action plan and a fire prevention plan can require total evacuation and have no employees use extinguishers at all. In that case the full training requirement doesn't apply, because nobody's expected to fight a fire.",
+          "What a site can't do is put extinguishers out for workers to use and skip the training. Either people are trained to use them, or the policy is get-out-and-let-them-burn — the program has to pick one and make it clear to every worker. This ties into the site's emergency action plan covered under Fire Safety."
+        ]
+      }
+    ]
   }
 };
 
