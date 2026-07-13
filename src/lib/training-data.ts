@@ -508,6 +508,7 @@ const realContentCategories = new Set<string>([
   "housekeeping",
   "slips-trips-and-falls",
   "accident-reporting",
+  "first-aid",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1324,12 +1325,18 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Location of First Aid Supplies",
-      "Emergency Contacts and Procedures",
-      "Administering Basic First Aid",
-      "CPR and AED Awareness",
-      "Treating Burns and Lacerations",
-      "Heat and Cold Illness Response"
+      "First-Aid Readiness on the Job Site",
+      "Trained First-Aid Providers and Medical Services",
+      "First-Aid Kits and Supplies",
+      "Getting Help Fast — Emergency Communication",
+      "Scene Safety and the Primary Check",
+      "Bloodborne Pathogens and Universal Precautions",
+      "Controlling Bleeding and Wounds",
+      "Shock",
+      "Burns",
+      "Fractures, Sprains, and Strains",
+      "Eye Injuries and Emergency Eyewash",
+      "CPR, Sudden Cardiac Arrest, and AEDs"
     ]
   }),
   createCategory({

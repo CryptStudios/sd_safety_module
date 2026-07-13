@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 18 / 24 categories authored (75%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, and Accident Reporting pending SME review.**
+**Progress: 19 / 24 categories authored (79%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, and First Aid pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -35,6 +35,64 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ First Aid — `first-aid`
+- **Session:** 2026-07-13
+- **Topics authored:** 12 (real toolbox-talk list; OSHA 1926.50 / 1910.151 +
+  1910.1030 + AHA/Red Cross first-aid curricula support it; synthetic expansion
+  disabled)
+  1. First-Aid Readiness on the Job Site
+  2. Trained First-Aid Providers and Medical Services
+  3. First-Aid Kits and Supplies
+  4. Getting Help Fast — Emergency Communication
+  5. Scene Safety and the Primary Check
+  6. Bloodborne Pathogens and Universal Precautions
+  7. Controlling Bleeding and Wounds
+  8. Shock
+  9. Burns
+  10. Fractures, Sprains, and Strains
+  11. Eye Injuries and Emergency Eyewash
+  12. CPR, Sudden Cardiac Arrest, and AEDs
+- **Sources:** OSHA 29 CFR 1926.50 (construction — (a) medical personnel for
+  advice/consultation; (b) prompt-attention provisions before project start;
+  (c) trained first-aid provider on site where no infirmary/clinic/hospital/
+  physician is **reasonably accessible in terms of time and distance** (Red Cross
+  or verifiable equivalent); (d)(1) supplies **easily accessible**; (d)(2)
+  weatherproof container + checked before each job & **at least weekly**; (e)
+  transport equipment or ambulance-contact communication system; (f)(1) post
+  physician/hospital/ambulance numbers where **911 unavailable** + (f)(2) post site
+  location info; (g) quick-drench/eyewash for corrosive exposure); 1910.151
+  (general industry — (a)/(b) **"near proximity"** + adequately-trained first aid +
+  readily-available supplies; (c) eyewash); 1910.1030 (bloodborne pathogens —
+  designated first-aid providers covered, universal precautions, gloves/CPR
+  barrier, exposure control plan, HBV vaccine, post-exposure evaluation); ANSI/ISEA
+  Z308.1 kit fill (Class A/B in current editions; OSHA appendices cite non-mandatory
+  1978/1998 editions). Clinical steps (scene safety, primary check, bleeding
+  control/Stop-the-Bleed, shock, burns, RICE, eye flushing 15 min, CPR 100–120/min
+  ~2 in, AED) attributed to **AHA/American Red Cross first-aid curricula**, not OSHA
+  regulatory text.
+- **Scope note:** awareness-level emergency response — readiness/program, trained
+  providers, kits, emergency communication, scene safety, bloodborne pathogens, and
+  the common on-site injuries (bleeding, shock, burns, fractures, eye injuries,
+  cardiac arrest/CPR/AED). Explicitly not certification; every clinical talk points
+  the reader to hands-on training. Heat/cold emergencies → forthcoming Heat & Cold
+  Stress; injury recordkeeping/severe-injury reporting → Accident Reporting;
+  chemical SDS/eyewash siting → HazCom & PPE — cross-ref'd.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build` clean
+  (all pages prerender) · 12 exported HTML files in `out/training/first-aid/` ·
+  authored content present (`1926.50`, `1910.1030`, `tourniquet`, `AED`, `eyewash`,
+  `15 minutes`, `reasonably accessible`), placeholder `plain site language` gone
+  (0 files).
+- **SME review:** ⏳ pending — **elevated priority: contains clinical first-aid
+  guidance.** Facts verified against osha.gov via research subagent — corrected:
+  construction 1926.50(c) uses **"reasonably accessible in terms of time and
+  distance"** (the phrase **"near proximity"** belongs to 1910.151(b)); 1926.50(d)(1)
+  = **"easily accessible"**; weatherproof/weekly-check = **(d)(2)** (no (d)(3));
+  construction eyewash = **1926.50(g)**; the **3–4 min vs. 15 min** response-time
+  guidance is from **OSHA interpretation letters + OSHRC/court precedent**, not CFR
+  text; **Class A/B kits** and clinical protocols are consensus/curricula (ANSI-ISEA
+  / AHA / Red Cross), not OSHA text. CPR ratios/depth and burn/eye flush times should
+  be confirmed against current AHA/Red Cross guidelines at SME review.
 
 ### ✅ Accident Reporting — `accident-reporting`
 - **Session:** 2026-07-13
@@ -747,6 +805,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Construction Safety | 13 | Thirteenth category (54%). OSHA 1926 Subpart C (§20–35 general provisions) + Subpart D (§51/.56 sanitation/illumination) + Subpart I (§300–307 tools) + Subpart G (§200–203 signs/signals/barricades) + OSH Act (rights, §11(c), competent person §32(f)) + Focus Four. Focus Four overview, OSHA rights/responsibilities, new-worker orientation/training (§21), JHA & hierarchy of controls, competent person + daily inspections, struck-by (4 types + vehicles/backovers), caught-in/between (cave-ins/machinery/pinned), hand & power tools (guards/condition/GFCI), signs-tags-signals-barricades (Danger-red/Caution-yellow), illumination (5/10 fc)/sanitation/welfare, PPE overview (employer-paid, last line), emergency action plans (§35) + first aid/fire, stop-work authority + hazard/near-miss reporting. Replaced placeholder grab-bag that duplicated dedicated categories; owns Struck-By + Caught-In/Between, defers Falls/Electrocution/PPE/Housekeeping/tools-air/traffic/recordkeeping to their categories. Build 1108 pages. SME review pending. |
 | 2026-07-13 | Site Access and Public Protection | 12 | Fifteenth category (63%). OSHA 1926 Subpart G (§200–203) + public-protection provisions from fall-protection (§501(c)/502(i)/(j)) and excavation (§651(j)(2)/(l)) rules + §850(k) demolition canopy + MUTCD Part 6. Perimeter/fencing/gates & attractive-nuisance, accident-prevention signs (Danger red / Caution yellow / Exit red ≥6 in / Safety-instruction green / Directional; §200(g) traffic signs), accident-prevention tags (temporary, never substitute for signs; 1910.145(f) Danger/Caution/Warning/Biohazard), barricades & channelizing devices (§202 → MUTCD Part 6, 45° orange/white retroreflective stripes), flaggers & signaling (STOP/SLOW paddle ≥18 in primary, emergency flag ≥24 in, ANSI/ISEA 107 Class 2/3), pedestrian walkways & ADA-accessible routes (continuous detectable path, ≤4-in projection, audible/vibrotactile cues), covered walkways/canopies/sidewalk sheds (§850(k): 8 ft / 2 ft wider / 150 psf), overhead & falling-object protection (§501(c) three controls + §502(j) toeboard ≥3½ in / ≥50 lb), open holes & excavations near public (cover ≥2× load marked HOLE/COVER, spoil ≥2 ft, guarded ≥6-ft walkways), visitor/delivery/contractor access control, night & low-visibility (retroreflective + Type A/B/C-D warning lights, §56 5 fc), daily inspection of controls. Replaced 10-topic placeholder. Facts verified vs osha.gov Subpart G + MUTCD via research subagent (corrected 24-in flag, §202→MUTCD not ANSI D6.1, tag wordings→1910.145(f)). Vehicle/Excavation/Heights cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-13 | Housekeeping | 12 | Sixteenth category (67%). OSHA 1926.25 (a/b/c housekeeping) + 1926.252 (waste disposal — >20 ft enclosed chute, 42 in/6 ft barricaded drop area, oily rags in fire-resistant covered containers) + 1926.250 (storage/stacking, aisles, posted max floor load) + 1926.701(b) (rebar impalement) + 1926.51 (sanitation — potable water, Table D-1 toilets ≤20=1 / 20+=1 per 40 / 200+=1 per 50, washing) + 1926.56 (illumination Table D-3 — 3/5/10/30 fc) + 1910.22 (walking-working surfaces). Housekeeping-as-control, walkways/aisles/exits, protruding nails & scrap lumber, cord/hose/lead management, combustible-debris removal, waste containers & separation, oily-rag spontaneous combustion, material storage/stacking, debris chutes/drop areas, poor-housekeeping slips/trips, lighting/sanitation/welfare, clean-as-you-go ownership & inspection. Flexed to 12. Facts verified vs osha.gov via research subagent — corrected: **no 45° chute rule in 1926.252** (that's Subpart T demolition), **1926.56 general construction area lighting = 3 fc** (not 5), spontaneous-combustion = NFPA rationale not OSHA text. Replaced 6-topic placeholder. Rigging/STF/Fire/Welding/Demolition/Electrical cross-ref'd. Build all pages prerender. SME review pending. |
+| 2026-07-13 | First Aid | 12 | Nineteenth category (79%). OSHA 1926.50 / 1910.151 + 1910.1030 (BBP) + AHA/Red Cross first-aid curricula. Readiness/program, trained providers & medical services (1926.50(a-c), "reasonably accessible in terms of time and distance"), kits & supplies (1926.50(d): easily accessible + weatherproof + weekly check; ANSI Z308.1), emergency communication (1926.50(e-f): ambulance contact, post numbers where no 911, post site location, direct responders in), scene safety & primary check (electrical/confined-space/traffic first; responsiveness-airway-breathing-circulation), bloodborne pathogens (1910.1030 universal precautions, gloves/CPR barrier, exposure follow-up), bleeding control (direct pressure→pack→tourniquet, Stop the Bleed), shock (recognize, lie down, keep warm, no food/drink), burns (thermal cool-and-cover, chemical flush 15-20 min, electrical = emergency), fractures/sprains/strains (immobilize; RICE; head/neck/back = don't move), eye injuries & eyewash (1926.50(g)/1910.151(c), flush 15 min, don't rub/don't remove embedded), CPR/SCA/AED (100-120/min ~2 in, hands-only ok, AED prompts). Facts verified vs osha.gov via research subagent — corrected: "reasonably accessible" vs "near proximity" (construction vs GI), 1926.50(d)(1) "easily accessible", weatherproof/weekly = (d)(2), eyewash = 1926.50(g), 3-4/15-min response = interpretation letters not CFR, Class A/B & clinical protocols = ANSI-ISEA/AHA/Red Cross not OSHA. Awareness-level only; every clinical talk points to hands-on certification. Replaced 6-topic placeholder. Heat/cold → forthcoming category; recordkeeping → Accident Reporting cross-ref'd. Build all pages prerender. SME review pending (elevated — clinical content). |
 | 2026-07-13 | Accident Reporting | 11 | Eighteenth category (75%). OSHA 29 CFR Part 1904 (Recordkeeping & Reporting). Why-we-report (care/correction/learning/compliance), notify-supervisor-immediately, §1904.39 severe-injury deadlines (fatality 8 hr / hospitalization-amputation-eye 24 hr; 30-day & 24-hr windows; 1-800-321-OSHA/Area Office/online; (b)(2) report contents), §1904.7(a) recordability (death/days-away/restricted/medical-beyond-first-aid/loss-of-consciousness/PLHCP diagnosis), §1904.7(b)(5)(ii) closed first-aid list vs medical treatment, the 300/300A/301 forms + 7-day entry (§1904.29(b)(3)) & Feb 1–Apr 30 posting (§1904.32(b)(6)), near-miss reporting, investigation & root-cause (5-whys, preserve scene as good practice), corrective actions up the hierarchy of controls (owner/deadline/verify), anti-retaliation rights (§§1904.35/.36 + 11(c), 30-day complaint window), writing a clear factual report. Facts verified vs osha.gov Part 1904 via research subagent — corrected: report contents = 1904.39(b)(2) not (b)(1); 7-day deadline covers 300 Log + 301 both; scene preservation = good practice not a Part 1904 duty. Replaced 6-topic placeholder. First-aid response → First Aid cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-13 | Slips, Trips and Falls | 12 | Seventeenth category (71%). OSHA 1910 Subpart D (Walking-Working Surfaces §22–30). Mechanisms (slip/trip/same-level & lower-level fall), §22 surface condition (clean/dry/free-of-hazards, loads, access/egress, inspect-correct-repair; qualified person only for structural-integrity repairs), wet/oily/slippery surfaces (drainage, dry standing places, mats, spill response), ice/snow/weather (penguin walk, treat paths, metal ices first), uneven surfaces/changes in level (fix→ramp→mark), cord/hose/clutter trip hazards, slip-resistant footwear (last layer, match sole to surface, keep tread), lighting for movement, stairways (30–50°, uniform risers/treads 9.5-in max/min, 22-in width), handrails & guardrails (handrail 30–38 in / stairs ≥3 treads & ≥4 risers; guardrail 42 in ±3 / midrail midway / 200 lb / toeboard ≥3.5 in; **GI 4-ft** trigger), floor holes/covers (≥4 ft fall + <4-ft step-into no-floor triggers; cover ≥2× load, secured, marked HOLE/COVER), open-sided floors/docks/platforms (4 ft vs construction 6 ft). Facts verified vs osha.gov Subpart D via research subagent — corrected 4 construction-carryover errors: stair-rail trigger ≥3 treads & ≥4 risers (not "4 risers or >30 in"), stair-rail height ≥30/≥42 in (no 36 in), qualified-person = structural-integrity only, midrail = "midway". Replaced 6-topic placeholder. Height fall-arrest → Working at Heights; debris/storage → Housekeeping; ASTM F2413 → PPE cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |

@@ -11437,6 +11437,602 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "first-aid/first-aid-readiness-on-the-job-site": {
+    description:
+      "First aid is about being ready before someone gets hurt — trained responders, supplies, and a way to get help fast. What OSHA 1926.50 requires and how the crew fits in.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "First aid is the care given right after an injury, before professional help arrives — and on a job site those first minutes often decide the outcome. This whole category is about being ready before it happens: knowing who's trained, where the supplies are, and how to get help fast.",
+          "OSHA sets the baseline in 1926.50 (construction). It doesn't turn every worker into a medic — it makes sure trained help and supplies are available, and that you can reach emergency services quickly. The rest is about the crew knowing the plan before the emergency, not during it."
+        ]
+      },
+      {
+        heading: "What OSHA requires on site",
+        body: [
+          "The core of 1926.50:",
+          {
+            list: [
+              "Medical personnel available for advice and consultation on occupational health (1926.50(a)).",
+              "Provisions for prompt medical attention in case of serious injury, arranged before the project starts (1926.50(b)).",
+              "Where no infirmary, clinic, hospital, or physician is reasonably accessible in terms of time and distance, a person with a valid first-aid certificate (American Red Cross or equivalent) available on site (1926.50(c)).",
+              "First-aid supplies easily accessible when needed (1926.50(d)).",
+              "Equipment for prompt transport of the injured, or a communication system to contact an ambulance (1926.50(e))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "\"Reasonably accessible\" and response time",
+        body: [
+          "The whole point of having trained responders and supplies on site is that professional care usually isn't next door. OSHA has interpreted the general-industry 'near proximity' standard to mean emergency care should be reachable in no more than about 3 to 4 minutes where serious injuries — like severe bleeding, electrocution, or cardiac arrest — are possible, and up to about 15 minutes for lower-hazard workplaces.",
+          "Those minutes are an OSHA interpretation (backed by review-commission and court decisions), not a number written into the standard itself. The takeaway for the crew is simple: don't count on the hospital being close. The care that happens in the first few minutes on site is often what matters most."
+        ]
+      },
+      {
+        heading: "How the crew fits in",
+        body: [
+          "Being 'ready' isn't just the employer's job. Before you need it, know: who on your crew is first-aid trained, where the kit and any AED are, the site address and how responders will get in, and how to call for help.",
+          "The talks that follow cover the pieces — trained providers and medical services, kits and supplies, emergency communication, scene safety, bloodborne pathogens, and the common injuries you might face (bleeding, shock, burns, fractures, eye injuries, cardiac arrest). None of it replaces hands-on certified training; it makes sure you know the plan and can act instead of freeze."
+        ]
+      }
+    ]
+  },
+  "first-aid/trained-first-aid-providers-and-medical-services": {
+    description:
+      "OSHA 1926.50(a)–(c) — when a trained first-aid provider must be on site, and the medical-services arrangements that back them up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Somebody on site needs to know what to do when a worker is hurt. OSHA 1926.50 makes that a requirement, not a hope: where professional medical care isn't close, a trained first-aid provider has to be available on the job.",
+          "This talk is about the people side of first aid — who's trained, what backs them up, and why the whole crew should know who they are before an emergency."
+        ]
+      },
+      {
+        heading: "When a trained provider is required",
+        body: [
+          "Under 1926.50(c), when there's no infirmary, clinic, hospital, or physician reasonably accessible in terms of time and distance to the worksite, a person with a valid first-aid certificate — from the American Red Cross or equivalent training that can be verified — has to be available at the worksite.",
+          "In plain terms: if the hospital is more than a few minutes out, you need trained first-aid help on site. On most construction jobs that's the case, so there should always be at least one certified first-aid provider present, and enough of them to cover all shifts and work areas."
+        ]
+      },
+      {
+        heading: "Medical services behind the provider",
+        body: [
+          "The on-site provider is one layer. 1926.50 also requires:",
+          {
+            list: [
+              "Medical personnel available for advice and consultation on occupational health matters (1926.50(a)).",
+              "Arrangements for prompt medical attention in case of serious injury, made before the project starts (1926.50(b)).",
+              "A way to get the injured worker to a physician or hospital — transport equipment or a reliable way to call an ambulance (1926.50(e))."
+            ]
+          },
+          "The pieces work together: first aid holds the line on site while professional care is summoned and the worker is moved to it."
+        ]
+      },
+      {
+        heading: "Know who and where before you need them",
+        body: [
+          "A trained responder only helps if people can find them fast. Everyone on the crew should know who the first-aid providers are, which shifts and areas they cover, and how to reach them in seconds.",
+          "First-aid certification also expires — typically every two years — so training has to be kept current, and there need to be enough trained people that one absence doesn't leave the site uncovered. If you're not sure who your responder is today, ask at the next toolbox talk, not during an emergency."
+        ]
+      }
+    ]
+  },
+  "first-aid/first-aid-kits-and-supplies": {
+    description:
+      "OSHA 1926.50(d) — first-aid supplies easily accessible, in a weatherproof container, checked and restocked; plus the ANSI/ISEA Z308.1 fill guidance.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A trained responder needs supplies to work with, and a kit that's locked in a trailer, half-empty, or soaked through is no help in an emergency. OSHA 1926.50(d) requires first-aid supplies that are actually usable when someone needs them.",
+          "This talk covers what the standard requires, what belongs in a kit, and the maintenance that keeps it ready."
+        ]
+      },
+      {
+        heading: "What OSHA requires",
+        body: [
+          {
+            list: [
+              "First-aid supplies have to be easily accessible when required (1926.50(d)(1)).",
+              "Kit contents go in a weatherproof container with individual sealed packages for each type of item (1926.50(d)(2)).",
+              "The employer checks the kit before it's sent out on each job, and at least weekly on each job, to make sure used items are replaced (1926.50(d)(2))."
+            ]
+          },
+          "'Weatherproof' and 'checked weekly' aren't suggestions in construction — they're regulatory text. A kit exposed to rain and dust with nobody restocking it fails the standard and fails the worker."
+        ]
+      },
+      {
+        heading: "What goes in the kit",
+        body: [
+          "OSHA's appendix points to the consensus standard ANSI/ISEA Z308.1 for minimum contents (the current editions sort kits into Class A and Class B fills). A basic kit generally includes:",
+          {
+            list: [
+              "Adhesive bandages, gauze pads, and roller gauze.",
+              "Trauma pads and a tourniquet or pressure dressing for serious bleeding.",
+              "Adhesive tape, scissors, and tweezers.",
+              "Antiseptic and burn treatment.",
+              "Nitrile gloves and a CPR barrier/breathing device.",
+              "An eyewash where quick flushing may be needed."
+            ]
+          },
+          "Match the kit to the crew size and the hazards on the job — a bigger crew or higher-hazard work needs more supplies, more kits, and the right specialized items."
+        ]
+      },
+      {
+        heading: "Keep it stocked and findable",
+        body: [
+          "A kit is only ready if it's stocked and people can find it. Restock what gets used right away — the worst time to discover the gauze is gone is mid-emergency. Do the weekly check the standard requires, and don't let the kit become a junk drawer or wander off.",
+          "Everyone should know where the kits are located across the site, and where the AED is if there's one. Post it, point it out to new workers, and keep the access clear."
+        ]
+      }
+    ]
+  },
+  "first-aid/getting-help-fast-emergency-communication": {
+    description:
+      "The fastest way to save a life is often the phone — OSHA 1926.50(e)/(f) on emergency communication, posting numbers and site location, and directing responders in.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "For a serious injury, the single most important action is often getting professional help moving fast. OSHA 1926.50 requires a way to reach emergency services and the information responders need to find you — because a great first-aid provider still can't do surgery in a trench.",
+          "This talk is about the communication link: calling for help, telling them where you are, and getting them to the patient without delay."
+        ]
+      },
+      {
+        heading: "What the standard requires",
+        body: [
+          {
+            list: [
+              "Equipment for prompt transport of the injured to a physician or hospital, OR a communication system for contacting an ambulance (1926.50(e)).",
+              "Where 911 dispatch isn't available, the phone numbers of physicians, hospitals, or ambulances conspicuously posted (1926.50(f)(1)).",
+              "Where a communication system is used, it has to effectively contact emergency services — and unless 911 automatically supplies the caller's location, the worksite's location information (like latitude/longitude) has to be posted (1926.50(f)(2))."
+            ]
+          },
+          "The theme: you must be able to summon help, and help must be able to find you."
+        ]
+      },
+      {
+        heading: "Know your location",
+        body: [
+          "A job site is one of the hardest places for responders to find. There's often no street number, the entrance changes, and 'the third building past the gate' means nothing over a phone. Before work starts, everyone should know:",
+          {
+            list: [
+              "The site address, and cross-streets or GPS coordinates if there's no clear address.",
+              "Which gate or access point responders should use.",
+              "Any code or contact needed to get through a locked gate.",
+              "Where the injured worker is within the site."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Make the call count",
+        body: [
+          "When you call, stay calm and give the dispatcher what they need: the location, what happened, how many are hurt, their condition, and what's being done. Don't hang up until the dispatcher says to — they may have instructions for you.",
+          "Then get the responders in. Send someone to the gate to flag the ambulance and lead it to the patient. Clear a path for the stretcher. Those steps cut minutes off the response, and in a cardiac arrest or severe bleed, minutes are everything."
+        ]
+      }
+    ]
+  },
+  "first-aid/scene-safety-and-the-primary-check": {
+    description:
+      "Before you help anyone, make sure you don't become the second victim — scene safety, then the primary check of airway, breathing, and circulation (Red Cross/AHA training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The instinct when someone goes down is to rush in. On a job site, that instinct gets rescuers killed. The first rule of first aid is scene safety: make sure the scene is safe before you touch the patient, so one victim doesn't become two.",
+          "The approach here follows standard first-aid training (American Red Cross / American Heart Association) — check the scene, then check the person. It's awareness-level; it doesn't replace hands-on certification."
+        ]
+      },
+      {
+        heading: "Check the scene first",
+        body: [
+          "Before you approach, ask what put the worker down and whether it can still hurt you:",
+          {
+            list: [
+              "Electrical — is there a live wire or energized equipment? Don't touch the victim until the source is isolated.",
+              "Confined space or bad air — a worker down in a space may have been overcome by the atmosphere; going in unprotected kills would-be rescuers routinely. Do not enter.",
+              "Traffic, machinery, unstable loads, fire, or falling objects — control or clear the hazard first.",
+              "Trench or collapse — don't enter an unprotected excavation to reach someone."
+            ]
+          },
+          "If you can't make the scene safe, your job is to keep others back and get the right rescuers and equipment — not to become the next casualty."
+        ]
+      },
+      {
+        heading: "The primary check",
+        body: [
+          "Once the scene is safe, check the person for life-threatening problems in order. Standard training uses a simple sequence:",
+          {
+            list: [
+              "Responsiveness — tap and shout; are they awake?",
+              "Airway — is it open and clear?",
+              "Breathing — are they breathing normally? Not breathing or only gasping means cardiac arrest — start CPR and get the AED.",
+              "Circulation — check for severe bleeding and control it immediately.",
+              "Get help coming — have someone call 911 and bring the AED while you work."
+            ]
+          },
+          "Deal with the biggest killers first: no breathing and severe bleeding. Everything else waits."
+        ]
+      },
+      {
+        heading: "Don't make it worse",
+        body: [
+          "Provide the care you're trained for and no more. Don't move a seriously injured worker unless they're in immediate danger where they are — moving someone with a spinal injury can cause permanent harm. Keep them still, keep them calm, and keep them warm.",
+          "Stay within your training. The goal is to keep the person alive and stable and hand them off to professionals — not to attempt care beyond what you know how to do."
+        ]
+      }
+    ]
+  },
+  "first-aid/bloodborne-pathogens-and-universal-precautions": {
+    description:
+      "Helping an injured coworker can expose you to blood — OSHA 1910.1030, universal precautions, gloves and barriers, and what to do after an exposure.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When you help with a bleeding injury, the blood that's a hazard to the patient can become a hazard to you. Bloodborne pathogens — viruses like hepatitis B, hepatitis C, and HIV — spread through blood and other body fluids. OSHA's Bloodborne Pathogens standard, 1910.1030, sets how to protect yourself.",
+          "If you're trained and assigned to give first aid as part of your job, you're covered by this standard — which means training, protection, and a plan for exposures."
+        ]
+      },
+      {
+        heading: "Universal precautions",
+        body: [
+          "The core idea is simple: treat all blood and body fluids as if they're infectious, because you can't tell by looking. That's called universal precautions, and it drives everything else:",
+          {
+            list: [
+              "Wear gloves (and other barriers as needed) whenever you might contact blood or body fluids.",
+              "Use a CPR barrier or pocket mask for rescue breathing.",
+              "Don't touch your eyes, nose, or mouth while helping.",
+              "Cover your own cuts and broken skin before you start."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Clean up and dispose safely",
+        body: [
+          "After the care, the hazard isn't over:",
+          {
+            list: [
+              "Remove gloves without touching the outside, and wash your hands with soap and water right away.",
+              "Put contaminated gloves, dressings, and rags in a proper biohazard container, not a regular trash bag.",
+              "Clean and disinfect blood-contaminated surfaces and tools with an appropriate disinfectant.",
+              "Don't use compressed air or dry-sweep contaminated material."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "If you're exposed",
+        body: [
+          "If blood or body fluid gets in your eyes, mouth, or an open cut — or you're stuck by something contaminated — wash or flush the area immediately and report it to your supervisor right away. Under 1910.1030, exposed workers are entitled to a confidential medical evaluation and follow-up, and the hepatitis B vaccine is offered to those with occupational exposure.",
+          "Fast reporting matters medically — some post-exposure treatments only work if started quickly. Don't tough it out or skip the report; this is exactly the kind of exposure the standard exists to manage."
+        ]
+      }
+    ]
+  },
+  "first-aid/controlling-bleeding-and-wounds": {
+    description:
+      "Severe bleeding can kill in minutes — direct pressure, packing, and tourniquets for life-threatening bleeds (Stop the Bleed / Red Cross training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Severe bleeding is one of the few injuries that can kill a healthy adult in just a few minutes, and it's one where a bystander can make the biggest difference. Controlling bleeding is a first-aid skill everyone benefits from knowing.",
+          "This is awareness-level, drawn from standard first-aid training (American Red Cross, and the Stop the Bleed program). Get hands-on certification — but know the basics now, because a serious bleed won't wait for you to look it up."
+        ]
+      },
+      {
+        heading: "Direct pressure first",
+        body: [
+          "For most bleeding, direct pressure is the answer and it works:",
+          {
+            list: [
+              "Protect yourself — put on gloves if they're within reach (see the bloodborne pathogens talk).",
+              "Press firmly right on the wound with a clean cloth, gauze, or your gloved hand.",
+              "Keep pressing — hard and steady, without lifting to peek. If blood soaks through, add more material on top and keep pressing.",
+              "Once bleeding is controlled, hold or bandage the dressing in place."
+            ]
+          },
+          "Most bleeding stops with firm, sustained direct pressure. Don't let up too early."
+        ]
+      },
+      {
+        heading: "When direct pressure isn't enough",
+        body: [
+          "For life-threatening bleeding that won't stop with pressure — spurting blood, a pooling amount, an amputation — you have to escalate fast:",
+          {
+            list: [
+              "Tourniquet — for severe bleeding from an arm or leg, a tourniquet placed high and tight above the wound can stop it. Note the time it was applied and don't remove it; tell EMS.",
+              "Wound packing — for a deep wound in a spot you can't tourniquet (like a groin or shoulder), pack gauze firmly into the wound and keep pressing.",
+              "Call 911 immediately for any bleeding this serious."
+            ]
+          },
+          "A tourniquet used correctly on a major limb bleed saves lives. Hesitation is the bigger risk than the tourniquet."
+        ]
+      },
+      {
+        heading: "After the bleeding is controlled",
+        body: [
+          "Keep the person still and lying down, keep them warm, and watch for shock (covered in its own talk) — serious blood loss and shock go together. Stay with them until help arrives.",
+          "Even smaller wounds need care: clean minor cuts, cover them, and watch for infection. But any deep, gaping, heavily bleeding, or contaminated wound — or one from a dirty or rusty object — needs professional medical attention, and it becomes a reporting and recordkeeping matter too."
+        ]
+      }
+    ]
+  },
+  "first-aid/shock": {
+    description:
+      "Shock is the body shutting down after a serious injury — how to recognize it and keep a worker alive until help arrives (Red Cross/AHA training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Shock is a life-threatening condition where the body isn't getting enough blood flow to keep organs working. It can follow any serious injury — major bleeding, severe burns, a bad fracture, a crush injury — and it can kill even when the original injury might not have.",
+          "Any seriously injured worker can go into shock, so treating for shock is part of caring for any major injury. This is awareness-level, from standard first-aid training."
+        ]
+      },
+      {
+        heading: "Recognize it early",
+        body: [
+          "Shock develops as the body tries to compensate and then loses the fight. Watch for:",
+          {
+            list: [
+              "Pale, cool, clammy, or sweaty skin.",
+              "Fast, weak pulse and rapid, shallow breathing.",
+              "Weakness, dizziness, or confusion.",
+              "Nausea or thirst.",
+              "Restlessness or anxiety, then drowsiness as it worsens."
+            ]
+          },
+          "Don't wait for obvious signs. If someone has a serious injury or major blood loss, assume shock is coming and treat for it."
+        ]
+      },
+      {
+        heading: "What to do",
+        body: [
+          {
+            list: [
+              "Call 911 — shock needs professional care fast.",
+              "Control the cause you can control — stop severe bleeding first.",
+              "Have the person lie down and keep them still.",
+              "Keep them warm — cover them to prevent heat loss, even in mild weather.",
+              "Loosen tight clothing, and reassure them to keep them calm.",
+              "Don't give food or drink, even if they ask — it can cause problems if they need surgery or vomit."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stay with them",
+        body: [
+          "Shock can get worse quickly. Keep monitoring breathing and responsiveness — if they stop breathing normally, be ready to start CPR. Stay with the worker and keep them calm and warm until EMS takes over.",
+          "The main job of a first-aid provider with a shock patient is to buy time: slow the decline, prevent further injury, and hand off a living patient to the professionals."
+        ]
+      }
+    ]
+  },
+  "first-aid/burns": {
+    description:
+      "Thermal, chemical, and electrical burns on the job — cool it, cover it, and know which burns are emergencies (Red Cross/AHA training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Burns are common on construction sites — from hot work, electricity, chemicals, steam, hot asphalt, and friction. The right first aid depends on how bad the burn is and what caused it, and getting it wrong can make the injury worse.",
+          "This is awareness-level, from standard first-aid training. The one rule that covers most burns: cool it and cover it — but stop the source of the burn safely first."
+        ]
+      },
+      {
+        heading: "Depth tells you how serious",
+        body: [
+          {
+            list: [
+              "Minor (superficial) — red, painful, dry, like a mild sunburn. Usually treatable on site.",
+              "Moderate (partial thickness) — blisters, wet, very painful. Needs medical care if large or on a sensitive area.",
+              "Severe (full thickness) — charred, white, leathery, or numb (the nerves are burned). Always a medical emergency."
+            ]
+          },
+          "Any burn that's large, deep, or on the face, hands, feet, joints, or genitals — or any burn to a child or older worker — needs professional care. So does any burn with trouble breathing (possible airway burn)."
+        ]
+      },
+      {
+        heading: "Thermal burns",
+        body: [
+          "For heat burns:",
+          {
+            list: [
+              "Stop the burning — move the person from the heat, put out flames (stop, drop, and roll).",
+              "Cool the burn with clean, cool (not ice-cold) running water for at least 10–20 minutes.",
+              "Remove rings, watches, and tight items before swelling starts.",
+              "Cover loosely with a clean, dry, non-stick dressing.",
+              "Don't pop blisters, and don't put grease, butter, or ointments on a serious burn."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Chemical and electrical burns",
+        body: [
+          "These need different handling:",
+          {
+            list: [
+              "Chemical — brush off dry chemical first, then flush with lots of water for at least 15–20 minutes; use an emergency eyewash/drench for eye or body exposure (see the eyewash talk). Check the SDS and remove contaminated clothing.",
+              "Electrical — make sure the power is off before touching the person. Electrical burns are often far worse inside than they look on the skin, and they can stop the heart — treat every electrical shock as a medical emergency and call 911."
+            ]
+          },
+          "For any serious burn, treat for shock and get professional help. Serious burns are also reportable and recordable injuries."
+        ]
+      }
+    ]
+  },
+  "first-aid/fractures-sprains-and-strains": {
+    description:
+      "Breaks, sprains, and strains from falls and manual work — immobilize, rest and ice, and know when it's an emergency (Red Cross/AHA training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Falls, slips, being struck, and heavy manual work produce a lot of bone and joint injuries — fractures (broken bones), sprains (stretched or torn ligaments), and strains (pulled muscles or tendons). You often can't tell a bad sprain from a fracture on site, so when in doubt, treat it as the more serious injury.",
+          "This is awareness-level, from standard first-aid training. The general rule: don't move it, support it, and get it evaluated."
+        ]
+      },
+      {
+        heading: "Suspected fractures",
+        body: [
+          "Signs of a possible break: deformity, a bone through the skin, severe pain, swelling, inability to use or bear weight, or a snap heard at the time. For a suspected fracture:",
+          {
+            list: [
+              "Keep the injured part still — don't try to straighten or move it.",
+              "Support and immobilize it in the position found if you're trained to splint.",
+              "Control any bleeding with pressure around (not on) a protruding bone.",
+              "Apply cold packs over the area to reduce swelling.",
+              "Call 911 for large-bone, open, or severe fractures, or any suspected head, neck, or back injury."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Sprains and strains",
+        body: [
+          "For sprains and strains, standard first aid follows the RICE approach:",
+          {
+            list: [
+              "Rest — stop using the injured part.",
+              "Ice — cold packs, about 20 minutes at a time, to reduce swelling and pain.",
+              "Compression — a non-rigid elastic wrap for support (this is on OSHA's first-aid list).",
+              "Elevation — raise the injured limb if you can."
+            ]
+          },
+          "Even a 'minor' sprain should be checked if it's badly swollen, can't bear weight, or isn't improving — it may actually be a fracture."
+        ]
+      },
+      {
+        heading: "Head, neck, and back — treat as serious",
+        body: [
+          "Any suspected head, neck, or spinal injury is a different level of emergency. Don't move the worker unless they're in immediate danger. Keep them still, support the head and neck in the position found, and call 911.",
+          "Moving someone with a spinal injury can cause permanent paralysis. When there's any doubt after a fall or a struck-by, keep them still and let trained responders handle the movement. These injuries are also reportable and recordable."
+        ]
+      }
+    ]
+  },
+  "first-aid/eye-injuries-and-emergency-eyewash": {
+    description:
+      "Eyes get hit by dust, chemicals, and flying debris — flushing, when to cover and not rub, and OSHA 1926.50(g)/1910.151(c) emergency eyewash requirements.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Eye injuries are common and can cost a worker their sight. Dust, grinding debris, chemical splashes, and welding flash all threaten the eyes, and the right first aid — done fast — often makes the difference between a scare and a permanent injury.",
+          "OSHA requires emergency eyewash where the eyes may be exposed to corrosive materials: 1926.50(g) in construction, 1910.151(c) in general industry. Know where yours is before you need it."
+        ]
+      },
+      {
+        heading: "Emergency eyewash and drenching",
+        body: [
+          "Where workers may be exposed to injurious corrosive materials, suitable facilities for quick drenching or flushing of the eyes and body have to be provided within the work area for immediate emergency use (1926.50(g); 1910.151(c)).",
+          "For a chemical splash to the eye, seconds count:",
+          {
+            list: [
+              "Get to the eyewash immediately and flush — the standard target is at least 15 minutes of continuous flushing.",
+              "Hold the eyelids open and roll the eye so water reaches all of it.",
+              "Flush from the inner corner outward so you don't wash chemical into the other eye.",
+              "Remove contact lenses if you can; keep flushing.",
+              "Check the SDS for the chemical, and get medical help — keep flushing on the way if possible."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Particles and foreign objects",
+        body: [
+          "For dust or a small particle in the eye:",
+          {
+            list: [
+              "Don't rub — that grinds the particle in and scratches the eye.",
+              "Flush with clean water or eyewash to float it out; standard first aid allows removing a foreign body from the eye with irrigation or a cotton swab.",
+              "If it doesn't flush out, or it's embedded, don't dig for it — cover the eye and get medical help."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Impacts, cuts, and embedded objects",
+        body: [
+          "For a blow to the eye, apply a cold pack gently without pressure and watch for vision changes. For a cut to the eye or eyelid, or an object stuck in the eye, do not remove it and do not press:",
+          {
+            list: [
+              "Don't apply pressure to an injured or penetrated eyeball.",
+              "Stabilize an embedded object; cover both eyes lightly to stop movement (eyes move together).",
+              "Call 911 or get to an eye specialist fast."
+            ]
+          },
+          "Welding flash (arc eye) shows up hours later as gritty, painful, light-sensitive eyes — get it treated. Serious eye injuries are reportable, and loss of an eye triggers OSHA's 24-hour reporting rule."
+        ]
+      }
+    ]
+  },
+  "first-aid/cpr-sudden-cardiac-arrest-and-aeds": {
+    description:
+      "When the heart stops, CPR and an AED in the first minutes are what save a life — recognizing cardiac arrest and acting fast (AHA/Red Cross training).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Sudden cardiac arrest is when the heart suddenly stops pumping — the person collapses, stops breathing normally, and is unresponsive. Without immediate action, survival drops fast with every passing minute. CPR and an AED (automated external defibrillator) in those first minutes are what keep a person alive until EMS arrives.",
+          "OSHA doesn't mandate CPR/AED in 1926.50, but it strongly encourages both, and CPR is part of standard first-aid certification. This is awareness-level — get trained, because this is a skill you use from memory under pressure."
+        ]
+      },
+      {
+        heading: "Recognize it and act",
+        body: [
+          "Cardiac arrest can come from a heart problem, electrocution, drowning, or severe trauma. If a worker is unresponsive and not breathing normally (or only gasping), treat it as cardiac arrest:",
+          {
+            list: [
+              "Check responsiveness — tap and shout.",
+              "Call 911 immediately and send someone for the AED — don't delay either.",
+              "Start CPR right away if they're not breathing normally.",
+              "Keep going until the AED is ready, EMS takes over, or the person recovers."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "CPR basics",
+        body: [
+          "Standard adult CPR (American Heart Association / American Red Cross):",
+          {
+            list: [
+              "Push hard and fast in the center of the chest — about 2 inches deep, 100–120 compressions per minute.",
+              "Let the chest fully recoil between compressions.",
+              "If trained and willing, give rescue breaths using a barrier device (30 compressions to 2 breaths); if not, hands-only CPR (continuous compressions) still saves lives.",
+              "Minimize interruptions — every pause lets blood flow drop."
+            ]
+          },
+          "Don't be afraid to start. A person in cardiac arrest is already in the worst state possible; your compressions are their best chance."
+        ]
+      },
+      {
+        heading: "Using an AED",
+        body: [
+          "An AED is designed for untrained bystanders — it talks you through it. Get it to the patient as fast as possible:",
+          {
+            list: [
+              "Turn it on and follow the voice prompts.",
+              "Attach the pads to the bare chest as shown on the pad diagrams.",
+              "Make sure no one is touching the person while it analyzes and if it delivers a shock.",
+              "Resume CPR immediately after a shock or if no shock is advised, following the prompts."
+            ]
+          },
+          "Know where the nearest AED is on your site before an emergency. Early CPR plus an early AED shock is the combination that brings cardiac-arrest victims back — and a collapse like this is also a 911 call and, if it's work-related and serious, an OSHA reporting matter."
+        ]
+      }
+    ]
   }
 };
 
