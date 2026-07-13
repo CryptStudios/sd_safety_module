@@ -9270,6 +9270,535 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "site-access-and-public-protection/controlling-the-site-perimeter-fencing-gates-and-keeping-people-out": {
+    description:
+      "Setting a hard boundary between the job and everyone outside it — fencing, gates, and access points that keep the public, kids, and trespassers out of the hazards.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Public protection starts at the line where your job meets the world. If a member of the public, a curious kid, or a delivery driver can wander into an active work area without knowing it, that's on the crew. The first control is a clear, controlled perimeter: know where your boundary is, keep it closed, and route everyone through a single controlled point.",
+          "OSHA's construction rules are worker-focused — there's no single standard titled 'public protection.' You build it out of the tools in Subpart G (signs, signals, barricades, §1926.200–.203), the fall-protection barricading rules, and plain job-site discipline. A secured perimeter is the foundation the rest of it sits on."
+        ]
+      },
+      {
+        heading: "Set a boundary people can actually see",
+        body: [
+          "The public can't avoid a hazard they don't know is there. Your perimeter has to read as 'do not enter' from the outside:",
+          {
+            list: [
+              "Fencing or hard barrier around the active work area, kept continuous — no gaps, no pulled-loose panels, no propped-open sections.",
+              "Danger and Caution signs posted where people approach (see the signs talk) so the message matches the barrier.",
+              "Barricades conforming to MUTCD Part 6 (§1926.202) where the boundary runs along a street, sidewalk, or pedestrian route.",
+              "Special attention where the public is most vulnerable — near schools, homes, parks, and anywhere children are around. An open site is an attractive nuisance."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Control the gates, not just the fence",
+        body: [
+          "A fence is only as good as its gates. Every opening in the perimeter is a place the boundary can fail:",
+          {
+            list: [
+              "Keep the number of access points to the minimum you can work with. Fewer openings means fewer places to watch.",
+              "Separate people from vehicles wherever you can — a pedestrian gate away from the truck gate keeps foot traffic out of swinging booms and backing trucks.",
+              "Gates stay closed and secured when not actively in use. A gate chocked open 'just for a minute' is how the public gets in.",
+              "Lock the site down at the end of the shift. Unattended sites get trespassers at night — secure gates, close covers, and lower or barricade anything that could hurt someone."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The boundary moves as the work moves",
+        body: [
+          "A perimeter that was right on Monday can be wrong by Thursday. Excavation opens up near the fence, a delivery lane shifts, a phase finishes and a new hazard starts. Access control is a daily field task, not a one-time setup.",
+          "Cross-reference the dedicated talks for the pieces of this: barricades and channelizing devices, pedestrian walkways, and the daily inspection that keeps all of it honest. If the boundary no longer matches the hazard behind it, fix the boundary before the work continues."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/accident-prevention-signs-colors-wording-and-placement": {
+    description:
+      "Reading and posting OSHA accident-prevention signs — the Danger, Caution, Exit, Safety-instruction, and Directional color codes under 29 CFR 1926.200 and where each one belongs.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Signs are the cheapest safety control on the job and one of the most misused. A sign only works when the right type is in the right place with the right words. OSHA 29 CFR 1926.200 sets the color code and use for each kind of accident-prevention sign, drawing on the ANSI Z35/Z535 sign standards.",
+          "The colors aren't decoration — they carry the meaning. A worker or a visitor should be able to read the severity off the color before they even read the words. Get the type wrong and you either cry wolf or under-warn."
+        ]
+      },
+      {
+        heading: "Know the sign types by color",
+        body: [
+          "The five accident-prevention sign types under §1926.200 and what each looks like:",
+          {
+            list: [
+              "Danger (§1926.200(b)) — red, black, and white. Used ONLY where an immediate hazard exists. Don't dilute it by hanging Danger signs on everything.",
+              "Caution (§1926.200(c)) — yellow background with a black panel and yellow letters. Warns against potential hazards or unsafe practices.",
+              "Safety instruction (§1926.200(e)) — white background, green panel, white letters. General safety reminders and instructions.",
+              "Directional (§1926.200(f)) — white background, black panel, white directional symbol. Points the way.",
+              "Exit (§1926.200(d)) — legible red letters not less than 6 inches high on a white field, with the principal stroke of the letters at least 3/4 inch wide."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Traffic signs at points of hazard",
+        body: [
+          "Where vehicles and equipment move through or past the site, §1926.200(g) requires construction areas to be posted with legible traffic signs at points of hazard. All traffic-control devices have to conform to Part 6 of the MUTCD — the same manual that governs your barricades and flaggers.",
+          "That means the STOP, speed, and warning signs a driver sees approaching your gate or work zone are held to a national standard, not something hand-lettered on a scrap of plywood. If the public reads it, it follows the MUTCD."
+        ]
+      },
+      {
+        heading: "Placement makes the sign work",
+        body: [
+          "A correct sign in the wrong spot protects no one. Post signs where people will see them before they reach the hazard, not after. Keep them legible — clean, unfaded, unblocked by stored material, and lit or reflectorized where they need to be read at night.",
+          "And keep the count honest. A wall of Danger signs on a low-risk area trains people to ignore red. Match the sign type to the real severity, put it where the decision gets made, and take it down when the hazard is gone."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/accident-prevention-tags": {
+    description:
+      "Using accident-prevention tags as a temporary warning of an existing hazard — what 29 CFR 1926.200(h) requires and why a tag never replaces a sign or a lockout.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A tag is a temporary sign you hang right on the thing that's dangerous — a broken tool, a valve that can't be opened, a piece of equipment that's out of service. OSHA 29 CFR 1926.200(h) covers accident-prevention tags: they're a temporary means of warning workers of an existing hazard such as defective tools or equipment.",
+          "The key word is temporary. A tag is a heads-up, not a permanent fix and not a barrier. It tells the next person 'something is wrong here' until the hazard is corrected or a stronger control takes over."
+        ]
+      },
+      {
+        heading: "What a tag can and can't do",
+        body: [
+          "§1926.200(h) is clear on the limits: tags shall not be used in place of, or as a substitute for, accident-prevention signs. A few rules that follow from that:",
+          {
+            list: [
+              "A tag warns; it does not isolate energy. Locking out a machine still requires a lockout/tagout program (1910.147) — the tag alone never makes it safe to work on.",
+              "A tag on a defective tool means take it out of service, not 'use with care.' Tag it and remove it.",
+              "Tags are temporary. If a hazard is permanent, it needs a sign or an engineered fix, not a tag left hanging for months.",
+              "The tag has to stay legible and attached until the hazard is gone."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Standard tag messages",
+        body: [
+          "OSHA's tag format traces to the ANSI Z35.2 / Z535.5 tag standards and the general-industry tag rule at 1910.145(f), which sorts tags into categories — Danger, Caution, Warning, and Biological Hazard (BIOHAZARD) — with example messages like 'Do Not Start,' 'Do Not Use,' 'High Voltage,' and 'Close Clearance.'",
+          "The point isn't memorizing every wording. It's that the message is unmistakable and matches the hazard: red Danger tags for the worst, yellow Caution for lesser, and the biohazard symbol where there's biological exposure. If someone can misread a tag as 'probably fine,' it's the wrong tag."
+        ]
+      },
+      {
+        heading: "On the public-facing side",
+        body: [
+          "Around access points and public exposure, tags back up your signs and barricades — a tagged-out gate motor, a tagged extension cord pulled from a public walkway, a tagged hydrant or valve. They tell your own crew and any contractor on site that this item is not to be used.",
+          "But the public doesn't read your equipment tags. Keeping non-workers safe still comes down to the perimeter, barricades, and signs. Use tags to control the hazard among the people working; use the boundary controls to keep everyone else away from it."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/barricades-and-channelizing-devices": {
+    description:
+      "Barricades and channelizing devices that deter passage and steer traffic — what 29 CFR 1926.202 requires, and the MUTCD Part 6 rules for cones, drums, and barricade rails.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A barricade is an obstruction to deter the passage of persons or vehicles (§1926.203). It's how you physically keep people out of a hazard when a sign alone won't do it — an open excavation, a swing radius, a work zone in a street, a torn-up sidewalk.",
+          "OSHA 29 CFR 1926.202 is short and points somewhere specific: barricades for the protection of employees shall conform to Part 6 of the Manual on Uniform Traffic Control Devices (MUTCD). So the real detail — what the devices look like, how they're striped, how they're spaced — lives in the MUTCD, and that's the standard the public sees nationwide."
+        ]
+      },
+      {
+        heading: "Barricades vs. channelizing devices",
+        body: [
+          "Different jobs need different devices. The MUTCD family you'll pull from:",
+          {
+            list: [
+              "Cones and tubular markers — quick channelization, short-term or moving work.",
+              "Drums — high visibility, good for longer-duration channelizing lines.",
+              "Barricades (Type I, II, III) — rails with stripes that deter passage; Type III spans a full road closure.",
+              "Barrier — a positive barrier (concrete, water-filled) where you need to physically stop a vehicle, not just guide it."
+            ]
+          },
+          "Match the device to what you're protecting against: guiding foot traffic is not the same as stopping a car."
+        ]
+      },
+      {
+        heading: "Stripes, reflectorization, and how they read",
+        body: [
+          "Barricade rails carry alternating orange and white retroreflective stripes, sloped downward at 45 degrees toward the side you want traffic to pass. That slope is a message — it tells a driver or pedestrian which way to go around. Get it backwards and you point people into the hazard.",
+          "Channelizing devices have to be retroreflective or fitted with retroreflective material so they show up in headlights at night. Faded, dirty, knocked-over, or dead-battery devices don't channelize anything — they're covered in the night-work and daily-inspection talks."
+        ]
+      },
+      {
+        heading: "Set them up so they actually deter",
+        body: [
+          "A barricade only works if it's placed to intercept the person before the hazard, spaced tightly enough that no one can slip between, and kept in position as the work moves. Gaps, knock-downs, and 'temporary' openings are where the control fails.",
+          "For barricades that run along public streets and pedestrian routes, they tie straight into the flagger, pedestrian-walkway, and traffic-sign talks. The whole MUTCD system — signs, channelizing devices, and flaggers — is designed to work together; a barricade line with no advance warning sign leaves people no time to react."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/flaggers-and-traffic-signaling": {
+    description:
+      "Flagging traffic safely at the site interface — the MUTCD Part 6 rules OSHA 1926.201 adopts: STOP/SLOW paddles, high-visibility apparel, and clear communication.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When vehicles and the public share space with your trucks and equipment — at a gate, a lane closure, a sidewalk crossing — a flagger is often the last line of protection. OSHA 29 CFR 1926.201 says flagger signaling shall conform to Part 6 of the MUTCD. The rule itself is short; the how-to is in the manual.",
+          "Flagging is a skilled job. A flagger controls two-ton and forty-ton hazards with a hand paddle, and both drivers and workers are trusting that signal. This talk covers the site-interface and pedestrian side; highway work-zone flagging is covered in depth under Vehicle and Driver Safety."
+        ]
+      },
+      {
+        heading: "The right device — paddle, not flag",
+        body: [
+          "Under MUTCD Part 6, the STOP/SLOW paddle is the primary and preferred hand-signaling device:",
+          {
+            list: [
+              "The paddle is octagonal, at least 18 inches wide, with letters at least 6 inches high.",
+              "A hand-signaling flag is limited to emergency situations — and when used, it's at least 24 inches square, on a staff, red or fluorescent orange-red, and retroreflectorized red for night use.",
+              "Flaggers signal three things clearly: stop traffic, let traffic proceed, and alert/slow traffic. One signal at a time, unmistakable."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Be seen — high-visibility apparel",
+        body: [
+          "A flagger who can't be seen is in danger and can't do the job. MUTCD Part 6 requires flaggers to wear high-visibility safety apparel meeting ANSI/ISEA 107 Performance Class 2 or 3. At night, that apparel and the paddle both need retroreflective material.",
+          "Position matters as much as clothing. The flagger stands where approaching drivers get a clear, early look at the signal, with an escape route out of the path of traffic, never with their back to oncoming vehicles and never between two lanes of moving traffic."
+        ]
+      },
+      {
+        heading: "Signaling protects pedestrians too",
+        body: [
+          "Signaling isn't only for cars. Where the public is on foot near the work — crossing a driveway, passing a truck gate, walking a temporary route — the flagger and the channelizing devices work together to keep people out of the conflict.",
+          "A driver stopped by a flagger, a pedestrian steered by a barricade line, and an advance warning sign giving everyone time to react are one system. If any piece is missing, people arrive at the hazard with no warning. Cross-reference the pedestrian-walkway and barricade talks for the rest of that system."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/protecting-pedestrians-walkways-and-accessible-routes": {
+    description:
+      "Keeping the public safe on foot around the work — MUTCD Part 6 rules for temporary pedestrian routes that stay separated, continuous, and accessible to people with disabilities.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When your work closes or narrows a sidewalk or walkway, the people who used it don't disappear — they have to go somewhere. If you don't plan where, they'll improvise: into the street, around a barricade, through the work. Protecting pedestrians means giving them a safe route before you take away the old one.",
+          "The rules come through the MUTCD Part 6 temporary-traffic-control provisions that OSHA adopts via §1926.201 and §1926.202. The through-line: a pedestrian route you close has to be replaced with one that's safe, continuous, and usable by everyone — including people with disabilities."
+        ]
+      },
+      {
+        heading: "Separate, don't just warn",
+        body: [
+          "Pedestrians should be routed away from the hazard, not walked past it with a sign. Good practice from MUTCD Part 6:",
+          {
+            list: [
+              "Provide a defined, separated walkway — don't lead people into conflicts with work vehicles, equipment, or open excavation.",
+              "Keep the route continuous. A path that dead-ends at a barricade sends people into the road to get around it.",
+              "Channelize the walkway with a continuous, detectable edge a person using a long cane can follow — not cones with gaps.",
+              "Where a route is narrowed by equipment or signs below 7 feet, devices shouldn't project more than 4 inches into the accessible path."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Accessible means everyone",
+        body: [
+          "A temporary route has to work for a person in a wheelchair, using a cane, or with low vision — not just an able-bodied adult. That's an ADA expectation baked into MUTCD Part 6.",
+          "Practical pieces: a firm, stable, slip-resistant walking surface; ramped transitions instead of curbs and steps; and non-visual information — audible or vibrotactile cues — where pedestrians who are blind or have low vision are routed through the work. If your temporary path forces someone into the street to get around it, it isn't accessible and it isn't done."
+        ]
+      },
+      {
+        heading: "Overhead and daily reality",
+        body: [
+          "Where the pedestrian route passes under or beside overhead work, protecting the walkway may mean a covered walkway or canopy — covered in its own talk. And like every access control, the pedestrian route is a living condition: deliveries block it, a phase change reroutes it, weather makes it slick.",
+          "Walk your own temporary route the way the public would — including someone who can't step over a hose or see a low barricade. If it doesn't work for them, fix it before the work goes on."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/covered-walkways-canopies-and-sidewalk-sheds": {
+    description:
+      "Protecting people passing below overhead work — covered walkways, canopies, and sidewalk sheds, including the 8-foot / 150-psf demolition canopy requirement in 29 CFR 1926.850(k).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When people have to pass close to or beneath work happening overhead, a sign won't stop a dropped tool or falling debris. You protect the space below with structure — a covered walkway, a canopy, or a sidewalk shed that takes the hit so the person underneath doesn't.",
+          "OSHA's most specific overhead-protection requirement for a passageway is in the demolition rules, but the principle applies anywhere the public or crew travels under active overhead work: if something can fall on the path, cover the path."
+        ]
+      },
+      {
+        heading: "The demolition canopy standard",
+        body: [
+          "For multi-story structures being demolished, §1926.850(k) sets a hard spec for protecting entrances people use:",
+          {
+            list: [
+              "Employee entrances must be completely protected by sidewalk sheds or canopies (or both).",
+              "The protection extends from the building face for a minimum of 8 feet.",
+              "The canopy is at least 2 feet wider than the entrance or opening — 1 foot on each side.",
+              "It's built to sustain a load of 150 pounds per square foot."
+            ]
+          },
+          "That's the number to anchor on: 8 feet out, 2 feet wider than the opening, 150 psf. Public sidewalk sheds on demolition and construction jobs are usually driven by local building codes on top of this — check the code where you're working."
+        ]
+      },
+      {
+        heading: "Build it to actually catch the load",
+        body: [
+          "A canopy that can't take the hit is worse than none, because people trust it. The decking has to be strong enough to prevent penetration by falling objects and to keep from collapsing under the load it's rated for. Match the material and framing to what could come down — a canopy under masonry demolition sees very different loads than one under light trades.",
+          "Keep the covered route clear and lit. A covered walkway packed with stored material or dark at night pushes people back out into the open exposure it was built to solve."
+        ]
+      },
+      {
+        heading: "When a canopy isn't the answer",
+        body: [
+          "Covering the path is one option among several. Where you can't or don't need to build a canopy, §1926.501(c) gives the alternatives for falling-object exposure — toeboards and screens, guardrail systems, or barricading the area and keeping people out entirely. Those are covered in the overhead and falling-object talk.",
+          "The decision is simple: if people must travel under the work, protect the path with structure. If they don't need to be there at all, barricade it and keep them out. What you can't do is leave an unprotected path open under overhead work and rely on luck."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/overhead-and-falling-object-protection": {
+    description:
+      "Stopping dropped tools and debris from reaching people below — the three falling-object controls in 29 CFR 1926.501(c) and the toeboard/canopy criteria in 1926.502(j).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Anything that goes up on a job can come down on someone — a wrench, a bolt, a brick, a length of pipe. Struck-by-falling-object is one of construction's constant killers, and around access points it threatens the public as much as the crew. The job is to keep whatever falls from reaching the people below.",
+          "OSHA 29 CFR 1926.501(c) lays out the choices when workers are exposed to falling objects, and §1926.502(j) gives the criteria the physical controls have to meet. The same controls protect a pedestrian route running below the work."
+        ]
+      },
+      {
+        heading: "The three ways to control it",
+        body: [
+          "Under §1926.501(c), when people are exposed to falling objects, everyone in the exposure wears a hard hat, plus you do at least one of these:",
+          {
+            list: [
+              "Erect toeboards, screens, or guardrail systems to keep objects from falling off the edge in the first place.",
+              "Erect a canopy structure and keep potential falling objects far enough from the edge that they can't reach it.",
+              "Barricade the area below and prohibit entry — nobody underneath means nobody gets hit."
+            ]
+          },
+          "For a public path below overhead work, that usually means a canopy over the route or barricading it off and rerouting people around."
+        ]
+      },
+      {
+        heading: "Toeboard and canopy criteria",
+        body: [
+          "§1926.502(j) sets what these controls have to meet:",
+          {
+            list: [
+              "Toeboards are at least 3 1/2 inches tall from the top edge to the walking/working surface, with no more than 1/4-inch clearance above the surface.",
+              "A toeboard withstands at least 50 pounds applied in any downward or outward direction.",
+              "Where material is piled higher than the toeboard, add paneling or screening up from the toeboard to the top of the guardrail.",
+              "Canopies are strong enough to prevent collapse and to prevent penetration by falling objects."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep it up where the risk lives",
+        body: [
+          "Falling-object protection isn't a one-and-done. Debris nets fill, toeboards get knocked off during material moves, and a barricaded no-go area gets crept back into once the reason for it fades from memory. The exposure lasts as long as the overhead work does.",
+          "The public angle is blunt: a passerby has no hard hat. For anyone off the crew, your only real protection is a canopy over their path or a barricade keeping them out from under the work. There's no third option that lets people walk unprotected beneath dropped-object exposure."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/protecting-people-from-open-holes-and-excavations": {
+    description:
+      "Guarding open holes, trenches, and excavation edges where people could fall or step in — covers marked HOLE/COVER (1926.502(i)), the 2-foot spoil rule (651(j)(2)), and guarded crossings.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "An open hole or excavation near where people move is a trap — a worker steps backward into it, a member of the public walks up to look, a kid falls in after hours. Guarding openings and excavation edges keeps people from falling in and keeps material from falling on anyone working below.",
+          "OSHA covers this across the fall-protection rules (§1926.501/.502) and the excavation rules (§1926.651). The excavation category owns trench-wall and cave-in protection; this talk is about the access-and-public side — keeping people away from the edge and out of the hole."
+        ]
+      },
+      {
+        heading: "Guard the holes",
+        body: [
+          "Under §1926.501(b)(4), people have to be protected from falling through holes, stepping into holes, and having objects fall on them through holes — by covers, guardrails, or fall arrest. When you use covers, §1926.502(i) sets the rules:",
+          {
+            list: [
+              "A cover over a hole in a walking/working surface supports at least twice the weight of the workers, equipment, and materials that could cross it.",
+              "A cover in a roadway supports at least twice the maximum axle load of the largest vehicle.",
+              "Covers are secured against accidental displacement by wind, equipment, or workers.",
+              "Covers are color-coded or marked HOLE or COVER so nobody mistakes one for solid ground."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep the edge clear and crossable",
+        body: [
+          "Around an open excavation, two access hazards stand out. First, material and equipment near the lip can roll or slide in on the people below — §1926.651(j)(2) requires spoil, materials, and equipment be kept at least 2 feet from the edge, or held back with a retaining device, or both.",
+          "Second, people need a safe way across. §1926.651(l) requires walkways where workers or equipment cross over excavations, and where those walkways are 6 feet or more above the bottom, they get guardrails meeting §1926.502(b). The public should never be crossing an excavation on anything less."
+        ]
+      },
+      {
+        heading: "After hours is when holes bite",
+        body: [
+          "An open hole is most dangerous when the crew is gone — no one watching, and the barricade you meant to fix still isn't fixed. Before you leave, every open hole and excavation gets covered, guarded, or barricaded so a trespasser or passerby can't drop into it in the dark.",
+          "Tie this to the night-work talk: barricades and covers around openings near the public need to be reflectorized or lit so they read at night, and to the daily-inspection talk that catches the cover someone slid aside and never put back."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/visitor-delivery-and-contractor-access-control": {
+    description:
+      "Managing everyone who comes onto the site but doesn't work there daily — visitors, inspectors, clients, delivery drivers, and other contractors — so they don't wander into hazards.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The people most likely to walk into a hazard are the ones who don't work your site every day — a client in street clothes, an inspector heading for a specific area, a delivery driver looking for the drop, a subcontractor new to the job. They don't know today's hazards or the safe route, and if nobody controls them, they'll find the wrong one.",
+          "Access control for these folks is part of the same perimeter discipline that keeps the public out. The difference is these people are supposed to come in — so you control how they enter, where they go, and who's with them."
+        ]
+      },
+      {
+        heading: "Control the entry point",
+        body: [
+          "Everyone who isn't a badged member of the crew comes in through one controlled point and gets handled there:",
+          {
+            list: [
+              "A single, staffed or clearly-marked visitor/delivery entrance — not whichever gate is closest.",
+              "A quick orientation to the hazards that matter for where they're going: today's active work, off-limits areas, the assembly point, and the alarm.",
+              "Required PPE issued and confirmed before they pass the gate — hard hat, eye protection, hi-vis, boots as the site requires.",
+              "A record of who's on site, so if you have to evacuate, you know who to account for."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Escort and route them",
+        body: [
+          "A visitor who knows the way is rare. Most need a defined route or an escort, especially past active hazards — excavation, overhead work, equipment operating areas. Don't assume a hard hat makes someone safe to wander; it doesn't tell them where the swing radius is.",
+          "Deliveries are their own hazard. A truck backing to a drop near foot traffic mixes struck-by and caught-between risk — keep the delivery lane separated from pedestrians, use a spotter, and route the driver to a specific drop rather than letting them nose around looking for it. The vehicle-movement detail is covered under Vehicle and Driver Safety."
+        ]
+      },
+      {
+        heading: "When the route changes, tell them",
+        body: [
+          "The visitor route is a living condition like everything else here. The path that was safe last week may run past a fresh excavation or a new lane closure today. If the route changes, the orientation and the escorting change with it.",
+          "Bottom line: nobody who doesn't work here daily should be finding their own way through an active site. Control the entry, brief them, route or escort them, and know they've left. That's how a visitor stays a visitor and not an incident."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/night-work-and-low-visibility-protection": {
+    description:
+      "Keeping access controls working after dark — MUTCD retroreflective barricades and warning lights, lit signs and routes, and the illumination OSHA 1926.56 expects.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every access control you built for daylight — signs, barricades, walkways, covered openings — has to keep working when the sun goes down. In the dark, a barricade nobody can see is no barricade, and a driver or pedestrian arrives at your hazard with no warning at all.",
+          "Low-visibility protection comes mostly through the MUTCD Part 6 rules OSHA adopts in Subpart G, backed by the general illumination duty in §1926.56. The theme is simple: if it protects people, it has to be visible in headlights and worklights, not just at noon."
+        ]
+      },
+      {
+        heading: "Reflectorize and light the barriers",
+        body: [
+          "MUTCD Part 6 requires channelizing devices to be retroreflective or fitted with retroreflective material for nighttime use:",
+          {
+            list: [
+              "Barricade rails carry alternating orange and white retroreflective stripes, sloped down 45 degrees toward the side traffic passes.",
+              "Warning lights back them up — Type A low-intensity flashing to mark a hazard at night, Type B high-intensity for advance warning day or night, and Type C/D steady-burn to delineate the edge of the travel way at night.",
+              "Covers and barricades around open holes near the public get reflectorized or lit so no one steps into them in the dark.",
+              "Signs meant to be read at night have to be reflectorized or illuminated — an unlit sign is invisible."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Light the work and the routes",
+        body: [
+          "People still have to see where they're walking and working. OSHA §1926.56 sets minimum illumination levels for construction areas — general construction areas at 5 foot-candles, and higher where finer work happens. Access routes, gates, ramps, stairs, and pedestrian walkways all need enough light that people can see the surface and the hazards.",
+          "Aim the light so it helps, not hurts. Glare in a driver's or pedestrian's eyes at the exact moment they're deciding where to go is its own hazard — light the route, don't blind the person on it."
+        ]
+      },
+      {
+        heading: "Night raises the stakes on everything",
+        body: [
+          "Fewer people around, lower visibility, and tired crews make night the shift where a slipped barricade or a dead warning light does the most damage. At the start of a night shift, walk the access controls the way an approaching driver and a passing pedestrian would see them — in the dark, in headlights.",
+          "This ties straight to the daily-inspection talk: dead batteries, knocked-over devices, and burned-out lights are exactly what a start-of-shift check catches. A control that worked at 3 p.m. is worth nothing at 3 a.m. if nobody confirmed it still lights up."
+        ]
+      }
+    ]
+  },
+
+  "site-access-and-public-protection/daily-inspection-of-signs-barriers-and-access-controls": {
+    description:
+      "Keeping access and public protection working as the site changes — the start-of-shift and ongoing checks that catch drifted barricades, blocked signs, and open gates before someone gets hurt.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Everything in this category has the same weakness: it's set up once and then trusted forever. But a job site changes by the hour — deliveries block signs, equipment knocks over cones, a phase change opens a new hazard, weather takes down a barricade. Access control is a daily field task, not a one-time install.",
+          "This talk is the one that keeps the rest honest. The signs, barricades, walkways, canopies, covers, and gates you built only protect people as long as they stay in place, visible, and matched to the hazard behind them. Somebody has to check that they still do — every shift."
+        ]
+      },
+      {
+        heading: "Walk it at the start of every shift",
+        body: [
+          "Before the work ramps up, walk the interface between the job and everyone outside it and confirm each control is still doing its job:",
+          {
+            list: [
+              "Perimeter and gates — fence intact, no new gaps, gates closed and secured, only the access points you intend are open.",
+              "Signs — present, legible, unblocked by stored material, matching the current hazard, lit or reflectorized where needed.",
+              "Barricades and channelizing devices — upright, in position, stripes and reflectorization clean, no gaps a person can slip through.",
+              "Walkways and covered routes — clear, continuous, accessible, not blocked by deliveries or equipment.",
+              "Covers and openings — every hole covered or guarded, covers secured and marked HOLE or COVER.",
+              "Warning lights — working, batteries charged, aimed right."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Re-check when conditions change",
+        body: [
+          "The start-of-shift walk isn't the only check. The controls have to be reassessed whenever the site changes under them:",
+          {
+            list: [
+              "A delivery just came through — did it block a sign or knock a barricade?",
+              "A new excavation or phase started — does the boundary and the routing still match the hazard?",
+              "Weather hit — is the route slick, did wind move devices or take down signs?",
+              "The work moved — is the barricade still around the hazard, or around where the hazard used to be?"
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Own it and fix it on the spot",
+        body: [
+          "Inspection only protects people if someone owns it and someone fixes what it finds. Name who walks the controls each shift and who corrects a problem — a drifted barricade or a blocked sign gets fixed now, not added to a list for later.",
+          "And every worker carries stop-work authority here. If the boundary between the public and the hazards has failed — a gate standing open to the street, a barricade down, an uncovered hole near a walkway — stop, secure it, and get it corrected before the work goes on. The public only has to find the gap once."
+        ]
+      }
+    ]
   }
 };
 

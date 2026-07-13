@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 14 / 24 categories authored (58%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, and Demolition Safety pending SME review.**
+**Progress: 15 / 24 categories authored (63%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, and Site Access & Public Protection pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,11 +19,11 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — top remaining OSHA-based items are Site Access & Public
-  Protection (`site-access-and-public-protection`, Subpart G), Housekeeping
+- **Next category:** open — top remaining OSHA-based items are Housekeeping
   (`housekeeping`, 1926.25 / 1910.22), Slips/Trips/Falls (`slips-trips-and-falls`,
-  1910 Subpart D), and First Aid (`first-aid`, 1926.50 / 1910.151). All 14 authored
-  categories to date are OSHA-based.
+  1910 Subpart D), First Aid (`first-aid`, 1926.50 / 1910.151), and Accident
+  Reporting (`accident-reporting`, 1904). All 15 authored categories to date are
+  OSHA-based.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -32,6 +32,62 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Site Access and Public Protection — `site-access-and-public-protection`
+- **Session:** 2026-07-13
+- **Topics authored:** 12 (real toolbox-talk list, flexed above the 11 floor —
+  Subpart G §200–203 + public-protection provisions across fall-protection and
+  excavation rules support it; synthetic expansion disabled)
+  1. Controlling the Site Perimeter — Fencing, Gates, and Keeping People Out
+  2. Accident Prevention Signs — Colors, Wording, and Placement
+  3. Accident Prevention Tags
+  4. Barricades and Channelizing Devices
+  5. Flaggers and Traffic Signaling
+  6. Protecting Pedestrians — Walkways and Accessible Routes
+  7. Covered Walkways, Canopies, and Sidewalk Sheds
+  8. Overhead and Falling-Object Protection
+  9. Protecting People from Open Holes and Excavations
+  10. Visitor, Delivery, and Contractor Access Control
+  11. Night Work and Low-Visibility Protection
+  12. Daily Inspection of Signs, Barriers, and Access Controls
+- **Sources:** OSHA 29 CFR 1926 Subpart G — §200 accident-prevention signs & tags
+  (Danger red/black/white "immediate hazard only"; Caution yellow w/ black panel;
+  Exit red letters ≥6 in high, ¾-in stroke, white field; Safety-instruction
+  green panel/white letters; Directional black panel/white symbol; (g) traffic
+  signs at points of hazard per MUTCD; (h) tags = temporary warning of existing
+  hazard, never a substitute for signs), §201 signaling (flagger signaling per
+  MUTCD Part 6 — STOP/SLOW paddle ≥18 in / 6-in letters primary, emergency flag
+  ≥24 in square, ANSI/ISEA 107 Class 2/3 apparel), §202 barricades (conform to
+  MUTCD Part 6, not ANSI D6.1), §203 definitions (barricade/sign/signals/tags).
+  Public/pedestrian protection assembled from: §501(c) falling-object controls
+  (hard hat + toeboards/screens/guardrail, OR canopy, OR barricade & prohibit
+  entry) & §502(j) criteria (toeboard ≥3½ in, ≥50 lb, canopy prevents
+  collapse/penetration); §850(k) demolition sidewalk shed/canopy (8 ft from face,
+  2 ft wider than opening, 150 psf); §501(b)(4)/502(i) holes & covers (cover ≥2×
+  max load, secured, marked HOLE/COVER); §651(j)(2) spoil ≥2 ft from edge;
+  §651(l) guarded walkways over excavations ≥6 ft; §56 illumination (5 fc general).
+  MUTCD Part 6 pedestrian/ADA routing (continuous detectable path, ≤4-in
+  projection under 7 ft, audible/vibrotactile cues) and night-work channelizing
+  (retroreflective 45° orange/white stripes; Type A/B/C-D warning lights).
+- **Scope note:** owns the site-interface + public-protection layer — perimeter/
+  gates, signs/tags, barricades, flaggers, pedestrian routing, canopies, overhead
+  & hole protection near the public, visitor/delivery control, night visibility,
+  daily inspection. Highway work-zone flagging & vehicle-movement detail cross-ref
+  Vehicle & Driver Safety; trench-wall/cave-in protection cross-refs Excavation;
+  worker-side falling-object systems cross-ref Working at Heights. Flagged in-copy
+  that OSHA has **no single "public protection" standard** — it's built from these
+  worker-focused rules + MUTCD + local building codes.
+- **Verified:** tsc clean · `next build` clean (all pages prerender, 24 category
+  paths + [+879] topic paths) · 12 exported HTML files in
+  `out/training/site-access-and-public-protection/` · authored content present
+  (`1926.200`, `1926.202`, `150 pounds per square foot`, `24 inches square`,
+  `ANSI/ISEA 107`, `3 1/2 inches`, `HOLE`), placeholder `plain site language`
+  gone (0 files) · live routes 200.
+- **SME review:** ⏳ pending. Facts verified against osha.gov Subpart G + MUTCD
+  via research subagent — corrected three common errors: flagger flag is **24 in**
+  square (not the outdated 18 in), §1926.202 references **MUTCD Part 6** (not ANSI
+  D6.1), and tag wordings trace to **1910.145(f)** (Danger/Caution/Warning/
+  Biohazard) not to §1926.200(h) itself.
 
 ### ✅ Demolition Safety — `demolition-safety`
 - **Session:** 2026-07-12
@@ -506,6 +562,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Vehicle and Driver Safety | 13 | Eleventh category. OSHA 1926 Subpart O (§600–602) + Subpart W (ROPS §1000–1003) + Subpart G/MUTCD Part 6 (flaggers) + FMCSA HOS/texting ban. Motor-vehicle equipment & driver duties, (b)(14) shift inspection, ROPS + seat belts (SAE J386, don't jump in a rollover), backing/spotters/hand signals, reverse alarms "audible above surrounding noise", haul roads/grades/berms, dump-truck raised-bed (overhead lines, tip-over, blocked bed), earthmoving 1926.602, struck-by/caught-between blind zones, load chocking/fall-zone/securement, work-zone layout & flaggers (STOP/SLOW, hi-vis), parking/shutdown (blades down, chock on grade, night lighting), fatigue (11/14/30-min/60–70) + distraction + fitness. Flexed to 13 topics. Forklift/rigging/public-protection cross-ref'd. Progress 11/24 (46%). SME review pending. |
 | 2026-07-12 | Demolition Safety | 13 | Fourteenth category (58%). OSHA 1926 Subpart T (§850–860, all 11 sections) + health/fire cross-cutting. Pre-demolition engineering survey (competent person + written evidence), utility control outside building line, hazardous materials (test/purge tanks; asbestos 0.1 f/cc, lead PEL 50/AL 30, silica PEL 50/AL 25 µg/m³), structure prep & designated access (42-in opening guard, stairwell covered 2 floors below), exclusion zones/drop-zone barricades (42 in / 6 ft + signs §850(h)), chutes (>45° enclosed, gate + ≤48-in intake) & 25%-floor-opening rule, manual masonry/wall demo (safe floor loads, 1-story lateral bracing, no wall-top work in bad weather), manual floor removal (2×10 planks, 16-in gap, 20-ft clearance), mechanical demolition (ball ≤50% rated load / ≤25% line breaking strength; no crew in area during balling; swivel + positive attach; cut steel free & remove cornices before pulling walls), steel removal (column-length/tier-by-tier, not overstressed), silica/dust controls (wet methods, LEV, HEPA), fire/hot-work (purge before cutting, keep standpipes/egress), continuing competent-person inspections & unplanned-collapse prevention (floor loads, 25-ft-above-grade storage). Facts verified against osha.gov Subpart T via research subagent (corrected §850 paragraph lettering). Replaced 10-topic placeholder. Cross-refs asbestos/PPE/welding/fire/electrical/excavation/rigging. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Construction Safety | 13 | Thirteenth category (54%). OSHA 1926 Subpart C (§20–35 general provisions) + Subpart D (§51/.56 sanitation/illumination) + Subpart I (§300–307 tools) + Subpart G (§200–203 signs/signals/barricades) + OSH Act (rights, §11(c), competent person §32(f)) + Focus Four. Focus Four overview, OSHA rights/responsibilities, new-worker orientation/training (§21), JHA & hierarchy of controls, competent person + daily inspections, struck-by (4 types + vehicles/backovers), caught-in/between (cave-ins/machinery/pinned), hand & power tools (guards/condition/GFCI), signs-tags-signals-barricades (Danger-red/Caution-yellow), illumination (5/10 fc)/sanitation/welfare, PPE overview (employer-paid, last line), emergency action plans (§35) + first aid/fire, stop-work authority + hazard/near-miss reporting. Replaced placeholder grab-bag that duplicated dedicated categories; owns Struck-By + Caught-In/Between, defers Falls/Electrocution/PPE/Housekeeping/tools-air/traffic/recordkeeping to their categories. Build 1108 pages. SME review pending. |
+| 2026-07-13 | Site Access and Public Protection | 12 | Fifteenth category (63%). OSHA 1926 Subpart G (§200–203) + public-protection provisions from fall-protection (§501(c)/502(i)/(j)) and excavation (§651(j)(2)/(l)) rules + §850(k) demolition canopy + MUTCD Part 6. Perimeter/fencing/gates & attractive-nuisance, accident-prevention signs (Danger red / Caution yellow / Exit red ≥6 in / Safety-instruction green / Directional; §200(g) traffic signs), accident-prevention tags (temporary, never substitute for signs; 1910.145(f) Danger/Caution/Warning/Biohazard), barricades & channelizing devices (§202 → MUTCD Part 6, 45° orange/white retroreflective stripes), flaggers & signaling (STOP/SLOW paddle ≥18 in primary, emergency flag ≥24 in, ANSI/ISEA 107 Class 2/3), pedestrian walkways & ADA-accessible routes (continuous detectable path, ≤4-in projection, audible/vibrotactile cues), covered walkways/canopies/sidewalk sheds (§850(k): 8 ft / 2 ft wider / 150 psf), overhead & falling-object protection (§501(c) three controls + §502(j) toeboard ≥3½ in / ≥50 lb), open holes & excavations near public (cover ≥2× load marked HOLE/COVER, spoil ≥2 ft, guarded ≥6-ft walkways), visitor/delivery/contractor access control, night & low-visibility (retroreflective + Type A/B/C-D warning lights, §56 5 fc), daily inspection of controls. Replaced 10-topic placeholder. Facts verified vs osha.gov Subpart G + MUTCD via research subagent (corrected 24-in flag, §202→MUTCD not ANSI D6.1, tag wordings→1910.145(f)). Vehicle/Excavation/Heights cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |
 
 ---

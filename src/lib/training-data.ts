@@ -504,6 +504,7 @@ const realContentCategories = new Set<string>([
   "rigging-and-material-handling-equipment",
   "construction-safety",
   "demolition-safety",
+  "site-access-and-public-protection",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1804,16 +1805,18 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Barricades and Signage",
-      "Pedestrian Separation",
-      "Gate Control",
-      "Visitor Orientation",
-      "Sidewalk Protection",
-      "Public Drop Zone Awareness",
-      "Night Lighting at Access Points",
-      "Temporary Walkway Setup",
-      "Deliveries Near Public Areas",
-      "Incident Escalation Around Public Exposure",
+      "Controlling the Site Perimeter — Fencing, Gates, and Keeping People Out",
+      "Accident Prevention Signs — Colors, Wording, and Placement",
+      "Accident Prevention Tags",
+      "Barricades and Channelizing Devices",
+      "Flaggers and Traffic Signaling",
+      "Protecting Pedestrians — Walkways and Accessible Routes",
+      "Covered Walkways, Canopies, and Sidewalk Sheds",
+      "Overhead and Falling-Object Protection",
+      "Protecting People from Open Holes and Excavations",
+      "Visitor, Delivery, and Contractor Access Control",
+      "Night Work and Low-Visibility Protection",
+      "Daily Inspection of Signs, Barriers, and Access Controls",
     ],
   }),
   createCategory({
