@@ -14200,6 +14200,494 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
     ],
   },
 
+  "environmental-controls-and-spill-response/your-environmental-duty-of-care-on-site": {
+    description: "What every worker owes the land, air, and water around the job, and why one careless spill can cost the whole company.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Environmental protection isn't just the super's problem or a line on a permit. Every one of us handles fuel, oil, concrete, paint, or dirt that can end up in a creek or a storm drain if we're not careful. Once it's in the water or the ground, it's expensive, slow, and sometimes impossible to clean up.",
+          "Your job here is simple: know what can hurt the environment, keep it contained, and speak up fast when something goes wrong. You don't have to be the cleanup expert. You have to recognize a problem and report it.",
+        ],
+      },
+      {
+        heading: "Why It Matters On A Construction Site",
+        body: [
+          "Two federal agencies drive most of what we do. The EPA writes the rules on oil, spills, stormwater, and waste. OSHA writes the rules on how workers handle hazardous materials and respond to releases, mainly the HAZWOPER standard at 29 CFR 1910.120.",
+          "The money side is real. Discharging oil or pollutants into water without reporting it can bring federal penalties, stop-work orders, and personal liability. A single unreported fuel spill into a storm drain can shut a site down for days.",
+        ],
+      },
+      {
+        heading: "The Three Things You Own",
+        body: [
+          { list: [
+            "Prevent it. Handle fuel and chemicals over containment, don't top off tanks, and keep waste in closed, labeled containers.",
+            "Contain it. Know where the nearest spill kit is before you need it, and grab it fast when something leaks.",
+            "Report it. Tell your supervisor and the site environmental contact the moment you see a spill, a sheen on water, or a leaking container. Reporting early is never the wrong call.",
+          ] },
+        ],
+      },
+      {
+        heading: "Know Where The Water Goes",
+        body: [
+          "Walk your area and find the storm drains, ditches, inlets, and any nearby creek or pond. Storm drains usually run straight to a stream with no treatment, so anything you let reach a drain reaches the water. If you don't know where a drain outfalls, ask before you work near it.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/preventing-oil-and-fuel-spills-spcc": {
+    description: "How the SPCC rule keeps oil out of waterways, and the storage habits that stop a spill before it starts.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Oil is the most common thing we spill on a job site: diesel, hydraulic fluid, gear oil, used oil, lubricants. The EPA's Spill Prevention, Control, and Countermeasure rule, 40 CFR Part 112, exists to keep that oil from reaching creeks, rivers, and shorelines.",
+          "You don't have to memorize the regulation. You do have to know your site has an SPCC plan if it stores enough oil, and you have to follow the storage and handling rules that plan sets.",
+        ],
+      },
+      {
+        heading: "When SPCC Applies",
+        body: [
+          "A site is covered by SPCC when three things are true: it's non-transportation-related, it has more than 1,320 gallons of aggregate aboveground oil storage capacity (or more than 42,000 gallons completely buried), and there's a reasonable chance oil could reach navigable waters. Containers under 55 gallons don't count toward that 1,320-gallon total.",
+          "If your site is covered, there's a written SPCC plan on site. Know who your plan coordinator is and where the plan lives.",
+        ],
+      },
+      {
+        heading: "Spill Prevention Habits",
+        body: [
+          { list: [
+            "Store fuel and oil drums over secondary containment, away from drains, ditches, and slopes down to water.",
+            "Keep containers closed and labeled. A rag stuffed in a bung is not a closed container.",
+            "Inspect tanks, drums, and equipment for drips, weeping seals, and stains at the start of each shift.",
+            "Never overfill. Watch the gauge and stop before the top.",
+            "Stage drip pans and absorbents wherever you transfer oil.",
+          ] },
+        ],
+      },
+      {
+        heading: "The Sheen Rule",
+        body: [
+          "Under the Clean Water Act's Discharge of Oil regulation, 40 CFR Part 110, any oil discharge that causes a visible film or sheen on water, or leaves sludge or emulsion beneath the surface, is a reportable spill. A rainbow shine on a puddle draining to a ditch is not nothing. It's a federal reporting trigger. If you see a sheen on water, treat it as reportable and tell your supervisor immediately.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/secondary-containment": {
+    description: "The berms, dikes, and double-wall tanks that catch a leak before it spreads, and how to keep them working.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Secondary containment is your backup when the tank or drum fails. It's the wall around the fuel tank, the bermed area under the drums, the double wall on a tank, the pan under the generator. The idea is dead simple: if the container leaks, the containment holds it so it never reaches the ground or water.",
+        ],
+      },
+      {
+        heading: "How Big It Has To Be",
+        body: [
+          "Under SPCC, bulk oil storage containment has to hold the entire capacity of the largest single container in that area, plus enough freeboard to catch rainfall. So a containment area around three 500-gallon tanks is sized for the biggest one plus rain, not the total of all three. Mobile refuelers have their own rules.",
+          "The point for you: don't add a bigger tank or an extra drum to a containment area without checking that the containment still holds the largest container.",
+        ],
+      },
+      {
+        heading: "Common Types You'll See",
+        body: [
+          { list: [
+            "Bermed or diked areas around tank farms and drum storage.",
+            "Double-wall tanks that contain a leak in the outer shell.",
+            "Spill pallets and drum decks with a built-in sump.",
+            "Drip pans and containment berms under equipment and generators.",
+          ] },
+        ],
+      },
+      {
+        heading: "Keep It Working",
+        body: [
+          "Containment only works if it's empty and intact. Drain accumulated rainwater properly, and only after you've checked it for sheen. If there's an oily sheen on the water, it's not clean rain and it can't just be released. Watch for cracks, gaps, and corroded valves. And never leave a containment drain valve open, because an open valve turns your containment into a funnel straight to the ground.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/fueling-and-refueling-safely": {
+    description: "The number-one source of job-site spills, and the simple controls that keep fuel in the tank.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "More spills happen at the fuel nozzle than anywhere else. Topping off, walking away from a running pump, fueling on a slope near a drain: these are the everyday moves that put diesel on the ground. Fueling is routine, and that's exactly why it gets sloppy.",
+        ],
+      },
+      {
+        heading: "Before You Fuel",
+        body: [
+          { list: [
+            "Pick a spot away from storm drains, ditches, and slopes leading to water.",
+            "Set a drip pan or absorbent under the nozzle and the tank fill.",
+            "Have a spill kit within reach, not back at the trailer.",
+            "Check the tank gauge so you know how much room you've got.",
+          ] },
+        ],
+      },
+      {
+        heading: "While You Fuel",
+        body: [
+          "Stay at the nozzle. Hand on the trigger, eyes on the fill. Never wedge the nozzle open and walk off. Stop when the tank is full, and do not top off. That last squeeze is where fuel backs up and spills, and topping off does nothing but overflow. Cap the tank when you're done and check for drips.",
+        ],
+      },
+      {
+        heading: "If It Spills",
+        body: [
+          "Stop the flow first, then drop absorbents on the fuel and cover the nearest drain if it's threatened. Small drips on soil still matter: contaminated soil is waste that has to be handled. Tell your supervisor. If fuel reaches water or a drain, or you see a sheen, that's a reportable spill and it moves fast to the notification steps.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/stormwater-swppp-and-keeping-pollutants-out-of-drains": {
+    description: "Why rain running off a construction site is regulated, and the plan and rules that keep mud and pollutants out of waterways.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When it rains on a construction site, the water that runs off carries mud, fuel, concrete, and trash straight into ditches, storm drains, and streams. The EPA regulates that runoff under the Clean Water Act's NPDES program because sediment and pollutants wreck downstream water.",
+          "Most storm drains get no treatment. What goes in the drain comes out in a creek. That's why nothing but clean rainwater is allowed to reach them.",
+        ],
+      },
+      {
+        heading: "When A Permit Is Required",
+        body: [
+          "A site that disturbs one acre or more of land needs coverage under a construction stormwater permit, and so does a smaller site that's part of a common plan of development that will ultimately disturb an acre or more (40 CFR 450.21). Coverage comes with a written Stormwater Pollution Prevention Plan, the SWPPP.",
+          "The SWPPP is the playbook for keeping pollution out of the runoff. It maps the controls, who inspects them, and how often.",
+        ],
+      },
+      {
+        heading: "What The Rules Prohibit",
+        body: [
+          { list: [
+            "No discharge of concrete washout wastewater to the ground or drains.",
+            "No discharge of fuels, oils, or equipment wash water.",
+            "Stabilize disturbed areas when work stops and won't resume for more than 14 days.",
+            "Keep sediment, trash, and chemicals out of every storm drain and ditch.",
+          ] },
+        ],
+      },
+      {
+        heading: "Your Part",
+        body: [
+          "Protect the drain inlets in your area, don't drive through or bury silt fence, and don't wash anything into a gutter or drain. If you see a control that's torn, buried, or bypassed, or mud tracking off site onto the road, report it so it gets fixed before the next rain.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/erosion-and-sediment-control-bmps": {
+    description: "The silt fences, inlet protection, and stabilization measures that hold soil on site, and how to keep them doing their job.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Sediment, plain old dirt, is the number-one pollutant coming off a construction site. Bare, graded ground washes away in the first hard rain and chokes the creek downstream. Best Management Practices, or BMPs, are the controls that keep the soil where it belongs.",
+        ],
+      },
+      {
+        heading: "The Common BMPs",
+        body: [
+          { list: [
+            "Silt fence and fiber rolls along the down-slope edges to filter runoff and catch sediment.",
+            "Inlet protection around storm drains so mud doesn't drop straight in.",
+            "Stabilized construction entrance, a rock pad that knocks mud off tires before trucks hit the road.",
+            "Sediment basins and traps that pond runoff so dirt settles out.",
+            "Erosion control on slopes: seeding, mulch, and rolled blankets to hold bare ground.",
+          ] },
+        ],
+      },
+      {
+        heading: "Keep Them Working",
+        body: [
+          "BMPs fail when they're ignored. Silt fence has to be trenched in at the bottom, not just staked on top of the dirt, or water runs right under it. Remove built-up sediment before it overtops the fence or fills the basin. Repair torn fabric, re-gravel the entrance when it's caked, and reseed bare spots. Inspections are required regularly and after storms.",
+        ],
+      },
+      {
+        heading: "Don't Undo The Controls",
+        body: [
+          "Don't drive over silt fence, don't pull inlet protection to drain a puddle faster, and don't stockpile soil where there's nothing between it and a drain. If your work takes out a control, replace it or tell the person who can before you leave the area.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/concrete-washout-and-wash-water": {
+    description: "Why concrete and its wash water can't touch the ground or a drain, and how to use a proper washout.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Fresh concrete and the water used to rinse chutes, tools, and pumps is nasty stuff for the environment. It's highly alkaline, up around pH 12, and it carries fine solids and metals. Dumped on the ground or into a drain it kills aquatic life and violates the site's stormwater permit.",
+        ],
+      },
+      {
+        heading: "The Rule",
+        body: [
+          "Concrete washout wastewater is specifically prohibited from being discharged to the ground or storm drains under the construction stormwater rules. It has to be contained. That's why sites set up a dedicated washout: a lined pit, a prefab bin, or a roll-off with a liner, marked so everyone uses it.",
+        ],
+      },
+      {
+        heading: "How To Wash Out Right",
+        body: [
+          { list: [
+            "Rinse chutes, pumps, and tools only in the designated washout, never on open ground or near a drain.",
+            "Keep the washout back from drains, ditches, and slopes to water.",
+            "Don't let it overflow. Report it when it's getting full so it gets serviced.",
+            "Let the solids harden, then haul them off for proper disposal or recycling.",
+          ] },
+        ],
+      },
+      {
+        heading: "If There's No Washout",
+        body: [
+          "If you can't find a washout station, stop and ask. Do not rinse the chute into the dirt or a gutter to save a trip. One driver washing out in the wrong spot can put the whole site's permit at risk.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/spill-kits-what-s-in-them-and-where-they-go": {
+    description: "What's inside a spill kit, how to match the kit to the hazard, and why staging matters more than stocking.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A spill kit is your first move when something leaks. It's a grab-and-go set of absorbents and barriers that lets you contain a spill in the first minute, before it spreads to soil or water. A kit locked in a conex two hundred feet away does you no good, so where it sits matters as much as what's in it.",
+        ],
+      },
+      {
+        heading: "What's In A Kit",
+        body: [
+          { list: [
+            "Absorbent pads and loose absorbent to soak up the liquid.",
+            "Socks and booms to ring the spill and stop it spreading.",
+            "Drain covers or mats to seal a storm drain fast.",
+            "Disposal bags and ties for the used, contaminated absorbents.",
+            "Gloves and eye protection, and often a set of basic instructions.",
+          ] },
+        ],
+      },
+      {
+        heading: "Match The Kit To The Hazard",
+        body: [
+          "Kits come in types. Oil-only absorbents float and grab oil but shed water, good for fuel and hydraulic spills, even on water. Universal kits handle most liquids. Hazmat kits are built for aggressive chemicals. Use the right one, and check the label if you're not sure.",
+        ],
+      },
+      {
+        heading: "Where Kits Go",
+        body: [
+          "Stage kits where spills happen: at fueling points, oil and chemical storage, generators, and pumps. Know the location of the nearest kit before you start work, not after the drum tips. After any use, restock the kit right away and tell your supervisor so it's ready for the next person.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/responding-to-a-spill-stop-contain-notify-clean-up": {
+    description: "The four-step response that keeps a small spill small, and the line you don't cross.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When something spills, the first minute decides whether it's a mop-up or a disaster. The response is four steps in order: stop the source, contain it, notify, then clean up. Run them in that order and most job-site spills stay small.",
+          "But there's a line. If the spill is big, on fire, giving off strong vapors, an unknown chemical, or already reaching water, you don't play hero. You back off and let trained responders handle it.",
+        ],
+      },
+      {
+        heading: "The Four Steps",
+        body: [
+          { list: [
+            "Stop the source, if you can do it safely: upright the drum, close the valve, plug the leak.",
+            "Contain it: ring the spill with socks or absorbent, and cover the nearest drain to keep it out of the water.",
+            "Notify: tell your supervisor and the site environmental contact right away. If it's reportable, they set the reporting in motion.",
+            "Clean up: soak it up with absorbents, bag the used material, and handle contaminated soil or absorbent as waste, not trash.",
+          ] },
+        ],
+      },
+      {
+        heading: "Protect Yourself First",
+        body: [
+          "Don't rush into a spill without knowing what it is. Check for a safety data sheet, wear the right gloves and eye protection, and stay upwind and out of low spots where vapors collect. A spill you can't identify, or one that's making you dizzy or burning your eyes, is a stop-and-evacuate situation, not a cleanup.",
+        ],
+      },
+      {
+        heading: "Contaminated Material Is Waste",
+        body: [
+          "Used absorbents, oily rags, and contaminated soil don't go in the dumpster. They're waste that has to be containerized, labeled, and disposed of properly. Bag it, set it in the designated spot, and let the environmental contact route it.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/when-and-how-to-report-a-spill-national-response-center": {
+    description: "Which spills have to be reported to the federal government, the number to call, and why over-reporting beats staying quiet.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Some spills are just a cleanup. Others are legally reportable to the federal government, and failing to report can bring serious penalties on the company and the people involved. As a worker, your job isn't to make the legal call yourself. It's to report up fast so the people who can make that call have time to act.",
+        ],
+      },
+      {
+        heading: "What Triggers A Report",
+        body: [
+          { list: [
+            "Oil that reaches water and causes a visible sheen or film, under the Clean Water Act's sheen rule, 40 CFR Part 110.",
+            "A hazardous substance released at or above its Reportable Quantity under CERCLA, 40 CFR Part 302. RQs are substance-specific, so the threshold depends on the chemical.",
+            "Many spills also trigger state and local reporting on top of the federal call, sometimes with tighter limits.",
+          ] },
+        ],
+      },
+      {
+        heading: "The National Response Center",
+        body: [
+          "Federal reports of oil sheens and hazardous-substance releases go to the National Response Center at 1-800-424-8802, staffed 24 hours a day. On a job site the environmental coordinator or a qualified person usually makes that call, because it has to happen quickly, often immediately upon knowledge of the release. Your part is to get the information to them fast: what spilled, roughly how much, where, and whether it reached water.",
+        ],
+      },
+      {
+        heading: "When In Doubt, Report Up",
+        body: [
+          "Never sit on a spill hoping it's small enough to ignore. The penalty for not reporting a reportable spill is far worse than the hassle of reporting one that turns out minor. Tell your supervisor immediately. Reporting early is always the safe choice.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/hazwoper-and-knowing-your-limits": {
+    description: "The OSHA HAZWOPER training levels for spill response, and why most crews are Awareness level: recognize and report, don't play hero.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA's HAZWOPER standard, 29 CFR 1910.120, governs hazardous-waste work and emergency response to chemical releases. The core idea is that what you're allowed to do at a spill depends on how you've been trained. Do more than your training covers and you put yourself in real danger.",
+          "Most construction crews are trained to the lowest level, First Responder Awareness. That's not a knock. It means your job at a serious release is to recognize it and report it, then stay clear.",
+        ],
+      },
+      {
+        heading: "The Emergency Response Levels",
+        body: [
+          "The response training tiers under 1910.120(q)(6) build on each other:",
+          { list: [
+            "First Responder Awareness: recognize a release, notify the right people, and keep others away. You do not try to stop it.",
+            "First Responder Operations: at least 8 hours of training. You respond defensively, containing from a safe distance to keep it from spreading. You still don't try to close in and stop the source.",
+            "Hazardous Materials Technician: at least 24 more hours. This is the offensive level, trained and equipped to move in and actually stop the release.",
+          ] },
+        ],
+      },
+      {
+        heading: "Hazardous Waste Site Training",
+        body: [
+          "For work on hazardous-waste cleanup sites, 1910.120(e) sets different tiers: general site workers get a minimum of 40 hours of off-site training plus 3 days of supervised field experience, while workers on site only occasionally for a limited task, unlikely to exceed exposure limits, get a minimum of 24 hours plus 1 day of field experience. Trained personnel also get an 8-hour annual refresher.",
+        ],
+      },
+      {
+        heading: "Recognize And Report, Don't Play Hero",
+        body: [
+          "If a release is beyond a simple, known spill you're trained and equipped for, your move is to recognize it, notify, and get clear, then let trained responders take over. Rushing into a chemical release you're not trained for doesn't make you tougher. It makes you the next casualty and a bigger problem for the crew.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/handling-and-storing-hazardous-waste-rcra-basics": {
+    description: "The RCRA basics for used oil, solvents, paints, and batteries: label it, close it, don't mix it, don't dump it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Construction generates hazardous waste every day: used oil, spent solvents, leftover paints and thinners, aerosols, batteries, contaminated rags and absorbents. The EPA regulates how that waste is stored and disposed of under RCRA, 40 CFR. Get it wrong and it's an illegal dump, with penalties to match.",
+        ],
+      },
+      {
+        heading: "The Core Rules",
+        body: [
+          { list: [
+            "Label every container with what's in it and the hazard. No mystery drums.",
+            "Keep containers closed except when you're actually adding or removing waste. A drum with the lid off is a violation and a spill waiting to happen.",
+            "Don't mix wastes. Mixing can trigger a reaction and it turns a small stream of one waste into a big drum of mixed waste that's harder to dispose of.",
+            "Store waste on containment, away from drains and traffic.",
+            "Never dump waste on the ground, down a drain, or in the trash dumpster.",
+          ] },
+        ],
+      },
+      {
+        heading: "Satellite Accumulation",
+        body: [
+          "Waste is often collected at a satellite accumulation area right where it's generated, at or near the point of use, under the control of the operator. You can accumulate up to 55 gallons of hazardous waste there. Once you hit that 55-gallon limit, the container has to be dated and moved to the main storage area within three consecutive days. Don't let a satellite drum overflow past the limit.",
+        ],
+      },
+      {
+        heading: "Common Wastes To Watch",
+        body: [
+          "Used oil, spent solvents and thinners, paints, and batteries are the ones you'll handle most. Used oil in particular gets recycled, so keep it clean: don't dump antifreeze, solvent, or water into the used-oil drum, or you can turn recyclable oil into hazardous waste. When in doubt about whether something's hazardous, ask before you toss it.",
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/controlling-dust-and-air-emissions": {
+    description: "Keeping fugitive dust and equipment exhaust down to protect neighbors, air quality, and the crew.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Dust and exhaust are air pollution the site has to control. Blowing dust from grading, demo, and hauling drifts off site onto neighbors and roads, and it's a health hazard for the crew breathing it. Diesel exhaust from idling equipment adds to it. Both are regulated, and both are on us to keep down.",
+        ],
+      },
+      {
+        heading: "Fugitive Dust Control",
+        body: [
+          "Fugitive dust is the visible dust that leaves the work area. The main tool is water: a water truck or hose wetting haul roads, work areas, and stockpiles keeps it down. Cover or wet loads before hauling, stabilize exposed soil, and slow down on dirt roads, because speed is what kicks dust into the air. On a windy day, dust control matters more, not less.",
+        ],
+      },
+      {
+        heading: "Silica Is A Special Case",
+        body: [
+          "When the dust comes from concrete, masonry, brick, or rock, it can contain respirable crystalline silica, which is a serious lung hazard with its own OSHA standard and controls like water and vacuum dust collection. That's owned in detail elsewhere. See Respirable Crystalline Silica under COSHH (Hazardous Substances), and use the required controls, not just a garden hose, when you're cutting or grinding those materials.",
+        ],
+      },
+      {
+        heading: "Cut The Exhaust",
+        body: [
+          { list: [
+            "Shut equipment down instead of letting it idle for long stretches.",
+            "Keep engines tuned and maintained so they burn clean.",
+            "Position generators and running equipment so exhaust isn't pooling where the crew works.",
+          ] },
+        ],
+      },
+    ],
+  },
+  "environmental-controls-and-spill-response/everyday-housekeeping-that-protects-the-environment": {
+    description: "The small daily habits, covered waste, closed containers, clean drains, that stop pollution before it starts.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most environmental damage on a job site doesn't come from one big accident. It comes from a hundred small bits of sloppiness: an open drum, trash blowing into a ditch, a leaking machine nobody reported. Good housekeeping is the cheapest environmental control there is, and it's entirely in your hands.",
+        ],
+      },
+      {
+        heading: "Daily Habits That Matter",
+        body: [
+          { list: [
+            "Keep lids on drums, buckets, and waste containers.",
+            "Store chemicals and fuel out of the weather and over containment.",
+            "Contain trash and debris so it doesn't blow into ditches, drains, and neighboring property.",
+            "Keep the area around drains and inlets clean, and never sweep or wash debris toward them.",
+            "Fix or report leaking equipment instead of sliding a bucket under it and forgetting.",
+          ] },
+        ],
+      },
+      {
+        heading: "Watch The Little Leaks",
+        body: [
+          "A parked machine dripping hydraulic fluid onto the dirt is a slow spill. A drip pan is fine as a stopgap, but a leak that keeps going is contaminated soil piling up and equipment that needs repair. Report chronic drips so they get fixed, and don't let a pan under a leak become the permanent solution.",
+        ],
+      },
+      {
+        heading: "Leave It Better",
+        body: [
+          "At the end of the shift, take two minutes: close the containers you opened, pick up the trash in your area, and make sure nothing's draining toward an inlet. A clean site is a site that doesn't pollute, and it's the crew, not the permit, that keeps it that way.",
+        ],
+      },
+    ],
+  },
+
 };
 
 export function getAuthoredTopic(

@@ -3,7 +3,15 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 23 / 24 categories authored (96%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), Manual Handling, and Heat & Cold Stress Prevention pending SME review.**
+**Progress: 24 / 24 categories authored (100%) 🎉 — authoring rollout COMPLETE.
+6 SME-reviewed ✅; the other 18 (Forklift Safety, Welding & Hot Work, Fire
+Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety,
+Rigging & Material Handling Equipment, Construction Safety, Demolition Safety,
+Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident
+Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), Manual
+Handling, Heat & Cold Stress Prevention, and Environmental Controls & Spill
+Response) pending SME review. 312 authored topics total across the 24 categories;
+synthetic 11× expansion fully disabled.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,10 +27,11 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — 1 remaining: Environmental Controls & Spill Response
-  (`environmental-controls-and-spill-response`, EPA SPCC 40 CFR 112 / NPDES CGP /
-  OSHA HAZWOPER 1910.120). COSHH/HazCom, Manual Handling, and Heat & Cold Stress
-  authored 2026-07-13.
+- **Next category:** none — **all 24 categories authored.** The authoring phase of
+  the content rollout is complete (2026-07-13). The remaining work is **SME review**:
+  18 of 24 categories are still pending qualified-safety-professional sign-off
+  (First Aid and Heat & Cold Stress flagged elevated priority for their clinical
+  emergency content). No new authoring sessions are needed.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -31,6 +40,62 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Environmental Controls and Spill Response — `environmental-controls-and-spill-response`
+- **Session:** 2026-07-13 (final category — completes the 24-category rollout)
+- **Topics authored:** 14 (real toolbox-talk list, flexed above the 11 floor —
+  EPA SPCC/stormwater/RCRA + OSHA HAZWOPER support it; synthetic expansion disabled)
+  1. Your Environmental Duty of Care on Site
+  2. Preventing Oil and Fuel Spills (SPCC)
+  3. Secondary Containment
+  4. Fueling and Refueling Safely
+  5. Stormwater, SWPPP, and Keeping Pollutants Out of Drains
+  6. Erosion and Sediment Control BMPs
+  7. Concrete Washout and Wash Water
+  8. Spill Kits — What's In Them and Where They Go
+  9. Responding to a Spill — Stop, Contain, Notify, Clean Up
+  10. When and How to Report a Spill (National Response Center)
+  11. HAZWOPER and Knowing Your Limits
+  12. Handling and Storing Hazardous Waste (RCRA Basics)
+  13. Controlling Dust and Air Emissions
+  14. Everyday Housekeeping That Protects the Environment
+- **Sources:** **EPA SPCC — 40 CFR Part 112** — applies to non-transportation
+  facilities with **>1,320 gal** aggregate aboveground oil storage (or **>42,000
+  gal** buried) with reasonable potential to reach navigable waters (containers
+  <55 gal excluded from the total); **secondary containment sized to the largest
+  single container + freeboard** for rain. **Sheen rule — 40 CFR Part 110** (CWA):
+  a discharge causing a **visible sheen/film** on water is reportable. **NPDES
+  Construction General Permit — 40 CFR 450.21**: permit + **SWPPP** for sites
+  disturbing **≥1 acre** (or part of a ≥1-acre common plan); **stabilize within 14
+  days** when work stops; **concrete-washout wastewater and fuels/oils prohibited**
+  from discharge. **NRC — 1-800-424-8802** (24/7); **CERCLA RQ — 40 CFR Part 302**
+  (substance-specific reportable quantities). **OSHA HAZWOPER — 29 CFR 1910.120**:
+  (q)(6) response tiers — **Awareness** (recognize/notify), **Operations** (≥8 hr,
+  defensive), **Technician** (≥24 hr more, offensive); (e) site-worker training —
+  **40-hr** general (+3 field days), **24-hr** occasional/below-PEL (+1 field day),
+  **8-hr** annual refresher. **RCRA — 40 CFR**: satellite accumulation up to **55
+  gal** at/near point of generation, containers closed, labeled; date & move within
+  **3 consecutive days** once 55 gal exceeded. BMP device names, spill-kit contents,
+  and water-truck dust control are industry-consensus practice, not verbatim rule text.
+- **Scope note:** worker-awareness level — environmental duty of care, oil/fuel spill
+  prevention (SPCC) & secondary containment, safe fueling, stormwater/SWPPP & drain
+  protection, erosion/sediment BMPs, concrete washout, spill kits, the stop-contain-
+  notify-clean-up response, federal spill reporting (NRC), HAZWOPER tiers & knowing
+  your limits, RCRA hazardous-waste handling, dust/air emissions, and everyday
+  housekeeping. Respirable-silica depth → COSHH (Respirable Crystalline Silica);
+  chemical SDS/labels → COSHH; oily-rag/combustible housekeeping → Housekeeping —
+  cross-ref'd, not duplicated.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build` clean
+  (all pages prerender) · 14 exported HTML files in
+  `out/training/environmental-controls-and-spill-response/` · authored content
+  present (`40 CFR`, `1,320`, `1-800-424-8802`, `HAZWOPER`, `SWPPP`, `55 gallon`),
+  placeholder `plain site language` gone (0 files). **Global check: 0 placeholder
+  files across all 24 categories; 312 authored topics = 312 exported topic pages.**
+- **SME review:** ⏳ pending. Facts grounded against epa.gov + osha.gov via research
+  subagent — SPCC thresholds/containment sizing, the 40 CFR 110 sheen rule, CGP
+  ≥1-acre/14-day/washout-prohibition, NRC number + CERCLA RQ, HAZWOPER (q)(6)/(e)
+  hour tiers, and RCRA 55-gal/3-day satellite rule confirmed against regulatory text;
+  BMP names and spill-kit contents flagged as consensus practice.
 
 ### ✅ Heat and Cold Stress Prevention — `heat-and-cold-stress-prevention`
 - **Session:** 2026-07-13
@@ -1000,7 +1065,7 @@ Update this file at the end of every session (`/end-session`).
 
 | Date | Category | Topics done | Notes |
 |------|----------|-------------|-------|
-| 2026-07-13 | Heat & Cold Stress Prevention | 14 | Twenty-third category (96%). OSHA heat-illness + OSHA/NIOSH cold-stress **guidance** (no specific heat/cold standard — General Duty Clause §5(a)(1) basis; federal heat rule proposed, not final). Heat: overheating physiology, the five heat illnesses (rash/cramps/syncope/exhaustion/stroke), heat-stroke emergency (104°F/40°C, 106°F+ in 10-15 min, call 911 + cold-water/ice immersion), Water·Rest·Shade (1 cup/15-20 min ≈ ¾-1 qt/hr, cap 48 oz/hr & 12 qt/day), acclimatization (Rule of 20%, 7-14 days, >70% deaths first week / ~half first day), risk factors + heat index/WBGT + NIOSH-OSHA Heat app, hot-weather planning. Cold: heat-loss physiology, hypothermia (core <95°F/35°C, warm center first, don't rub, shivering-stops = bad), frostbite/trench foot (60°F, 25× faster wet)/chilblains, three-layer dress, wind chill (40°F+35mph≈28°F) + cold risk factors, cold-weather planning, and a shared buddy-system talk (both illnesses cloud judgment). Flexed to 14. Facts grounded vs osha.gov + cdc.gov/niosh via research subagent; all figures = OSHA/NIOSH guidance not PELs. Replaced 10-topic placeholder. First Aid + PPE cross-ref'd. Build all pages prerender. SME review pending (elevated — clinical emergency content). | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
+| 2026-07-13 | Environmental Controls & Spill Response | 14 | **Twenty-fourth and FINAL category (100% 🎉 — authoring rollout complete).** EPA + OSHA HAZWOPER, worker-awareness level. Environmental duty of care (know where the water goes), SPCC 40 CFR 112 (>1,320 gal aboveground / >42,000 buried; <55-gal containers excluded), secondary containment (largest container + freeboard, keep drain valves closed), safe fueling (stay at nozzle, no topping off — #1 spill source), stormwater/NPDES CGP 40 CFR 450.21 (≥1 acre → SWPPP, 14-day stabilization, washout/fuel discharge prohibited), erosion/sediment BMPs (trench in silt fence, inlet protection, stabilized entrance), concrete washout (pH ~12, contained only), spill kits (match to hazard, stage at fueling/storage), stop-contain-notify-clean-up response + protect-yourself line, federal reporting (40 CFR 110 sheen rule + CERCLA RQ 302 → NRC 1-800-424-8802), HAZWOPER 1910.120 (q)(6) tiers Awareness/Operations-8hr/Technician-24hr + (e) 40hr+3day/24hr+1day/8hr refresher (recognize & report, don't play hero), RCRA satellite accumulation (55 gal / 3 days, closed/labeled/don't-mix), dust & exhaust control (water trucks; silica → COSHH), everyday housekeeping. Flexed to 14. Facts grounded vs epa.gov + osha.gov via research subagent; BMP names/kit contents = consensus. Replaced 10-topic placeholder. Silica/SDS → COSHH, housekeeping → Housekeeping cross-ref'd. **Rollout totals: 24/24 categories, 312 authored topics, 0 placeholder files.** SME review pending. | Twenty-third category (96%). OSHA heat-illness + OSHA/NIOSH cold-stress **guidance** (no specific heat/cold standard — General Duty Clause §5(a)(1) basis; federal heat rule proposed, not final). Heat: overheating physiology, the five heat illnesses (rash/cramps/syncope/exhaustion/stroke), heat-stroke emergency (104°F/40°C, 106°F+ in 10-15 min, call 911 + cold-water/ice immersion), Water·Rest·Shade (1 cup/15-20 min ≈ ¾-1 qt/hr, cap 48 oz/hr & 12 qt/day), acclimatization (Rule of 20%, 7-14 days, >70% deaths first week / ~half first day), risk factors + heat index/WBGT + NIOSH-OSHA Heat app, hot-weather planning. Cold: heat-loss physiology, hypothermia (core <95°F/35°C, warm center first, don't rub, shivering-stops = bad), frostbite/trench foot (60°F, 25× faster wet)/chilblains, three-layer dress, wind chill (40°F+35mph≈28°F) + cold risk factors, cold-weather planning, and a shared buddy-system talk (both illnesses cloud judgment). Flexed to 14. Facts grounded vs osha.gov + cdc.gov/niosh via research subagent; all figures = OSHA/NIOSH guidance not PELs. Replaced 10-topic placeholder. First Aid + PPE cross-ref'd. Build all pages prerender. SME review pending (elevated — clinical emergency content). | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |

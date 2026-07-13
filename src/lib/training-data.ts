@@ -513,6 +513,7 @@ const realContentCategories = new Set<string>([
   "coshh-hazardous-substances",
   "manual-handling",
   "heat-and-cold-stress-prevention",
+  "environmental-controls-and-spill-response",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1922,16 +1923,20 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Spill Kit Location and Use",
-      "Drain Protection",
-      "Fuel Transfer Controls",
-      "Waste Segregation",
-      "Dust Suppression Methods",
-      "Concrete Washout Control",
-      "Stormwater Protection",
-      "Spill Reporting Steps",
-      "Contaminated Material Handling",
-      "Post-Spill Cleanup Review",
+      "Your Environmental Duty of Care on Site",
+      "Preventing Oil and Fuel Spills (SPCC)",
+      "Secondary Containment",
+      "Fueling and Refueling Safely",
+      "Stormwater, SWPPP, and Keeping Pollutants Out of Drains",
+      "Erosion and Sediment Control BMPs",
+      "Concrete Washout and Wash Water",
+      "Spill Kits — What's In Them and Where They Go",
+      "Responding to a Spill — Stop, Contain, Notify, Clean Up",
+      "When and How to Report a Spill (National Response Center)",
+      "HAZWOPER and Knowing Your Limits",
+      "Handling and Storing Hazardous Waste (RCRA Basics)",
+      "Controlling Dust and Air Emissions",
+      "Everyday Housekeeping That Protects the Environment",
     ],
   }),
   createCategory({
