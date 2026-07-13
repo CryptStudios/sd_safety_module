@@ -4,7 +4,7 @@ import { MenuIcon, ShieldIcon } from "@/components/icons";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/#categories", label: "Training Categories" },
+  { href: "/training", label: "Training Categories" },
   { href: "/acknowledgment", label: "Forms & Reports" },
   { href: "/contact", label: "Contact" }
 ];
