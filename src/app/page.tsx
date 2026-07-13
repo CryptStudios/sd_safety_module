@@ -59,7 +59,7 @@ export default function HomePage() {
                 <p className="eyebrow mt-1">Categories</p>
               </div>
               <div>
-                <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}+</p>
+                <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}</p>
                 <p className="eyebrow mt-1">Topic Articles</p>
               </div>
             </div>
