@@ -60,7 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="en"
       className={`${dmSans.variable} ${robotoSlab.variable} ${jetBrainsMono.variable}`}
     >
-      <body className="min-h-screen bg-bg text-ink">
+      <body className="min-h-screen bg-bg text-ink" suppressHydrationWarning>
         <div className="flex min-h-screen flex-col">
           <SiteHeader />
           <main className="flex-1">{children}</main>
