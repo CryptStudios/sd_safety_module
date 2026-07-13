@@ -30,7 +30,7 @@ export default async function CategoryDetailPage({ params }: CategoryPageProps) 
       <div className="grid gap-8 lg:grid-cols-[1.18fr_0.82fr]">
         <section className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_36px_100px_-50px_rgba(0,0,0,0.18)] lg:p-10">
           <Link
-            href="/#categories"
+            href="/training"
             className="text-sm font-bold text-hi-deep transition hover:text-hi"
           >
             ← Back to Categories
