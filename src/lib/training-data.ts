@@ -502,6 +502,7 @@ const realContentCategories = new Set<string>([
   "compressed-gas-and-air-tool-safety",
   "vehicle-and-driver-safety",
   "rigging-and-material-handling-equipment",
+  "construction-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -566,16 +567,19 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Fall Prevention",
-      "Caught In-Between Hazards",
-      "Hazard Communication",
-      "Electrical Safety on Site",
-      "Personal Protective Equipment",
-      "Ladder Safety",
-      "Forklift Safety on Site",
-      "First Aid on Site",
-      "Scaffolding Safety",
-      "Hand and Power Tools"
+      "The Focus Four Hazards in Construction",
+      "Your Rights and Responsibilities Under OSHA",
+      "New-Worker Safety Orientation and Training",
+      "Job Hazard Analysis and Pre-Task Planning",
+      "The Competent Person and Daily Inspections",
+      "Struck-By Hazards",
+      "Caught-In and Caught-Between Hazards",
+      "Hand and Power Tool Safety",
+      "Signs, Signals, Tags, and Barricades",
+      "Illumination, Sanitation, and Site Welfare",
+      "Personal Protective Equipment on Site",
+      "Emergency Action Plans and Site Preparedness",
+      "Stop-Work Authority and Reporting Hazards"
     ]
   }),
   createCategory({
