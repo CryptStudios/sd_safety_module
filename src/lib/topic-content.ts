@@ -10332,6 +10332,580 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "slips-trips-and-falls/how-slips-trips-and-falls-happen": {
+    description:
+      "The three ways you go down — slips, trips, and falls — why they cause so many injuries, and the walking-working-surface rules (OSHA 1910 Subpart D) that prevent them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Slips, trips, and falls sound minor until one puts you on your back with a broken wrist or a cracked skull. They're some of the most common injuries in any workplace, and almost every one of them is preventable. They come from ordinary conditions — a wet spot, a cord across the walkway, a lip in the floor — that people walk past all day until someone finally goes down.",
+          "The whole category comes down to keeping the surfaces you walk on safe and keeping your eyes on where you're stepping. OSHA covers it under Walking-Working Surfaces, 29 CFR 1910 Subpart D."
+        ]
+      },
+      {
+        heading: "The three mechanisms",
+        body: [
+          "They're three different events with three different fixes:",
+          {
+            list: [
+              "Slip — your foot loses traction with the surface. Wet floors, spilled oil, ice, loose gravel, smooth soles. You slip when there isn't enough grip between your boot and the ground.",
+              "Trip — your foot catches on something and stops while the rest of you keeps going. A raised floor edge, a hose, a stack of material, an extension cord, a curled-up mat.",
+              "Fall — you lose your balance and hit the ground or a lower level. A slip or trip often ends in a fall, but you can also fall off an edge, through a hole, or down a set of stairs."
+            ]
+          },
+          "Falls split two ways: a fall on the same level (you land where you were standing) and a fall to a lower level (off a platform, into a hole, down the stairs). Same-level falls are more common; lower-level falls are more likely to be serious or fatal."
+        ]
+      },
+      {
+        heading: "Why they matter more than they look",
+        body: [
+          "People discount slips and trips because most of the time you catch yourself. But the injuries are real — fractures, sprained ankles, torn shoulders from grabbing for a rail, back injuries, and head injuries when you go down hard or land against something. Older workers and anyone carrying a load get hurt worse because they can't recover their balance in time.",
+          "The reason they keep happening is that the hazards are familiar. The wet spot's been there since this morning, the cord's been run across that path for a week. Nobody reported it because it never hurt anybody — yet. Your job is to notice those conditions and fix them before they collect a victim."
+        ]
+      },
+      {
+        heading: "How the rest of this category is organized",
+        body: [
+          "The talks that follow break the problem down: keeping surfaces clean and in good repair, dealing with wet and slippery floors, weather and ice, uneven surfaces and changes in level, trip hazards like cords and clutter, footwear, lighting, stairways, handrails and guardrails, and floor holes and open edges.",
+          "Falls from real height — roofs, scaffolds, leading edges, fall-arrest harnesses — are covered in the Working at Heights category. This category focuses on staying on your feet and on the low-level falls that come straight out of the surface you're standing on."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/keeping-walking-and-working-surfaces-safe": {
+    description:
+      "OSHA 1910.22 — the general requirement to keep every surface you walk and work on clean, dry, in good repair, and inspected, so it never becomes the thing that puts you down.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most slips and trips trace back to the condition of the surface itself — dirty, wet, broken, cluttered, or overloaded. OSHA 1910.22 is the foundation rule for all of it: keep walking-working surfaces clean, orderly, in good repair, and inspected.",
+          "This is the general-duty version of housekeeping for the surfaces underfoot. Get this right and most of the specific hazards in the rest of this category never form."
+        ]
+      },
+      {
+        heading: "Clean, dry, and free of hazards",
+        body: [
+          "1910.22(a) sets three plain requirements:",
+          {
+            list: [
+              "(a)(1) — surfaces, passageways, storerooms, and service rooms kept clean, orderly, and sanitary.",
+              "(a)(2) — floors kept clean and, to the extent feasible, dry. Where wet processes are used, keep drainage working and provide dry standing places like platforms or mats.",
+              "(a)(3) — surfaces kept free of hazards such as sharp or protruding objects, loose boards, corrosion, leaks, spills, snow, and ice."
+            ]
+          },
+          "That last list is basically the whole slips-and-trips problem written into one sentence. If any of those show up on a surface people cross, it needs to be cleaned, repaired, or guarded."
+        ]
+      },
+      {
+        heading: "Loads and safe access",
+        body: [
+          "Two more parts of 1910.22 matter for staying on your feet:",
+          {
+            list: [
+              "(b) — every surface has to support the maximum intended load. Don't overload a mezzanine, platform, or temporary deck past its rating; a surface that gives way is the worst kind of fall.",
+              "(c) — the employer has to provide and maintain a safe means of access and egress. You should always have a real, clear path in and out — not a climb over stacked material or a shortcut across an unguarded edge."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect, correct, and repair",
+        body: [
+          "1910.22(d) is the follow-through that keeps surfaces safe over time:",
+          {
+            list: [
+              "(d)(1) — surfaces inspected regularly and as necessary, and maintained in a safe condition.",
+              "(d)(2) — hazardous conditions corrected or repaired before anyone uses the surface again; if that can't happen right away, the hazard has to be guarded to keep people off it.",
+              "(d)(3) — when a repair involves the structural integrity of the surface, a qualified person does or supervises the work."
+            ]
+          },
+          "In plain terms: walk your area, look for the hazards in (a)(3), and don't let people cross a bad surface. Fix it, or barricade it until it's fixed. A spill mopped now is a fall that never happens."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/wet-oily-and-slippery-surfaces": {
+    description:
+      "Why wet, oily, and contaminated floors are the leading cause of slips — and the controls (drainage, mats, cleanup, spill response) OSHA 1910.22 expects.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A slip happens when your boot can't grip the surface, and the fastest way to kill grip is to put something slick between the two — water, oil, mud, grease, hydraulic fluid, soapy runoff, or fine dust. Wet and contaminated floors are the number-one cause of same-level slips.",
+          "OSHA 1910.22(a)(2) says keep floors clean and, to the extent feasible, dry — and where you can't keep them dry, control the water and give people a dry place to stand."
+        ]
+      },
+      {
+        heading: "Where the slick comes from",
+        body: [
+          "It's not just spills. Watch for:",
+          {
+            list: [
+              "Rain, snowmelt, and tracked-in water near entrances and openings.",
+              "Wet processes — washing, coring, wet-cutting, concrete work, pressure washing.",
+              "Oil, grease, and hydraulic leaks under equipment and vehicles.",
+              "Mud dragged in on boots and tires from the yard.",
+              "Fine dust, sawdust, or dry powder on a smooth floor, which rolls under your foot like ball bearings.",
+              "Freshly mopped or coated floors that look dry but aren't."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Controls that keep traction",
+        body: [
+          "Deal with the water before it becomes a fall:",
+          {
+            list: [
+              "Keep drainage clear and working where wet processes run (1910.22(a)(2)).",
+              "Provide dry standing places — platforms, false floors, or slip-resistant mats — where a floor stays wet.",
+              "Put down entrance mats to catch tracked-in water, and keep them flat so they don't become a trip hazard themselves.",
+              "Clean up spills the moment you see them, and fix leaks at the source instead of chasing the puddle.",
+              "Use absorbent on oil and grease; water alone spreads it.",
+              "Wear slip-resistant footwear rated for the surface (covered in its own talk)."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Spill response and marking",
+        body: [
+          "When a spill happens, the person who sees it owns it until it's handled. Contain it, clean it, or guard it — never just walk past and leave it for the next person to find with their feet.",
+          "If you can't clean it right away, mark it and block it off so people route around it. That matches 1910.22(d)(2): if a hazard can't be corrected immediately, it has to be guarded. A wet-floor sign is a guard only if people can actually see it and it keeps them off the slick — set it before the wet area, not in the middle of it."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/ice-snow-and-bad-weather-walking-conditions": {
+    description:
+      "Cold, ice, and snow turn every walking surface into a slip hazard — how to keep paths, stairs, and access points safe when the weather turns.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Ice and snow are called out by name in OSHA 1910.22(a)(3) as hazards to keep surfaces free of — because winter turns ordinary walkways, stairs, and parking areas into slip traps. Black ice you can't even see is the worst of it.",
+          "Weather changes conditions faster than any other factor on this list. A path that was fine at the start of shift can freeze over by afternoon, so bad-weather walking is about staying ahead of the change, not reacting after someone falls."
+        ]
+      },
+      {
+        heading: "The conditions that catch people",
+        body: [
+          {
+            list: [
+              "Black ice on walkways, ramps, and steps — thin, clear, and nearly invisible.",
+              "Refreeze — melt during the day that turns back to ice as temperatures drop.",
+              "Packed snow that polishes into a slick sheet under foot and tire traffic.",
+              "Tracked-in slush and snowmelt at entrances that then refreezes.",
+              "Metal surfaces — stair treads, dock plates, truck beds, ladder rungs — that ice over first and stay slick longest.",
+              "Standing water that hides a frozen layer underneath."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keeping paths safe",
+        body: [
+          {
+            list: [
+              "Clear snow and ice from walkways, stairs, ramps, and entrances before crews use them, and stay on it through the shift.",
+              "Spread salt, sand, or ice-melt on paths, steps, and access points — and re-treat after refreeze.",
+              "Route foot traffic onto cleared, treated paths and close off the ones you can't keep safe.",
+              "Keep drainage clear so meltwater runs off instead of pooling and refreezing.",
+              "Knock snow and slush off your boots before going inside or up metal stairs."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Walk for the conditions",
+        body: [
+          "When you can't beat the weather, change how you move. Slow down, take shorter steps, and keep your weight over your feet — walk flat-footed like a penguin instead of striding. Keep a hand free for the rail and don't carry a load that blocks your view of the ground or your ability to catch yourself.",
+          "Cold also slows you down and stiffens you up, which makes a fall more likely and the injury worse. Dress for it, keep your hands out of your pockets while walking, and use three points of contact getting into and out of equipment. If a path is too icy to cross safely, stop and get it treated — don't pick your way across and hope."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/uneven-surfaces-and-changes-in-level": {
+    description:
+      "Bumps, lips, potholes, and small changes in floor level are prime trip hazards — how to spot them, mark them, and fix them under OSHA 1910.22.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A trip happens when your foot catches or your footing changes without warning. Uneven surfaces and small changes in level do exactly that — a raised floor lip, a pothole, a curb, a single unexpected step, a transition between two materials. Your brain sets your stride for a flat path, and a half-inch change is enough to catch a toe.",
+          "These fall under the same rule as everything else here: 1910.22(a)(3) says keep surfaces free of hazards like loose boards and protruding objects, and 1910.22(d) says find and fix them."
+        ]
+      },
+      {
+        heading: "What catches people",
+        body: [
+          {
+            list: [
+              "Raised or sunken floor sections, broken concrete, potholes, and heaved slabs.",
+              "Transitions between surfaces — concrete to plywood, floor to ramp, indoor to outdoor.",
+              "Curbs, thresholds, and single steps that people don't expect.",
+              "Loose, warped, or broken boards, tiles, grating, and floor plates.",
+              "Trench-plate and dock-plate edges that aren't ramped or flush.",
+              "Curled or bunched mats and rugs."
+            ]
+          },
+          "The dangerous ones are the small changes — a big step you see and adjust for; a half-inch lip you don't."
+        ]
+      },
+      {
+        heading: "Fix it, ramp it, or mark it",
+        body: [
+          "Work the hazard in that order:",
+          {
+            list: [
+              "Fix it — repair broken surfaces, replace loose boards and plates, fill potholes, secure mats so they lie flat.",
+              "Ramp it — bevel or ramp any change in level you can't remove, so the transition is gradual instead of a lip.",
+              "Mark it — where a change in level has to stay (a permanent step or curb), make it visible with high-contrast paint or tape so people see it coming."
+            ]
+          },
+          "Under 1910.22(d)(2), a change you can't fix right away has to be guarded or marked until it's corrected."
+        ]
+      },
+      {
+        heading: "Walk the ground you're on",
+        body: [
+          "Some of this is on the walker. On a job site the ground is never perfectly flat, so watch your path, especially when you're moving between areas or carrying something. Don't stride across broken or uneven ground looking somewhere else.",
+          "Report the ones that need real repair — a heaved slab, a broken stair, a sunken plate — so they get fixed instead of stepped around day after day until they catch someone in a hurry."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/trip-hazards-cords-hoses-debris-and-clutter": {
+    description:
+      "Cords, hoses, leads, debris, and clutter left across walkways are the most common trip hazards on a job site — and the easiest to prevent.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The most common trip hazard on any site is something left in the walking path — an extension cord, an air hose, a welding lead, a stack of material, a tool, a pile of offcuts. None of it belongs on the floor where people walk, and all of it is easy to control.",
+          "OSHA 1910.22(a)(1) calls for surfaces kept clean and orderly, and (a)(3) calls for them free of protruding objects. Keeping walkways clear is the single highest-payoff thing you can do to prevent trips."
+        ]
+      },
+      {
+        heading: "The usual offenders",
+        body: [
+          {
+            list: [
+              "Extension cords, air hoses, water lines, and welding leads run across walkways.",
+              "Material and supplies staged in aisles, doorways, and at the top or bottom of stairs.",
+              "Tools, fittings, and offcuts dropped and left where they land.",
+              "Packaging, banding, strapping, and empty containers.",
+              "Rebar, pipe, and stock sticking out into the path.",
+              "Open drawers, cabinet doors, and equipment parked in the walkway."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Route it, cover it, or clear it",
+        body: [
+          "Keep the path open:",
+          {
+            list: [
+              "Route cords, hoses, and leads overhead or along walls, not across walkways. Where a line must cross a path, run it under a cord ramp or cover and secure it.",
+              "Stage material in designated laydown areas, clear of aisles, doorways, and stairs.",
+              "Pick up tools, fittings, and offcuts as you go — clean as you work, not just at the end of the day.",
+              "Bag and remove packaging, banding, and scrap to the container instead of dropping it underfoot.",
+              "Keep exits, walkways, and stair approaches clear at all times."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "It's part of the job, not extra",
+        body: [
+          "Trip clutter builds up because everyone assumes someone else will move it, or that it'll only be there a minute. A minute turns into a shift, and the path stays blocked until it catches somebody. Treat clearing your own cords, hoses, and scrap as part of doing the task, not a separate chore.",
+          "This overlaps with the Housekeeping category, which covers debris removal, waste containers, and material storage in depth — the difference here is the walking-safety angle: keep the paths people travel open. If you see a hazard in a walkway, move it or report it; don't step over it and leave it for the next person's feet."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/slip-resistant-footwear": {
+    description:
+      "The right boots are your last line of defense against a slip — how to choose slip-resistant footwear, match it to the surface, and keep the tread working.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When the surface is slick and you can't fix it in the moment, your boots are what's left between you and the ground. Slip-resistant footwear won't save you from ice or a spill you should have cleaned up, but the right sole in decent shape buys you traction the wrong sole never had.",
+          "Footwear is PPE — the last layer of protection, not the first. Clean up the hazard first; wear the right boots as backup."
+        ]
+      },
+      {
+        heading: "What makes a boot slip-resistant",
+        body: [
+          {
+            list: [
+              "Sole compound — softer, rubber-type compounds grip better than hard, worn soles.",
+              "Tread pattern — enough tread depth and open channels to bite the surface and push water and debris out from under the foot.",
+              "Surface match — a sole that grips dry concrete may skate on oil or ice. Match the footwear to what you actually walk on.",
+              "Fit and support — a boot that fits and supports the ankle helps you keep your footing and recover your balance."
+            ]
+          },
+          "Smooth, flat, worn-down soles are the enemy — they're the footwear version of a bald tire."
+        ]
+      },
+      {
+        heading: "Match the boot to the hazard",
+        body: [
+          "There's no single boot for every surface. Oil-resistant soles for shops and areas with grease and fluids; deep, aggressive tread for mud and rough ground; the right compound for cold and ice. Where the job also brings other hazards, the footwear has to cover those too — impact and compression protection, puncture resistance, or electrical-hazard rating — without giving up slip resistance.",
+          "The PPE category covers foot protection in full, including the ASTM F2413 rating system for safety-toe footwear. For slips and trips specifically, the thing that matters is traction: right sole, right surface, good condition."
+        ]
+      },
+      {
+        heading: "Keep the tread working",
+        body: [
+          "A slip-resistant sole only works while the tread is there. Check your boots — when the tread is worn smooth, the grip is gone and it's time to replace them, same as a tire. Worn heels also change how you walk and make a slip more likely.",
+          "Keep the soles clean, too. Tread packed with mud, snow, or grease can't grip anything — knock it out before you head onto smooth or slick surfaces. Grip you're carrying around clogged with mud isn't grip at all."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/lighting-for-safe-movement": {
+    description:
+      "You can't avoid a hazard you can't see — how adequate lighting on walkways, stairs, and work areas prevents slips, trips, and falls.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A trip hazard you can't see is a trip hazard you can't avoid. Poor lighting turns a floor lip, a cord, a spill, or the top step into an ambush. A lot of slips and trips are really lighting problems — the hazard was there, the worker just couldn't see it in time.",
+          "Keep walkways, stairs, work areas, and access points lit well enough that people can see where they're stepping and spot hazards before they reach them."
+        ]
+      },
+      {
+        heading: "Where light matters most",
+        body: [
+          {
+            list: [
+              "Stairways, ramps, and changes in level — where a missed step turns into a fall.",
+              "Walkways, aisles, and passageways people travel routinely.",
+              "Entrances and transitions from bright to dark, where eyes need time to adjust.",
+              "Storage and work areas where material and equipment create trip hazards.",
+              "Excavations, floor openings, and edges near a lower level.",
+              "Any area used during night work or in low-light conditions."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Common lighting problems",
+        body: [
+          {
+            list: [
+              "Burned-out or missing fixtures over stairs and walkways.",
+              "Temporary string lighting that leaves dark gaps between fixtures.",
+              "Shadows from equipment and material that hide the floor.",
+              "Glare that blinds you to what's past it.",
+              "Sudden bright-to-dark transitions your eyes can't keep up with.",
+              "Task lighting aimed at the work but not at the path to and from it."
+            ]
+          },
+          "On construction sites OSHA sets minimum illumination levels by area under 1926.56 (general construction areas start at a few foot-candles and go up for shops, offices, and first-aid). The Housekeeping and Construction Safety categories cover those numbers; for slips and trips the point is simpler — light the path."
+        ]
+      },
+      {
+        heading: "Keep it lit",
+        body: [
+          "Replace burned-out lamps over walkways and stairs promptly, and don't let temporary lighting leave dark stretches on the paths people use. Carry a light for dark areas and use it — walking a dim path 'because you know it' is how people find the hazard that got added since last time.",
+          "If an area is too dark to move through safely, that's a stop-and-fix condition, not a walk-carefully-and-hope condition. Report lighting that's out over a stairway or walkway the same way you'd report any other hazard."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/stairways": {
+    description:
+      "Stairs are where slips and trips turn into falls — OSHA 1910.25 stair design, uniform risers and treads, and how to use stairs safely.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Stairs are one of the most dangerous places to slip or trip, because a stumble on the stairs almost always ends in a fall — and a fall down a flight does real damage. A lot of stair falls come down to two things: the stairs themselves being built wrong, and people using them carelessly.",
+          "OSHA 1910.25 sets how standard stairs have to be built; 1910.28(b)(11) says when they need rails, and 1910.29(f) sets the rail heights. This talk covers the stairs; the next one covers the rails."
+        ]
+      },
+      {
+        heading: "How a safe stairway is built",
+        body: [
+          "1910.25 sets the design so your body can trust the pattern:",
+          {
+            list: [
+              "Angle between 30 and 50 degrees from horizontal (1910.25(c)(1)).",
+              "Uniform riser height and tread depth between landings (1910.25(b)(3)) — this is the big one for trips.",
+              "Maximum riser height 9.5 inches and minimum tread depth 9.5 inches (1910.25(c)(2)–(3)).",
+              "Minimum width of 22 inches between vertical barriers (1910.25(c)(4))."
+            ]
+          },
+          "Uniformity matters most. Your feet learn the rhythm of the first two steps and repeat it. One riser that's an inch taller or shorter than the rest — a common problem with a top or bottom step — catches your toe or drops your foot into empty air. Uneven risers are a leading cause of stair falls."
+        ]
+      },
+      {
+        heading: "Keep the stairs usable",
+        body: [
+          {
+            list: [
+              "Keep treads clear — no tools, material, or debris on the steps or landings.",
+              "Keep treads dry and slip-resistant; wet, icy, or worn nosings are prime slip points.",
+              "Light the stairway so every tread and the top and bottom steps are clearly visible.",
+              "Repair loose, broken, or missing treads and worn nosings right away.",
+              "Keep the top and bottom landings clear so people aren't stepping off into clutter."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Use them right",
+        body: [
+          "Most stair falls are preventable by the person on the stairs. Use the handrail. Take one step at a time. Face the stairs going up and down. Don't carry a load that blocks your view of the treads or ties up the hand you need for the rail — make a second trip or use a hoist.",
+          "Don't run the stairs, don't skip steps, and don't jump the last few. If you're carrying something big, get help or find another way up. The stairs will still be there for a careful trip; a fall down them won't wait."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/handrails-and-guardrails": {
+    description:
+      "Handrails catch you on the stairs; guardrails keep you back from an edge — OSHA 1910.28/1910.29 on where each is required and the heights they must meet.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Handrails and guardrails are two different safeguards people mix up. A handrail is what you grab on a stairway to catch yourself. A guardrail is a barrier along an open edge or around a hole to keep you from falling off or in. Both prevent falls; they're required in different places and built to different heights.",
+          "OSHA sets both in Subpart D: when they're required in 1910.28, and how they're built in 1910.29."
+        ]
+      },
+      {
+        heading: "Handrails on stairways",
+        body: [
+          "1910.28(b)(11) sets when stairs need rails: any flight with at least 3 treads and 4 risers gets a stair rail system and handrails. Number of handrails goes by width — one for stairs under 44 inches wide, one on each enclosed side for 44 inches and up, plus an intermediate rail down the middle for very wide stairs.",
+          "Handrail height (1910.29(f)(1)(i)): between 30 and 38 inches, measured from the leading edge of the stair tread nosing to the top of the rail. A handrail also has to give you something you can actually grip and enough clearance (about 2.25 inches) behind it for your hand.",
+          "A handrail only works if you use it. Keep a hand free for it, especially carrying a load or in bad footing."
+        ]
+      },
+      {
+        heading: "Guardrails at edges and holes",
+        body: [
+          "A guardrail (guardrail system) goes along an unprotected side or edge and around holes to keep people from falling to a lower level. In general industry that's required at 4 feet or more above a lower level (1910.28(b)(1)(i)) — lower than construction's 6-foot trigger. Built to 1910.29(b):",
+          {
+            list: [
+              "Top rail 42 inches, plus or minus 3 inches, above the walking surface (1910.29(b)(1)).",
+              "Midrail installed midway between the top rail and the surface (1910.29(b)(2)(i)).",
+              "Able to withstand at least 200 pounds of force applied downward and outward within 2 inches of the top edge (1910.29(b)(3)).",
+              "A toeboard at least 3.5 inches high where there's a risk of objects falling on people below (1910.29(k))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Don't defeat them",
+        body: [
+          "A guardrail is a fall-protection system, not a convenient place to lean, stack material, or tie off a hoist. Don't remove a section and leave the gap open, don't climb or sit on the top rail, and don't block a stair rail with stored material.",
+          "If a rail is loose, damaged, or missing a section, treat the edge as unguarded — barricade it and keep people back until it's fixed. A rail you can push over isn't protecting anyone. Fall-arrest systems and construction fall protection at height are covered in Working at Heights; this is the built-in barrier that keeps you from the edge in the first place."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/floor-holes-openings-and-covers": {
+    description:
+      "Open holes and floor openings are a fall-to-a-lower-level trap and a trip hazard at once — OSHA 1910.28/1910.29 rules for covering, guarding, and marking them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A hole in the floor is two hazards at once: you can trip stepping into it, and you can fall through it to the level below. Floor openings — pits, shafts, unfinished penetrations, removed grating, uncovered manholes — put people down a level or drop something on the crew below.",
+          "OSHA 1910.28(b)(3) requires you to protect people from holes, and 1910.29(e) sets how covers have to be built."
+        ]
+      },
+      {
+        heading: "When a hole must be protected",
+        body: [
+          "There are two triggers, and one has no height floor:",
+          {
+            list: [
+              "Falling into or through — any hole 4 feet or more above a lower level has to be guarded with a cover, guardrail, travel-restraint, or personal fall arrest (1910.28(b)(3)(i)).",
+              "Tripping or stepping into — any hole where a foot or a person could step in or through, regardless of height, has to be covered or guarded (1910.28(b)(3)(ii))."
+            ]
+          },
+          "So even a shallow floor opening that can't drop you a level still has to be covered or guarded, because it'll catch a foot. There's no such thing as a hole too small to bother with."
+        ]
+      },
+      {
+        heading: "Covers that hold",
+        body: [
+          "If you cover a hole, the cover has to do the job (1910.29(e)):",
+          {
+            list: [
+              "Capable of supporting at least twice the maximum intended load — people, equipment, and materials that could cross it (1910.29(e)(1)).",
+              "Secured so it can't shift, slide, or be blown off (1910.29(e)(2)).",
+              "Marked with 'HOLE' or 'COVER', or otherwise marked to warn people (1910.29(e)(3))."
+            ]
+          },
+          "A scrap of plywood tossed over an opening isn't a cover — it flips when you step on the edge, and that's exactly how people fall through. A real cover is rated, fastened down, and labeled."
+        ]
+      },
+      {
+        heading: "On site discipline",
+        body: [
+          "Never leave a hole open and unattended. If you remove a cover or grating to work, either stay with the opening and guard it, or cover and secure it before you walk away — even for a minute. The next person doesn't know the cover's off.",
+          "If you find an open or unmarked hole, an unsecured cover, or one that flexes underfoot, guard it and report it right away. Don't assume the crew that opened it is coming right back. Construction has its own floor-hole rules under Subpart M (covered in Working at Heights); the principle is identical — no open holes, ever."
+        ]
+      }
+    ]
+  },
+  "slips-trips-and-falls/protecting-open-sided-floors-platforms-and-runways": {
+    description:
+      "Open edges on platforms, mezzanines, docks, and runways are where a stumble becomes a fall to a lower level — OSHA 1910.28 fall protection at 4 feet.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "An open-sided floor, platform, mezzanine, dock, or runway is a slip or trip waiting to become a fall to a lower level. You don't have to be doing height work — a stumble near an unguarded edge on a raised surface drops you off it.",
+          "In general industry, OSHA 1910.28(b)(1)(i) requires fall protection wherever there's an unprotected side or edge 4 feet or more above a lower level. That 4-foot trigger is the number for this category."
+        ]
+      },
+      {
+        heading: "The 4-foot rule and where it applies",
+        body: [
+          "Wherever a walking-working surface has an open side or edge 4 feet or more above the next level down, it has to be protected — usually with a guardrail system, or where that's not feasible, travel restraint or personal fall arrest (1910.28(b)(1)).",
+          "Places it comes up every day:",
+          {
+            list: [
+              "Mezzanines, raised platforms, and equipment decks.",
+              "Loading docks and dock edges.",
+              "Runways, catwalks, and elevated walkways.",
+              "The open side of a temporary work platform or stair landing.",
+              "Any raised surface where the edge drops off 4 feet or more."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "General industry 4 ft vs. construction 6 ft",
+        body: [
+          "Be clear which rulebook you're under, because the trigger height is different:",
+          {
+            list: [
+              "General industry (1910 Subpart D) — fall protection at 4 feet (1910.28(b)(1)(i)).",
+              "Construction (1926 Subpart M) — fall protection at 6 feet (1926.501(b)(1))."
+            ]
+          },
+          "Same idea, different number. When you're working a general-industry surface — a plant, a warehouse, a finished facility — 4 feet is the line. On active construction, the 6-foot rule and the full range of fall-arrest systems are covered in the Working at Heights category. Know which one applies to the work you're doing."
+        ]
+      },
+      {
+        heading: "Keep the edge protected",
+        body: [
+          "The guardrail on an open edge is there to catch a stumble you didn't plan for — so don't defeat it. Don't remove a rail and leave the gap, don't lean or stack loads against it, and stay back from any unguarded edge on a raised surface.",
+          "If a section of guardrail is down for material movement, someone guards that opening the whole time it's open, and it goes back up as soon as the load's through. Find an unguarded edge on a platform or dock 4 feet or more up? Barricade it and report it — that's a fall-to-a-lower-level exposure, the serious kind."
+        ]
+      }
+    ]
   }
 };
 

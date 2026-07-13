@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 16 / 24 categories authored (67%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, and Housekeeping pending SME review.**
+**Progress: 17 / 24 categories authored (71%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, and Slips, Trips and Falls pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,14 +19,14 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — 8 remaining, all OSHA-based: Slips/Trips/Falls
-  (`slips-trips-and-falls`, 1910 Subpart D), First Aid (`first-aid`, 1926.50 /
-  1910.151), Accident Reporting (`accident-reporting`, 1904), Asbestos Awareness
-  (`asbestos-awareness`, 1926.1101), COSHH/HazCom (`coshh-hazardous-substances`,
-  1910.1200), Manual Handling (`manual-handling`, NIOSH lifting equation), Heat &
-  Cold Stress (`heat-and-cold-stress-prevention`), and Environmental Controls &
-  Spill Response (`environmental-controls-and-spill-response`, EPA SPCC / HAZWOPER
-  1910.120). All 16 authored categories to date are OSHA-based.
+- **Next category:** open — 7 remaining, all OSHA-based: First Aid (`first-aid`,
+  1926.50 / 1910.151), Accident Reporting (`accident-reporting`, 1904), Asbestos
+  Awareness (`asbestos-awareness`, 1926.1101), COSHH/HazCom
+  (`coshh-hazardous-substances`, 1910.1200), Manual Handling (`manual-handling`,
+  NIOSH lifting equation), Heat & Cold Stress (`heat-and-cold-stress-prevention`),
+  and Environmental Controls & Spill Response
+  (`environmental-controls-and-spill-response`, EPA SPCC / HAZWOPER 1910.120). All
+  17 authored categories to date are OSHA-based.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -35,6 +35,70 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Slips, Trips and Falls — `slips-trips-and-falls`
+- **Session:** 2026-07-13
+- **Topics authored:** 12 (real toolbox-talk list, flexed above the 11 floor —
+  1910 Subpart D (Walking-Working Surfaces, §22–30) supports it; synthetic
+  expansion disabled)
+  1. How Slips, Trips, and Falls Happen
+  2. Keeping Walking and Working Surfaces Safe
+  3. Wet, Oily, and Slippery Surfaces
+  4. Ice, Snow, and Bad-Weather Walking Conditions
+  5. Uneven Surfaces and Changes in Level
+  6. Trip Hazards — Cords, Hoses, Debris, and Clutter
+  7. Slip-Resistant Footwear
+  8. Lighting for Safe Movement
+  9. Stairways
+  10. Handrails and Guardrails
+  11. Floor Holes, Openings, and Covers
+  12. Protecting Open-Sided Floors, Platforms, and Runways
+- **Sources:** OSHA 29 CFR 1910 Subpart D (Walking-Working Surfaces) — §22 general
+  requirements ((a)(1) clean/orderly/sanitary, (a)(2) floors clean & to-the-extent-
+  feasible dry + drainage/dry-standing-places/mats for wet processes, (a)(3) free
+  of hazards "such as sharp or protruding objects, loose boards, corrosion, leaks,
+  spills, snow, and ice", (b) support max intended load, (c) safe access/egress,
+  (d)(1) inspect regularly & as necessary, (d)(2) correct/repair before reuse or
+  guard, (d)(3) qualified person only when the repair involves **structural
+  integrity**); §25 stairways (angle 30–50°, uniform riser height/tread depth,
+  max riser 9.5 in, min tread depth 9.5 in, min width 22 in); §28 duty to have
+  fall protection ((b)(1)(i) unprotected sides/edges **4 ft** GI trigger;
+  (b)(3)(i) holes ≥4 ft above lower level guarded; (b)(3)(ii) holes <4 ft /
+  step-into covered or guarded — **no height floor**; (b)(11)(ii) stairs with
+  **≥3 treads & ≥4 risers** get stair rail + handrails, handrail count by width
+  <44 / 44–88 / >88 in); §29 criteria (guardrail top edge 42 in ±3, midrail
+  **midway**, 200 lb top-rail force, toeboard ≥3.5 in; hole cover ≥2× max intended
+  load + secured + marked HOLE/COVER; handrail height 30–38 in from tread nosing;
+  stair-rail height pre-2017 ≥30 in / on-or-after 2017-01-17 ≥42 in); §23 ladders
+  (side rails ≥3 ft above landing; defective ladder tagged & removed); §30 training.
+  Cross-ref only: §1926.56 illumination foot-candle levels (Housekeeping/
+  Construction own the numbers); §1926.501(b)(1) construction **6-ft** fall trigger
+  cited as the GI-vs-construction contrast.
+- **Scope note:** owns same-level slips/trips + low-level falls straight off the
+  walking surface — surface condition, wet/oily floors, ice & weather, uneven
+  surfaces/changes in level, cord/hose/clutter trip hazards, slip-resistant
+  footwear, lighting for movement, stairways, handrails/guardrails, floor holes/
+  covers, and open-sided-floor/dock/platform edges at the GI 4-ft trigger.
+  Fall-arrest at height, roofs, scaffolds, leading edges → Working at Heights (and
+  the construction 6-ft rule) — cross-referenced, not duplicated; debris/waste/
+  storage depth → Housekeeping; foot-protection ASTM F2413 depth → PPE;
+  illumination foot-candles → Housekeeping/Construction.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build` clean
+  (all pages prerender, 24 category paths + [+771 more] topic paths) · 12 exported
+  HTML files in `out/training/slips-trips-and-falls/` · authored content present
+  (`1910.22`, `1910.29`, `42 inches`, `3.5 inches`, `twice the maximum intended
+  load`, `4 feet`, `30 and 50 degrees`, `9.5 inches`), placeholder `plain site
+  language` gone (0 files) · live routes 200.
+- **SME review:** ⏳ pending. Facts verified against osha.gov Subpart D via research
+  subagent — corrected four common errors carried in from construction rules:
+  stair-rail trigger is **≥3 treads & ≥4 risers** (1910.28(b)(11)(ii)), **not** the
+  "4 risers or >30 in" construction phrasing (1926.1052); stair-rail system height
+  is **≥30 in pre-2017 / ≥42 in on-or-after 2017-01-17** (1910.29(f)(1)(ii)), with
+  **no 36-in value**; the "qualified person" repair rule applies **only** to
+  **structural-integrity** repairs (1910.22(d)(3)); and guardrail midrail is
+  "**midway**" not a literal 21 in (1910.29(b)(2)(i)). GI fall trigger stated as
+  **4 ft** (1910.28(b)(1)(i)) with construction's **6 ft** (1926.501(b)(1)) noted
+  as the contrast.
 
 ### ✅ Housekeeping — `housekeeping`
 - **Session:** 2026-07-13
@@ -637,6 +701,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Construction Safety | 13 | Thirteenth category (54%). OSHA 1926 Subpart C (§20–35 general provisions) + Subpart D (§51/.56 sanitation/illumination) + Subpart I (§300–307 tools) + Subpart G (§200–203 signs/signals/barricades) + OSH Act (rights, §11(c), competent person §32(f)) + Focus Four. Focus Four overview, OSHA rights/responsibilities, new-worker orientation/training (§21), JHA & hierarchy of controls, competent person + daily inspections, struck-by (4 types + vehicles/backovers), caught-in/between (cave-ins/machinery/pinned), hand & power tools (guards/condition/GFCI), signs-tags-signals-barricades (Danger-red/Caution-yellow), illumination (5/10 fc)/sanitation/welfare, PPE overview (employer-paid, last line), emergency action plans (§35) + first aid/fire, stop-work authority + hazard/near-miss reporting. Replaced placeholder grab-bag that duplicated dedicated categories; owns Struck-By + Caught-In/Between, defers Falls/Electrocution/PPE/Housekeeping/tools-air/traffic/recordkeeping to their categories. Build 1108 pages. SME review pending. |
 | 2026-07-13 | Site Access and Public Protection | 12 | Fifteenth category (63%). OSHA 1926 Subpart G (§200–203) + public-protection provisions from fall-protection (§501(c)/502(i)/(j)) and excavation (§651(j)(2)/(l)) rules + §850(k) demolition canopy + MUTCD Part 6. Perimeter/fencing/gates & attractive-nuisance, accident-prevention signs (Danger red / Caution yellow / Exit red ≥6 in / Safety-instruction green / Directional; §200(g) traffic signs), accident-prevention tags (temporary, never substitute for signs; 1910.145(f) Danger/Caution/Warning/Biohazard), barricades & channelizing devices (§202 → MUTCD Part 6, 45° orange/white retroreflective stripes), flaggers & signaling (STOP/SLOW paddle ≥18 in primary, emergency flag ≥24 in, ANSI/ISEA 107 Class 2/3), pedestrian walkways & ADA-accessible routes (continuous detectable path, ≤4-in projection, audible/vibrotactile cues), covered walkways/canopies/sidewalk sheds (§850(k): 8 ft / 2 ft wider / 150 psf), overhead & falling-object protection (§501(c) three controls + §502(j) toeboard ≥3½ in / ≥50 lb), open holes & excavations near public (cover ≥2× load marked HOLE/COVER, spoil ≥2 ft, guarded ≥6-ft walkways), visitor/delivery/contractor access control, night & low-visibility (retroreflective + Type A/B/C-D warning lights, §56 5 fc), daily inspection of controls. Replaced 10-topic placeholder. Facts verified vs osha.gov Subpart G + MUTCD via research subagent (corrected 24-in flag, §202→MUTCD not ANSI D6.1, tag wordings→1910.145(f)). Vehicle/Excavation/Heights cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-13 | Housekeeping | 12 | Sixteenth category (67%). OSHA 1926.25 (a/b/c housekeeping) + 1926.252 (waste disposal — >20 ft enclosed chute, 42 in/6 ft barricaded drop area, oily rags in fire-resistant covered containers) + 1926.250 (storage/stacking, aisles, posted max floor load) + 1926.701(b) (rebar impalement) + 1926.51 (sanitation — potable water, Table D-1 toilets ≤20=1 / 20+=1 per 40 / 200+=1 per 50, washing) + 1926.56 (illumination Table D-3 — 3/5/10/30 fc) + 1910.22 (walking-working surfaces). Housekeeping-as-control, walkways/aisles/exits, protruding nails & scrap lumber, cord/hose/lead management, combustible-debris removal, waste containers & separation, oily-rag spontaneous combustion, material storage/stacking, debris chutes/drop areas, poor-housekeeping slips/trips, lighting/sanitation/welfare, clean-as-you-go ownership & inspection. Flexed to 12. Facts verified vs osha.gov via research subagent — corrected: **no 45° chute rule in 1926.252** (that's Subpart T demolition), **1926.56 general construction area lighting = 3 fc** (not 5), spontaneous-combustion = NFPA rationale not OSHA text. Replaced 6-topic placeholder. Rigging/STF/Fire/Welding/Demolition/Electrical cross-ref'd. Build all pages prerender. SME review pending. |
+| 2026-07-13 | Slips, Trips and Falls | 12 | Seventeenth category (71%). OSHA 1910 Subpart D (Walking-Working Surfaces §22–30). Mechanisms (slip/trip/same-level & lower-level fall), §22 surface condition (clean/dry/free-of-hazards, loads, access/egress, inspect-correct-repair; qualified person only for structural-integrity repairs), wet/oily/slippery surfaces (drainage, dry standing places, mats, spill response), ice/snow/weather (penguin walk, treat paths, metal ices first), uneven surfaces/changes in level (fix→ramp→mark), cord/hose/clutter trip hazards, slip-resistant footwear (last layer, match sole to surface, keep tread), lighting for movement, stairways (30–50°, uniform risers/treads 9.5-in max/min, 22-in width), handrails & guardrails (handrail 30–38 in / stairs ≥3 treads & ≥4 risers; guardrail 42 in ±3 / midrail midway / 200 lb / toeboard ≥3.5 in; **GI 4-ft** trigger), floor holes/covers (≥4 ft fall + <4-ft step-into no-floor triggers; cover ≥2× load, secured, marked HOLE/COVER), open-sided floors/docks/platforms (4 ft vs construction 6 ft). Facts verified vs osha.gov Subpart D via research subagent — corrected 4 construction-carryover errors: stair-rail trigger ≥3 treads & ≥4 risers (not "4 risers or >30 in"), stair-rail height ≥30/≥42 in (no 36 in), qualified-person = structural-integrity only, midrail = "midway". Replaced 6-topic placeholder. Height fall-arrest → Working at Heights; debris/storage → Housekeeping; ASTM F2413 → PPE cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |
 
 ---

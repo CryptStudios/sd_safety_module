@@ -506,6 +506,7 @@ const realContentCategories = new Set<string>([
   "demolition-safety",
   "site-access-and-public-protection",
   "housekeeping",
+  "slips-trips-and-falls",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -634,12 +635,18 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Common Causes of Slips and Trips",
-      "Wet and Slippery Surfaces",
-      "Uneven Ground and Walking Surfaces",
-      "Proper Footwear and PPE",
-      "Housekeeping to Prevent Falls",
-      "Stairways and Floor Openings"
+      "How Slips, Trips, and Falls Happen",
+      "Keeping Walking and Working Surfaces Safe",
+      "Wet, Oily, and Slippery Surfaces",
+      "Ice, Snow, and Bad-Weather Walking Conditions",
+      "Uneven Surfaces and Changes in Level",
+      "Trip Hazards — Cords, Hoses, Debris, and Clutter",
+      "Slip-Resistant Footwear",
+      "Lighting for Safe Movement",
+      "Stairways",
+      "Handrails and Guardrails",
+      "Floor Holes, Openings, and Covers",
+      "Protecting Open-Sided Floors, Platforms, and Runways"
     ]
   }),
   createCategory({
