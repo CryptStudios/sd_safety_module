@@ -500,6 +500,7 @@ const realContentCategories = new Set<string>([
   "welding-and-hot-work",
   "fire-extinguisher-safety",
   "compressed-gas-and-air-tool-safety",
+  "vehicle-and-driver-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1602,16 +1603,19 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Backing and Spotter Procedures",
-      "Seat Belt Use",
-      "Distracted Driving Prevention",
-      "Site Traffic Routes",
-      "Delivery Vehicle Coordination",
-      "Trailer Loading Safety",
-      "Parking on Grade",
-      "Night Driving and Visibility",
-      "Vehicle Inspection Checks",
-      "Incident Response After Vehicle Contact",
+      "Motor Vehicles on Site — Driver Duties and Rules of the Road",
+      "Pre-Operation and Daily Vehicle Inspections",
+      "Seat Belts and Rollover Protective Structures (ROPS)",
+      "Backing Up — Blind Spots, Spotters, and Hand Signals",
+      "Backup Alarms and Warning Devices",
+      "Haul Roads, Access Roads, and Grades",
+      "Dump Trucks and Raised-Bed Hazards",
+      "Earthmoving and Material-Handling Equipment",
+      "Working Around Mobile Equipment — Struck-By and Caught-Between",
+      "Loading, Unloading, and Securing Loads",
+      "Highway Work Zones and Public Traffic (Flaggers)",
+      "Parking, Shutdown, and Securing Equipment",
+      "Driver Fatigue, Distraction, and Fitness to Operate",
     ],
   }),
   createCategory({
