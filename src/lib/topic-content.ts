@@ -12033,6 +12033,475 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "asbestos-awareness/what-asbestos-is-and-why-it-matters": {
+    description:
+      "Awareness-level intro to asbestos — what it is, why it's still on job sites, and the one rule for a worker who isn't trained to remove it: don't disturb it, report it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Asbestos is a group of natural mineral fibers that were used for decades in building materials because they resist heat, fire, and chemicals. The problem is that when asbestos material is disturbed, it releases tiny fibers into the air — and breathing those fibers causes deadly diseases that may not show up for decades.",
+          "This is awareness training, governed by OSHA 1926.1101 (Asbestos — Construction). Awareness means you can recognize where asbestos might be and know what to do about it. It does not qualify you to handle or remove it — that's specialized, licensed work."
+        ]
+      },
+      {
+        heading: "Why it's still a hazard",
+        body: [
+          "Asbestos use was heavily restricted, but it was never fully banned, and enormous amounts remain in buildings put up before the 1980s. Renovation, maintenance, and demolition work disturbs it all the time.",
+          "You can't tell if a material contains asbestos just by looking at it — that takes lab testing. That uncertainty is the whole reason awareness matters: the danger is invisible, both in the material and in the air."
+        ]
+      },
+      {
+        heading: "How asbestos hurts you",
+        body: [
+          "The danger is inhaling airborne fibers. When asbestos-containing material is cut, broken, sanded, drilled, or swept up dry, it releases fibers small enough to lodge deep in the lungs and stay there for life.",
+          "The diseases — asbestosis, lung cancer, and mesothelioma — are covered in the next talk. What matters here: there's no established safe level of exposure, and the harm is cumulative. Every avoidable exposure is worth avoiding."
+        ]
+      },
+      {
+        heading: "The one rule for an awareness worker",
+        body: [
+          "If you're not trained and licensed to work with asbestos, your job comes down to a simple rule: don't disturb suspect material, and report it.",
+          "Treat material that might contain asbestos as if it does until testing proves otherwise. Don't cut it, break it, drill it, sand it, or sweep it up. Stop, keep others away, and escalate to your supervisor or the building owner's competent person. The rest of this category explains how to recognize suspect material and exactly what that response looks like."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/health-effects-asbestosis-lung-cancer-and-mesothelioma": {
+    description:
+      "Why asbestos is taken so seriously — asbestosis, lung cancer, and mesothelioma, the long latency, and the multiplied risk from smoking.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Asbestos gets treated as a serious hazard because the diseases it causes are serious — often fatal, and with no cure. Understanding what's at stake is what makes the 'don't disturb it' rule stick.",
+          "The fibers do their damage in the lungs. Because you can't see, smell, or feel them, and because the disease can take decades to appear, it's easy to underestimate an exposure that happened today. Don't."
+        ]
+      },
+      {
+        heading: "The three main diseases",
+        body: [
+          "Inhaled asbestos fibers are linked to three major diseases (OSHA, NIOSH, EPA):",
+          {
+            list: [
+              "Asbestosis — a buildup of scar tissue in the lungs that makes breathing progressively harder. It's not cancer, but it's permanent and can be disabling or fatal.",
+              "Lung cancer — asbestos exposure raises the risk of lung cancer.",
+              "Mesothelioma — a rare, aggressive, almost always fatal cancer of the lining of the lungs or abdomen that is caused almost exclusively by asbestos exposure."
+            ]
+          },
+          "Asbestos exposure is also linked to cancers of the larynx and ovary and other lung problems."
+        ]
+      },
+      {
+        heading: "Long latency and cumulative risk",
+        body: [
+          "These diseases have a long latency — they often don't appear until 10 to 40 years after exposure (NIOSH/EPA). A worker exposed in their twenties may not get sick until their fifties or sixties. That delay is exactly why people take asbestos too lightly: nothing seems to happen right away.",
+          "There's no established safe level of exposure, and the risk builds with the amount and length of exposure. Every disturbance you avoid lowers the lifetime risk."
+        ]
+      },
+      {
+        heading: "Smoking multiplies the danger",
+        body: [
+          "Smoking and asbestos together are far worse than either alone. The combination multiplies the lung-cancer risk dramatically — much more than just adding the two risks together (NIOSH/EPA).",
+          "For a worker who may have any asbestos exposure, not smoking is one of the most protective things they can do. It's also a reason to take even 'minor' exposures seriously if you smoke."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/where-asbestos-is-found-on-site": {
+    description:
+      "The building materials that commonly contain asbestos — so you can recognize suspect material before you disturb it (EPA/NIOSH categories).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "You can't avoid disturbing asbestos if you don't know where it hides. Asbestos was used in hundreds of building products, especially before the 1980s, so recognizing the common ones is a core awareness skill.",
+          "Remember: this is for recognition, not confirmation. You can't tell for certain by sight — only testing can — so anything on this list in an older building is suspect until proven otherwise."
+        ]
+      },
+      {
+        heading: "Common asbestos-containing materials",
+        body: [
+          "Materials that commonly contained asbestos (EPA/NIOSH categories):",
+          {
+            list: [
+              "Thermal system insulation — pipe and boiler insulation, lagging, and wrap.",
+              "Sprayed-on or troweled-on surfacing — fireproofing on steel, acoustic/decorative coatings, and textured 'popcorn' ceilings.",
+              "Floor tile, sheet flooring, and the black mastic adhesive under them.",
+              "Roofing felts and shingles, and cement siding (transite).",
+              "Joint compound, plaster, and some drywall systems.",
+              "Cement pipe and cement board.",
+              "Gaskets, packing, and friction products like brake and clutch parts."
+            ]
+          },
+          "OSHA's standard specifically flags thermal system insulation, surfacing material, and asphalt and vinyl flooring as materials to treat as asbestos-containing in older buildings."
+        ]
+      },
+      {
+        heading: "Friable vs. non-friable",
+        body: [
+          "How dangerous a material is depends partly on whether it's friable — meaning it can be crumbled by hand pressure when dry, releasing fibers easily. Sprayed-on insulation and old pipe lagging are often friable and are the most dangerous.",
+          "Non-friable materials like floor tile and cement board hold their fibers tighter — but the moment you cut, grind, drill, sand, or break them, they release fibers just like anything else. 'Non-friable' is not 'safe to work on.'"
+        ]
+      },
+      {
+        heading: "When to be suspicious",
+        body: [
+          "Raise your guard when you're working in or on a building constructed before the 1980s, or when you hit older material behind walls, above ceilings, or under floors during renovation or demolition.",
+          "If you find damaged insulation, crumbling material, old floor tile and mastic, or any of the materials above and you don't have documentation that it's asbestos-free, treat it as suspect and go to the stop-and-report steps. Don't gamble on 'it's probably fine.'"
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/acm-and-pacm-the-pre-1980-presumption": {
+    description:
+      "OSHA 1926.1101 definitions — ACM (>1% asbestos), PACM (presumed asbestos in pre-1980 TSI and surfacing), and why the presumption protects you.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA's asbestos standard runs on a few key definitions, and one of them — the pre-1980 presumption — is the single most useful idea for an awareness worker. It tells you when to treat material as asbestos even without a test.",
+          "These definitions are in OSHA 1926.1101(b). Knowing them tells you what counts as asbestos work and when the protections kick in."
+        ]
+      },
+      {
+        heading: "ACM — asbestos-containing material",
+        body: [
+          "ACM is any material that contains more than 1% asbestos (1926.1101(b)). That's the legal threshold — above 1%, the full weight of the standard applies.",
+          "Note how low that is: a material can be 'mostly' something else and still be regulated asbestos. And you can't eyeball the percentage — it takes lab analysis — which is why the presumption below matters so much."
+        ]
+      },
+      {
+        heading: "PACM — the pre-1980 presumption",
+        body: [
+          "PACM is presumed asbestos-containing material: thermal system insulation and surfacing material found in buildings constructed no later than 1980 (1926.1101(b)). OSHA presumes it contains asbestos because so much of it did.",
+          "The practical effect is powerful: in a pre-1980 building, treat the pipe/boiler insulation and the sprayed-on or troweled-on surfacing as asbestos automatically. It stays PACM — handled with full asbestos protections — until a qualified person rebuts the presumption with proper testing. You never have to prove it IS asbestos; the burden runs the other way."
+        ]
+      },
+      {
+        heading: "Why the presumption protects you",
+        body: [
+          "The presumption removes the guesswork that gets workers exposed. Without it, someone always has an excuse to say 'it's probably fine, just cut it.' With it, the default answer for pre-1980 TSI and surfacing is: assume asbestos, don't disturb, don't proceed until it's been evaluated.",
+          "For an awareness worker, the rule of thumb is even simpler than the standard: if the building is old and you're not certain a material is asbestos-free, treat it as if it is. The presumption is the law backing up that instinct."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/exposure-limits-and-how-exposure-happens": {
+    description:
+      "OSHA 1926.1101(c) exposure limits — the 0.1 f/cc PEL and 1.0 f/cc excursion limit — and how disturbing material puts fibers in the air.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA sets legal limits on how much asbestos a worker can breathe, and understanding them makes clear how small the safe margin is. But the more useful point for an awareness worker is understanding how exposure happens in the first place — because the goal is to keep fibers out of the air, not to measure them after the fact.",
+          "The limits are in OSHA 1926.1101(c)."
+        ]
+      },
+      {
+        heading: "The exposure limits",
+        body: [
+          {
+            list: [
+              "Permissible Exposure Limit (PEL) — no more than 0.1 fiber per cubic centimeter of air, averaged over an 8-hour day (1926.1101(c)(1)).",
+              "Excursion limit — no more than 1.0 fiber per cubic centimeter, averaged over any 30-minute period (1926.1101(c)(2))."
+            ]
+          },
+          "Those are tiny numbers — a tenth of a fiber per cubic centimeter of air. And because no level of asbestos is established as safe, staying under the PEL reduces risk but doesn't make exposure harmless."
+        ]
+      },
+      {
+        heading: "How fibers get into the air",
+        body: [
+          "Asbestos is only dangerous when its fibers become airborne and you breathe them. Intact, undisturbed material generally isn't releasing fibers. Fibers get released when material is disturbed:",
+          {
+            list: [
+              "Cutting, drilling, grinding, sanding, or breaking ACM.",
+              "Demolition and renovation that smashes or tears out old materials.",
+              "Dry sweeping or using compressed air on asbestos dust and debris.",
+              "Material that's already damaged, crumbling, or deteriorating and shedding fibers on its own."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The awareness takeaway",
+        body: [
+          "You won't be doing air monitoring — that's the competent person's job in regulated asbestos work. What you control is whether fibers get released at all: don't disturb suspect material, and don't create dust from it.",
+          "The single biggest thing an untrained worker can do is keep the material intact. No cutting, no sweeping, no compressed air. Keep the fibers locked in the material and out of your lungs, and let trained crews handle anything that has to be disturbed."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/the-four-classes-of-asbestos-work": {
+    description:
+      "OSHA 1926.1101 sorts asbestos work into four classes by risk — knowing which is which tells an awareness worker where the line is that they must not cross.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA divides asbestos work into four classes based on what's being disturbed and how risky it is. As an awareness worker you won't perform any of them — but knowing the classes tells you exactly what counts as asbestos work, and therefore where the line is that you must not step over.",
+          "The classes are defined in OSHA 1926.1101. They run roughly from highest risk (Class I) to lowest (Class IV)."
+        ]
+      },
+      {
+        heading: "The four classes",
+        body: [
+          {
+            list: [
+              "Class I — the highest-hazard work: removal of thermal system insulation and sprayed- or troweled-on surfacing ACM and PACM.",
+              "Class II — removal of other types of ACM that aren't TSI or surfacing, such as floor tile, roofing, siding, and wallboard.",
+              "Class III — repair and maintenance work where ACM, including TSI and surfacing, is likely to be disturbed.",
+              "Class IV — custodial work: contacting but not disturbing ACM, and cleaning up asbestos waste and debris from Class I, II, and III jobs."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Every class requires trained, protected workers",
+        body: [
+          "Here's the key point: all four classes are regulated asbestos work requiring specific training, controls, and protection. Even Class IV custodial cleanup of asbestos debris requires asbestos training and protection — it is not general labor.",
+          "So if a task involves removing, repairing, disturbing, or cleaning up any asbestos or presumed-asbestos material, it belongs to trained asbestos workers under a competent person. It's not something to pick up because you're handy and available."
+        ]
+      },
+      {
+        heading: "Where the awareness worker stands",
+        body: [
+          "An awareness-level worker performs none of these classes. Your role sits outside them: recognize suspect material, avoid disturbing it, and report it so the right trained crew — matched to the right class of work — can handle it.",
+          "If you ever find yourself about to cut, remove, repair, or sweep up something that could be ACM or PACM, that's a Class I–IV activity in disguise, and it's your signal to stop. Hand it off; don't take it on."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/recognizing-and-not-disturbing-suspect-materials": {
+    description:
+      "The core awareness skill — spotting suspect material and the prohibited practices (no cutting dry, no compressed air, no dry sweeping) that release fibers.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The heart of asbestos awareness is a habit: before you cut, drill, break, or clean up an older material, stop and ask whether it could contain asbestos. If it could, you don't touch it — you report it.",
+          "Because you can't confirm asbestos by sight, 'recognizing' really means recognizing when to be suspicious and stop. Getting that instinct right is what keeps fibers out of the air and out of your lungs."
+        ]
+      },
+      {
+        heading: "When to treat material as suspect",
+        body: [
+          {
+            list: [
+              "The building was constructed before the 1980s.",
+              "The material is on the common-ACM list — pipe/boiler insulation, sprayed-on fireproofing, textured ceilings, floor tile and mastic, transite siding, cement pipe.",
+              "It's pre-1980 thermal system insulation or surfacing material — presumed asbestos (PACM) by law.",
+              "You've hit unknown older material behind walls, above ceilings, or under floors.",
+              "There's no documentation confirming the material is asbestos-free."
+            ]
+          },
+          "When in doubt, it's suspect. The cost of being wrong the safe way is a delay; the cost of being wrong the other way is a lifetime exposure."
+        ]
+      },
+      {
+        heading: "Practices that release fibers — never do these",
+        body: [
+          "OSHA specifically prohibits high-fiber-release methods on asbestos, and they're exactly the shortcuts an untrained worker might reach for (1926.1101(g)):",
+          {
+            list: [
+              "No high-speed abrasive disc saws or grinders on ACM without proper point-of-cut ventilation.",
+              "No compressed air to remove asbestos or asbestos dust.",
+              "No dry sweeping, shoveling, or dry cleanup of asbestos dust and debris.",
+              "No sanding of asbestos flooring."
+            ]
+          },
+          "Every one of these throws fibers into the air. If a task seems to call for them on suspect material, that's your cue to stop, not to improvise."
+        ]
+      },
+      {
+        heading: "Leave it intact",
+        body: [
+          "Undisturbed asbestos in good condition is generally not releasing fibers. The safest thing you can do with suspect material is leave it alone and keep others from disturbing it.",
+          "Don't test your theory by scraping or breaking a piece 'just to see.' Don't move it, bag it, or clean it up. Keep it intact, keep people away, and get it in front of someone qualified to evaluate it — which leads straight into the stop-and-report steps."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/regulated-areas-signs-and-labels": {
+    description:
+      "How asbestos work areas are marked — regulated areas, the current OSHA DANGER sign legend, and container labels (1926.1101(e)/(k)).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Asbestos work areas are marked off and labeled so that people who aren't part of the work stay out and stay safe. Recognizing those signs and labels — and respecting them — is part of awareness.",
+          "The rules for regulated areas, signs, and labels are in OSHA 1926.1101(e) and (k)."
+        ]
+      },
+      {
+        heading: "Regulated areas",
+        body: [
+          "A regulated area is set up wherever airborne asbestos exceeds — or could exceed — the exposure limit, and around all Class I, II, and III work (1926.1101(e)). Inside it, access is restricted to authorized, trained, protected workers.",
+          "Only authorized personnel enter a regulated area. If you're not part of the asbestos crew, a regulated area is a place you stay out of — the barrier is there to protect you from fibers in the air."
+        ]
+      },
+      {
+        heading: "Warning signs — the current legend",
+        body: [
+          "Regulated areas are marked with warning signs carrying this required legend (1926.1101(k)):",
+          {
+            list: [
+              "DANGER",
+              "ASBESTOS",
+              "MAY CAUSE CANCER",
+              "CAUSES DAMAGE TO LUNGS",
+              "AUTHORIZED PERSONNEL ONLY"
+            ]
+          },
+          "Where respirators and protective clothing are required, the sign adds: WEAR RESPIRATORY PROTECTION AND PROTECTIVE CLOTHING IN THIS AREA. Note: older signs may still read 'CANCER AND LUNG DISEASE HAZARD' — that legend was retired in 2016, but you may see it on existing signage. Either way, the message is the same: authorized personnel only."
+        ]
+      },
+      {
+        heading: "Labels on materials and waste",
+        body: [
+          "Asbestos-containing products, containers, and waste bags carry warning labels so nobody handles them unknowingly. Asbestos waste is double-bagged in labeled, leak-tight containers.",
+          "If you see an asbestos warning label on a material, a container, or a waste bag, treat it as exactly what it says — don't open it, move it, or throw it in with regular trash. Report anything labeled asbestos that's damaged, unsecured, or in the wrong place."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/if-you-find-or-disturb-suspect-material-stop-and-report": {
+    description:
+      "The response every awareness worker must know — stop work, keep people out, and report suspect or disturbed asbestos to the competent person or building owner.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "This is the talk that ties awareness training together. When you find suspect material, or realize you've disturbed something that might be asbestos, there's a clear response — and knowing it cold is the whole point of awareness training.",
+          "The response is the same whether you spotted it in time or realized it too late: stop, keep people away, and report. Never try to handle, clean up, or hide it yourself."
+        ]
+      },
+      {
+        heading: "If you find suspect material",
+        body: [
+          "Before anything is disturbed:",
+          {
+            list: [
+              "Stop work in the area.",
+              "Don't touch, cut, move, or clean the material.",
+              "Keep other people away from it.",
+              "Report it to your supervisor and the building owner's competent person.",
+              "Wait for it to be evaluated (tested or treated as PACM) before any work continues."
+            ]
+          },
+          "A stop-and-report costs a little time. Disturbing asbestos costs a lifetime exposure and a very expensive cleanup."
+        ]
+      },
+      {
+        heading: "If material has already been disturbed",
+        body: [
+          "If you've cut, broken, or otherwise disturbed suspect material before realizing what it was:",
+          {
+            list: [
+              "Stop immediately — don't keep working or try to clean it up.",
+              "Do not dry sweep, vacuum with a regular vacuum, or use compressed air.",
+              "Leave the area and keep others out; limit how far the dust spreads if you can do so without disturbing more.",
+              "Report it right away to your supervisor and the competent person.",
+              "Report your possible exposure — it may need to be documented and medically followed up."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Reporting is the right call — every time",
+        body: [
+          "Report even if you're not sure the material is asbestos. Raising a concern that turns out to be nothing is not an overreaction — it's exactly what the system is designed for. The alternative, staying quiet and exposing yourself and your coworkers, is the real failure.",
+          "Escalate to the people equipped to handle it: your supervisor, the site's competent person, or the building owner, who is required to know where asbestos is and manage it. Your job is to recognize, stop, and report — then let the trained crews take it from there."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/ppe-and-respiratory-protection-around-asbestos": {
+    description:
+      "Why ordinary PPE won't protect you from asbestos, what real asbestos protection requires, and why that's a sign the work isn't yours to do.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Asbestos protection is specialized, and one of the clearest signals that a job is beyond awareness level is the protective equipment it requires. If a task needs real asbestos PPE, it's trained-crew work — not something for a general worker with a dust mask.",
+          "This talk explains what actual asbestos protection involves, so you understand why an untrained worker isn't equipped to disturb asbestos — and shouldn't try."
+        ]
+      },
+      {
+        heading: "Ordinary dust protection isn't enough",
+        body: [
+          "A common and dangerous mistake is thinking a nuisance dust mask protects you from asbestos. It doesn't. Asbestos fibers are extraordinarily small, and a loose paper mask lets them through.",
+          "Real asbestos respiratory protection means properly selected respirators used under a full respiratory protection program — medical clearance, fit testing, and training. That's not something you improvise on the spot with whatever's in the gang box."
+        ]
+      },
+      {
+        heading: "What asbestos protection actually involves",
+        body: [
+          "For regulated asbestos work, protection is a whole system, not one item:",
+          {
+            list: [
+              "Respirators selected for asbestos and used within a written respiratory protection program.",
+              "Disposable protective coveralls, and head, foot, and hand protection.",
+              "Decontamination procedures so fibers don't leave the work area on clothing or skin.",
+              "Engineering controls like wet methods, HEPA-filtered vacuums, and containment enclosures."
+            ]
+          },
+          "The deep detail on respirator selection, medical clearance, and fit testing lives in the PPE category — but the point here is the scale of what's required."
+        ]
+      },
+      {
+        heading: "The equipment is a boundary marker",
+        body: [
+          "If a job requires all of that, it's regulated asbestos work for trained, licensed crews — full stop. The gap between a dust mask and a real asbestos program is the gap between awareness work and abatement work.",
+          "So treat the PPE requirement as a boundary marker: the moment a task would need asbestos respirators and containment, it's not your task. Recognize it, stop, and report — the same answer as always."
+        ]
+      }
+    ]
+  },
+  "asbestos-awareness/awareness-worker-vs-licensed-abatement": {
+    description:
+      "The line that defines this whole category — what an awareness-trained worker may do, what only licensed abatement crews may do, and never crossing it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Everything in this category comes back to one line: awareness versus abatement. Knowing which side of that line you're on — and never stepping over it — is what asbestos awareness training is for.",
+          "This closing talk draws the line clearly so there's no confusion on the job about what you can and can't do."
+        ]
+      },
+      {
+        heading: "What awareness training covers",
+        body: [
+          "Awareness-level training prepares you to:",
+          {
+            list: [
+              "Recognize materials that may contain asbestos and situations where it's likely.",
+              "Understand the health risks and why disturbance is dangerous.",
+              "Treat pre-1980 TSI and surfacing as presumed asbestos.",
+              "Avoid disturbing suspect material and avoid fiber-releasing practices.",
+              "Stop, keep others away, and report suspect or disturbed material."
+            ]
+          },
+          "That's the full scope. Awareness is about recognition and response — not handling."
+        ]
+      },
+      {
+        heading: "What only trained/licensed crews may do",
+        body: [
+          "Removing, repairing, enclosing, encapsulating, or cleaning up asbestos — any of the four classes of asbestos work — is for workers with the required asbestos training and, depending on the work and jurisdiction, licensing and accreditation, all under a competent person.",
+          "That work comes with air monitoring, regulated areas, containment, specialized PPE, decontamination, and strict disposal rules. It is a different job with a different qualification. Being willing and available doesn't make it yours."
+        ]
+      },
+      {
+        heading: "Never cross the line",
+        body: [
+          "The most dangerous moment is when suspect asbestos is in the way of your task and there's pressure to just deal with it and keep moving. That's exactly when awareness has to hold: stop, and report, no matter the schedule.",
+          "No deadline, no supervisor's push, and no 'it's just a small piece' justifies an untrained worker disturbing asbestos. Recognize it, don't disturb it, report it, and let the licensed crews do what only they're qualified to do. That discipline is what protects you — for decades you won't see the payoff, but it's the difference that matters."
+        ]
+      }
+    ]
   }
 };
 

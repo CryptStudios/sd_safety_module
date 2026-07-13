@@ -509,6 +509,7 @@ const realContentCategories = new Set<string>([
   "slips-trips-and-falls",
   "accident-reporting",
   "first-aid",
+  "asbestos-awareness",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1021,12 +1022,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Types of Asbestos-Containing Materials",
-      "Where Asbestos is Found on Job Sites",
-      "Health Risks of Asbestos Exposure",
-      "Proper PPE When Asbestos is Present",
-      "Reporting Suspected Asbestos",
-      "Abatement Procedures Overview"
+      "What Asbestos Is and Why It Matters",
+      "Health Effects — Asbestosis, Lung Cancer, and Mesothelioma",
+      "Where Asbestos Is Found on Site",
+      "ACM and PACM — the Pre-1980 Presumption",
+      "Exposure Limits and How Exposure Happens",
+      "The Four Classes of Asbestos Work",
+      "Recognizing and Not Disturbing Suspect Materials",
+      "Regulated Areas, Signs, and Labels",
+      "If You Find or Disturb Suspect Material — Stop and Report",
+      "PPE and Respiratory Protection Around Asbestos",
+      "Awareness Worker vs. Licensed Abatement"
     ]
   }),
   createCategory({
