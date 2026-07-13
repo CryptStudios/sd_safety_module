@@ -692,7 +692,10 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Working On or Near Energized Parts",
       "Temporary Wiring and Extension Cords",
       "Electrical PPE and Insulated Tools",
-      "Responding to an Electrical Incident"
+      "Responding to an Electrical Incident",
+      "Arc Flash and Shock Approach Boundaries",
+      "Energized Electrical Work Permits",
+      "Stored Energy — Capacitors, Batteries, and Discharge"
     ]
   }),
   createCategory({
@@ -754,7 +757,8 @@ const coreTrainingCategories: TrainingCategory[] = [
       "High-Visibility Clothing",
       "Protective Clothing for Skin and Body",
       "Fall Protection Harnesses as PPE",
-      "Inspecting, Maintaining, and Replacing PPE"
+      "Inspecting, Maintaining, and Replacing PPE",
+      "Working Over or Near Water — Life Jackets and Ring Buoys"
     ]
   }),
   createCategory({
@@ -816,7 +820,11 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Roof and Leading-Edge Work",
       "Floor Holes and Wall Openings",
       "Inspecting Fall Protection Equipment",
-      "Rescue and Suspension Trauma After a Fall"
+      "Rescue and Suspension Trauma After a Fall",
+      "Positioning and Travel-Restraint Systems",
+      "Safety Net Systems",
+      "Warning Lines and Controlled Access Zones",
+      "Skylights and Fragile Roof Surfaces"
     ]
   }),
   createCategory({
@@ -878,7 +886,10 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Authorized Entrant Duties",
       "Attendant (Hole Watch) Duties",
       "Entry Supervisor Duties",
-      "Emergency Rescue and Retrieval Systems"
+      "Emergency Rescue and Retrieval Systems",
+      "Reclassification and Alternate-Entry Procedures",
+      "Host and Contractor Coordination",
+      "Selecting and Evaluating a Rescue Service"
     ]
   }),
   createCategory({
@@ -1111,7 +1122,8 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Safe Access and Egress",
       "Locating and Working Around Underground Utilities",
       "Spoil Piles, Surcharge Loads, and Edge Protection",
-      "Hazardous Atmospheres, Water, and Emergency Response"
+      "Hazardous Atmospheres, Water, and Emergency Response",
+      "Mobile Equipment and Traffic Around the Excavation"
     ]
   }),
   createCategory({
@@ -1235,7 +1247,10 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Portable Fire Extinguishers — Classes and Placement",
       "Fire Alarm and Detection Systems",
       "Exit Routes and Means of Egress",
-      "Evacuation, Alarms, and Assembly Points"
+      "Evacuation, Alarms, and Assembly Points",
+      "Standpipe and Hose Systems",
+      "Fixed Fire Suppression Systems",
+      "Fire Brigades and Employee Firefighting Roles"
     ]
   }),
   createCategory({
@@ -1354,7 +1369,10 @@ const coreTrainingCategories: TrainingCategory[] = [
       "Pedestrian Safety and Struck-By Prevention",
       "Loading Docks, Trailers, and Rail Cars",
       "Fueling, Battery Charging, and LP Gas Safety",
-      "Attachments, Modifications, and Removing a Truck from Service"
+      "Attachments, Modifications, and Removing a Truck from Service",
+      "Tip-Over Survival and Seat Belts",
+      "Parking and Leaving a Truck Unattended",
+      "Elevating Personnel on a Forklift"
     ]
   }),
   createCategory({
@@ -1656,6 +1674,10 @@ const extendedTrainingCategories: TrainingCategory[] = [
       "Hot Work in Confined Spaces",
       "Cutting and Welding on Preservative Coatings and Containers",
       "PPE and Radiation Protection for Welders",
+      "Resistance Welding Safety",
+      "Plasma Arc Cutting Safety",
+      "Brazing and Soldering Safety",
+      "Preventing Electric Shock While Welding",
     ],
   }),
   createCategory({
@@ -1962,6 +1984,9 @@ const extendedTrainingCategories: TrainingCategory[] = [
       "Pneumatic Grinders and Abrasive Wheels",
       "Air Compressors and Receivers",
       "Inspecting and Maintaining Air Tools and Hoses",
+      "Pneumatic Breakers and Hand-Arm Vibration",
+      "Abrasive Blasting Safety",
+      "Air-Powered Hoists and Winches",
     ],
   }),
 ];

@@ -44,9 +44,13 @@ Status: [docs/STATUS.md](docs/STATUS.md).
 
 ### Article-writing methodology (per category)
 
-1. **Scope** — choose ~11 real, distinct toolbox-talk topics for the category,
+1. **Scope** — choose the real, distinct toolbox-talk topics for the category,
    grounded in its primary source (see the plan). They should map to real
-   subtopics of the governing standard, not invented angles.
+   subtopics of the governing standard, not invented angles. **Flex the count to
+   the standard: ~11 is the floor; go up to ~15–16 where the governing standard
+   genuinely supports more distinct, non-overlapping talks.** Never pad with
+   near-duplicate angles just to hit a number — distinctness beats count. (The
+   `build*` generator's 11× expansion is placeholder filler, not a target.)
 2. **Research** — pull facts from public-domain sources only (OSHA 29 CFR,
    NIOSH, CPWR). Capture the specifics: definitions, **numeric thresholds**,
    **standard citations**, required controls, roles, equipment.

@@ -5583,6 +5583,1149 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "welding-and-hot-work/resistance-welding-safety": {
+    description:
+      "Spot, seam, and projection welders throw no arc — but the crushing force between the electrodes, the huge current, and the molten metal they expel put pinch points, shock, and burns front and center.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Resistance welding — spot, seam, and projection — clamps the metal between two electrodes and pushes a high current through it, so the joint heats and fuses under pressure. There's no arc, but that doesn't make it safe: the electrodes come together with real force, the current is very high, and molten metal can spit out of the weld. OSHA 1910.255 covers how these machines are built and guarded.",
+          "The hazard that hurts people most on these machines is the pinch point. The electrodes or dies close with enough force to crush a finger, so keeping your hands clear of the weld point is the whole game."
+        ]
+      },
+      {
+        heading: "Pinch points and controls",
+        body: [
+          "The point of operation has to be set up so you can't get a hand into it while it cycles:",
+          {
+            list: [
+              "Use the machine guarding and point-of-operation devices the machine came with — don't remove or defeat them.",
+              "Two-hand controls keep both your hands on the buttons and out of the weld point during the cycle; use them where they're fitted.",
+              "Interlocks and light curtains stop the cycle if the guarded area is broken — treat a bypassed interlock as a machine that's out of service.",
+              "Foot switches must have a guard over the pedal so a dropped tool or a bumped foot can't fire the machine.",
+              "Keep your hands clear of the electrodes and dies whenever the machine can cycle."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Current, expelled metal, and burns",
+        body: [
+          "The current running through a resistance weld is high, and the weld can expel molten metal — weld splatter — as the joint forms. That spatter burns skin and can reach your eyes even though there's no arc, so eye protection against flying and expelled metal is required on these machines. Wear it, and keep your face out of the line of the weld.",
+          "The electrodes, the tips, and the freshly welded part are hot. Treat the work as hot metal after every cycle, and let tips cool or use the proper tools before you handle them."
+        ]
+      },
+      {
+        heading: "Electrical and machine safety",
+        body: [
+          "These are powered machines carrying high current, so the electrical side gets the same respect as any arc equipment. The frame must be grounded, and controls and cables kept in good condition. Portable spot welders and their control panels need to be supported and handled so they can't fall or pull on their cabling.",
+          "Lock out and de-energize the machine before you reach into the point of operation to clear a stuck part, change tips, or clean the electrodes — not while it's live with the controls one bump away from a cycle."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/plasma-arc-cutting-safety": {
+    description:
+      "Plasma cutting drives a super-hot, high-voltage jet through metal — brighter and louder than most arc work, with heavy fume and a high open-circuit voltage that demand a darker lens, strong ventilation, and hearing protection.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Plasma arc cutting forces gas through a constricted, high-intensity arc to blast a jet of ionized gas — plasma — through metal. It cuts fast and clean, but it turns up every hazard you know from arc work: more intense light, more noise, more fume, and a high open-circuit voltage. Treat it as a bigger version of the arc hazards, not a lighter one.",
+          "The arc is hotter and brighter than most stick or MIG work, so it throws more ultraviolet and infrared radiation. The eye and skin protection you'd use for ordinary arc welding isn't enough here."
+        ]
+      },
+      {
+        heading: "Eyes, skin, and the right shade",
+        body: [
+          "Because the plasma arc is so intense, it needs a darker filter shade than similar-amperage stick welding — step up the number and check it against a filter-shade guide for the amperage you're running. A lens that's fine for arc welding will leave you underprotected on a plasma torch.",
+          "Cover your skin the same way you would for heavy arc work. The extra ultraviolet burns exposed skin like a fast sunburn, so keep sleeves down, neck covered, and no gaps at the cuffs and collar. Filter-shade selection and welder PPE are covered in the radiation-protection topic — the point here is that plasma sits at the high end of it."
+        ]
+      },
+      {
+        heading: "Noise, fume, and the cutting jet",
+        body: [
+          "Plasma cutting is loud — loud enough to need hearing protection, especially on thicker plate and in enclosed areas. Wear it.",
+          "It also produces heavy fume and gas as it vaporizes metal and coatings, so it needs strong ventilation or local exhaust to keep the plume out of your breathing zone. Water tables — cutting over or under water — knock down fume, noise, and glare and are used on many fixed setups; where you have one, use it. Welding fume and ventilation are covered in their own topic; plasma just makes more of it.",
+          "The plasma jet cuts flesh as easily as steel. Keep your hands and body out of the cutting path and clear of the torch tip, and never test or clear the torch aimed at yourself or anyone else."
+        ]
+      },
+      {
+        heading: "High open-circuit voltage",
+        body: [
+          "Plasma units run a high open-circuit (no-load) voltage to start and hold the arc — higher than many welding machines — so the shock hazard is real even before you cut. Keep the torch, leads, and connections in good condition, keep yourself and the equipment dry, and don't touch the torch tip or electrode with the power on. Electric-shock precautions for welding apply here in full."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/brazing-and-soldering-safety": {
+    description:
+      "Brazing and soldering join metal below its melting point with a filler and flux — lower heat than welding, but the flux fumes can be toxic, cadmium filler is a real danger, and it's still hot work.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Brazing and soldering join metal without melting the base metal. You heat the joint and flow in a filler that melts below the base-metal melting point — higher-temperature filler for brazing, lower for soldering — and a flux cleans the surface so the filler bonds. Less heat than welding, but the hazards don't go away; they change.",
+          "The one that catches people off guard is the flux. The fumes from flux and from some fillers are toxic, so ventilation matters even though there's no arc and no welding-level heat."
+        ]
+      },
+      {
+        heading: "Flux fumes and cadmium",
+        body: [
+          "Fluxes and filler metals are where the real toxic exposure lives on these jobs:",
+          {
+            list: [
+              "Fluoride-bearing fluxes give off fumes that irritate the eyes, nose, and lungs — you need ventilation to carry them away from your face.",
+              "Cadmium-bearing filler metal releases cadmium fume when heated, and cadmium is highly toxic — it can cause severe lung damage and worse from a short overexposure, sometimes with no strong warning at the time.",
+              "Where you can, use a cadmium-free filler. When cadmium-bearing filler must be used, it takes strong local exhaust ventilation, and the fume is not something to breathe through an ordinary dust mask."
+            ]
+          },
+          "Detailed fume hazards and ventilation are covered in the welding-fumes topic; the takeaway for brazing and soldering is that the flux and filler, not the heat, are what get into your lungs."
+        ]
+      },
+      {
+        heading: "Burns and hot equipment",
+        body: [
+          "The torch, the filler, the flux, and the joint are all hot, and molten filler and hot flux can spatter. Wear eye protection against splatter and hot particles, keep skin covered, and use tongs or pliers on hot work — don't grab a joint you just brazed. Soldering irons and torches burn on contact, so set them in a stand, never on the bench, and keep the flame and tip away from hoses, cords, and cylinders.",
+          "Oxy-fuel torches and gas cylinders used for brazing carry their own handling rules — see the oxygen-fuel and cylinder topics for how to set them up, light them, and shut them down."
+        ]
+      },
+      {
+        heading: "Still hot work",
+        body: [
+          "Lower temperature doesn't take brazing and soldering out of the hot-work category. There's an open flame or a hot iron and the same chance to ignite whatever's nearby, so the fire-prevention rules still apply: clear or protect combustibles, and where a hot-work permit and fire watch are required, they're required here too. Handle it as hot work, because it is."
+        ]
+      }
+    ]
+  },
+  "welding-and-hot-work/preventing-electric-shock-while-welding": {
+    description:
+      "The same welding circuit that melts steel can stop your heart — and the open-circuit voltage is live before you strike an arc, so staying dry, insulated, and off the live parts is what keeps a shock from becoming a fatality.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Electric shock is one of the most serious and immediate dangers in arc welding. The welding circuit carries enough current to injure or kill, and the open-circuit (no-load) voltage is present on the electrode and holder before you ever strike an arc. You don't need a fault or a broken machine for this — the voltage that runs the weld is the same voltage that can run through you.",
+          "It gets worse anywhere you're damp or cramped. Sweat, wet clothing, rain, and standing on wet steel all lower your body's resistance, and tight or kneeling positions in confined spaces put more of you in contact with grounded metal."
+        ]
+      },
+      {
+        heading: "Stay dry and insulated",
+        body: [
+          "The core of shock prevention is keeping yourself electrically separated from both the electrode and the work or ground:",
+          {
+            list: [
+              "Keep yourself, your clothing, and your gloves dry — change out soaked gloves and don't weld in wet clothes.",
+              "Insulate yourself from the work and from ground with dry insulation: a rubber mat, a dry board, or dry insulating material under you and behind you.",
+              "Don't let your bare skin or a wet glove touch the electrode, the metal parts of the holder, or the work while the circuit is live.",
+              "Wear dry, hole-free welding gloves and keep your body off the grounded metal you're working against — especially in tight, kneeling, or lying-down positions."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep the equipment sound",
+        body: [
+          "Worn insulation is how the voltage finds you:",
+          {
+            list: [
+              "Inspect the electrode holder and cables each shift for cracked or worn insulation, exposed conductor, and loose connections; take damaged gear out of service.",
+              "Don't drape welding cable over your shoulder or wrap it around your body — a break in the insulation against your skin puts current across you.",
+              "Keep connections tight and cables out of water and walkways.",
+              "Repair cable only with proper insulated splices, not bare taped joints."
+            ]
+          },
+          "Machine grounding and the work-lead connection are part of this too — they're covered in the arc welding topic, and getting them right keeps welding current on the path you intend instead of through you."
+        ]
+      },
+      {
+        heading: "When you change electrodes or step away",
+        body: [
+          "The routine moments are where shocks happen. Don't change a stub electrode with bare or wet hands — the holder is live. When you set the holder down, hang it where it can't touch a grounded surface, a person, or a conductive object, and never lay a live holder on the steel you're welding. When you stop for any length of time or leave the work, de-energize the equipment so nothing you or the next person touches is carrying voltage."
+        ]
+      }
+    ]
+  },
+  "working-at-heights/positioning-and-travel-restraint-systems": {
+    description:
+      "Two systems that keep you from falling in the first place — one stops you before the edge, one holds you in place on a wall — and neither is a substitute for fall arrest on its own.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Fall arrest catches you after you've fallen. Restraint and positioning are different — they're built so you don't fall at all. Travel restraint keeps you from ever reaching the edge. A positioning device holds you against a vertical surface so you can work with both hands. Know which one you're rigged for, because they're set up differently and used for different work."
+        ]
+      },
+      {
+        heading: "Travel restraint keeps you back from the edge",
+        body: [
+          "Restraint means your anchor and lanyard are short enough that you physically can't reach the fall edge. If you can't get to the edge, you can't go over it.",
+          {
+            list: [
+              "Rig the anchor and lanyard length so your reach stops short of the edge — measure it, don't eyeball it.",
+              "It only works on surfaces where you're not going to slide, like a low-slope roof — not for arresting a fall.",
+              "The moment the work needs you at the edge, restraint isn't enough — switch to a fall arrest setup with a rated anchor."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Positioning device systems",
+        body: [
+          "A positioning device system holds you in place on a vertical surface — rebar, a wall, a form — so you can lean back into the harness and work hands-free. Under 1926.502(e), it has to be rigged so you can't free fall more than 2 feet.",
+          {
+            list: [
+              "Anchor positioning gear to a point rated for at least twice the potential impact load, or 3,000 pounds — whichever is greater.",
+              "It supports you at the work position; it does not stop a real fall.",
+              "You still wear a back-up personal fall arrest system in case the positioning gear or the surface lets go."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Restraint vs. arrest — don't mix them up",
+        body: [
+          "Restraint prevents you from reaching a fall hazard. Arrest stops a fall already in progress. A restraint lanyard rigged long enough to let you reach the edge stops being restraint — now it's an arrest situation, and it has to meet arrest requirements for anchor strength and free-fall distance. If you're not certain which you have, treat the edge as live and rig for arrest."
+        ]
+      }
+    ]
+  },
+  "working-at-heights/safety-net-systems": {
+    description:
+      "When you can't rig guardrails or personal fall arrest, a properly installed safety net catches the fall — but only if it's hung close, tested, and kept clear.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Safety nets under 1926.502(c) are for the jobs where guardrails or personal fall arrest aren't practical — some bridge and structural steel work, for example. A net catches you after you fall, so how it's hung and maintained is everything. A net rigged wrong is worse than no net, because people trust it."
+        ]
+      },
+      {
+        heading: "Hang it close and hang it wide",
+        body: [
+          {
+            list: [
+              "Install the net as close as practicable under the work surface, and never more than 30 feet below it.",
+              "Extend the net outward from the edge of the work — the farther below the surface it hangs, the farther out it has to reach.",
+              "Keep enough clearance underneath so a falling worker doesn't bottom out on the surface or structure below.",
+              "Mesh openings are limited in size, and the border rope has to meet a minimum breaking strength — use a net that's rated and labeled for the job."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Drop-test and certify it",
+        body: [
+          "A net has to be proven before anyone works over it. The standard requires a drop test — a 400-pound bag dropped into the net from the height workers could fall — after it's installed and after any major repair or relocation. If a drop test isn't feasible, a competent person certifies the installation in writing. No test or certification means no working over it."
+        ]
+      },
+      {
+        heading: "Inspect it and keep it clear",
+        body: [
+          {
+            list: [
+              "Inspect the net at least weekly, and after anything that could damage it, for wear, tears, and deterioration.",
+              "Remove tools, scraps, and debris from the net as soon as practical, and at least before the next shift — that stuff becomes shrapnel in a fall.",
+              "Pull worn or damaged nets and defective components out of service.",
+              "Check the connections between panels and to the supports — a gap or a failed hookup is a hole you'll fall through."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "working-at-heights/warning-lines-and-controlled-access-zones": {
+    description:
+      "On low-slope roofs and at leading edges, warning lines and controlled access zones keep workers away from the fall hazard when conventional protection isn't in place.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Sometimes guardrails and personal fall arrest aren't feasible for the work. Warning line systems and controlled access zones are the fallback — they don't catch a fall, they keep people back from where a fall can happen. They only work if everyone respects the line, so the crew has to know exactly what each line means."
+        ]
+      },
+      {
+        heading: "Warning line systems on low-slope roofs",
+        body: [
+          "Under 1926.502(f), a warning line marks off the area near a roof edge so workers stay clear of it during roofing work on low-slope roofs.",
+          {
+            list: [
+              "Set the line back at least 6 feet from the edge; where mechanical equipment is in use, set it back farther along the direction of equipment travel.",
+              "The flagged line has to stand roughly 34 to 39 inches above the walking surface — high enough to see and not step over without noticing.",
+              "Flag the line at short intervals so it's clearly visible, and rig it and its stanchions to resist being knocked over.",
+              "Between the warning line and the edge, only workers actively doing the roofing work belong — and they need additional protection like a safety monitor."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Controlled access zones",
+        body: [
+          "A controlled access zone under 1926.502(g) is an area where leading-edge or overhand bricklaying work goes on and access is limited to authorized workers only.",
+          {
+            list: [
+              "Mark the zone with a control line or other means that clearly defines where it is.",
+              "Only workers authorized for that task cross into the zone — everyone else stays out.",
+              "Set the control line the required distance back from the edge for the type of work, and keep it flagged and visible."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Safety monitors are a limited option",
+        body: [
+          "In some low-slope roofing work, a competent person acts as a safety monitor — watching workers and warning them when they get too close to the edge. It's a last resort where nothing else is feasible, not a shortcut. The monitor does only that job, stays within sight and earshot of the crew, and can't be pulled onto other tasks. A monitor watching a phone instead of the crew is no protection at all."
+        ]
+      }
+    ]
+  },
+  "working-at-heights/skylights-and-fragile-roof-surfaces": {
+    description:
+      "Skylights, smoke domes, and worn roof panels look like solid roof and won't hold your weight — treat every one as an open hole.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The deadly thing about a skylight or a fragile roof panel is that it looks walkable. You can't tell by looking whether a panel will hold you, and a skylight dome reads like part of the roof until you kneel or trip onto it. Workers fall straight through and land on the floor below. Every skylight and every questionable surface gets treated as a hole you can fall through."
+        ]
+      },
+      {
+        heading: "Know what won't hold you",
+        body: [
+          {
+            list: [
+              "Skylights, smoke domes, and roof windows — the dome or glazing carries no live load.",
+              "Old fiber-cement and cement-sheet roofing, and corroded or weathered metal panels, that crack or give way underfoot.",
+              "Translucent panels and patched-over holes that blend into the surrounding roof.",
+              "Any surface you're not certain is structural — if you don't know it'll hold you, assume it won't."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Protect it before anyone works near it",
+        body: [
+          "A skylight is a hole with a dome over it — protect it the same way you protect any floor or roof hole (see Floor Holes and Wall Openings).",
+          {
+            list: [
+              "Cover it with a screen or guard, install a guardrail around it, or protect workers with personal fall arrest.",
+              "A cover has to support at least twice the maximum load that could cross it, be secured against shifting, and be marked so everyone sees it's a cover.",
+              "Walk fragile-roof areas only on rated crawling boards, roof ladders, or planks that span to solid supports — never directly on the panels."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Never trust it with your weight",
+        body: [
+          "Don't step, kneel, sit, or set your weight on a skylight or an unmarked panel — not to reach something, not for a second. Don't stack material on one. If a skylight or fragile area isn't guarded or covered, stay off it and get it protected before the work goes on."
+        ]
+      }
+    ]
+  },
+  "electrical-safety/arc-flash-and-shock-approach-boundaries": {
+    description:
+      "The boundary system around live gear — the two shock approach boundaries, the arc-flash boundary, and how to read them off the equipment label.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Approach boundaries are invisible lines drawn around exposed energized parts. There are two kinds of hazard they protect against — shock and arc flash — so there are two kinds of boundaries, and they don't line up. Cross one without the training and protection it calls for and you're in reach of something that can kill you.",
+          "The distances aren't guesses. They come from NFPA 70E and, for arc flash, from the incident-energy analysis printed on the equipment's arc-flash label. Your job is to know which boundary you're crossing and what it demands before you step over it."
+        ]
+      },
+      {
+        heading: "The two shock boundaries",
+        body: [
+          "Shock boundaries are about contact — how close you can get to an exposed energized conductor before an accidental reach or a slip puts you into it. NFPA 70E defines two of them:",
+          {
+            list: [
+              "Limited approach boundary — the outer line. No unqualified person crosses it unless a qualified person escorts them and they're protected. It's the 'stay back' line for everyone who isn't trained on that equipment.",
+              "Restricted approach boundary — the inner line, close to the live part. Only a qualified worker gets this close, and only with rated insulating PPE and a plan for the increased risk of contact."
+            ]
+          },
+          "Both distances grow with voltage — the higher the system voltage, the farther out those lines sit. If you're not qualified for the equipment, you stay outside the limited approach boundary, full stop. The awareness-level breakdown of shock, arc flash, and arc blast is covered separately; this is about the lines themselves."
+        ]
+      },
+      {
+        heading: "The arc-flash boundary",
+        body: [
+          "The arc-flash boundary is a different measurement for a different hazard. It's the distance at which the heat from an arc flash would deliver 1.2 cal/cm² of incident energy to your skin — the threshold for the onset of a second-degree burn. Anyone inside that boundary needs arc-rated PPE rated for the energy at that spot.",
+          "This boundary has nothing to do with touching a conductor — an arc flash can burn you standing several feet back. It can sit inside or outside the shock boundaries depending on the equipment, which is exactly why you can't treat one line as covering the other."
+        ]
+      },
+      {
+        heading: "Reading the label",
+        body: [
+          "On gear that's had an incident-energy analysis, the numbers you need are on the arc-flash label. Before you approach, read it:",
+          {
+            list: [
+              "The arc-flash boundary distance.",
+              "The incident energy at the working distance, or the required PPE category.",
+              "The rated PPE and arc rating (in cal/cm²) needed inside the boundary.",
+              "The shock hazard — system voltage and the limited and restricted approach boundaries."
+            ]
+          },
+          "No label, or a label that doesn't match the equipment, means the analysis isn't done — treat that as a stop and get a qualified person before anyone approaches. NFPA 70E governs these boundaries; OSHA's approach and protection requirements are in 29 CFR 1910.333 and 1910.335."
+        ]
+      }
+    ]
+  },
+  "electrical-safety/energized-electrical-work-permits": {
+    description:
+      "When live work is genuinely justified — the narrow exceptions that allow it and the energized electrical work permit that has to back it up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The default for electrical work is dead equipment. You de-energize, lock out, and prove zero energy before you touch anything — that's covered in the lockout/tagout topic, and it's the rule, not the suggestion.",
+          "Working on it live is the exception, and NFPA 70E puts a gate in front of that exception: the energized electrical work permit, or EEWP. It's the paperwork that forces someone to justify the live work before it happens, instead of after someone gets hurt."
+        ]
+      },
+      {
+        heading: "When live work is justified",
+        body: [
+          "Energized work is only justified in two narrow cases:",
+          {
+            list: [
+              "De-energizing would introduce additional or increased hazards — for example, shutting down life-support, emergency ventilation, or alarm systems.",
+              "De-energizing is infeasible because of the equipment design or an operational limitation — such as certain testing, troubleshooting, or diagnostics that can only be done with the circuit live."
+            ]
+          },
+          "That's the whole list. 'It's faster,' 'production doesn't want the downtime,' and 'it's a hassle to lock out' are not justifications — inconvenience never makes live work legal. If the reason you're not de-energizing is any version of convenience, the answer is to de-energize."
+        ]
+      },
+      {
+        heading: "The permit",
+        body: [
+          "When live work clears that bar and the task falls above the point where a permit is required, an EEWP has to be completed and approved before the work starts. It documents the job so nobody's improvising at the panel:",
+          {
+            list: [
+              "A description of the work and the equipment, and why it can't be done de-energized.",
+              "The shock and arc-flash boundaries for the equipment.",
+              "The specific arc-rated PPE and insulated tools required.",
+              "The safe-work practices and the means to restrict access to the area.",
+              "The evidence of a job briefing, and the signatures of the qualified worker and the authorizing person."
+            ]
+          },
+          "Some tasks — like certain testing and troubleshooting within the normal operating limits — don't require a written permit but still require the qualified worker, the PPE, and the boundaries. The permit is what documents that the exception was real and the protections were in place."
+        ]
+      },
+      {
+        heading: "No permit, no work",
+        body: [
+          "The permit isn't a formality to backfill later — it's the gate. If the justification doesn't hold, or the boundaries and PPE aren't defined, or the approvals aren't signed, the job waits until the equipment can be de-energized and locked out.",
+          "NFPA 70E sets the permit requirement; OSHA's expectation that live parts be de-energized before work, with narrow exceptions, is in 29 CFR 1910.333. The paperwork exists so that a decision that can kill someone gets made deliberately, by the right people, and not by whoever's holding the screwdriver."
+        ]
+      }
+    ]
+  },
+  "electrical-safety/stored-energy-capacitors-batteries-and-discharge": {
+    description:
+      "The energy that stays behind after the power's off — charged capacitors, battery and UPS systems with no upstream switch, and stored mechanical energy.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Opening the disconnect kills the incoming power, but it doesn't always kill the energy already inside the equipment. Some gear holds a charge after it's disconnected, and some of it has no upstream switch to open at all. That leftover energy has killed people who thought the box was dead.",
+          "This is why lockout/tagout includes a step for releasing or restraining stored energy, and why the only proof a circuit is dead is a test. Isolating the source is the start of the job, not the end of it."
+        ]
+      },
+      {
+        heading: "Capacitors hold a charge",
+        body: [
+          "A capacitor's whole job is to store electrical energy, and it doesn't give that up when you open the disconnect. VFDs, motor drives, power supplies, large motors with power-factor correction, and similar gear can hold a lethal charge on their capacitors for a while after disconnection.",
+          "Before you work on that equipment, the stored charge has to be bled off — capacitors discharged and grounded using the manufacturer's procedure and the right rated tools, never a shorting screwdriver. Then you verify with a meter that it's actually at zero, the same live-dead-live way you'd prove any circuit dead. Assume a disconnected capacitor is still charged until your own test says otherwise."
+        ]
+      },
+      {
+        heading: "Batteries and UPS have no off switch",
+        body: [
+          "Battery banks, UPS systems, and DC systems are their own energy source — there's no upstream breaker that de-energizes them, because they are the power. The stored energy sits there whether the building has power or not, and it carries hazards beyond shock:",
+          {
+            list: [
+              "Enormous short-circuit and arc-flash energy — a dropped wrench across the terminals can vaporize and arc.",
+              "Chemical burns from the electrolyte in the cells.",
+              "Hydrogen gas that can build up and explode where charging batteries aren't ventilated."
+            ]
+          },
+          "Work on these systems takes insulated tools, rated PPE, terminal covers, and the manufacturer's isolation procedure — you isolate sections, you don't just 'turn it off.' Treat the bank as energized the entire time you're in it."
+        ]
+      },
+      {
+        heading: "Mechanical stored energy, and verifying zero",
+        body: [
+          "Not all stored energy is electrical. Springs, charged breaker mechanisms, elevated or suspended parts, and pressurized hydraulic or pneumatic systems tied to the equipment all hold energy that can release when you open something up. Racking or working on a breaker with a charged closing spring is a classic surprise.",
+          "The rule ties back to LOTO: block, restrain, bleed down, or release every stored-energy source before you rely on the equipment being safe, then verify. The final check is always a test — capacitors discharged, DC sources isolated, mechanical energy neutralized, and a meter confirming zero. OSHA's control-of-energy requirements, including stored and residual energy, are in 29 CFR 1910.147."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/tip-over-survival-and-seat-belts": {
+    description:
+      "When a sit-down forklift goes over, jumping out is what gets operators killed — stay in the seat, hold on, and let the overhead guard and seat belt do their job.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A sit-down counterbalanced forklift can tip sideways in a fast turn, or forward over the front wheels with a heavy or raised load. Once it starts going, it's over faster than you can react. What decides whether you walk away isn't reflexes — it's what you already decided to do before it happened.",
+          "The single biggest killer in a forklift tip-over is being crushed by the overhead guard or mast after jumping out. The truck lands on the operator who tried to escape. Stay in the seat and the protective structure keeps a survival space around you."
+        ]
+      },
+      {
+        heading: "If it goes over, don't jump",
+        body: [
+          "Every operator has to have this wired in before it happens, because there's no time to think it through mid-tip. If the truck starts to tip:",
+          {
+            list: [
+              "Stay in the seat — do not try to jump clear.",
+              "Grip the steering wheel firmly with both hands.",
+              "Brace your feet against the floor.",
+              "Lean your upper body away from the direction of the fall.",
+              "Hold on until the truck comes to rest."
+            ]
+          },
+          "Leaning away from the fall keeps your head and torso inside the overhead guard as the truck comes down. Operators who jump land in the path of the falling mast or guard and get pinned under thousands of pounds. Riding it out is counter-intuitive, but it's what keeps you alive."
+        ]
+      },
+      {
+        heading: "The seat belt keeps you inside the guard",
+        body: [
+          "The operator restraint — the seat belt — isn't there for fender-benders. Its job is to keep you in the seat and inside the protective zone during a tip-over, so you can't be thrown out into the crush zone or slide out an open side.",
+          "Wear it every time you're in the seat, and keep it buckled the whole shift, not just for the long runs. If the belt is torn, frayed, or the buckle won't latch, the truck comes out of service until it's fixed. A truck with a disabled or missing restraint isn't ready to work."
+        ]
+      },
+      {
+        heading: "Why this is separate from staying stable",
+        body: [
+          "Keeping the combined center of gravity inside the stability triangle — carrying loads low, slowing before turns, never turning with the load raised — is how you keep from tipping in the first place. That's the physics, and it's covered on its own.",
+          "This is the other half: what to do in the seconds when prevention has already failed and the truck is going over anyway. Good operators know both. You drive to stay upright, and you keep the belt on and stay put in case you don't."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/parking-and-leaving-a-truck-unattended": {
+    description:
+      "How you park a forklift matters as much as how you drive it — lowered forks, neutral, power off, brake set, so nobody gets struck or crushed by a truck sitting still.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A parked forklift can still hurt someone. Forks left up become a head-level hazard, a truck left in gear can creep, and one left on a slope without the wheels blocked can roll. OSHA 1910.178(m) spells out how to leave a truck so it stays put and stays safe.",
+          "The rules change slightly depending on how far you're stepping away, so it's worth knowing exactly when a truck counts as 'unattended.'"
+        ]
+      },
+      {
+        heading: "When a truck is \"unattended\"",
+        body: [
+          "OSHA draws a clear line. A powered industrial truck is unattended when the operator is 25 feet or more away from it, or when the truck is out of the operator's view — with the engine still running.",
+          "Getting off the truck but staying within 25 feet and keeping it in sight is 'dismounted,' not unattended. Either way you don't get to leave the forks up or the controls live — the requirements just get stricter the moment you cross that 25-foot line or lose sight of it."
+        ]
+      },
+      {
+        heading: "Leaving a truck unattended",
+        body: [
+          "Before you walk away 25 feet or more, or anywhere you can't see the truck:",
+          {
+            list: [
+              "Fully lower the forks or load-engaging means flat to the floor.",
+              "Put the controls in neutral.",
+              "Shut off the power.",
+              "Set the parking brake."
+            ]
+          },
+          "Flat on the floor means nobody walks into a raised tine, and a truck that's off, in neutral, and braked can't creep or be bumped into motion."
+        ]
+      },
+      {
+        heading: "Dismounting nearby, and parking on a grade",
+        body: [
+          "Even when you're staying within 25 feet and keeping the truck in view, still lower the load-engaging means fully to the floor, put the controls in neutral, and set the brake. Lowered forks and a set brake are non-negotiable no matter how close you are.",
+          "If you park on an incline, block the wheels in addition to setting the brake. And never leave a truck with the forks raised — no matter how quick you think you'll be back. Park in a designated area, clear of aisles, exits, fire equipment, and pedestrian paths."
+        ]
+      }
+    ]
+  },
+  "forklift-safety/elevating-personnel-on-a-forklift": {
+    description:
+      "If you have to lift a worker on a forklift, it's only ever on a secured, guarded work platform with the operator at the controls — never on the forks, never on a pallet.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Sometimes the only way to reach a high spot is to send a worker up on the forklift. That's allowed — but only one way. The worker rides on a securely attached, purpose-built work platform (a safety cage), and never on the bare forks or a pallet balanced on the tines.",
+          "Riding the forks is how people fall. A proper platform, secured to the truck and guarded on all sides, is the only acceptable way to put a person in the air on a forklift."
+        ]
+      },
+      {
+        heading: "The platform and its rails",
+        body: [
+          "The work platform is an attachment, and like any attachment it has to be right for the truck and properly fitted. The platform must:",
+          {
+            list: [
+              "Be securely attached to the forks or mast so it can't slip, tip, or come loose.",
+              "Have standard guardrails or equivalent rails on all open sides.",
+              "Provide a means to protect and restrain the worker from falling.",
+              "Have a firm, safe surface to stand on."
+            ]
+          },
+          "Because a platform is an attachment, it also changes the truck's rated capacity and how it's operated — see the guidance on attachments and derated capacity. Never rig up a homemade cage; the platform has to be built and secured for the job."
+        ]
+      },
+      {
+        heading: "Rules while someone is elevated",
+        body: [
+          "With a person on the platform, the truck's whole job is to hold them steady and safe:",
+          {
+            list: [
+              "The operator stays at the controls the entire time the platform is raised.",
+              "Do not travel the truck while the platform is elevated with a worker on it.",
+              "Lift and lower smoothly and slowly — no sudden moves.",
+              "Keep the mast as vertical as practical, not tilted."
+            ]
+          },
+          "The operator never leaves the seat while a worker is up in the air. If the truck has to be repositioned, the worker comes down first."
+        ]
+      },
+      {
+        heading: "Communication and watching the worker",
+        body: [
+          "The operator and the elevated worker need a clear, agreed way to signal each other — hand signals, radio, or voice they've both confirmed — before the platform goes up. The operator watches the platform and the worker, not the job the worker is doing.",
+          "Keep the elevated worker clear of overhead hazards like beams, pipes, and especially energized electrical lines. Anyone working from the platform still follows fall-protection requirements for the height they're at."
+        ]
+      }
+    ]
+  },
+  "fire-safety/standpipe-and-hose-systems": {
+    description:
+      "On tall construction, standpipes give the fire department water on the upper floors — install them as the building rises and keep the outlets charged and clear. OSHA 1926.150(d).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "On a multi-story building, dragging hose up a stairwell from a street hydrant wastes the minutes that matter most. A standpipe is a pipe that carries water up through the building so firefighters can hook a hose in on the floor where the fire is.",
+          "OSHA 1926.150(d) is about getting that system in early, keeping it charged, and keeping the outlets clear. These are for trained responders and the fire department — not something untrained workers grab and fight fire with."
+        ]
+      },
+      {
+        heading: "Install the standpipe as the building goes up",
+        body: [
+          "The rule ties the standpipe to the height of the work, so it's ready before it's needed:",
+          {
+            list: [
+              "On buildings tall enough to need one, the standpipe goes in as construction rises so it's available for firefighting.",
+              "Keep the system ready for use as the floors get built out — don't leave it to the end.",
+              "A water supply for firefighting has to be available as soon as combustible materials accumulate on site."
+            ]
+          },
+          "The whole point is that when a fire breaks out on an upper floor, the department already has water up there instead of starting from the street."
+        ]
+      },
+      {
+        heading: "Keep the outlets accessible and protected",
+        body: [
+          "A standpipe only works if responders can reach a hose connection and it delivers water:",
+          {
+            list: [
+              "Hose connections and outlets on each floor stay accessible and unobstructed — never buried behind stacked material or walled off by new partitions.",
+              "Protect the piping and outlets from physical damage from equipment and traffic.",
+              "Where freezing is a risk, protect the system so it doesn't freeze up and fail when it's called on.",
+              "Keep the system charged so water is there the moment a hose is connected."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Who uses it",
+        body: [
+          "Standpipe hose systems are set up for trained firefighters — the fire department or a trained brigade — not for the average worker. If you're not trained and equipped for that, your job when the alarm sounds is to get out, not to open a standpipe valve.",
+          "What every worker can do is keep the outlets clear and report any damaged, leaking, or blocked connection so the system works when responders arrive."
+        ]
+      }
+    ]
+  },
+  "fire-safety/fixed-fire-suppression-systems": {
+    description:
+      "Sprinklers and fixed extinguishing systems fight fire automatically — keep them clear, keep the valves open, and know that some agents can make the air unsafe. OSHA 1910.159 and 1910.160.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A fixed suppression system fights fire on its own — automatic sprinklers that open when heat hits them, or a fixed system that dumps a gas or chemical into a protected space. It works without anyone pulling a trigger, which is exactly why it can't be blocked or switched off without anyone noticing.",
+          "OSHA 1910.159 covers automatic sprinkler systems; 1910.160 covers fixed extinguishing systems like CO2, clean agent, dry chemical, and commercial kitchen systems."
+        ]
+      },
+      {
+        heading: "Don't block the sprinklers",
+        body: [
+          "A sprinkler head has to be able to throw water across the space. Anything in the way creates a shadow where fire can grow:",
+          {
+            list: [
+              "Keep at least 18 inches of clearance below every sprinkler head so nothing blocks the spray.",
+              "Don't hang anything from sprinkler piping — no wire, no lights, no material. The pipe isn't a support.",
+              "Don't paint sprinkler heads or let them get coated in overspray, dust, or debris; it stops them operating.",
+              "Keep control valves accessible and in the open position so the system stays charged.",
+              "Report any damaged, painted, or corroded head instead of ignoring it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Some agents make the air unsafe",
+        body: [
+          "Gas-based systems put out fire by flooding a room — CO2 and some clean-agent systems work by displacing or starving the oxygen. When one discharges, the atmosphere in that space can drop to a level that won't support life, and it happens fast.",
+          "Know which spaces are protected by these systems, know the discharge alarm, and when it sounds, get out and stay out. Don't re-enter a flooded space until it's been ventilated and someone qualified says the air is safe."
+        ]
+      },
+      {
+        heading: "Never disable a system on your own",
+        body: [
+          "Taking a suppression system out of service — closing a sprinkler valve, isolating a fixed system — leaves the building unprotected. That's not a field decision.",
+          "Systems are only taken offline with proper authorization, and while they're down a fire watch and other safeguards cover the gap. If you find a valve closed or a system tagged out and don't know why, treat the area as unprotected and flag it."
+        ]
+      }
+    ]
+  },
+  "fire-safety/fire-brigades-and-employee-firefighting-roles": {
+    description:
+      "Know your site's model — evacuate and call the fire department, or run a trained brigade. If it's a brigade, OSHA 1910.156 sets real requirements for training, capability, and gear.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every site needs one clear answer to the same question: when there's a fire past the small, just-starting stage, do workers get out and let the fire department handle it, or does the site run its own trained fire brigade? There's no in-between, and everyone has to know which one it is.",
+          "OSHA 1910.156 governs fire brigades. Fighting a small, incipient fire with an extinguisher is a separate matter, covered under Fire Extinguisher Safety — a brigade means employees who go beyond that."
+        ]
+      },
+      {
+        heading: "Most construction sites don't run a brigade",
+        body: [
+          "The common model on construction is simple: raise the alarm, evacuate, account for people at the assembly point, and let the fire department fight the fire. Trained workers may still use an extinguisher on a small incipient fire, but nobody is expected to take on a fire that's grown.",
+          "If that's your site, the expectation is clear — when the alarm sounds, you leave. You don't go looking for the fire or try to be a hero."
+        ]
+      },
+      {
+        heading: "What a fire brigade triggers",
+        body: [
+          "If an employer chooses to organize a brigade — employees who fight fires beyond the incipient stage — 1910.156 brings real obligations that come with it:",
+          {
+            list: [
+              "A written organizational statement setting out the brigade's structure, function, and the training its members get.",
+              "Training and education commensurate with the duties members are expected to perform, provided before those duties and repeated regularly.",
+              "Members physically capable of doing the tasks they'd be assigned.",
+              "Proper protective clothing and equipment for the hazards they'll face."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Interior structural firefighting is another level",
+        body: [
+          "Sending people inside a burning structure is the most demanding case. For interior structural firefighting, brigade members need full structural firefighting protective gear and self-contained breathing apparatus (SCBA), and the training and physical capability to use it.",
+          "This is not something a site drifts into. If your site doesn't have the organization, training, and equipment 1910.156 requires, then it doesn't do interior firefighting — it evacuates and waits for the fire department. Know your site's model before the alarm ever sounds."
+        ]
+      }
+    ]
+  },
+  "confined-space/reclassification-and-alternate-entry-procedures": {
+    description:
+      "Two legitimate ways to cut back controls on a permit space — and the strict conditions that separate eliminating a hazard from just controlling it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "There are two ways OSHA lets you enter a permit space without running the full permit system. They're not shortcuts — each has hard conditions, and mixing them up gets people killed. One covers spaces where the only problem is the air; the other covers spaces where every hazard has been truly removed.",
+          "The line that matters: controlling a hazard is not the same as eliminating it. Only elimination lets you drop the space out of the permit program entirely."
+        ]
+      },
+      {
+        heading: "Alternate procedures — atmospheric hazard only",
+        body: [
+          "Under OSHA 29 CFR 1910.146(c)(5), if the only hazard in the space is atmospheric and continuous forced-air ventilation alone keeps the air safe, you may enter under alternate procedures. That means no permit and no attendant required by this route — but the safeguards around the air stay.",
+          "You can only use this route if all of these hold:",
+          {
+            list: [
+              "The single hazard is atmospheric — no engulfment, no mechanical, no other serious hazard.",
+              "Continuous forced-air ventilation by itself keeps the atmosphere within safe limits.",
+              "You have data and a determination showing ventilation alone will keep it safe.",
+              "You test the air before entry and monitor continuously while anyone is inside.",
+              "If a hazardous atmosphere shows up at any point, everyone leaves, the space is evaluated, and you fix what let it happen before going back in."
+            ]
+          },
+          "If ventilation ever stops or the air won't hold, the alternate-procedures route is off — you're back to a full permit entry. See the ventilation and atmospheric testing topics for how to run the air side."
+        ]
+      },
+      {
+        heading: "Reclassification — hazards eliminated, not controlled",
+        body: [
+          "Under 1910.146(c)(7), a permit space can be reclassified as a non-permit space, but only when it has no actual or potential atmospheric hazards and every other hazard is eliminated without anyone entering. Eliminated means removed at the source — blanked and bled lines, drained and cleaned, de-energized and locked out so the hazard is physically gone, not just held back.",
+          {
+            list: [
+              "No actual or potential atmospheric hazard exists in the space.",
+              "All other hazards are eliminated without entry into the space.",
+              "If entry is required to eliminate a hazard, that entry is done under a full permit first.",
+              "The basis for the reclassification is documented in a certification — date, location, and signature — and made available to entrants."
+            ]
+          },
+          "Reclassification is only good as long as the conditions that made it safe hold. If a hazard comes back or the space changes, the reclassification is void and you re-establish permit-space controls."
+        ]
+      },
+      {
+        heading: "Don't confuse the two",
+        body: [
+          "The trap is treating ventilation as elimination. Forced air controls a bad atmosphere while it's running — turn it off and the hazard returns, so the space stays permit-required and can't be reclassified. Alternate procedures let you keep working with the ventilation on; reclassification is for spaces where there's nothing left to control. Pick the wrong one and you've stripped protections a space still needs."
+        ]
+      }
+    ]
+  },
+  "confined-space/host-and-contractor-coordination": {
+    description:
+      "Who owes whom what when an outside crew enters a site's confined spaces — the information handoff, the coordination, and the debrief afterward.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most confined-space work involves two employers: the host that owns the site and the contractor that sends the crew in. OSHA 1910.146(c)(8) and (c)(9) split the duties so nobody enters blind and nothing learned on the job gets lost. When that handoff breaks down, entrants walk into hazards the host already knew about.",
+          "It's a two-way street — the host shares what it knows, the contractor coordinates the work and reports back what it found."
+        ]
+      },
+      {
+        heading: "What the host employer owes the contractor",
+        body: [
+          "Before the contractor's crew shows up, the host has to hand over what it knows about the spaces they'll enter:",
+          {
+            list: [
+              "That the location has permit spaces and that entry is only allowed through a compliant program.",
+              "Why each space is permit-required — the specific hazards it holds.",
+              "Any precautions or procedures the host has used for entry in or near those spaces.",
+              "Any other information the host has about the space's hazards."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What the contractor owes back",
+        body: [
+          "The contractor doesn't just take the info and disappear into the hole. It has its own duties:",
+          {
+            list: [
+              "Get the host's hazard information and use it to plan the entry.",
+              "Coordinate entry operations with the host when both host and contractor personnel will work in or near the space.",
+              "Debrief the host at the end — go over the program followed and any hazards confronted or created during entry."
+            ]
+          },
+          "That debrief is how the host's knowledge of the space stays current for the next crew. See the entry permit and entry supervisor topics for who owns those documents on the contractor's side."
+        ]
+      },
+      {
+        heading: "When multiple crews work near a space",
+        body: [
+          "The real danger on a busy site is one crew creating a hazard for another. A painter's solvent, a welder's torch, an exhaust from equipment parked over a hatch — any of them can turn a controlled space deadly for entrants who never saw it coming. Coordinate the schedule and the work so nobody introduces an atmosphere or a hazard into a space someone else is inside. When work overlaps, the host and every contractor talk to each other before it starts, not after someone goes down."
+        ]
+      }
+    ]
+  },
+  "confined-space/selecting-and-evaluating-a-rescue-service": {
+    description:
+      "Why 'we'll call 911' isn't a rescue plan — how OSHA 1910.146(k) makes you evaluate, select, and prove a rescue service can actually reach your entrants.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Under OSHA 1910.146(k), whoever you're counting on to pull a worker out — your own team or an outside service like the fire department — has to be evaluated and selected before entry, not assumed. Naming a rescue service on the permit means nothing if they can't get there in time, can't fit your space, or have never touched the gear.",
+          "Non-entry retrieval is still the first choice wherever it's feasible — pulling the entrant out from outside on their line keeps a second person from being exposed. See the rescue and retrieval systems topic for that equipment."
+        ]
+      },
+      {
+        heading: "Evaluate before you rely on them",
+        body: [
+          "Before you designate a rescue service, you evaluate whether they can actually do the job for your spaces:",
+          {
+            list: [
+              "They can respond in a timely manner given the hazards — how fast a downed worker needs to be out drives how fast rescue has to arrive.",
+              "They're proficient with the rescue and retrieval equipment and trained for permit-space rescue.",
+              "They can reach the entrant and perform the extraction from this space — its size, depth, opening, and layout.",
+              "They're willing and able to respond, and you've confirmed availability for the entry — not just found a number."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Let them see the space and drill",
+        body: [
+          "An evaluation on paper isn't enough. Give the selected service access to the permit spaces so they can plan and practice rescue operations, and inform them of the hazards they'll face. Rescuers train at least once a year, using the actual spaces or representative ones — a dummy or person going through the motions of a real extraction — so they've solved the problem before it's a live emergency."
+        ]
+      },
+      {
+        heading: "\"We'll just call 911\" is not a plan",
+        body: [
+          "Assuming the local fire department will come, can fit your space, and will arrive before a worker in bad air is beyond saving is a bet on somebody's life. Some departments don't do confined-space rescue at all. Confirm they can and will respond in time before entry — in writing, coordinated ahead. And the whole point of evaluating rescuers first is the same rule that runs through all of this: rescuers must never become victims themselves."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/pneumatic-breakers-and-hand-arm-vibration": {
+    description:
+      "Jackhammers and chipping hammers pound vibration straight into your hands, and enough of it permanently kills the nerves and blood vessels — so you cut trigger time, keep your hands warm, and use anti-vibration tools.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Pneumatic breakers — jackhammers, chipping hammers, rivet busters — do their work by pounding, and that pounding travels straight up the tool into your hands and arms. Over months and years that vibration can permanently damage the nerves and blood vessels in your fingers. It's called hand-arm vibration syndrome, and once it sets in it doesn't heal.",
+          "These tools also come with noise, dust, and a heavy moving bit — so the vibration is only part of what you're managing."
+        ]
+      },
+      {
+        heading: "Hand-arm vibration syndrome (HAVS)",
+        body: [
+          "Also called vibration white finger. Repeated vibration slowly damages the nerves and blood flow in the hands, and the damage is permanent if you keep ignoring it. Watch for the early warning signs:",
+          {
+            list: [
+              "Numbness or tingling in the fingers, especially after running the tool.",
+              "Fingers going white or blanching, often in the cold.",
+              "Loss of grip strength and loss of feeling — trouble picking up small objects.",
+              "Pain or throbbing in the hands and fingers."
+            ]
+          },
+          "If you're noticing these, report it. Early is the only time you can stop it getting worse."
+        ]
+      },
+      {
+        heading: "Cutting the vibration dose",
+        body: [
+          "You can't feel the damage building, so you manage the exposure instead of waiting for symptoms:",
+          {
+            list: [
+              "Use anti-vibration tools and anti-vibration gloves where they're provided.",
+              "Limit continuous trigger time — take breaks and rotate the job around the crew so no one runs the breaker all shift.",
+              "Keep your hands warm and dry; cold hands take the damage faster.",
+              "Keep bits and steels sharp — a dull bit means you push harder and run longer for the same work.",
+              "Grip only as tight as you need to control the tool; a death-grip pumps more vibration into your hands."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Noise, dust, and the moving bit",
+        body: [
+          "Breakers are loud enough to damage hearing over a shift — wear hearing protection. Breaking or chipping concrete throws respirable silica dust, which scars your lungs, so use wet methods or dust controls and the respiratory protection called for; respirator selection and fit are covered under PPE.",
+          "The bit itself is a struck-and-caught hazard: keep your feet and free hand clear of where it drives, watch for it kicking out or breaking through, and mind the material and people below on elevated work. The retainer that keeps the steel from being ejected is covered under pneumatic tool basics — make sure it's in place before you pull the trigger."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/abrasive-blasting-safety": {
+    description:
+      "Blasting drives abrasive at killing speed and, if the abrasive is silica sand, fills the air with the dust that causes silicosis — so you swap out the sand where you can, run supplied-air hoods, and never let go of the deadman control by accident.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Abrasive blasting — sandblasting — strips paint, rust, and scale by firing abrasive at high velocity out of a nozzle. That same energy will strip skin, and the biggest killer isn't the impact, it's the dust. OSHA 1926.57 and 1910.94 cover abrasive blasting operations.",
+          "If the abrasive is silica sand, blasting fills the air with respirable crystalline silica — the dust that causes silicosis, a permanent, sometimes fatal scarring of the lungs."
+        ]
+      },
+      {
+        heading: "Silica and respiratory protection",
+        body: [
+          "This is the hazard that outlives the job:",
+          {
+            list: [
+              "Where you can, use a non-silica abrasive instead of silica sand — it's the most effective control.",
+              "Blasting operations require respiratory protection; an abrasive-blasting operator uses a supplied-air blasting helmet or hood, not just a dust mask.",
+              "Anyone working near the blasting, not just the operator, can be exposed to the airborne dust — keep bystanders back and controlled.",
+              "Respirator selection and fit are covered under PPE — get the right one for the exposure, don't improvise."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The deadman control and system hazards",
+        body: [
+          "The blast stream and the system feeding it both hurt you:",
+          {
+            list: [
+              "The nozzle has a deadman (dead-man) control that shuts off the flow the instant you let go — never block, tie down, or defeat it, because it's what stops the stream if you drop the nozzle.",
+              "Abrasive rebounds off the work at high velocity — keep the nozzle pointed at the work, never at yourself or anyone, and protect people around you.",
+              "Blast hoses carry abrasive under pressure; a failed coupling or hose whips like any charged line — general hose, coupling, and whip-check rules apply here too.",
+              "Bond and ground the system — moving abrasive builds a static charge that can shock or spark.",
+              "Blasting inside a tank, vessel, or other enclosure is a hazardous, oxygen-affected atmosphere — treat it as confined-space work with ventilation and monitoring."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "PPE and the blast area",
+        body: [
+          "Beyond the supplied-air respirator, the operator wears a blasting helmet or hood that protects the head, face, and neck, heavy gloves, and body protection against rebounding abrasive. Blasting is loud, so hearing protection is required.",
+          "Keep the blast area barricaded and marked so nobody walks into the stream or the dust cloud, and shut the deadman before you turn to talk to anyone or reposition."
+        ]
+      }
+    ]
+  },
+  "compressed-gas-and-air-tool-safety/air-powered-hoists-and-winches": {
+    description:
+      "An air hoist lifts more than you can, so a stuck air control or an overloaded hook can drop a load on someone — you work to the rated capacity, inspect the rigging every time, and never stand under the load.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Air-powered hoists and winches lift and pull loads using compressed air instead of a motor. They're strong and easy to run, which is exactly why they hurt people: it's easy to overload one, and a sticking air control can make it run away when you thought you'd stopped it.",
+          "Treat one like any other lifting device — know its limits, check its gear, and keep people clear of the load."
+        ]
+      },
+      {
+        heading: "Rated capacity and control",
+        body: [
+          "The two things that cause a dropped or runaway load:",
+          {
+            list: [
+              "Know the rated capacity marked on the hoist and never exceed it — no 'just this once' with a heavy pick.",
+              "Feed air within the hoist's rated supply pressure; wrong pressure means the tool doesn't behave the way you expect.",
+              "Run the controls smoothly and stay on them — an air control valve can stick open and let the hoist run away, so know where the emergency stop or the means to bleed the air is before you start.",
+              "Make sure you can stop and hold the load, not just lift it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect before every lift",
+        body: [
+          "Check the load path before it's carrying anything:",
+          {
+            list: [
+              "Inspect the load chain or wire rope for wear, kinks, corrosion, and broken wires or stretched links.",
+              "Check the hook for cracks, gouges, and any bending or opening of the throat.",
+              "Make sure the hook latch (safety catch) is present and works, so a sling can't roll out.",
+              "Take the hoist out of service if any of it is damaged — don't nurse it through the lift."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Under the load and rigging",
+        body: [
+          "Where people get hurt is standing in the wrong place:",
+          {
+            list: [
+              "Never ride the load or the hook, and never let anyone else.",
+              "Keep yourself and everyone else out from under a suspended load — a raised load is never 'parked.'",
+              "Secure the load and center the hook over it before you pick, so it can't swing, slip, or spin when it lifts.",
+              "Land the load and take the tension off before anyone reaches in."
+            ]
+          },
+          "Choosing slings, hitches, and rated hardware for the pick is rigging work — that's covered under Rigging and Material Handling Equipment. Get the rigging right before you touch the hoist control."
+        ]
+      }
+    ]
+  },
+  "excavation-safety/mobile-equipment-and-traffic-around-the-excavation": {
+    description:
+      "Keeping excavators, trucks, and traffic from rolling, backing, or swinging into the trench — warning systems at the edge, spotters, and staying out of the swing radius.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most of what kills people in a trench is the ground. But heavy equipment working at the edge brings its own way to get you hurt — a machine backs in, a bucket swings into you, or the weight parked up top pushes the wall in on the crew below.",
+          "OSHA 1926.651 sets rules for mobile equipment near an excavation. They come down to two things: don't let the machine get into the hole, and don't let it hit anyone."
+        ]
+      },
+      {
+        heading: "Keep the machine out of the trench",
+        body: [
+          "Under 1926.651(f), when mobile equipment is operated at or near the edge of an excavation, and the operator can't see the edge, you set up a warning system so the machine doesn't roll or back over it.",
+          {
+            list: [
+              "Barricades to physically stop the equipment short of the edge.",
+              "Hand or mechanical signals from a spotter the operator can see.",
+              "Stop logs — a curb or log the wheels hit before they reach the edge.",
+              "Where the ground allows, grade the spoil or the surface so it slopes away from the excavation."
+            ]
+          },
+          "A machine parked or working at the edge is also a surcharge load that can trigger a collapse — that's covered under spoil piles and surcharge, so keep equipment set back and off the wall."
+        ]
+      },
+      {
+        heading: "Keep equipment and material back from the edge",
+        body: [
+          "The same 2-foot rule that applies to the spoil pile applies to equipment. Under 1926.651(j), workers are protected from loose rock and soil and from equipment by keeping materials and equipment at least 2 feet back from the edge, using a retaining device, or both.",
+          "That setback keeps the load off the wall and keeps anything from rolling or being knocked into the trench on top of the crew. More room is better where you have it."
+        ]
+      },
+      {
+        heading: "Struck-by: the swing radius and backing equipment",
+        body: [
+          "An excavator working above an open trench is the biggest struck-by hazard on the job. The bucket swings, the machine backs up, and a worker in the wrong spot gets crushed against the wall or run over.",
+          {
+            list: [
+              "Stay out of the swing radius of the boom and bucket — never work or walk under a swinging load.",
+              "Keep workers out of the trench while the machine is digging or setting a box above them.",
+              "Use a spotter when equipment backs up or works blind, and make eye contact with the operator before you approach.",
+              "Wear high-visibility clothing so operators can pick you out against the dirt and equipment.",
+              "Agree on hand signals ahead of time, and give one person the job of signaling so the operator isn't getting mixed messages."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Traffic where the excavation meets a road",
+        body: [
+          "When the excavation is next to a live road, public and site traffic add both a struck-by hazard and vibration that works the wall loose. Set up a traffic control zone to keep vehicles away from the edge and the crew, and route traffic away from the excavation where you can.",
+          "Anyone exposed to vehicle traffic wears a high-visibility warning vest, and the work zone keeps vehicles and the open trench apart."
+        ]
+      }
+    ]
+  },
+  "ppe/working-over-or-near-water-life-jackets-and-ring-buoys": {
+    description:
+      "When a fall means landing in water, the PPE is what keeps you floating. Coast Guard-approved life vests, ring buoys on 90 feet of line, and a rescue skiff standing by.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Where you can fall into water and drown, the PPE changes. A hard hat and a hi-vis vest don't keep you afloat. Working over or next to open water — bridges, docks, barges, cofferdams, intake structures — means you need gear built to keep your head above the surface until someone reaches you.",
+          "OSHA 1926.106 covers it. Where a fall CAN be prevented, fall protection comes first — a guardrail or a harness stops you going in at all (see the fall protection harness topic). Drowning protection is for the exposure that's left: the chance you end up in the water anyway."
+        ]
+      },
+      {
+        heading: "Wear a Coast Guard-approved life vest",
+        body: [
+          "Anyone working over or near water where they could fall in and drown wears a U.S. Coast Guard-approved life jacket or buoyant work vest. Not a substitute, not a pool float — an approved device rated to keep you buoyant.",
+          "Inspect the vest before you put it on. A vest that can't hold you up is worse than useless because it tells everyone you're covered when you're not. Pull it out of service for any of these:",
+          {
+            list: [
+              "Rips, tears, or open seams in the fabric or shell.",
+              "Waterlogged, hardened, oil-soaked, or mildewed buoyant material.",
+              "Broken or missing straps, buckles, or hardware.",
+              "Any damage that could reduce the buoyancy the vest is rated for."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Ring buoys and a rescue skiff",
+        body: [
+          "The vest keeps you floating; the ring buoy and the skiff get you out. Both have to be there before work starts over the water.",
+          {
+            list: [
+              "Ring buoys with at least 90 feet of line, readily available for emergency rescue.",
+              "Spaced along the water's edge so one is always within reach — commonly not more than 200 feet apart.",
+              "At least one lifesaving skiff immediately available wherever employees work over or next to water."
+            ]
+          },
+          "Know where the nearest buoy is before you need it, and know who's manning the skiff. In a real fall you have seconds, not minutes."
+        ]
+      },
+      {
+        heading: "Cold water and current make it urgent",
+        body: [
+          "Water doesn't have to be deep or fast to kill you. Cold water saps strength and coordination in minutes — cold shock can make you gasp and inhale water the instant you go under, and a current carries you away from the buoy and the ladder faster than you can swim back.",
+          "That's why the vest, the buoys, and the skiff aren't paperwork — they're the difference between a splash and a drowning. Set them up, check them, and don't work over water without them."
+        ]
+      }
+    ]
   }
 };
 

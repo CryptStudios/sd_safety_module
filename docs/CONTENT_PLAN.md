@@ -4,7 +4,9 @@ Goal: replace the generated placeholder text on every article with **real,
 authored training content** grounded in free, public-domain sources
 (OSHA / NIOSH / CPWR). One category per session.
 
-- **Target:** ~11 real, distinct toolbox-talk topics per category.
+- **Target:** real, distinct toolbox-talk topics per category — **flex ~11–16**,
+  with ~11 as the floor and more where the governing standard supports genuinely
+  distinct talks (distinctness beats count; don't pad).
 - **Method:** see [CLAUDE.md](../CLAUDE.md) → "Article-writing methodology".
 - **Live status:** see [docs/STATUS.md](./STATUS.md) — the per-session tracker.
 
