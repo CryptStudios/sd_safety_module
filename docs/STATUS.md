@@ -25,8 +25,10 @@ Update this file at the end of every session (`/end-session`).
   (`site-access-and-public-protection`, Subpart G), Housekeeping (`housekeeping`,
   1926.25 / 1910.22), and Slips/Trips/Falls (`slips-trips-and-falls`, 1910
   Subpart D). All 12 authored categories to date are OSHA-based.
-- **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
-  Handling — see plan). Does not affect the OSHA-based categories authored so far.
+- **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
+  for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
+  Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
+  jurisdiction-blocked; all 12 remaining categories can be authored to OSHA.
 
 ---
 

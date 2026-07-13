@@ -18,15 +18,17 @@ its slug added to `realContentCategories` (turns off the synthetic 11× expansio
 
 ---
 
-## Open decision — US vs. UK
+## Jurisdiction — RESOLVED: US / OSHA (2026-07-12)
 
-The category list mixes US (OSHA) and UK (**COSHH**, "**Manual Handling**") terms.
-Confirm the primary jurisdiction before authoring the affected categories:
-- **US** → OSHA 29 CFR is the governing source.
-- **UK** → HSE is the governing source (hse.gov.uk), and COSHH/Manual Handling
-  are UK regulations.
+**Decision:** this is a US construction safety app, so **OSHA 29 CFR is the
+governing source for every category** — no exceptions. The two categories with
+UK-flavored names are authored to their OSHA equivalents:
+- **COSHH (Hazardous Substances)** → OSHA Hazard Communication **1910.1200**
+  (GHS labels, safety data sheets, written HazCom program).
+- **Manual Handling** → **NIOSH Lifting Equation** / OSHA ergonomics guidance.
 
-Confined Space was authored to OSHA. If the audience is UK/mixed, revisit.
+If the audience ever becomes UK/mixed, revisit those two against HSE COSHH /
+MHOR at SME review. Until then, US/OSHA governs and nothing is jurisdiction-blocked.
 
 ---
 
@@ -49,8 +51,8 @@ Legend: ✅ done · 🟡 in progress · ⬜ pending
 | # | Category | Slug | Primary source | Status |
 |---|----------|------|----------------|--------|
 | 8 | Asbestos Awareness | `asbestos-awareness` | OSHA 1926.1101 | ⬜ |
-| 9 | COSHH (Hazardous Substances) | `coshh-hazardous-substances` | OSHA HazCom 1910.1200 / UK COSHH | ⬜ |
-| 10 | Manual Handling | `manual-handling` | NIOSH lifting / OSHA ergonomics / UK MHOR | ⬜ |
+| 9 | COSHH (Hazardous Substances) | `coshh-hazardous-substances` | OSHA HazCom 1910.1200 | ⬜ |
+| 10 | Manual Handling | `manual-handling` | NIOSH Lifting Equation / OSHA ergonomics | ⬜ |
 | 11 | Heat and Cold Stress Prevention | `heat-and-cold-stress-prevention` | OSHA heat illness / NIOSH | ⬜ |
 | 12 | Environmental Controls and Spill Response | `environmental-controls-and-spill-response` | EPA SPCC / OSHA HAZWOPER 1910.120 | ⬜ |
 | 13 | First Aid | `first-aid` | OSHA 1926.50 / 1910.151 | ⬜ |

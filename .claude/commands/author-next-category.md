@@ -25,9 +25,13 @@ pass. Designed to be run under `/loop` (one category per iteration).
 
 - **One category only, then stop this iteration.** The per-category commit is the
   save-point; never batch multiple categories into one pass.
-- **Skip the jurisdiction-gated categories** until the US-vs-UK decision is made:
-  `coshh-hazardous-substances` and `manual-handling`. Pick the next *unblocked*
-  OSHA-based category instead.
+- **Jurisdiction is US/OSHA** (decided 2026-07-12 — this is a US construction
+  safety app). Author **every** category to OSHA 29 CFR, including the two that
+  were formerly UK-gated: `coshh-hazardous-substances` → OSHA Hazard Communication
+  **1910.1200** (GHS labels, SDS, written HazCom program), and `manual-handling` →
+  **NIOSH Lifting Equation** / OSHA ergonomics guidance. Note in each of those two
+  Completed blocks that the topic was authored to OSHA and UK equivalents (COSHH /
+  MHOR) should be confirmed at SME review if the audience ever changes.
 - **Stop and ask on any real blocker or decision** — a missing source, an
   ambiguous scope, a fact you can't ground. Surface it; do **not** guess.
   Life-safety content.
@@ -37,11 +41,9 @@ pass. Designed to be run under `/loop` (one category per iteration).
 ## Loop termination — end the loop, don't spin
 
 Before authoring, check `docs/STATUS.md`. **Stop the loop** (do not schedule
-another iteration) and report a summary when either is true:
+another iteration) and report a summary when **all 24 categories are authored** —
+the rollout is complete. (The US-vs-UK decision is settled — US/OSHA — so no
+category is blocked on jurisdiction any longer.)
 
-- **All 24 categories are authored** — the rollout is complete.
-- **Every remaining category is blocked** (only the jurisdiction-gated ones are
-  left, and the US-vs-UK decision is still open).
-
-Otherwise, finish this category's commit + push, then the loop may continue to
-the next unblocked category.
+Otherwise, finish this category's commit + push, then the loop continues to the
+next unauthored category.
