@@ -8052,6 +8052,694 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "construction-safety/the-focus-four-hazards-in-construction": {
+    description:
+      "OSHA's Focus Four — falls, struck-by, caught-in/between, and electrocution — cause most construction deaths. What they are and how to keep them off your site.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Construction is one of the deadliest industries, and four hazard types cause most of the deaths. OSHA calls them the Focus Four (you'll also hear 'the Fatal Four'): falls, struck-by, caught-in/between, and electrocution. Together they account for roughly six of every ten construction worker deaths, and falls alone are the single biggest killer.",
+          "Knowing the Focus Four isn't trivia — it's how you aim your attention. On any task, ask which of the four could get someone today, and make sure the control for it is already in place before work starts."
+        ]
+      },
+      {
+        heading: "The four hazards",
+        body: [
+          "Each of the four kills in a different way:",
+          {
+            list: [
+              "Falls — from roofs, leading edges, ladders, scaffolds, and through floor holes. The #1 cause of construction death.",
+              "Struck-by — hit by flying, falling, swinging, or rolling objects: vehicles, falling tools, swinging loads, flying particles.",
+              "Caught-in or -between — trapped, crushed, or pinched: trench cave-ins, unguarded machinery, being pinned between equipment and a fixed object.",
+              "Electrocution — contact with overhead or buried power lines, energized parts, damaged cords, or missing grounding."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Where each one gets covered",
+        body: [
+          "Two of the four have their own dedicated training here, and the two that don't are covered in this category:",
+          {
+            list: [
+              "Falls → see Working at Heights for guardrails, harnesses, ladders, and scaffolds.",
+              "Electrocution → see Electrical Safety for power lines, GFCIs, LOTO, and approach distances.",
+              "Struck-by and Caught-in/between → covered directly in this Construction Safety category."
+            ]
+          },
+          "Wherever a hazard is covered, the point is the same: the control goes in before the work, not after the close call."
+        ]
+      },
+      {
+        heading: "Beating the Focus Four every day",
+        body: [
+          "These deaths are predictable, which means they're preventable. A few habits cover most of it:",
+          {
+            list: [
+              "Plan the task and name which of the four applies before you start.",
+              "Guard the edge, guard the machine, guard the trench, and keep clear of suspended loads and swing radii.",
+              "Treat every wire as live and keep the required distance from power lines.",
+              "Wear the PPE the hazard calls for — hard hat, eye protection, hi-vis, fall protection.",
+              "Stop the job if a control is missing; don't work around it."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/your-rights-and-responsibilities-under-osha": {
+    description:
+      "What OSHA guarantees you on a construction site — a safe workplace, training, PPE, and the right to speak up — and what your employer and you each owe in return.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Safety on a job site isn't a favor — it's the law. The Occupational Safety and Health Act of 1970 created OSHA and set a baseline: your employer has to give you a workplace free of recognized hazards that can seriously hurt or kill you. That's the General Duty Clause, and everything else builds on it.",
+          "You have rights on that site, and you also have responsibilities. Knowing both is how you keep yourself and your crew protected."
+        ]
+      },
+      {
+        heading: "Your rights",
+        body: [
+          "As a construction worker in the US, you have the right to:",
+          {
+            list: [
+              "A safe workplace, free of recognized serious hazards.",
+              "Safety training in a language and vocabulary you understand.",
+              "Necessary PPE — and your employer pays for most of it (OSHA 1926.28 and Subpart E).",
+              "See records of work-related injuries, illnesses, and your own exposure monitoring.",
+              "Raise a safety concern or file an OSHA complaint — and request an inspection — without being fired, demoted, or retaliated against (Section 11(c) of the OSH Act)."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Your employer's responsibilities",
+        body: [
+          "The employer carries the primary legal duty for safety on the site. Under OSHA 1926.20 and .21 they must:",
+          {
+            list: [
+              "Find and fix hazards, and run an accident-prevention program with frequent, regular inspections by a competent person.",
+              "Train every worker to recognize and avoid the hazards of their job.",
+              "Provide the required PPE, guards, and protective systems.",
+              "Not retaliate against a worker for reporting a hazard or injury."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Your responsibilities",
+        body: [
+          "Rights come with your part of the deal. On site you're expected to:",
+          {
+            list: [
+              "Follow the safety rules and use the protections and PPE provided.",
+              "Inspect your tools and equipment, and use them the way they're meant to be used.",
+              "Report hazards, near misses, and injuries so they get fixed.",
+              "Speak up and stop work when something isn't safe — for you or anyone around you."
+            ]
+          },
+          "Safety works when the employer sets it up and the crew lives it out. Neither side can carry it alone."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/new-worker-safety-orientation-and-training": {
+    description:
+      "Why new and young workers face the highest injury risk, what OSHA requires for training, and what a real site orientation covers before you pick up a tool.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "New workers get hurt more than anyone. A big share of serious injuries happen in the first weeks on a job, before someone has learned the site, the hazards, and how this crew does things. That's not because new workers are careless — it's because nobody walked them through what could hurt them yet.",
+          "OSHA 1926.21 makes training the employer's job: every worker has to be instructed in recognizing and avoiding the unsafe conditions and the regulations that apply to their work. Orientation is where that starts."
+        ]
+      },
+      {
+        heading: "What the training rule requires",
+        body: [
+          "Under 1926.21(b), the employer must:",
+          {
+            list: [
+              "Instruct each employee to recognize and avoid unsafe conditions, and know the regulations that apply to the work.",
+              "Give added instruction for hazardous materials and special exposures — flammables, confined spaces, harmful substances.",
+              "Deliver it so workers actually understand it — in a language and at a level they can follow."
+            ]
+          },
+          "Training isn't a one-time signature. Toolbox talks, task-specific instruction, and refreshers keep it alive as the work and the hazards change."
+        ]
+      },
+      {
+        heading: "What a good orientation covers",
+        body: [
+          "Before a new worker starts, a solid site orientation walks through:",
+          {
+            list: [
+              "The Focus Four and the specific hazards of this site and this task.",
+              "Where the exits, first aid, eyewash, fire extinguishers, and assembly point are.",
+              "How to report a hazard, a near miss, or an injury — and who to.",
+              "The PPE required here and how to inspect and wear it.",
+              "Stop-work authority — that anyone can stop a job that isn't safe.",
+              "Who the competent person and supervisor are for the crew."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Looking out for new hands",
+        body: [
+          "Experienced workers make orientation real. If you've been on site a while, watch the new person's first days, answer the questions they're afraid to ask, and correct a bad habit before it becomes a scar.",
+          "And if you're the new worker: it's never dumb to ask how a task is done safely or to say you haven't done something before. Speaking up on day one is how you make it to day one thousand."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/job-hazard-analysis-and-pre-task-planning": {
+    description:
+      "How to break a job into steps, spot the hazards in each, and pick controls using the hierarchy of controls — before the work starts, not after someone gets hurt.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most incidents aren't freak accidents — they're hazards nobody looked for before the work started. A job hazard analysis (JHA), sometimes called an AHA or pre-task plan, is the fix: you break the task into steps, ask what could hurt someone at each step, and decide how to control it before anyone picks up a tool.",
+          "Done right, it takes a few minutes and turns 'we've always done it this way' into 'here's exactly what could go wrong today and how we're stopping it.'"
+        ]
+      },
+      {
+        heading: "The three questions",
+        body: [
+          "A JHA answers three things for each step of the job:",
+          {
+            list: [
+              "What are the steps? Break the task into the basic sequence of what actually gets done.",
+              "What can hurt us at each step? Name the hazards — falls, struck-by, caught-in, electrical, chemical, heat, pinch points.",
+              "How do we control each hazard? Decide the specific protection and who's responsible for it."
+            ]
+          },
+          "Write it down, keep it short, and make it about this task in this spot today — not a generic form filed and forgotten."
+        ]
+      },
+      {
+        heading: "The hierarchy of controls",
+        body: [
+          "Not all controls are equal. Work down this order and use the strongest one you can, not just the easiest:",
+          {
+            list: [
+              "Elimination — remove the hazard entirely (do it at ground level instead of at height).",
+              "Substitution — swap in something less dangerous (a less toxic product).",
+              "Engineering controls — guard, isolate, or ventilate so the hazard can't reach people.",
+              "Administrative controls — procedures, training, rotation, warning signs.",
+              "PPE — the last line, protecting the worker when the hazard can't be removed."
+            ]
+          },
+          "PPE matters, but it's the bottom of the list for a reason — it only works if it's worn right every time, and it does nothing to remove the hazard itself."
+        ]
+      },
+      {
+        heading: "Making it a habit",
+        body: [
+          "The best JHA is the one the crew actually does. Run a short pre-task talk at the start of the shift and again when the job changes — new location, new crew, new weather, new equipment. Ask the people doing the work; they see hazards a form can't.",
+          "And revisit it when conditions change mid-task. A plan built for dry ground in the morning may not hold after an afternoon of rain."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/the-competent-person-and-daily-inspections": {
+    description:
+      "What OSHA means by a 'competent person,' why the definition includes authority to act, and how frequent inspections catch hazards before they cause injuries.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA uses the term 'competent person' all over its construction standards — excavations, scaffolds, fall protection, and more — because a lot of safety depends on someone qualified looking at the work and catching problems early. It's a specific legal role, not just 'the most experienced guy on the crew.'",
+          "The competent person is a big part of how a site stays ahead of hazards instead of reacting to injuries."
+        ]
+      },
+      {
+        heading: "What 'competent person' actually means",
+        body: [
+          "Under OSHA 1926.32(f), a competent person is someone who meets both halves of the definition:",
+          {
+            list: [
+              "Capable of identifying existing and predictable hazards in the surroundings or work that are unsanitary, hazardous, or dangerous, AND",
+              "Has the authorization to take prompt corrective measures to eliminate them."
+            ]
+          },
+          "Both halves matter. Knowing a trench is unsafe isn't enough — a competent person also has the authority to stop the work and fix it. Someone who can spot the hazard but can't act on it doesn't meet the definition."
+        ]
+      },
+      {
+        heading: "Where a competent person is required",
+        body: [
+          "Many standards specifically require one, including:",
+          {
+            list: [
+              "Excavations — daily inspections of trenches and protective systems (Subpart P).",
+              "Scaffolds — inspection before each shift (Subpart L).",
+              "Fall protection — supervising and inspecting systems (Subpart M).",
+              "Ladders, cranes, and others, each with its own competent-person duties."
+            ]
+          },
+          "The specific qualifications change with the hazard — an excavation competent person knows soils and shoring; a scaffold one knows scaffold erection. Competence is task-specific."
+        ]
+      },
+      {
+        heading: "Frequent and regular inspections",
+        body: [
+          "OSHA 1926.20(b)(2) requires the employer's safety program to include frequent and regular inspections of the site, materials, and equipment by competent persons. That's the routine that catches a cracked ladder, a missing guardrail, a sloughing trench wall, or a frayed cord before it hurts someone.",
+          "Inspections aren't just the competent person's job to do alone — the whole crew feeds it. When you flag a hazard, you're giving the competent person what they need to act. When they tell you to stop, that authority is exactly what the OSHA definition is about."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/struck-by-hazards": {
+    description:
+      "The four kinds of struck-by hazards — flying, falling, swinging, and rolling objects — and the controls that keep vehicles, loads, and tools from hitting workers.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Struck-by is one of the Focus Four, and it covers any time a worker is hit by a moving object with enough force to injure. It's a leading killer on construction sites because moving objects are everywhere — vehicles, swinging loads, falling tools, flying debris — and it only takes one to catch someone in the wrong spot.",
+          "Struck-by hazards break down into four types by how the object is moving: flying, falling, swinging, and rolling. Spot which type is in play and you know what control to use."
+        ]
+      },
+      {
+        heading: "The four types",
+        body: [
+          "Each type has its own sources and its own protection:",
+          {
+            list: [
+              "Flying — particles or objects thrown by tools: grinding sparks, nail-gun misfires, chipped concrete. Guard the tool and wear eye and face protection.",
+              "Falling — tools, materials, or loads dropped from above. Use toe boards, screens, hard hats, and never work directly under a load or overhead work.",
+              "Swinging — crane loads, backhoe buckets, and materials that pivot. Stay out of the swing radius and use tag lines to control the load.",
+              "Rolling — vehicles, equipment, and materials moving on the ground. Watch blind spots, use spotters and backup alarms, and stay out of the path."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Vehicles and mobile equipment",
+        body: [
+          "Vehicles and heavy equipment cause many of the worst struck-by injuries, especially backovers where an operator can't see a worker on foot. Protect yourself:",
+          {
+            list: [
+              "Wear high-visibility clothing so operators can see you.",
+              "Make eye contact with operators before you approach, and never assume they see you.",
+              "Stay out of blind spots and the equipment's path and swing area.",
+              "Use spotters, backup alarms, and internal traffic control to separate people from equipment."
+            ]
+          },
+          "In highway work zones, the traffic itself is the struck-by hazard — see Vehicle and Driver Safety for flaggers, work-zone layout, and public traffic."
+        ]
+      },
+      {
+        heading: "Falling and flying objects",
+        body: [
+          "Keep objects from becoming projectiles:",
+          {
+            list: [
+              "Secure tools and materials at height; use tool lanyards and don't pile loose material near edges.",
+              "Install toe boards, screens, or debris nets where people work or pass below.",
+              "Barricade or restrict the area under overhead work.",
+              "Keep guards on saws, grinders, and pneumatic tools, and wear eye and face protection for any cutting, grinding, or fastening.",
+              "Stack and brace masonry walls under construction — an unbraced wall can collapse and crush the crew below."
+            ]
+          },
+          "And always wear your hard hat — it's the last defense when something does come down."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/caught-in-and-caught-between-hazards": {
+    description:
+      "How workers get caught in, crushed by, or pinned between equipment and materials — and the guarding, LOTO, and clearance rules that prevent it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Caught-in and caught-between is one of the Focus Four, and it's exactly what it sounds like: a worker gets squeezed, pinned, crushed, or caught between two objects, or pulled into machinery. The difference from struck-by is the force — struck-by is impact from a moving object; caught-in/between is being crushed, compressed, or trapped.",
+          "These injuries are severe because the body can't take that kind of force. Trench cave-ins, unguarded machinery, and getting pinned by equipment are the big three."
+        ]
+      },
+      {
+        heading: "The main ways it happens",
+        body: [
+          "Watch for these situations:",
+          {
+            list: [
+              "Cave-ins — an unprotected trench or excavation wall collapses and buries a worker. A cubic yard of soil weighs around 3,000 pounds.",
+              "Unguarded machinery — hands, clothing, or hair pulled into rotating parts, gears, augers, or belts.",
+              "Pinned between — caught between equipment and a wall, between a swinging load and a fixed object, or between two pieces of equipment.",
+              "Collapsing materials — pipe, block, or material stacks that shift and trap a worker."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Machinery and equipment",
+        body: [
+          "Moving machine parts don't let go. Protect yourself:",
+          {
+            list: [
+              "Keep machine guards in place over gears, belts, blades, and rotating parts — never remove or defeat them.",
+              "Lock out and tag out energy before you service, clear a jam, or reach into equipment (see Electrical Safety for LOTO).",
+              "Don't wear loose clothing, jewelry, or untied long hair near rotating equipment.",
+              "Stay clear of pinch points between moving and fixed objects, and never position yourself between backing equipment and a wall."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Trenches and materials",
+        body: [
+          "The deadliest caught-in hazard is the trench. Never enter an excavation five feet or deeper without a protective system — sloping, shoring, or a trench box — and a competent person's inspection. The full detail lives in Excavation Safety, but the rule on any site is simple: no protective system, no entry.",
+          "For stacked and stored materials, block and brace anything that could roll or shift, don't undercut a pile, and keep out of the collapse zone. When equipment is set up, respect the crush zones its counterweight and moving parts sweep through."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/hand-and-power-tool-safety": {
+    description:
+      "Keeping hand and power tools safe — guards in place, tools in good repair, the right tool for the job — under OSHA 1926 Subpart I.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Tools are so routine that it's easy to forget they cause a steady stream of serious injuries — lacerations, amputations, eye injuries, electric shock. Most of it comes down to three things: a guard that's missing, a tool that's worn out, or the wrong tool forced into the job. OSHA 1926 Subpart I (sections 300 through 307) sets the rules.",
+          "Whether it's a hammer or a table saw, the same idea holds: the tool has to be right for the task, in good shape, and used the way it was designed."
+        ]
+      },
+      {
+        heading: "Guards stay on",
+        body: [
+          "Under 1926.300, guards protect you from the parts of a tool that can catch, cut, or throw. The rules:",
+          {
+            list: [
+              "Point-of-operation guarding — the spot where the tool does its work (the blade, the bit) must be guarded.",
+              "Guard belts, gears, shafts, pulleys, and flywheels that someone could contact.",
+              "Never remove or wedge back a guard to work faster — a guarded saw is slower than an ER visit.",
+              "Anti-kickback devices, blade guards, and spreaders stay in place and functional."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep tools in good condition",
+        body: [
+          "A damaged tool is a hazard in your hand. Under 1926.301 and .302:",
+          {
+            list: [
+              "Inspect before use; take damaged or defective tools out of service — don't just set them back on the rack.",
+              "No mushroomed heads on chisels or impact tools, no split or loose handles, no dull or cracked blades.",
+              "Electric power tools need a ground (three-prong) or double insulation, plus GFCI protection; never carry or hoist a tool by its cord.",
+              "Use the right tool for the job — don't use a wrench as a hammer or a screwdriver as a pry bar."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Use and PPE",
+        body: [
+          "How you handle the tool finishes the job of staying safe:",
+          {
+            list: [
+              "Wear eye and face protection for cutting, grinding, drilling, and fastening — flying particles are a top tool injury.",
+              "Secure your work with a clamp or vise so both hands control the tool.",
+              "Keep good footing and don't overreach, especially with a running tool.",
+              "Disconnect power before changing blades or bits, clearing a jam, or making adjustments."
+            ]
+          },
+          "Abrasive wheels and pneumatic tools have extra rules — see Compressed Gas and Air Tool Safety for air tools, whip checks, and the ring test on grinding wheels."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/signs-signals-tags-and-barricades": {
+    description:
+      "How OSHA's accident-prevention signs, tags, signals, and barricades warn workers of hazards — the color codes and what each one means on site.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A site talks to you through signs, tags, signals, and barricades. They mark where the hazards are, what equipment is out of service, and where you can't go. Ignore them and you walk into exactly the danger they were put up to keep you out of. OSHA 1926 Subpart G (sections 200 through 203) sets what they mean and how they're used.",
+          "The system only works if everyone reads it the same way — so the colors and words are standardized, and you're expected to know them."
+        ]
+      },
+      {
+        heading: "Signs and their colors",
+        body: [
+          "Under 1926.200, accident-prevention signs use color to signal how serious the hazard is:",
+          {
+            list: [
+              "Danger (red) — an immediate hazard that can seriously hurt or kill. Stop and take it seriously.",
+              "Caution (yellow) — a potential hazard or unsafe practice; stay alert and take precautions.",
+              "Safety instruction (usually green/white) — general safety information and directions.",
+              "Traffic and directional signs — routing for vehicles and pedestrians around the work."
+            ]
+          },
+          "Red means the highest danger for a reason. Never treat a Danger sign as background noise."
+        ]
+      },
+      {
+        heading: "Tags",
+        body: [
+          "Tags are temporary warnings on a specific piece of equipment or a specific hazard, used until it's fixed or removed. They tell you the item isn't safe to use:",
+          {
+            list: [
+              "'Do Not Operate' or 'Out of Service' — the equipment is defective or being worked on; don't start it.",
+              "'Do Not Start' — tied to work in progress, often part of lockout/tagout.",
+              "Defective-tool and damaged-equipment tags — keep the item out of use until repaired."
+            ]
+          },
+          "A tag is a message from the last person who touched that equipment. Removing or ignoring one can put you or them in danger — never do it without knowing why it's there."
+        ]
+      },
+      {
+        heading: "Signals and barricades",
+        body: [
+          "The other two keep people out of moving hazards and off restricted ground:",
+          {
+            list: [
+              "Signals (1926.201) — flaggers directing traffic and crane signal persons directing lifts use standardized hand signals; one designated signaler at a time, and a stop signal from anyone is obeyed.",
+              "Barricades (1926.202) — physical barriers that block access to a hazard: open excavations, overhead work, floor holes, or restricted zones."
+            ]
+          },
+          "A barricade isn't a suggestion. If it's up, there's a reason you're being kept out — find another way around, don't duck under it. For public-facing barricades and pedestrian routing, see Site Access and Public Protection."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/illumination-sanitation-and-site-welfare": {
+    description:
+      "The basics OSHA requires for a livable job site — enough light to work safely, potable water, and toilet facilities — under 1926 Subparts C and D.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Not every hazard is dramatic. Poor lighting, no clean drinking water, and filthy or missing toilets wear a crew down, cause mistakes, and spread illness. OSHA treats these welfare basics as real requirements, not niceties — covered in 1926.26 and .27 and detailed in Subpart D (sections 51 and 56).",
+          "A site that takes care of light, water, and sanitation is usually a site that takes care of the bigger hazards too."
+        ]
+      },
+      {
+        heading: "Illumination",
+        body: [
+          "You can't avoid a hazard you can't see. Under 1926.26 and the minimum levels in 1926.56, work areas, ramps, stairways, and walkways have to be lit while work is going on:",
+          {
+            list: [
+              "General construction areas — at least 5 foot-candles.",
+              "General construction plants and shops, and indoor warehouses/corridors — at least 10 foot-candles.",
+              "Keep temporary lighting and its cords in good repair, with bulbs guarded against breakage.",
+              "Add task lighting for close, detailed, or low-light work, and light the path people travel."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Sanitation and drinking water",
+        body: [
+          "Under 1926.27 and 1926.51, the site has to provide the basics for health:",
+          {
+            list: [
+              "Potable (safe) drinking water, clearly marked, with single-use cups or a sanitary fountain — never a shared cup or dipper.",
+              "Non-potable water (for firefighting or washing) marked so no one drinks it.",
+              "Toilet facilities scaled to the crew size, kept usable and sanitary.",
+              "Hand-washing where workers handle harmful substances or before eating."
+            ]
+          },
+          "In heat, water isn't optional — it's a life-safety control. See Heat and Cold Stress Prevention for how water, rest, and shade work together."
+        ]
+      },
+      {
+        heading: "Housekeeping ties in",
+        body: [
+          "Light, water, and sanitation are part of a bigger idea: a site kept in order is a safer site. Clear walkways, contained trash, and organized storage prevent trips, fires, and pest problems.",
+          "The full treatment of debris control, walkway clearance, and material storage is in the Housekeeping category — but it starts with the same mindset as keeping the lights on and the water clean: the site is a place people have to work in safely all day."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/personal-protective-equipment-on-site": {
+    description:
+      "The PPE every construction worker needs, why it's the employer's job to provide it, and where PPE fits in the bigger plan to control hazards.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "PPE is the gear you wear when a hazard can't be fully removed — hard hat, safety glasses, gloves, boots, hi-vis, hearing and respiratory protection. It's the most visible part of site safety, but it's also the last line of defense, and treating it as the only line is where crews get in trouble.",
+          "OSHA 1926.28 and Subpart E require PPE wherever there's a reasonable chance of injury. This is the site-level overview; the deep detail on each type lives in the dedicated PPE category."
+        ]
+      },
+      {
+        heading: "The basics you'll need",
+        body: [
+          "Most construction tasks call for some mix of:",
+          {
+            list: [
+              "Head — a hard hat wherever there's a risk of falling or flying objects or bumps (1926.100).",
+              "Eyes and face — safety glasses, goggles, or a face shield for grinding, cutting, chipping, and dust (1926.102).",
+              "Feet — sturdy work boots, safety-toe where there's a crush or puncture risk.",
+              "Hands — gloves matched to the job: cut, chemical, or abrasion protection.",
+              "Hearing — plugs or muffs in high-noise work (1926.52 / .101).",
+              "High-visibility clothing near traffic and equipment, and respiratory protection for dusts, fumes, and vapors (1926.103)."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Whose job it is",
+        body: [
+          "PPE is largely the employer's responsibility to provide and pay for. Under OSHA rules the employer must:",
+          {
+            list: [
+              "Assess the job for hazards and determine what PPE is needed.",
+              "Provide that PPE, and pay for most of it (a few personal items like ordinary work boots are excepted).",
+              "Train workers on what to wear, when, and how to use and care for it."
+            ]
+          },
+          "Your part: wear it every time the task calls for it, inspect it before use, and replace it when it's damaged. PPE that's in your truck or cracked doesn't protect anyone."
+        ]
+      },
+      {
+        heading: "PPE is the last line",
+        body: [
+          "PPE protects one worker, only if it's worn right, and it does nothing to remove the hazard itself — which is why it sits at the bottom of the hierarchy of controls. Always ask first whether the hazard can be eliminated, engineered out, or controlled by procedure before relying on gear alone.",
+          "Use PPE fully and correctly, but never let it become an excuse to skip the stronger controls. For selection, fit, inspection, and the specifics of each type, see the PPE category."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/emergency-action-plans-and-site-preparedness": {
+    description:
+      "What a site emergency action plan covers, the first-aid and fire basics OSHA requires, and how a crew stays ready to respond before something goes wrong.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Emergencies on a construction site — a serious injury, a fire, a collapse, a chemical release — happen fast and don't wait for you to figure out a plan. The time to know the exits, who calls 911, and where first aid is kept is before the emergency, not during it. OSHA 1926.35 covers emergency action plans, and 1926.23, .24, and .50 cover first aid and fire protection.",
+          "Preparedness is simple to train and easy to skip. A five-minute walkthrough on day one is what makes a chaotic moment survivable."
+        ]
+      },
+      {
+        heading: "What an emergency action plan covers",
+        body: [
+          "Where a standard requires one, an emergency action plan (1926.35) has to spell out:",
+          {
+            list: [
+              "Escape procedures and routes — how to get out and where to go.",
+              "Procedures for workers who stay to handle critical operations before they evacuate.",
+              "How to account for all employees after evacuation — a headcount at the assembly point.",
+              "Rescue and medical duties for those assigned them.",
+              "How to report emergencies, and the alarm system that signals one."
+            ]
+          },
+          "The plan only works if the crew knows it. That's why it gets covered in orientation and reviewed when the site or crew changes."
+        ]
+      },
+      {
+        heading: "First aid and medical",
+        body: [
+          "Under 1926.23 and 1926.50, help has to be reachable fast:",
+          {
+            list: [
+              "If a clinic or hospital isn't close for treating injuries, someone on site must be trained and certified in first aid.",
+              "First aid supplies must be available, in a weatherproof container, checked and restocked.",
+              "Emergency phone numbers must be posted, and where corrosives are used, eyewash or quick-drenching must be available.",
+              "Know who your trained first-aiders are before you need one."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Fire and staying ready",
+        body: [
+          "Fire protection (1926.24 and .150) means fire extinguishers available and accessible, kept charged and inspected, with the crew knowing where they are and how to use them. Keep exits and firefighting equipment clear at all times.",
+          "Staying ready is a habit: know your two ways out, your assembly point, your alarm, and your first-aiders — and keep the paths to all of them clear. For extinguisher use and fire prevention, see Fire Safety and Fire Extinguisher Safety; for injury recordkeeping, see Accident Reporting."
+        ]
+      }
+    ]
+  },
+
+  "construction-safety/stop-work-authority-and-reporting-hazards": {
+    description:
+      "Why every worker has the authority to stop unsafe work, how to report hazards and near misses, and why speaking up early prevents the next injury.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The most important safety device on any site isn't a guard or a harness — it's a worker willing to say 'stop, this isn't safe.' Most serious incidents had warning signs somebody noticed and didn't raise, or raised and saw ignored. Stop-work authority and a real reporting culture are how those warnings turn into fixes instead of injuries.",
+          "This isn't about being difficult. It's about catching the hazard while it's still just a hazard."
+        ]
+      },
+      {
+        heading: "Stop-work authority",
+        body: [
+          "Stop-work authority means anyone on the crew can halt a task they believe is unsafe — no matter their seniority — without fear of punishment. It rests on your OSHA-backed right to a safe workplace and protection from retaliation (Section 11(c) of the OSH Act). When you stop a job:",
+          {
+            list: [
+              "Make the area safe and tell the supervisor and crew why you stopped.",
+              "Fix the hazard or get the competent person to before work restarts.",
+              "Restart only when the control is actually in place — not just promised."
+            ]
+          },
+          "A false alarm costs a few minutes. A missed one can cost a life. Stopping is always the right call when you're not sure."
+        ]
+      },
+      {
+        heading: "Reporting hazards and near misses",
+        body: [
+          "Hazards and near misses are free lessons — a warning that came without an injury. Report them so they get fixed before the next person isn't so lucky:",
+          {
+            list: [
+              "Report unsafe conditions — broken ladders, missing guards, exposed wiring, bad housekeeping — as soon as you see them.",
+              "Report near misses, the close calls where nobody got hurt but easily could have.",
+              "Report every injury, no matter how minor; small ones point to hazards that could cause big ones.",
+              "You have the right to report without retaliation, and to raise it to OSHA if it isn't addressed."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Building the culture",
+        body: [
+          "Reporting only works if speaking up is treated as a contribution, not a complaint. Supervisors build that by thanking workers for raising concerns, fixing hazards quickly, and closing the loop so people see that reporting leads to action. When concerns get ignored or punished, hazards go underground until something goes wrong.",
+          "Everyone owns this one. Formal injury and illness recordkeeping is covered in Accident Reporting (OSHA 1904) — but the culture starts here, with a crew that speaks up and a site that listens."
+        ]
+      }
+    ]
   }
 };
 

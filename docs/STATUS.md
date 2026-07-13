@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 12 / 24 categories authored (50%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, and Rigging & Material Handling Equipment pending SME review.**
+**Progress: 13 / 24 categories authored (54%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, and Construction Safety pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,12 +19,12 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — top remaining OSHA-based items are Construction Safety
-  (`construction-safety`, OSHA 1926 general), Demolition Safety
+- **Next category:** open — top remaining OSHA-based items are Demolition Safety
   (`demolition-safety`, Subpart T), Site Access & Public Protection
   (`site-access-and-public-protection`, Subpart G), Housekeeping (`housekeeping`,
-  1926.25 / 1910.22), and Slips/Trips/Falls (`slips-trips-and-falls`, 1910
-  Subpart D). All 12 authored categories to date are OSHA-based.
+  1926.25 / 1910.22), Slips/Trips/Falls (`slips-trips-and-falls`, 1910 Subpart D),
+  and First Aid (`first-aid`, 1926.50 / 1910.151). All 13 authored categories to
+  date are OSHA-based.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -33,6 +33,50 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Construction Safety — `construction-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 13 (real toolbox-talk list, flexed above the 11 floor —
+  Subpart C general provisions + Focus Four + Subparts G/I support it; synthetic
+  expansion disabled)
+  1. The Focus Four Hazards in Construction
+  2. Your Rights and Responsibilities Under OSHA
+  3. New-Worker Safety Orientation and Training
+  4. Job Hazard Analysis and Pre-Task Planning
+  5. The Competent Person and Daily Inspections
+  6. Struck-By Hazards
+  7. Caught-In and Caught-Between Hazards
+  8. Hand and Power Tool Safety
+  9. Signs, Signals, Tags, and Barricades
+  10. Illumination, Sanitation, and Site Welfare
+  11. Personal Protective Equipment on Site
+  12. Emergency Action Plans and Site Preparedness
+  13. Stop-Work Authority and Reporting Hazards
+- **Sources:** OSHA 29 CFR 1926 Subpart C — §20 (accident-prevention
+  responsibility, frequent/regular inspections by a competent person), §21 (safety
+  training/education, hazard recognition), §23 (first aid & medical), §24 (fire
+  protection), §26 (illumination), §27 (sanitation), §28 (PPE), §32(f) (competent-
+  person definition — identify hazards + authority to correct), §35 (emergency
+  action plans); Subpart D §51 (sanitation — potable water, toilets) & §56
+  (illumination minimums — 5 fc general construction, 10 fc shops); Subpart I
+  §300–307 (hand & power tools — guarding, condition, GFCI/double-insulation);
+  Subpart G §200–203 (signs Danger-red/Caution-yellow, tags, signals, barricades);
+  OSH Act of 1970 (General Duty Clause §5(a)(1), §11(c) anti-retaliation, worker
+  rights, employer-paid PPE); OSHA Focus Four (falls, struck-by, caught-in/between,
+  electrocution); hierarchy of controls.
+- **Scope note:** general-provisions foundation category. Owns Struck-By and
+  Caught-In/Between (the two Focus Four hazards with no dedicated category) plus
+  rights/training/JHA/competent-person/tools/signs/welfare/EAP/stop-work. Falls →
+  Working at Heights, Electrocution/LOTO → Electrical, deep PPE → PPE, debris/
+  walkways → Housekeeping, air tools → Compressed Gas, work-zone traffic → Vehicle
+  & Driver, injury recordkeeping → Accident Reporting — all cross-referenced, not
+  duplicated.
+- **Verified:** tsc clean (after clearing the recurring stale `.next/types "* N.ts"`
+  duplicates) · `next build` clean (1108 pages, all prerender) · 13 exported HTML
+  files in `out/training/construction-safety/` · authored content present
+  (`Focus Four`, `1926.32`, `5 foot-candles`, `hierarchy of controls`, `11(c)`,
+  `struck-by`), placeholder `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Rigging and Material Handling Equipment — `rigging-and-material-handling-equipment`
 - **Session:** 2026-07-12
@@ -404,6 +448,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Flex expansion (9 categories) | +25 | Switched topic-count convention from fixed-11 to FLEX (~11–16). Expanded 9 authored categories with distinct, source-grounded topics drafted by parallel subagents and fact-reviewed before wiring: Welding +4 (resistance/plasma/brazing/shock), Heights +4 (travel-restraint/nets/warning-lines/skylights), Electrical +3 (70E boundaries/EEWP/stored energy), Forklift +3 (tip-over survival/parking/elevating personnel), Fire Safety +3 (standpipes/fixed suppression/brigades), Confined Space +3 (reclassification/host-contractor/rescue-service eval), Compressed Gas +3 (HAVS/abrasive blasting/air hoists), Excavation +1 (mobile equipment at edge), PPE +1 (over-water life jackets). Build 1398 pages. Total authored topics 135. CLAUDE.md + CONTENT_PLAN updated. |
 | 2026-07-12 | Compressed Gas and Air Tool Safety | 11 | Tenth category. OSHA 1926.302/.303 + 1910.101/.242(b) + CGA P-1 + NIOSH nail-gun guide. Cylinder hazards/storage/transport/valves (20 ft O₂/fuel), compressed-air injection & <30 psi cleaning limit, pneumatic tool basics (positive connection, retainers), hoses/couplings/whip checks, nailers (trigger types, >100 psi muzzle safety), abrasive wheels (ring test, guards, 1/8 in rest), compressors/receivers (relief valves, draining), inspection/depressurize-before-service. Welding oxy-fuel cylinder detail cross-ref'd, not duplicated. Progress 10/24 (42%). SME review pending. |
 | 2026-07-12 | Vehicle and Driver Safety | 13 | Eleventh category. OSHA 1926 Subpart O (§600–602) + Subpart W (ROPS §1000–1003) + Subpart G/MUTCD Part 6 (flaggers) + FMCSA HOS/texting ban. Motor-vehicle equipment & driver duties, (b)(14) shift inspection, ROPS + seat belts (SAE J386, don't jump in a rollover), backing/spotters/hand signals, reverse alarms "audible above surrounding noise", haul roads/grades/berms, dump-truck raised-bed (overhead lines, tip-over, blocked bed), earthmoving 1926.602, struck-by/caught-between blind zones, load chocking/fall-zone/securement, work-zone layout & flaggers (STOP/SLOW, hi-vis), parking/shutdown (blades down, chock on grade, night lighting), fatigue (11/14/30-min/60–70) + distraction + fitness. Flexed to 13 topics. Forklift/rigging/public-protection cross-ref'd. Progress 11/24 (46%). SME review pending. |
+| 2026-07-12 | Construction Safety | 13 | Thirteenth category (54%). OSHA 1926 Subpart C (§20–35 general provisions) + Subpart D (§51/.56 sanitation/illumination) + Subpart I (§300–307 tools) + Subpart G (§200–203 signs/signals/barricades) + OSH Act (rights, §11(c), competent person §32(f)) + Focus Four. Focus Four overview, OSHA rights/responsibilities, new-worker orientation/training (§21), JHA & hierarchy of controls, competent person + daily inspections, struck-by (4 types + vehicles/backovers), caught-in/between (cave-ins/machinery/pinned), hand & power tools (guards/condition/GFCI), signs-tags-signals-barricades (Danger-red/Caution-yellow), illumination (5/10 fc)/sanitation/welfare, PPE overview (employer-paid, last line), emergency action plans (§35) + first aid/fire, stop-work authority + hazard/near-miss reporting. Replaced placeholder grab-bag that duplicated dedicated categories; owns Struck-By + Caught-In/Between, defers Falls/Electrocution/PPE/Housekeeping/tools-air/traffic/recordkeeping to their categories. Build 1108 pages. SME review pending. |
 | 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |
 
 ---
