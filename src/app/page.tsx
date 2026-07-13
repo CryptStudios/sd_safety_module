@@ -44,7 +44,7 @@ export default function HomePage() {
             <br />
             <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-ink-2">
+          <p className="mt-6 text-lg leading-8 text-ink-2">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
