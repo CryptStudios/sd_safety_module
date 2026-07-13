@@ -503,6 +503,7 @@ const realContentCategories = new Set<string>([
   "vehicle-and-driver-safety",
   "rigging-and-material-handling-equipment",
   "construction-safety",
+  "demolition-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1925,16 +1926,19 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Pre-Demolition Survey",
-      "Utility Isolation Before Demolition",
-      "Structural Instability Hazards",
-      "Dust Controls During Demolition",
-      "Debris Drop Zones",
-      "Hand Demolition Tool Safety",
-      "Mechanical Demolition Exclusion Zones",
-      "Salvage and Material Removal",
-      "Demolition Fire Prevention",
-      "Post-Demolition Site Inspection",
+      "The Pre-Demolition Engineering Survey",
+      "Locating and Controlling Utilities Before Demolition",
+      "Hazardous Materials — Asbestos, Lead, and Contaminated Systems",
+      "Preparing the Structure and Safe Access",
+      "Exclusion Zones, Barricades, and the Drop Zone",
+      "Material Chutes and Dropping Debris Through Openings",
+      "Manual Demolition of Walls, Masonry, and Chimneys",
+      "Manual Removal of Floors",
+      "Mechanical Demolition — Wrecking Ball and Powered Equipment",
+      "Removal of Steel Construction",
+      "Silica, Dust, and Respiratory Hazards",
+      "Fire Prevention and Hot Work in Demolition",
+      "Continuing Inspections and Preventing Unplanned Collapse",
     ],
   }),
   createCategory({

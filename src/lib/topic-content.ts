@@ -8740,6 +8740,536 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "demolition-safety/the-pre-demolition-engineering-survey": {
+    description:
+      "The written engineering survey a competent person must complete before anyone starts demolition — how the structure will come down and where it could collapse on its own.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Demolition is the reverse of construction, and it's done to a building that may already be damaged, weakened, or full of hazards nobody documented. That's why OSHA won't let you start swinging until the structure has been studied. Before any employee begins demolition, §1926.850(a) requires an engineering survey by a competent person.",
+          "The survey answers one question: how will this building come down, and where could it come down on its own? Get that wrong and floors overload, walls fall the wrong way, or a section collapses while your crew is standing under it."
+        ]
+      },
+      {
+        heading: "What the survey has to cover",
+        body: [
+          "The competent person walks the structure and evaluates the condition of the framing, floors, and walls, and the possibility of unplanned collapse of any part of it. Any adjacent structure where your people could be exposed gets checked the same way.",
+          "The employer must have written evidence that the survey was performed — this is not a verbal walk-through you skip when the schedule is tight.",
+          {
+            list: [
+              "Condition of framing, floors, and walls — what's load-bearing, what's already deteriorated.",
+              "Possibility of unplanned collapse anywhere in the structure.",
+              "Adjacent buildings where workers or the public could be hurt.",
+              "For structures damaged by fire, flood, explosion, or deterioration, §1926.850(b) requires walls or floors to be shored or braced before work starts."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "From survey to demolition plan",
+        body: [
+          "The survey feeds the plan: the sequence of removal, what gets braced or shored, where debris can safely land, and which floors can carry equipment or storage. OSHA's default sequence for exterior walls and floors is top-down — demolished story by story so the structure stays stable as it comes apart (§1926.850(j)).",
+          "If conditions in the field don't match what the survey assumed — a floor is more rotted than expected, a beam is cracked — stop and get the competent person back out. The plan is only as good as the survey it's built on."
+        ]
+      },
+      {
+        heading: "The competent person keeps working",
+        body: [
+          "The survey isn't a one-and-done. §1926.859(g) requires continuing inspections by a competent person as the work progresses, to catch weakened or deteriorated floors and walls and loosened material before they fail. No one works where those hazards exist until they're corrected by shoring, bracing, or other effective means.",
+          "So the person who made the call up front stays involved. Demolition changes the building by the hour, and the hazard picture changes with it."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/locating-and-controlling-utilities-before-demolition": {
+    description:
+      "Shutting off, capping, or controlling every service line outside the building before demolition starts — and protecting any utility that has to stay live.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A wall coming down onto a live gas line, an excavator cutting an energized feeder, a torch opening a pipe that still holds fuel — utilities kill demolition crews when nobody shut them off first. §1926.850(c) is blunt about it: all electric, gas, water, steam, sewer, and other service lines shall be shut off, capped, or otherwise controlled, outside the building line, before demolition work is started.",
+          "Outside the building line matters. You isolate the service where it enters the property, not somewhere inside the structure you're about to tear apart."
+        ]
+      },
+      {
+        heading: "Shut off, cap, or control — and notify",
+        body: [
+          "For every service entering the building, one of three things has to happen before demolition: shut it off, cap it, or otherwise control it. And in each case, any utility company involved must be notified in advance (§1926.850(c)). The utility often has to make the disconnection or verify it at their equipment.",
+          {
+            list: [
+              "Electric — de-energized and confirmed dead, not just breaker-off.",
+              "Gas — shut off and capped; purge lines that could still hold fuel.",
+              "Water, steam, sewer — isolated so lines don't flood or scald the work area.",
+              "Every affected utility company notified ahead of time."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Utilities that must stay live",
+        body: [
+          "Sometimes you need a service kept on during demolition — temporary power, water for dust control, a fire line. §1926.850(d) allows it, but those utilities have to be relocated as necessary and protected so the demolition work can't damage them and expose the crew.",
+          "That means marking them, routing them clear of the drop zones and equipment paths, and treating them as live hazards for the whole job — because they are."
+        ]
+      },
+      {
+        heading: "Overhead and buried lines don't disappear",
+        body: [
+          "The service lines feeding the building aren't the only ones. Overhead power lines crossing the site and buried utilities under it stay energized and stay in the equipment's path. Keep cranes, excavators, and man-baskets clear of overhead lines, and locate buried utilities before any ground disturbance.",
+          "Electrical approach distances are covered in Electrical Safety and underground locating in Excavation Safety — the same rules apply here. The demolition point is simple: no line gets touched, cut, or pulled until it's been positively identified and controlled."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/hazardous-materials-asbestos-lead-and-contaminated-systems": {
+    description:
+      "Finding and dealing with asbestos, lead, and chemical or fuel residues before demolition — testing, purging, and the exposure limits that govern the work.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Old buildings are full of things that were legal when they went in and are hazards now: asbestos insulation, lead paint, PCBs, and tanks or pipes that still hold flammable or toxic residue. Demolition breaks all of it loose at once. The pre-demolition survey has to find these before the work starts, not after your crew has been breathing the dust for a week.",
+          "This is about long-latency and acute hazards both — a silica or asbestos exposure you won't feel for years, and a fuel-tank explosion that happens the second a torch touches it."
+        ]
+      },
+      {
+        heading: "Tanks, pipes, and chemical residues",
+        body: [
+          "§1926.850(e) requires you to determine whether any hazardous chemicals, gases, explosives, flammable materials, or similar substances were used in any pipes, tanks, or other equipment on the property. When any such substance is apparent or suspected, testing and purging must be performed and the hazard eliminated before demolition starts.",
+          "That means no cutting into a tank or line until it's been tested and purged. A drum or pipe that looks empty can still hold enough vapor to flatten the building."
+        ]
+      },
+      {
+        heading: "Asbestos and lead — survey before you disturb",
+        body: [
+          "Asbestos-containing materials and lead-based paint have to be identified and, where required, removed by qualified workers before general demolition disturbs them. The exposure limits that govern the work:",
+          {
+            list: [
+              "Asbestos (§1926.1101) — PEL 0.1 fiber per cubic centimeter as an 8-hour average, plus an excursion limit of 1.0 f/cc over any 30 minutes.",
+              "Lead (§1926.62) — PEL 50 µg/m³ over 8 hours; action level 30 µg/m³ that triggers monitoring and controls.",
+              "Respirable crystalline silica (§1926.1153) — PEL 50 µg/m³ over 8 hours; action level 25 µg/m³."
+            ]
+          },
+          "Asbestos awareness and disturbance are covered in more depth in the Asbestos Awareness category. On a demolition job the rule is the same: suspect material doesn't get cut, broken, or dropped until it's been assessed and handled by the right process."
+        ]
+      },
+      {
+        heading: "What the crew does with it",
+        body: [
+          "If you hit something that wasn't in the survey — suspect insulation, a labeled drum, a pipe that smells of fuel — stop, keep people out of the area, and report it. Don't sweep it up, don't torch it, don't guess.",
+          "Fast reporting is the protective move here, even if the material turns out to be nothing. The cost of stopping is an hour; the cost of guessing wrong is measured in exposures and explosions."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/preparing-the-structure-and-safe-access": {
+    description:
+      "Getting the building ready before demolition — shoring damaged structures, covering openings, protecting fall exposures, and controlling how people get in and out.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Between the engineering survey and the first swing, there's prep work that keeps the structure and the crew stable while it comes apart. Damaged buildings get braced, floor openings get covered, fall edges get guarded, and access gets locked down to the routes you know are safe.",
+          "Skip the prep and you've built the collapse and the fall into the job before demolition even begins."
+        ]
+      },
+      {
+        heading: "Shore what's already weak",
+        body: [
+          "If the structure was damaged by fire, flood, explosion, or deterioration, §1926.850(b) requires the walls or floors to be shored or braced before workers go in. A building that's already compromised won't wait for your planned sequence to fail.",
+          "The competent person's survey identifies what needs support. Shoring and bracing go in first, then work proceeds."
+        ]
+      },
+      {
+        heading: "Openings, glass, and fall edges",
+        body: [
+          "Demolition opens holes in floors and walls fast. OSHA's prep rules keep people from falling through them:",
+          {
+            list: [
+              "Wall openings a worker could fall through are protected to a height of approximately 42 inches (§1926.850(g)).",
+              "Floor openings not used for dropping material are covered with material strong enough to support any load that could be imposed, and secured against shifting (§1926.850(i)).",
+              "Glass that could shatter and cut is removed where it creates a hazard (§1926.850(f)).",
+              "At building entrances, sidewalk sheds or canopies protect people from falling debris (§1926.850(k))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Control how people get in and out",
+        body: [
+          "During demolition you don't wander the building. §1926.851(a) says only the stairways, passageways, and ladders designated as means of access shall be used — everything else stays closed off. Those designated routes get inspected periodically and kept clean and safe (§1926.851(b)).",
+          "In multistory buildings, an active stairwell is illuminated and substantially covered over at a point not less than two floors below the floor being worked, so debris from above can't rain down the stairs on people using them (§1926.851(c))."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/exclusion-zones-barricades-and-the-drop-zone": {
+    description:
+      "Keeping people out of the areas where debris falls and equipment works — barricades, warning signs, and the exclusion zone that shrinks nobody's margin.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most demolition deaths come down to one thing: a person was where the material was going. Falling debris, a wall pulled over, a wrecking ball swinging — the control is distance. You barricade the drop zones and the equipment work areas and you keep people out of them.",
+          "The exclusion zone isn't decoration. It's the difference between debris landing on the ground and debris landing on a worker."
+        ]
+      },
+      {
+        heading: "Barricade the drop zones",
+        body: [
+          "When debris is dropped through holes in the floor without a chute, §1926.850(h) requires the area onto which it drops to be enclosed with barricades not less than 42 inches high and not less than 6 feet back from the projected edge of the opening above, with warning signs posted.",
+          {
+            list: [
+              "Barricade height — not less than 42 inches.",
+              "Setback — not less than 6 feet from the projected edge of the opening above.",
+              "Warning signs posted at the barricades.",
+              "Signs kept up whenever the drop is active."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep people clear of the machines",
+        body: [
+          "Mechanical demolition has its own hard rule. §1926.859(a) prohibits any worker from being in an area that can be adversely affected by demolition when balling or clamming is being performed. During ball or clamshell work, the affected area is empty except for the operation itself.",
+          "That includes the space a wall could fall into when it's pulled over, and the swing radius of the crane. Set the zone from where the material can go, not from where you hope it stays."
+        ]
+      },
+      {
+        heading: "The zone moves with the work",
+        body: [
+          "A demolition exclusion zone is never fixed. As floors come out and walls come down, the drop zones shift, the equipment repositions, and the boundaries have to move with them. What was safe standing ground this morning can be under the next wall this afternoon.",
+          "That's why the continuing inspection by a competent person (§1926.859(g)) matters here too — someone has to keep resetting the boundaries as the building changes. If the crew doesn't know exactly where they can and can't be right now, the zone isn't doing its job."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/material-chutes-and-dropping-debris-through-openings": {
+    description:
+      "Moving debris down safely — enclosed chutes over 45°, gates at the discharge, and the 25% floor-opening limit when you drop material through the floor.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Getting debris from an upper floor to the ground is where a lot of demolition energy goes, and where a lot of struck-by injuries come from. There are two controlled ways to do it: a chute, or an opening cut in the floor. Both have rules, because loose material dropping through a building turns into a projectile.",
+          "Throwing debris out a window or down a stairwell isn't one of the options."
+        ]
+      },
+      {
+        heading: "Chutes — enclose them and gate them",
+        body: [
+          "§1926.852 governs debris chutes:",
+          {
+            list: [
+              "Any chute at an angle of more than 45 degrees from the horizontal must be entirely enclosed (§1926.852(a)).",
+              "A substantial gate is installed in each chute at or near the discharge end, and a competent employee controls the operation (§1926.852(b)).",
+              "Chute intake openings can't exceed 48 inches in height measured along the wall of the chute; below the top floor they're kept closed when not in use (§1926.852(c)).",
+              "Chutes are designed and built strong enough that the impact of material won't cause failure."
+            ]
+          },
+          "The gate and the controller at the bottom keep material from piling up and blowing out the discharge onto whoever's loading the dumpster."
+        ]
+      },
+      {
+        heading: "Dropping through floor openings — the 25% rule",
+        body: [
+          "If you cut an opening in a floor to drop material instead of using a chute, §1926.853 limits it: any opening cut in a floor for the disposal of materials shall be no larger than 25 percent of the aggregate of the total floor area, unless the lateral supports of the removed flooring remain in place.",
+          "Cut too much floor out and you've removed the diaphragm that braces the walls and carries the load. The 25% cap keeps the floor doing its structural job while you use part of it as a drop.",
+          "Any floor weakened or made unsafe by the work has to be shored to carry the loads imposed on it."
+        ]
+      },
+      {
+        heading: "And barricade the bottom",
+        body: [
+          "Whichever method you use, the landing area is a drop zone. When material drops through a floor opening without a chute, the area below is barricaded — not less than 42 inches high and not less than 6 feet back from the projected edge — with warning signs, under §1926.850(h).",
+          "Chute discharges get the same treatment: fenced or barricaded, signed, and nobody in the discharge area while material is coming down."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/manual-demolition-of-walls-masonry-and-chimneys": {
+    description:
+      "Taking down walls and masonry by hand — not overloading the floors below, keeping wall sections braced, and staying off the wall in bad weather.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hand demolition of masonry walls, brick, and chimneys is slow, heavy, and deceptively dangerous. The hazards are a wall section falling on the crew, a floor collapsing under the weight of dropped masonry, and a worker on top of a wall going down with it. §1926.854 covers all three.",
+          "Masonry is heavy and unforgiving. A section of brick wall weighs tons, and it doesn't give warning before it lets go."
+        ]
+      },
+      {
+        heading: "Don't overload the floors",
+        body: [
+          "Masonry shall not be permitted to fall upon the floors of the building in such masses as to exceed the safe carrying capacities of the floors (§1926.854). A pile of dropped brick concentrated in one spot can punch through a floor that was fine under distributed load.",
+          "Drop material in controlled amounts, spread the load, or route it down a chute or opening instead of letting it pile. The floor below has a limit, and demolition debris finds it fast."
+        ]
+      },
+      {
+        heading: "Keep standing walls braced",
+        body: [
+          "A tall free-standing wall wants to fall. §1926.854 prohibits any wall section more than one story in height from standing alone without lateral bracing — unless the wall was originally designed and constructed to stand without lateral support and is in a condition safe enough to be self-supporting.",
+          "Retaining walls have their own rule: a wall holding back earth or an adjoining structure isn't demolished until that earth has been braced or the adjoining structure has been underpinned. Pull it early and you drop the slope or the building next door."
+        ]
+      },
+      {
+        heading: "Stay off the wall in bad weather",
+        body: [
+          "Employees shall not be permitted to work on top of a wall when weather conditions constitute a hazard (§1926.854). Wind, ice, and rain turn a narrow wall top into a place you fall from or get blown off.",
+          "And don't let a worker stand on a wall to knock the top off below their own feet — the wall goes when it goes, and the person on it goes with it. Work from a stable platform or take the wall down in a sequence that never puts someone on the part that's about to fail."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/manual-removal-of-floors": {
+    description:
+      "Removing floor arches and decking by hand — planking for firm footing, the 16-inch plank gap, keeping the area below clear, and the 20-foot rule.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Taking out a floor by hand means working over the hole you're creating, on framing that's being removed under your feet. §1926.855 is built around one idea: give the worker firm footing that will still hold if the arch below them lets go, and keep everyone out of the space underneath.",
+          "The failure mode here is a worker riding a collapsing floor arch down, or dropped material landing on the crew below."
+        ]
+      },
+      {
+        heading: "Plank for footing that holds",
+        body: [
+          "When you remove floor arches, you don't walk on the exposed beams. §1926.855 requires planking so that if an arch collapses, the worker still has support:",
+          {
+            list: [
+              "Planks not less than 2 inches by 10 inches, full-size undressed lumber, positioned to give safe support (§1926.855(b)).",
+              "Open space between planks not more than 16 inches (§1926.855(b)).",
+              "Safe walkways at least 18 inches wide, planks at least 2 inches thick or equivalent (§1926.855(c)).",
+              "Plank ends overlap at least 1 foot over solid bearings; stringers supported by floor beams or girders, not by floor arches alone (§1926.855(d)–(e))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep the area below empty",
+        body: [
+          "When floor arches are being removed, employees shall not be allowed in the area directly underneath, and that area shall be barricaded to prevent access (§1926.855(f)). The floor above is coming out; nobody stands where it lands.",
+          "This ties straight to the exclusion-zone discipline — the space under active floor removal is a drop zone whether or not there's a marked opening."
+        ]
+      },
+      {
+        heading: "Clear the deck first — the 20-foot rule",
+        body: [
+          "Demolition of floor arches shall not be started until they, and the surrounding floor area for a distance of 20 feet, have been cleared of debris and any other unnecessary materials (§1926.855(g)).",
+          "You don't start pulling a floor apart with piles of debris sitting on it. The extra weight and the tripping hazard turn a controlled removal into a collapse waiting for a wrong step. Clear 20 feet around the work first, every time."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/mechanical-demolition-wrecking-ball-and-powered-equipment": {
+    description:
+      "Bringing structures down with machines — the wrecking-ball weight limits, keeping the area clear during balling, and running equipment only on floors that can carry it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Mechanical demolition — wrecking balls, clamshells, excavators with shears and grapples — moves a lot of building fast, and the energy involved is unforgiving. §1926.859 and §1926.856 set the rules. The core one never changes: when the machine is working, people are out of the area it can affect.",
+          "A demolition ball is a wrecking energy on a swinging line, and an excavator pulling a wall over is aiming tons of material at the ground. Nobody stands in the answer."
+        ]
+      },
+      {
+        heading: "Clear the area during balling and clamming",
+        body: [
+          "§1926.859(a) prohibits any worker from being in an area that can be adversely affected by demolition operations when balling or clamming is being performed. Only workers necessary for the operation are allowed in the area at any other time.",
+          "The affected area includes the ball's swing, the space a wall falls into when pulled, and anywhere debris can travel. Set it wide and enforce it."
+        ]
+      },
+      {
+        heading: "Size the wrecking ball right",
+        body: [
+          "A ball that's too heavy for the crane or the line is how a rig tips or a load line parts. §1926.859(b) caps the ball weight:",
+          {
+            list: [
+              "Not more than 50 percent of the crane's rated load, based on boom length and the maximum angle of operation the ball will be used at.",
+              "Not more than 25 percent of the nominal breaking strength of the line it hangs from.",
+              "Whichever of the two gives the lesser value governs."
+            ]
+          },
+          "The rest of §1926.859: keep the boom and load line as short as possible (c); attach the ball with a swivel-type connection to prevent load-line twist, by positive means so it can't come loose (d); cut all affected steel members free before pulling a wall over (e); and remove roof cornices and ornamental stonework before pulling walls (f)."
+        ]
+      },
+      {
+        heading: "Run equipment only on floors that can hold it",
+        body: [
+          "When machines work on a floor instead of at grade, §1926.856 applies. Mechanical equipment shall not be used on floors or working surfaces unless those surfaces are strong enough to support the imposed load (§1926.856(a)) — the equipment plus the debris it's handling.",
+          "Floor openings in the equipment's path get curbs or stop-logs to keep the machine from running over the edge (§1926.856(b)). And a competent person keeps inspecting as the work goes, pulling people back from any weakened floor, wall, or loosened material until it's shored or braced (§1926.859(g))."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/removal-of-steel-construction": {
+    description:
+      "Dismantling structural steel safely — taking it down column length by column length and tier by tier, not overstressing members, and planking for the crew.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Structural steel is the skeleton, and taking it down changes how every load in the building travels. Cut the wrong member and the frame redistributes forces you didn't plan for — onto a beam that fails, or onto the crew. §1926.858 keeps steel demolition orderly.",
+          "Steel doesn't come down casually. It's dismantled in a controlled sequence, with hoisting equipment rated for the members, and with the crew standing on real footing."
+        ]
+      },
+      {
+        heading: "Dismantle in sequence",
+        body: [
+          "§1926.858(c) sets the method: steel construction is dismantled column length by column length, and tier by tier — though columns may be taken in two-story lengths. You work the frame down in an order that keeps what's left standing stable.",
+          "You don't cut members out of the middle of a standing frame and hope the rest holds. The sequence exists so the structure stays predictable while it comes apart."
+        ]
+      },
+      {
+        heading: "Don't overstress the members",
+        body: [
+          "Any structural member being dismembered shall not be overstressed (§1926.858(d)). A member that's carrying more than it was meant to — because supports around it are already gone — can fail while it's being cut or rigged.",
+          "Rig members before they're cut free, support them through the cut, and control them as they come down. The hoisting equipment used has to comply with the crane and rigging standards (Subparts N and CC); rigging practice is covered in the Rigging and Material Handling Equipment category."
+        ]
+      },
+      {
+        heading: "Footing for the razing crew",
+        body: [
+          "When floor arches have been removed, the workers razing the steel still need somewhere solid to stand. §1926.858(a) requires planking in accordance with §1926.855(b) — the same 2-by-10 full-size planks with no more than a 16-inch gap.",
+          "Steel demolition often happens over open framing with a long way to fall. Firm footing and fall protection aren't optional; they're how the crew stays on the structure while they take it apart."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/silica-dust-and-respiratory-hazards": {
+    description:
+      "Controlling the dust demolition generates — respirable crystalline silica from concrete and masonry, plus lead and other contaminants, and the exposure limits and controls that apply.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Demolition is a dust factory. Breaking concrete, block, brick, and mortar throws respirable crystalline silica into the air, and silica scars your lungs permanently — there's no cure for silicosis. Add lead paint, asbestos, mold, and general nuisance dust, and the air on a demolition job is one of its most serious and most ignored hazards.",
+          "You can't see respirable silica. The particles that reach deep into your lungs are too small to see, which is exactly why people underestimate it."
+        ]
+      },
+      {
+        heading: "Know the limits",
+        body: [
+          "OSHA's construction exposure limits for the dust demolition creates:",
+          {
+            list: [
+              "Respirable crystalline silica (§1926.1153) — PEL 50 µg/m³ as an 8-hour average; action level 25 µg/m³ that triggers monitoring, training, and medical surveillance.",
+              "Lead (§1926.62) — PEL 50 µg/m³ over 8 hours; action level 30 µg/m³.",
+              "Asbestos (§1926.1101) — PEL 0.1 f/cc over 8 hours; excursion limit 1.0 f/cc over 30 minutes."
+            ]
+          },
+          "The silica standard has a Table 1 of common construction tasks — including handheld and stand-mounted concrete/masonry cutting and jackhammering — with the water and ventilation controls that let you skip separate air monitoring if you follow them fully."
+        ]
+      },
+      {
+        heading: "Control the dust at the source",
+        body: [
+          "PPE is the last line, not the first. Cut the dust before it reaches the air:",
+          {
+            list: [
+              "Wet methods — water applied at the point of cutting, breaking, or drilling to knock dust down.",
+              "Local exhaust ventilation and dust collection on saws, grinders, and jackhammers.",
+              "Keep debris damp during handling and cleanup; don't dry-sweep — use HEPA vacuums or wet methods.",
+              "Respiratory protection matched to the exposure when engineering controls can't get you below the limit."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Respirators when you need them",
+        body: [
+          "Where dust controls can't bring exposure under the limit, respirators fill the gap — but only inside a full respiratory protection program: the right respirator for the contaminant, fit testing, medical clearance, and clean storage. That program lives in the PPE category (§1926.103 / 1910.134).",
+          "Dust that lingers in a demolition zone reaches everyone in it, not just the person running the saw. Control it at the source so the whole crew isn't breathing it."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/fire-prevention-and-hot-work-in-demolition": {
+    description:
+      "Managing fire risk in a building being torn apart — torch-cutting near combustibles, keeping fire protection and egress available, and controlling flammable residues.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Demolition and fire are a bad mix. You've got torch-cutting and grinding throwing sparks, piles of dry combustible debris, flammable residues in old pipes and tanks, and a building whose sprinklers, alarms, and clear exits are being dismantled around the crew. The fire hazard goes up as the fire protection comes down.",
+          "A fire in a structure that's half torn apart, with blocked exits and no working standpipe, traps people fast."
+        ]
+      },
+      {
+        heading: "Hot work is the ignition source",
+        body: [
+          "Cutting torches and abrasive saws are the most common ignition sources on a demolition job. Before any hot work:",
+          {
+            list: [
+              "Confirm tanks, pipes, and equipment that held flammable or hazardous substances were tested and purged (§1926.850(e)) — never cut into a container that might still hold vapor.",
+              "Clear combustible debris away from the cutting area, or shield it.",
+              "Keep a charged extinguisher and, where required, a fire watch during and after cutting.",
+              "Follow the hot-work permit and fire-watch discipline covered in the Welding and Hot Work category."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep fire protection and exits working",
+        body: [
+          "As long as it's feasible, existing fire protection — standpipes, sprinklers, alarms — stays in service while the building is demolished, and is removed only as the demolition sequence reaches it. A demolition job still needs firefighting water available and a way for the crew to get out.",
+          "Means of egress get the same respect. The designated stairways and passageways (§1926.851) are the escape routes too — keep them clear, lit, and open. Don't let debris or dropped material block the way out."
+        ]
+      },
+      {
+        heading: "Debris, fuel, and housekeeping",
+        body: [
+          "Piled combustible debris is fuel. Route it out of the building through chutes or openings instead of letting it accumulate, and keep the drop and storage areas clear of ignition sources. Flammable and combustible liquids used on the job — fuels, cutting gases, solvents — get stored and handled per the fire-safety rules, away from hot work.",
+          "Good housekeeping is fire prevention here, not just tidiness. Less fuel lying around means a spark has less to catch. General fire prevention and flammable storage are covered in the Fire Safety category."
+        ]
+      }
+    ]
+  },
+  "demolition-safety/continuing-inspections-and-preventing-unplanned-collapse": {
+    description:
+      "The competent person's ongoing job during demolition — watching for weakened floors, walls, and loosened material, and stopping work before an unplanned collapse.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Unplanned collapse is the signature demolition killer. A floor overloaded with debris, a wall left standing too long without bracing, a member cut in the wrong order — the building comes down when and where nobody intended. The defense is a competent person watching the structure the whole way down and the authority to stop work.",
+          "The engineering survey tells you how the building should come apart. Continuing inspection tells you whether it actually is."
+        ]
+      },
+      {
+        heading: "The competent person never stops looking",
+        body: [
+          "§1926.859(g) is the governing rule: during demolition, continuing inspections by a competent person shall be made as the work progresses to detect hazards resulting from weakened or deteriorated floors, or walls, or loosened material.",
+          "No employee is permitted to work where those hazards exist until they're corrected by shoring, bracing, or other effective means. The inspection isn't a formality — it's the mechanism that pulls people out of harm's way before a section fails."
+        ]
+      },
+      {
+        heading: "What starts an unplanned collapse",
+        body: [
+          "Collapse rarely comes from one big mistake. It builds from conditions that stack up as the job goes:",
+          {
+            list: [
+              "Debris piled past a floor's safe carrying capacity (§1926.854, §1926.857(a)).",
+              "A wall section over one story left standing without lateral bracing (§1926.854).",
+              "Structural members cut out of sequence or overstressed (§1926.858).",
+              "Floors weakened by removed sections or water, not yet shored.",
+              "Loosened masonry, cornices, or material left hanging above the crew (§1926.859(f))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stop-work is the last safeguard",
+        body: [
+          "When a competent person spots a weakened floor, an unbraced wall, or loosened material overhead, the work in that area stops until it's corrected. Storage limits back this up: waste and debris on any floor can't exceed the allowable floor loads (§1926.857(a)), and floor arches can be removed for debris storage only to an elevation of not more than 25 feet above grade, and only if it doesn't endanger the structure (§1926.857(d)).",
+          "Every worker on a demolition job carries stop-work authority. If the structure starts behaving in a way the plan didn't predict — a crack opening, a floor sagging, a wall leaning — stop, clear the area, and get the competent person. The building only has to surprise you once."
+        ]
+      }
+    ]
   }
 };
 

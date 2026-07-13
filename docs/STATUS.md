@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 13 / 24 categories authored (54%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, and Construction Safety pending SME review.**
+**Progress: 14 / 24 categories authored (58%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, and Demolition Safety pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,12 +19,11 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — top remaining OSHA-based items are Demolition Safety
-  (`demolition-safety`, Subpart T), Site Access & Public Protection
-  (`site-access-and-public-protection`, Subpart G), Housekeeping (`housekeeping`,
-  1926.25 / 1910.22), Slips/Trips/Falls (`slips-trips-and-falls`, 1910 Subpart D),
-  and First Aid (`first-aid`, 1926.50 / 1910.151). All 13 authored categories to
-  date are OSHA-based.
+- **Next category:** open — top remaining OSHA-based items are Site Access & Public
+  Protection (`site-access-and-public-protection`, Subpart G), Housekeeping
+  (`housekeeping`, 1926.25 / 1910.22), Slips/Trips/Falls (`slips-trips-and-falls`,
+  1910 Subpart D), and First Aid (`first-aid`, 1926.50 / 1910.151). All 14 authored
+  categories to date are OSHA-based.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -33,6 +32,63 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Demolition Safety — `demolition-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 13 (real toolbox-talk list, flexed above the 11 floor —
+  Subpart T §850–860 (11 sections) + health/fire cross-cutting hazards support it;
+  synthetic expansion disabled)
+  1. The Pre-Demolition Engineering Survey
+  2. Locating and Controlling Utilities Before Demolition
+  3. Hazardous Materials — Asbestos, Lead, and Contaminated Systems
+  4. Preparing the Structure and Safe Access
+  5. Exclusion Zones, Barricades, and the Drop Zone
+  6. Material Chutes and Dropping Debris Through Openings
+  7. Manual Demolition of Walls, Masonry, and Chimneys
+  8. Manual Removal of Floors
+  9. Mechanical Demolition — Wrecking Ball and Powered Equipment
+  10. Removal of Steel Construction
+  11. Silica, Dust, and Respiratory Hazards
+  12. Fire Prevention and Hot Work in Demolition
+  13. Continuing Inspections and Preventing Unplanned Collapse
+- **Sources:** OSHA 29 CFR 1926 Subpart T — §850 preparatory operations (§850(a)
+  engineering survey by competent person + written evidence + adjacent structures;
+  §850(b) shore/brace damaged structures; §850(c) utilities shut off/capped/
+  controlled outside the building line + notify utility company; §850(d) protect
+  utilities kept live; §850(e) test & purge tanks/pipes with hazardous residues;
+  §850(f) glass; §850(g) 42-in wall-opening fall guard; §850(h) debris-drop
+  barricade ≥42 in high & ≥6 ft back from projected edge + signs; §850(i) cover
+  unused floor openings; §850(j) top-down story-by-story; §850(k) sidewalk sheds);
+  §851 designated stairs/passageways/ladders only + stairwell covered ≥2 floors
+  below work; §852 chutes (>45° enclosed, gate at discharge + competent controller,
+  intake ≤48 in, closed when idle); §853 floor-disposal opening ≤25% of aggregate
+  total floor area unless lateral supports remain; §854 masonry not to exceed floor
+  safe carrying capacity, no wall section >1 story standing without lateral bracing
+  unless designed self-supporting, no work atop wall in hazardous weather, retaining
+  walls; §855 manual floor removal (2×10 full-size planks, ≤16-in gap, ≥18-in walk-
+  ways, no one in area directly below + barricaded, clear 20 ft around before
+  starting); §856 equipment only on floors strong enough for imposed load + curbs/
+  stop-logs; §857 storage ≤ allowable floor loads, floor arches removed for storage
+  ≤25 ft above grade, storage openings blocked/closed; §858 steel dismantled column
+  length by column length & tier by tier (2-story columns), members not overstressed,
+  planking per §855(b); §859 mechanical demolition (no workers in affected area
+  during balling/clamming; ball ≤50% crane rated load OR ≤25% line nominal breaking
+  strength, whichever lesser; boom/loadline short; swivel + positive attachment;
+  cut steel free before pulling walls; remove cornices first; continuing inspections
+  by competent person for weakened floors/walls/loosened material); §860 explosives →
+  Subpart U. Health hazards: silica §1926.1153 (PEL 50 µg/m³, AL 25), lead §1926.62
+  (PEL 50 µg/m³, AL 30), asbestos §1926.1101 (PEL 0.1 f/cc, excursion 1.0 f/cc/30 min).
+- **Scope note:** owns demolition-specific structural, drop-zone, and dismantling
+  hazards. Asbestos handling → Asbestos Awareness; respirator programs → PPE;
+  hot-work permit/fire-watch → Welding & Hot Work; general fire prevention → Fire
+  Safety; overhead-line approach → Electrical; underground locating → Excavation;
+  steel rigging → Rigging & Material Handling — all cross-referenced, not duplicated.
+- **Verified:** tsc clean (after clearing stale `.next/types` duplicates) · `next
+  build` clean (all pages prerender, 24 category paths + [+977] topic paths) · 13
+  exported HTML files in `out/training/demolition-safety/` · authored content present
+  (`engineering survey`, `1926.859`, `50 percent`, `25 percent`, `20 feet`,
+  `42 inches`, `50 µg/m³`), placeholder `plain site language` gone (0 files).
+- **SME review:** ⏳ pending.
 
 ### ✅ Construction Safety — `construction-safety`
 - **Session:** 2026-07-12
@@ -448,6 +504,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Flex expansion (9 categories) | +25 | Switched topic-count convention from fixed-11 to FLEX (~11–16). Expanded 9 authored categories with distinct, source-grounded topics drafted by parallel subagents and fact-reviewed before wiring: Welding +4 (resistance/plasma/brazing/shock), Heights +4 (travel-restraint/nets/warning-lines/skylights), Electrical +3 (70E boundaries/EEWP/stored energy), Forklift +3 (tip-over survival/parking/elevating personnel), Fire Safety +3 (standpipes/fixed suppression/brigades), Confined Space +3 (reclassification/host-contractor/rescue-service eval), Compressed Gas +3 (HAVS/abrasive blasting/air hoists), Excavation +1 (mobile equipment at edge), PPE +1 (over-water life jackets). Build 1398 pages. Total authored topics 135. CLAUDE.md + CONTENT_PLAN updated. |
 | 2026-07-12 | Compressed Gas and Air Tool Safety | 11 | Tenth category. OSHA 1926.302/.303 + 1910.101/.242(b) + CGA P-1 + NIOSH nail-gun guide. Cylinder hazards/storage/transport/valves (20 ft O₂/fuel), compressed-air injection & <30 psi cleaning limit, pneumatic tool basics (positive connection, retainers), hoses/couplings/whip checks, nailers (trigger types, >100 psi muzzle safety), abrasive wheels (ring test, guards, 1/8 in rest), compressors/receivers (relief valves, draining), inspection/depressurize-before-service. Welding oxy-fuel cylinder detail cross-ref'd, not duplicated. Progress 10/24 (42%). SME review pending. |
 | 2026-07-12 | Vehicle and Driver Safety | 13 | Eleventh category. OSHA 1926 Subpart O (§600–602) + Subpart W (ROPS §1000–1003) + Subpart G/MUTCD Part 6 (flaggers) + FMCSA HOS/texting ban. Motor-vehicle equipment & driver duties, (b)(14) shift inspection, ROPS + seat belts (SAE J386, don't jump in a rollover), backing/spotters/hand signals, reverse alarms "audible above surrounding noise", haul roads/grades/berms, dump-truck raised-bed (overhead lines, tip-over, blocked bed), earthmoving 1926.602, struck-by/caught-between blind zones, load chocking/fall-zone/securement, work-zone layout & flaggers (STOP/SLOW, hi-vis), parking/shutdown (blades down, chock on grade, night lighting), fatigue (11/14/30-min/60–70) + distraction + fitness. Flexed to 13 topics. Forklift/rigging/public-protection cross-ref'd. Progress 11/24 (46%). SME review pending. |
+| 2026-07-12 | Demolition Safety | 13 | Fourteenth category (58%). OSHA 1926 Subpart T (§850–860, all 11 sections) + health/fire cross-cutting. Pre-demolition engineering survey (competent person + written evidence), utility control outside building line, hazardous materials (test/purge tanks; asbestos 0.1 f/cc, lead PEL 50/AL 30, silica PEL 50/AL 25 µg/m³), structure prep & designated access (42-in opening guard, stairwell covered 2 floors below), exclusion zones/drop-zone barricades (42 in / 6 ft + signs §850(h)), chutes (>45° enclosed, gate + ≤48-in intake) & 25%-floor-opening rule, manual masonry/wall demo (safe floor loads, 1-story lateral bracing, no wall-top work in bad weather), manual floor removal (2×10 planks, 16-in gap, 20-ft clearance), mechanical demolition (ball ≤50% rated load / ≤25% line breaking strength; no crew in area during balling; swivel + positive attach; cut steel free & remove cornices before pulling walls), steel removal (column-length/tier-by-tier, not overstressed), silica/dust controls (wet methods, LEV, HEPA), fire/hot-work (purge before cutting, keep standpipes/egress), continuing competent-person inspections & unplanned-collapse prevention (floor loads, 25-ft-above-grade storage). Facts verified against osha.gov Subpart T via research subagent (corrected §850 paragraph lettering). Replaced 10-topic placeholder. Cross-refs asbestos/PPE/welding/fire/electrical/excavation/rigging. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Construction Safety | 13 | Thirteenth category (54%). OSHA 1926 Subpart C (§20–35 general provisions) + Subpart D (§51/.56 sanitation/illumination) + Subpart I (§300–307 tools) + Subpart G (§200–203 signs/signals/barricades) + OSH Act (rights, §11(c), competent person §32(f)) + Focus Four. Focus Four overview, OSHA rights/responsibilities, new-worker orientation/training (§21), JHA & hierarchy of controls, competent person + daily inspections, struck-by (4 types + vehicles/backovers), caught-in/between (cave-ins/machinery/pinned), hand & power tools (guards/condition/GFCI), signs-tags-signals-barricades (Danger-red/Caution-yellow), illumination (5/10 fc)/sanitation/welfare, PPE overview (employer-paid, last line), emergency action plans (§35) + first aid/fire, stop-work authority + hazard/near-miss reporting. Replaced placeholder grab-bag that duplicated dedicated categories; owns Struck-By + Caught-In/Between, defers Falls/Electrocution/PPE/Housekeeping/tools-air/traffic/recordkeeping to their categories. Build 1108 pages. SME review pending. |
 | 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |
 
