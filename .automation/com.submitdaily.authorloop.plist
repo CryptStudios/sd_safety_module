@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.submitdaily.authorloop</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/niftymedia/Documents/Claude/submitdaily_safety/.automation/author-loop.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>1800</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/niftymedia/Documents/Claude/submitdaily_safety/.automation/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/niftymedia/Documents/Claude/submitdaily_safety/.automation/launchd.err.log</string>
+</dict>
+</plist>
