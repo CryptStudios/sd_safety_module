@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 9 / 24 categories authored (38%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, and Fire Extinguisher Safety pending SME review.**
+**Progress: 10 / 24 categories authored (42%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, and Compressed Gas & Air Tool Safety pending SME review.**
 
 Update this file at the end of every session (`/end-session`).
 
@@ -11,17 +11,47 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — remaining priority-list items include Compressed Gas
-  and Air Tool Safety (`compressed-gas-and-air-tool-safety`, OSHA 1926.302 /
-  1910.101; pairs with the welding cylinder content) or Vehicle and Driver Safety
-  (`vehicle-and-driver-safety`, OSHA 1926 Subpart O). All 9 authored categories
-  to date are OSHA-based.
+- **Next category:** open — remaining priority-list items include Vehicle and
+  Driver Safety (`vehicle-and-driver-safety`, OSHA 1926 Subpart O) or Rigging and
+  Material Handling Equipment (`rigging-and-material-handling-equipment`, OSHA
+  1926 Subpart H / CC). All 10 authored categories to date are OSHA-based.
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
   Handling — see plan). Does not affect the OSHA-based categories authored so far.
 
 ---
 
 ## Completed categories
+
+### ✅ Compressed Gas and Air Tool Safety — `compressed-gas-and-air-tool-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 11 (real toolbox-talk list, 11× expansion disabled)
+  1. Compressed Gas Cylinder Hazards
+  2. Storing Compressed Gas Cylinders
+  3. Moving and Transporting Cylinders
+  4. Cylinder Valves, Regulators, and Connections
+  5. Compressed Air Hazards and the 30 PSI Cleaning Limit
+  6. Pneumatic Tool Safety Basics
+  7. Air Hoses, Couplings, and Whip Checks
+  8. Nail Guns and Pneumatic Fasteners
+  9. Pneumatic Grinders and Abrasive Wheels
+  10. Air Compressors and Receivers
+  11. Inspecting and Maintaining Air Tools and Hoses
+- **Sources:** OSHA 29 CFR 1926.302 (pneumatic power tools — positive hose
+  connection, percussion-tool retainers, >100 psi nailer muzzle safety, hose
+  design), 1926.303 (abrasive wheels — ring test, guards, work rest 1/8 in,
+  tongue guard 1/4 in, max RPM), 1910.242(b) / 1926.302(b)(4) (compressed air
+  cleaning <30 psi + chip guarding + PPE), 1910.101 / CGA P-1 (cylinder handling,
+  storage, 20 ft O₂/fuel separation); NIOSH/OSHA Nail Gun Safety guide (trigger
+  types); air embolism/injection injury hazard; ASME receiver relief valves.
+- **Scope note:** general compressed-gas cylinders + pneumatic tools. Welding-
+  specific oxy-fuel/fuel-gas cylinder, acetylene ≤15 psig, and flashback detail
+  cross-refs Welding & Hot Work; bench grinding also touched under tool safety.
+- **Verified:** tsc clean · `next build` clean (1373 pages — synthetic expansion
+  off for this category) · 11 exported HTML files in
+  `out/training/compressed-gas-and-air-tool-safety/` · authored content present
+  (`30 psi`, `1926.302`, `1/8 inch`, `whip check`, `air embolism`, `20 feet`),
+  placeholder `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Fire Extinguisher Safety — `fire-extinguisher-safety`
 - **Session:** 2026-07-12
@@ -269,6 +299,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Forklift Safety | 11 | Seventh category. OSHA 1910.178 (Powered Industrial Trucks) + ASME B56.1. Truck types/designations, operator training/eval, daily inspection, stability triangle, capacity/data plate/load center, traveling & ramps, load handling/tiering, pedestrian/struck-by, docks/trailers/rail cars, fuel/battery/LP gas, attachments & removal from service. Blocker doesn't apply (OSHA basis). Progress 7/24 (29%). SME review pending. |
 | 2026-07-12 | Welding and Hot Work | 11 | Eighth category. OSHA 1926 Subpart J (§350–354) + 1910 Subpart Q (§252–254). Hot work permit & when required, 35 ft area prep, fire watch + ≥30 min post-work, oxy-fuel (acetylene ≤15 psig), cylinder storage (20 ft O₂/fuel), regulators/hoses/flashback arrestors, arc welding grounding, fumes (Cr(VI)/Mn/Zn) & ventilation, hot work in confined spaces, coatings/containers (§354), welder PPE & filter shades. Owns hot-work permit + fire-watch detail deferred from Fire Safety. Progress 8/24 (33%). SME review pending. |
 | 2026-07-12 | Fire Extinguisher Safety | 11 | Ninth category. OSHA 1910.157 (c–g) + NFPA 10. Classes A/B/C/D/K, extinguisher types/agents, ratings/labels, size-up (fight vs evacuate), PASS, selection & distribution (75/50/30 ft travel), placement/mounting heights, monthly visual inspection, annual maintenance/recharge, hydrostatic intervals (5/12 yr), training (hire + annual) & total-evacuation option. Owns extinguisher use/PASS deferred from Fire Safety. Progress 9/24 (38%). SME review pending. |
+| 2026-07-12 | Compressed Gas and Air Tool Safety | 11 | Tenth category. OSHA 1926.302/.303 + 1910.101/.242(b) + CGA P-1 + NIOSH nail-gun guide. Cylinder hazards/storage/transport/valves (20 ft O₂/fuel), compressed-air injection & <30 psi cleaning limit, pneumatic tool basics (positive connection, retainers), hoses/couplings/whip checks, nailers (trigger types, >100 psi muzzle safety), abrasive wheels (ring test, guards, 1/8 in rest), compressors/receivers (relief valves, draining), inspection/depressurize-before-service. Welding oxy-fuel cylinder detail cross-ref'd, not duplicated. Progress 10/24 (42%). SME review pending. |
 
 ---
 

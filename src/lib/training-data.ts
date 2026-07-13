@@ -499,6 +499,7 @@ const realContentCategories = new Set<string>([
   "forklift-safety",
   "welding-and-hot-work",
   "fire-extinguisher-safety",
+  "compressed-gas-and-air-tool-safety",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1950,16 +1951,17 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Cylinder Storage",
-      "Regulator Inspection",
-      "Hose Damage Checks",
-      "Secure Transport of Cylinders",
-      "Air Tool Trigger Safety",
-      "Pressure Relief Awareness",
-      "Disconnect Procedures",
-      "Leak Detection Basics",
-      "Compressed Air Cleaning Hazards",
-      "Fire Risks Near Gas Storage",
+      "Compressed Gas Cylinder Hazards",
+      "Storing Compressed Gas Cylinders",
+      "Moving and Transporting Cylinders",
+      "Cylinder Valves, Regulators, and Connections",
+      "Compressed Air Hazards and the 30 PSI Cleaning Limit",
+      "Pneumatic Tool Safety Basics",
+      "Air Hoses, Couplings, and Whip Checks",
+      "Nail Guns and Pneumatic Fasteners",
+      "Pneumatic Grinders and Abrasive Wheels",
+      "Air Compressors and Receivers",
+      "Inspecting and Maintaining Air Tools and Hoses",
     ],
   }),
 ];
