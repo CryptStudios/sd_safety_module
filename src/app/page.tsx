@@ -39,27 +39,21 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
         <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
           <p className="eyebrow text-hi-deep">SD Safety Module</p>
-          <h1 className="mt-5 whitespace-nowrap font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
+          <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
             Safety learning
             <br />
             <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 whitespace-nowrap text-lg leading-8 text-ink-2">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-ink-2">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
-              href="/training"
+              href="#categories"
               className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
             >
               View Training Categories
-            </Link>
-            <Link
-              href="#how-it-works"
-              className="inline-flex items-center justify-center rounded-full border border-rule px-6 py-3 text-sm font-semibold text-ink transition hover:border-hi hover:text-hi-deep"
-            >
-              Learn More
             </Link>
           </div>
           <div className="mt-10 flex gap-12 border-t border-rule pt-6">
@@ -98,7 +92,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+      <section id="categories" className="mx-auto max-w-7xl scroll-mt-24 px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="eyebrow text-hi-deep">Browse Training Categories</p>
