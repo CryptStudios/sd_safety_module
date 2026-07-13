@@ -505,6 +505,7 @@ const realContentCategories = new Set<string>([
   "construction-safety",
   "demolition-safety",
   "site-access-and-public-protection",
+  "housekeeping",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1432,12 +1433,18 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "General Housekeeping Rules",
-      "Keeping Walkways and Exits Clear",
-      "Proper Waste and Debris Disposal",
-      "Preventing Slips Trips and Falls Through Cleanliness",
-      "Tool and Material Storage",
-      "Effects of Poor Housekeeping on Safety"
+      "Housekeeping as a Safety Control",
+      "Keeping Walkways, Aisles, and Exits Clear",
+      "Protruding Nails, Sharp Objects, and Scrap Lumber",
+      "Managing Cords, Hoses, and Welding Leads",
+      "Removing Combustible Scrap and Debris",
+      "Waste Containers and Separating Refuse",
+      "Oily Rags and Spontaneous Combustion",
+      "Material Storage and Stacking",
+      "Disposing of Debris — Chutes and Drop Areas",
+      "How Poor Housekeeping Causes Slips, Trips, and Falls",
+      "Lighting, Sanitation, and Welfare Facilities",
+      "Making Cleanup Part of the Job"
     ]
   }),
   createCategory({
