@@ -16,7 +16,7 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-3">
           <ShieldIcon />
           <div className="font-serif text-xl font-bold tracking-tight text-ink">
-            SD Safety Module
+            Submit Daily Safety Module
           </div>
         </Link>
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
