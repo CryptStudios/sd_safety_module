@@ -10906,6 +10906,537 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+  "accident-reporting/why-we-report-injuries-near-misses-and-prevention": {
+    description:
+      "Reporting isn't paperwork for its own sake — it's how injuries get treated, hazards get fixed, and the next incident gets prevented. Why every injury and near miss needs to be reported.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When people hear 'accident reporting' they think of forms and blame. It's neither. Reporting is how an injured worker gets care fast, how the company learns what's actually happening in the field, and how a hazard gets fixed before it hurts the next person.",
+          "The rule is simple: report every injury, illness, and near miss — no matter how small it looks. A cut that seems minor today, an unreported near miss, or a hazard nobody flagged is exactly what turns into a serious injury tomorrow."
+        ]
+      },
+      {
+        heading: "What reporting actually does",
+        body: [
+          "Fast reporting drives four things that all protect the crew:",
+          {
+            list: [
+              "Care — the injured worker gets treated before a small injury gets worse.",
+              "Correction — the hazard that caused it gets found and fixed.",
+              "Learning — patterns show up across the job so leaders can act on them.",
+              "Compliance — OSHA recordkeeping and severe-injury reporting deadlines get met (Part 1904)."
+            ]
+          },
+          "Without reporting, leaders are making safety decisions blind. The hazard stays in place, and the only signal anyone gets is the next injury."
+        ]
+      },
+      {
+        heading: "Report everything — especially the small stuff",
+        body: [
+          "The instinct is to tough out a minor injury or shrug off a near miss because 'nothing happened.' That's backwards. The small events are the free lessons — a near miss is an injury that missed by luck, and next time the luck runs out.",
+          "Report it if you're hurt, if you feel a strain building, if you see a hazard, or if something almost went wrong. You are not going to get in trouble for reporting — the opposite is true, and your right to report without retaliation is protected by law (covered in its own talk)."
+        ]
+      },
+      {
+        heading: "How the rest of this category works",
+        body: [
+          "The talks that follow walk the whole chain: telling your supervisor right away, OSHA's severe-injury reporting deadlines, which injuries are recordable, the line between first aid and medical treatment, the OSHA 300/300A/301 forms, near-miss reporting, investigating the root cause, corrective actions, your right to report without retaliation, and writing a clear report.",
+          "The theme running through all of it: the earlier the signal, the better the outcome. Report early, report honestly, and report the near misses — not just the injuries."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/report-it-right-away-telling-your-supervisor": {
+    description:
+      "The first move after any injury or near miss is telling your supervisor — immediately. Why speed matters and what to say.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The reporting chain starts with you and your supervisor. The moment you're hurt, see a hazard, or have a near miss, tell your supervisor — right away, not at the end of the shift and not next week. Everything else in reporting depends on that first, fast notification.",
+          "Speed matters because the clock starts immediately. Care is more effective early. Evidence is fresh. And OSHA's severe-injury deadlines are measured in hours from when the employer finds out — so the employer has to find out fast."
+        ]
+      },
+      {
+        heading: "Why waiting hurts",
+        body: [
+          "Every reason people delay makes the outcome worse:",
+          {
+            list: [
+              "A 'minor' injury left untreated can turn into an infection, a chronic strain, or a disability.",
+              "Details fade — witnesses forget, conditions change, the scene gets cleaned up.",
+              "A hazard left unreported stays in place and catches the next worker.",
+              "Late reporting can blow the OSHA reporting window and make it look like the injury didn't happen at work at all."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What to tell your supervisor",
+        body: [
+          "Keep it simple and factual. Your supervisor needs enough to act:",
+          {
+            list: [
+              "Who was hurt (or who was involved in the near miss).",
+              "What happened, in plain terms.",
+              "Where and when it happened.",
+              "What conditions or equipment were involved.",
+              "Whether anyone needs medical help right now."
+            ]
+          },
+          "If it's a medical emergency, get help first — call for aid, then notify. Don't wait to report before treating a serious injury."
+        ]
+      },
+      {
+        heading: "It's expected, not optional",
+        body: [
+          "Reporting to your supervisor is part of the job, the same as wearing your PPE. Under OSHA 1904.35, your employer has to have a reasonable way for you to report injuries promptly and can't set up a system that discourages you from reporting.",
+          "If you're not sure whether something is worth reporting, report it. It's the supervisor's job to sort out what's recordable, what's reportable to OSHA, and what needs investigating. Your job is to make sure they know."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/reporting-severe-injuries-the-8-hour-and-24-hour-rules": {
+    description:
+      "OSHA's hard deadlines for severe injuries — fatalities in 8 hours, hospitalizations/amputations/eye losses in 24 hours (1904.39) — and how to make the report.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "For the most serious events, OSHA sets hard reporting deadlines measured in hours. These are on top of the internal report to your supervisor — the employer has to notify OSHA directly. Missing these deadlines is a serious violation, so everyone should know the two numbers.",
+          "The rule is OSHA 29 CFR 1904.39. It comes down to two deadlines: 8 hours for a fatality, 24 hours for a hospitalization, amputation, or loss of an eye."
+        ]
+      },
+      {
+        heading: "The two deadlines",
+        body: [
+          {
+            list: [
+              "Fatality — report within 8 hours of finding out, if the death occurred within 30 days of the work-related incident (1904.39(a)(1), (b)).",
+              "In-patient hospitalization, amputation, or loss of an eye — report within 24 hours of finding out, if it occurred within 24 hours of the work-related incident (1904.39(a)(2), (b))."
+            ]
+          },
+          "'In-patient hospitalization' means being formally admitted — not just an ER visit for observation or treatment. An amputation includes loss of a fingertip with bone loss."
+        ]
+      },
+      {
+        heading: "How to report to OSHA",
+        body: [
+          "There are three ways to make the report (1904.39(a)(3)):",
+          {
+            list: [
+              "Call the nearest OSHA Area Office (or report in person).",
+              "Call the OSHA toll-free line, 1-800-321-OSHA (1-800-321-6742).",
+              "Use the online reporting form on OSHA's public website."
+            ]
+          },
+          "The report has to include (1904.39(b)(2)): the business name; the location and time of the incident; the type of event (fatality, hospitalization, amputation, or eye loss); the number of workers affected; their names; a contact person and phone number; and a brief description of what happened."
+        ]
+      },
+      {
+        heading: "What the crew needs to do",
+        body: [
+          "Frontline workers don't make the OSHA call themselves — but they make it possible by reporting fast and accurately up the chain. If a severe injury happens, the employer's 8- or 24-hour clock is already running, so the supervisor and safety lead need to know immediately.",
+          "Also worth knowing: it's good practice not to disturb the scene of a fatality or catastrophe except to help victims or prevent another incident. That's operational guidance, not a Part 1904 requirement, but it protects the investigation that follows."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/what-makes-an-injury-recordable": {
+    description:
+      "OSHA 1904.7 — the six outcomes that make a work-related injury or illness recordable on the OSHA 300 Log.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Not every injury goes on the OSHA log, but a lot more do than people think. OSHA 1904.7 sets the test: if an injury or illness is work-related and results in one of six outcomes, it's recordable and goes on the OSHA 300 Log.",
+          "Workers don't decide recordability — that's the recordkeeper's call — but understanding the triggers explains why the company treats a 'small' injury as a big deal, and why they need the details."
+        ]
+      },
+      {
+        heading: "The six recording triggers",
+        body: [
+          "An injury or illness is recordable if it's work-related and results in any of these (1904.7(a)):",
+          {
+            list: [
+              "Death.",
+              "Days away from work.",
+              "Restricted work or transfer to another job.",
+              "Medical treatment beyond first aid.",
+              "Loss of consciousness.",
+              "A significant injury or illness diagnosed by a physician or other licensed health care professional — even if none of the above apply."
+            ]
+          },
+          "Hit any one of these and the case is recordable. 'Medical treatment beyond first aid' is the one that trips people up, so it gets its own talk."
+        ]
+      },
+      {
+        heading: "Work-related is the first test",
+        body: [
+          "Before any of the six triggers matter, the event has to be work-related — meaning an event or exposure in the work environment caused or contributed to it, or made a pre-existing condition significantly worse. Most injuries that happen on the job while doing the job qualify.",
+          "There are some specific exceptions (like eating your own food and getting food poisoning, or a common cold), but don't try to rule things out yourself. Report it and let the recordkeeper apply the rules."
+        ]
+      },
+      {
+        heading: "Why it matters to you",
+        body: [
+          "The 300 Log isn't about blame — it's the record that shows where people are actually getting hurt, and it drives where the company focuses its safety effort. An accurate log means the real hazards get attention.",
+          "That's why the details of your report matter: what treatment was given, whether you missed time or were put on restricted duty, whether you lost consciousness. Those facts decide how the case is recorded and what the numbers tell everyone about this job."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/first-aid-vs-medical-treatment": {
+    description:
+      "The line that decides recordability — OSHA's closed list of what counts as 'first aid' (1904.7(b)(5)(ii)); anything beyond it is medical treatment.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The single most important line in recordkeeping is first aid versus medical treatment. Treatment that's only first aid doesn't make a case recordable by itself; treatment beyond first aid does. OSHA settles the argument by giving a specific, closed list of what 'first aid' is.",
+          "The list is in 1904.7(b)(5)(ii). If the treatment is on the list, it's first aid. If it's not on the list, it's medical treatment — there's no in-between and no judgment call."
+        ]
+      },
+      {
+        heading: "What OSHA counts as first aid",
+        body: [
+          "The complete list (1904.7(b)(5)(ii)):",
+          {
+            list: [
+              "Non-prescription medicine at non-prescription strength.",
+              "Tetanus shots.",
+              "Cleaning, flushing, or soaking wounds on the skin surface.",
+              "Wound coverings — bandages, gauze pads, butterfly bandages, Steri-Strips.",
+              "Hot or cold therapy.",
+              "Non-rigid support — elastic bandages, wraps, non-rigid back belts.",
+              "Temporary immobilization to transport a victim — splints, slings, neck collars, backboards.",
+              "Drilling a nail to relieve pressure, or draining a blister.",
+              "Eye patches; removing a foreign body from the eye with irrigation or a cotton swab.",
+              "Removing splinters/foreign material (except from the eye) by irrigation, tweezers, cotton swabs, or simple means.",
+              "Finger guards; massages; drinking fluids for heat stress."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What tips it into medical treatment",
+        body: [
+          "Anything not on that list is medical treatment. Common examples that cross the line:",
+          {
+            list: [
+              "Prescription medication, or non-prescription meds at prescription strength.",
+              "Stitches, staples, or surgical glue (butterfly/Steri-Strips are still first aid).",
+              "Immunizations other than tetanus (such as hepatitis B or rabies).",
+              "Rigid splints or casts, and physical therapy or chiropractic treatment."
+            ]
+          },
+          "That's why the exact treatment matters so much — two similar cuts can be recorded differently depending on whether they got a bandage or a stitch."
+        ]
+      },
+      {
+        heading: "Why the crew should care",
+        body: [
+          "You don't decide which side of the line a case falls on — but you do provide the facts that decide it. Report exactly what treatment was given, by whom, and where. 'I got it looked at' isn't enough; 'the clinic put in three stitches' is.",
+          "And never let recordability drive a medical decision. Nobody should skip stitches or a needed prescription to keep a case off the log. The worker gets the care they need first; the paperwork follows the facts."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/the-osha-300-log-300a-summary-and-301-report": {
+    description:
+      "The three OSHA recordkeeping forms — the 300 Log, the 300A annual Summary, and the 301 Incident Report — plus the 7-day and Feb 1–Apr 30 deadlines.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA recordkeeping runs on three forms, and it helps to know what each one does and the deadlines attached to them. Together they turn individual injuries into a record the whole crew can see and OSHA can review.",
+          "The forms are set by OSHA 1904.29. Employers with more than 10 employees in covered industries have to keep them (some low-hazard industries are partially exempt)."
+        ]
+      },
+      {
+        heading: "The three forms",
+        body: [
+          {
+            list: [
+              "OSHA 300 — the Log of Work-Related Injuries and Illnesses. One line per recordable case: who, what, where, and the outcome (days away, restricted duty, etc.).",
+              "OSHA 301 — the Injury and Illness Incident Report. The detailed record of a single case — how it happened, what the worker was doing, what the injury was. An equivalent form (like an insurance report) can be used if it captures the same information.",
+              "OSHA 300A — the annual Summary. The year's totals from the 300 Log, certified by a company executive and posted for everyone to see."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The deadlines that matter",
+        body: [
+          {
+            list: [
+              "7 calendar days — you have to enter a recordable case on both the 300 Log and the 301 within 7 calendar days of learning it occurred (1904.29(b)(3)).",
+              "February 1 to April 30 — the 300A summary has to be posted where workers can see it from February 1 through April 30 of the following year (1904.32(b)(6)).",
+              "Five-year retention — the 300, 300A, and 301 records are kept for five years."
+            ]
+          },
+          "The posted 300A is worth reading. It tells you, in plain numbers, how many people got hurt on your job last year and how serious it was."
+        ]
+      },
+      {
+        heading: "Where the crew fits in",
+        body: [
+          "You won't fill out the 300 Log, but your report is what feeds it. The recordkeeper can only be accurate if the information coming up from the field is accurate — the treatment given, days missed, restricted duty, and how the incident actually happened.",
+          "You also have a right to see these records. Under 1904.35, you and your representatives can get access to the 300 Log and your own 301 report. If you want to know where the risks are on your site, the log is the honest answer."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/near-miss-reporting": {
+    description:
+      "A near miss is a free warning — an injury that missed by luck. Why reporting near misses is one of the strongest ways to prevent the real thing.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A near miss is an event that could have caused injury or damage but didn't — the load that swung past you, the trip that you caught, the tool that fell into an empty space. Nobody got hurt, so it's tempting to move on. That's the mistake.",
+          "A near miss is a free lesson. It shows you exactly where the next injury is going to come from, with none of the cost. Report it, and you get to fix the hazard before it collects a victim."
+        ]
+      },
+      {
+        heading: "Why near misses get buried",
+        body: [
+          "Near misses go unreported far more than injuries do, for predictable reasons:",
+          {
+            list: [
+              "'Nothing happened' — so it doesn't feel worth mentioning.",
+              "Embarrassment — nobody wants to admit they almost got hurt.",
+              "Effort — it feels like paperwork for a non-event.",
+              "Habit — the hazard's been there a while and everyone's used to it."
+            ]
+          },
+          "But the conditions behind a near miss are identical to the ones behind an injury. The only difference is luck, and luck isn't a safety control."
+        ]
+      },
+      {
+        heading: "What to report and how",
+        body: [
+          "Keep it quick and blame-free — the point is the hazard, not who slipped:",
+          {
+            list: [
+              "What almost happened and where.",
+              "What conditions made it possible — the hazard, the missing control, the changed condition.",
+              "What stopped it from becoming an injury this time.",
+              "What would keep it from happening again."
+            ]
+          },
+          "It doesn't need to be formal. A quick word to your supervisor or a near-miss card is enough to start the fix."
+        ]
+      },
+      {
+        heading: "Close the loop",
+        body: [
+          "Near-miss reporting only works if reports lead to action. When a reported near miss gets a hazard fixed — a walkway cleared, a guard replaced, a route changed — people see that speaking up works, and they keep doing it.",
+          "The best crews treat near misses as a normal, everyday part of the safety conversation, not an admission of failure. Every near miss you report is an injury that doesn't happen next month."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/incident-investigation-and-root-cause": {
+    description:
+      "Good investigations find the conditions that caused an incident, not someone to blame — how to preserve facts and dig past 'operator error' to the root cause.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "After an incident or a serious near miss, the point of the investigation is to understand why it happened so it can't happen again. A good investigation looks for causes; a bad one looks for someone to blame — and blame stops the learning cold.",
+          "You don't need to be an investigator to help. The crew provides the facts that make an investigation useful, and how the scene is handled in the first few minutes decides how much can be learned."
+        ]
+      },
+      {
+        heading: "Preserve the scene and the facts",
+        body: [
+          "Once anyone hurt is cared for, protect what the investigation will need:",
+          {
+            list: [
+              "Leave the scene as it is where it's safe to — don't clean up or move equipment until it's been documented.",
+              "Take photos of conditions, positions, and equipment before anything changes.",
+              "Get accounts from those involved and any witnesses while memories are fresh.",
+              "Note conditions that can change fast — weather, lighting, wet surfaces, what was running."
+            ]
+          },
+          "Preserving a fatality or catastrophe scene (except to help victims or prevent another incident) is good practice — it protects both the OSHA investigation and your own."
+        ]
+      },
+      {
+        heading: "Dig for the root cause",
+        body: [
+          "Most incidents look like 'operator error' on the surface, but that's almost never the real cause. Keep asking why until you reach a condition you can actually fix:",
+          {
+            list: [
+              "Why did the worker do that? Maybe the safe way was slower, blocked, or unclear.",
+              "Why was the hazard there? Maybe a guard was missing or a control failed.",
+              "Why wasn't it caught? Maybe the inspection or the plan missed it.",
+              "Why did the plan allow it? Maybe the task was rushed or under-resourced."
+            ]
+          },
+          "The root cause is the thing that, if fixed, actually stops a repeat — usually a condition, a process, or a plan, not just a person."
+        ]
+      },
+      {
+        heading: "Blame-free gets better answers",
+        body: [
+          "People tell the truth when they're not afraid of being punished for it. An investigation that hunts for someone to fire teaches everyone to say as little as possible — and you never find the real cause.",
+          "Keep the focus on conditions and systems. The goal is a fix, not a fall guy. That mindset is also what makes near-miss and injury reporting work in the first place."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/corrective-actions-that-prevent-recurrence": {
+    description:
+      "A report only matters if something changes — turning findings into corrective actions, using the hierarchy of controls, and closing them out.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Reporting and investigating are worthless if nothing changes afterward. The corrective action is the whole point — the fix that keeps the same incident from happening again. Everything before it is just gathering information; this is where it pays off.",
+          "A corrective action is a specific change assigned to a specific person with a specific deadline. 'Be more careful' is not a corrective action — it's a wish."
+        ]
+      },
+      {
+        heading: "Fix the hazard, not just the symptom",
+        body: [
+          "Aim corrective actions as high up the hierarchy of controls as you can — the higher you go, the less it depends on people remembering:",
+          {
+            list: [
+              "Eliminate — remove the hazard entirely (redesign the task, remove the obstacle).",
+              "Substitute — use a safer material, tool, or method.",
+              "Engineering controls — guards, barriers, ventilation, better access.",
+              "Administrative controls — procedures, training, signs, scheduling.",
+              "PPE — the last line, protecting the worker when the hazard remains."
+            ]
+          },
+          "Retraining and 'pay more attention' sit at the weak end. A guard or a redesign at the top end fixes it for everyone, every time."
+        ]
+      },
+      {
+        heading: "Assign, track, and close it out",
+        body: [
+          "A corrective action needs three things to actually happen:",
+          {
+            list: [
+              "An owner — one named person responsible for it.",
+              "A deadline — a date it will be done by.",
+              "Verification — someone confirms it was completed and that it worked."
+            ]
+          },
+          "Track open actions until they're closed. An action list that never gets checked is how the same hazard shows up in next year's incident report."
+        ]
+      },
+      {
+        heading: "Close the loop with the crew",
+        body: [
+          "Tell the crew what changed and why. When workers see that reporting an incident led to a real fix — a new guard, a changed procedure, a cleared route — they trust the process and keep reporting.",
+          "When they report something and nothing ever changes, they stop reporting. Closing the loop is what keeps the whole reporting system alive."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/your-right-to-report-without-retaliation": {
+    description:
+      "OSHA 1904.35 and 1904.36 plus Section 11(c) — your legal right to report an injury or hazard without being punished for it, and what to do if you are.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "You have a legal right to report a work-related injury, illness, or hazard, and your employer cannot punish you for using it. This isn't just company policy — it's federal law, and it's the foundation that makes the whole reporting system work. People only report when they're not afraid to.",
+          "The protections are in OSHA 1904.35, 1904.36, and Section 11(c) of the OSH Act."
+        ]
+      },
+      {
+        heading: "What the law requires",
+        body: [
+          {
+            list: [
+              "1904.35 — your employer must tell you how to report an injury and must set up a reasonable reporting procedure. A procedure isn't reasonable if it would deter or discourage a reasonable worker from reporting.",
+              "1904.35 — you also have the right to report and the right to access the injury records (the 300 Log and your own 301).",
+              "1904.36 — ties in Section 11(c): your employer is prohibited from discharging or discriminating against you for reporting a fatality, injury, or illness, filing a safety complaint, or asking for the records."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What retaliation looks like",
+        body: [
+          "Retaliation isn't always a firing. It can be any adverse action taken because you reported:",
+          {
+            list: [
+              "Firing, demotion, or cutting hours or pay.",
+              "Reassignment to a worse job or shift.",
+              "Discipline, a bad review, or being blacklisted for reporting.",
+              "Programs that punish reporting — like blanket 'report an injury, take a drug test' policies or safety-bonus schemes that pay out only if nobody reports."
+            ]
+          },
+          "Those last ones matter: incentive and post-incident policies that discourage reporting can themselves violate 1904.35."
+        ]
+      },
+      {
+        heading: "If it happens to you",
+        body: [
+          "If you're punished for reporting, you can file an 11(c) complaint with OSHA — but there's a tight deadline: within 30 days of the retaliation. Keep your own record of what happened and when.",
+          "The bottom line for the crew: report freely. The law is on the side of the worker who speaks up, and a safe job depends on people being able to report without looking over their shoulder."
+        ]
+      }
+    ]
+  },
+  "accident-reporting/writing-a-clear-incident-report": {
+    description:
+      "A useful report is timely, factual, and specific — what to include, how to stick to facts, and the mistakes that make a report useless.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The investigation and the corrective action are only as good as the report they're built on. A clear, factual report lets the people who weren't there understand exactly what happened and fix it. A vague one wastes everyone's time and buries the lesson.",
+          "You don't need to be a writer. You need to be accurate, specific, and quick — get the facts down while they're fresh."
+        ]
+      },
+      {
+        heading: "Cover the basics",
+        body: [
+          "A good report answers the simple questions:",
+          {
+            list: [
+              "Who — who was involved and who witnessed it.",
+              "What — what happened, and what injury or damage resulted.",
+              "Where — the exact location on the site.",
+              "When — the date and time.",
+              "How — the sequence of events that led to it.",
+              "Conditions — what equipment, materials, weather, and site conditions were in play."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stick to facts, not blame",
+        body: [
+          "Write what you observed, not what you assume or who you fault:",
+          {
+            list: [
+              "Facts, not opinions — 'the floor was wet' not 'he's careless.'",
+              "Specifics, not generalities — 'a 3-foot section of guardrail was missing' not 'it wasn't safe.'",
+              "Don't guess at causes you didn't see — say what you know and note what's unknown.",
+              "Include what was done right away — first aid given, area secured, help called."
+            ]
+          },
+          "Blame in a report shuts down the honesty the investigation needs and rarely reflects the real cause."
+        ]
+      },
+      {
+        heading: "Timely and complete",
+        body: [
+          "Write it while it's fresh — memory fades fast and details that seemed obvious disappear within hours. A report done the same day beats a polished one done next week.",
+          "Remember the deadlines it feeds: recordable cases go on the 300 Log and 301 within 7 calendar days, and severe injuries carry the 8- and 24-hour OSHA reporting clocks. A complete, prompt report is what lets the company meet all of them — and, more importantly, fix the hazard before it repeats."
+        ]
+      }
+    ]
   }
 };
 

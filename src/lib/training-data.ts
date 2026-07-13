@@ -507,6 +507,7 @@ const realContentCategories = new Set<string>([
   "site-access-and-public-protection",
   "housekeeping",
   "slips-trips-and-falls",
+  "accident-reporting",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -957,12 +958,17 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "What to Report",
-      "Who to Report To",
-      "When to Report",
+      "Why We Report — Injuries, Near Misses, and Prevention",
+      "Report It Right Away — Telling Your Supervisor",
+      "Reporting Severe Injuries — The 8-Hour and 24-Hour Rules",
+      "What Makes an Injury Recordable",
+      "First Aid vs. Medical Treatment",
+      "The OSHA 300 Log, 300A Summary, and 301 Report",
       "Near-Miss Reporting",
-      "Documenting Incidents",
-      "Corrective Actions After an Incident"
+      "Incident Investigation and Root Cause",
+      "Corrective Actions That Prevent Recurrence",
+      "Your Right to Report Without Retaliation",
+      "Writing a Clear Incident Report"
     ]
   }),
   createCategory({
