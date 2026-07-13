@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MenuIcon, ShieldIcon } from "@/components/icons";
 
 const navItems = [
-  { href: "/", label: "Home" },
+  { href: "/", label: "Learning Categories" },
   { href: "/acknowledgment", label: "Forms & Reports" },
   { href: "/contact", label: "Contact" }
 ];
