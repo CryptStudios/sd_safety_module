@@ -12502,7 +12502,560 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
-  }
+  },
+  "coshh-hazardous-substances/what-counts-as-a-hazardous-substance": {
+    description:
+      "How to recognize the hazardous substances on a job site and why OSHA's Hazard Communication rule covers so many of them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A hazardous substance is any chemical that can hurt you — burn your skin, damage your lungs, poison your body, catch fire, or blow up. It doesn't have to come in a marked drum. Half the stuff that hurts crews gets made by the work itself: silica dust off a saw, lead fumes off a torch, solvent vapor off a bucket of adhesive.",
+          "OSHA's Hazard Communication Standard, 29 CFR 1910.1200, is the rule that ties it all together. It says your employer has to identify the hazardous chemicals on site, label them, keep a data sheet on each one, and train you before you work around them.",
+        ],
+      },
+      {
+        heading: "It's Not Just What's in the Drum",
+        body: [
+          "People picture a hazardous substance as something with a skull on the label. Plenty of them look harmless. Portland cement is caustic enough to burn skin. Diesel exhaust is a carcinogen. Concrete dust carries silica. A five-gallon pail of construction adhesive gives off vapor that can drop you in a closed room.",
+          "The hazard shows up as one or more of these:",
+          {
+            list: [
+              "Health hazards — cancer, organ damage, lung disease, skin and eye burns, allergic reactions, reproductive harm.",
+              "Physical hazards — flammable, explosive, oxidizer, compressed gas, reactive with water or other chemicals.",
+              "Simple asphyxiants — gases that push out the oxygen in a tank, vault, or vessel (that's a confined-space kill).",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What HazCom Covers",
+        body: [
+          "Under 1910.1200 your employer must have a written hazard communication program, a labeled container for every hazardous chemical, a Safety Data Sheet (SDS) you can get to, and training on the hazards you face. That's your right to know — nobody should be working with a chemical they can't get information on.",
+          "A few things fall outside HazCom because other rules already cover them — hazardous waste, tobacco, food, and consumer products used the same way a shopper would. When in doubt, ask your supervisor and check the SDS.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/the-hazard-communication-program-and-your-right-to-know": {
+    description:
+      "What the written HazCom program contains and the information your employer owes you before you work around chemicals.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Hazard Communication, 29 CFR 1910.1200, used to be called the \"right-to-know\" rule for a reason. You have a legal right to know what chemicals you're exposed to and how to protect yourself. Your employer has a legal duty to tell you — in a language and way you understand — before the exposure, not after.",
+        ],
+      },
+      {
+        heading: "The Written Program",
+        body: [
+          "Every site that has hazardous chemicals needs a written hazard communication program under 1910.1200(e). It's not just paperwork sitting in a trailer. It has to spell out:",
+          {
+            list: [
+              "A list of the hazardous chemicals known to be on site.",
+              "How containers get labeled.",
+              "How Safety Data Sheets are kept and how you get to them.",
+              "How workers are trained.",
+              "On a multi-employer site, how the contractors share hazard info and SDSs with each other's crews.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Training You Must Get",
+        body: [
+          "Training happens at your initial assignment and again whenever a new hazard is introduced — a new product, a new task. Under 1910.1200(h) it has to cover how to read labels and SDSs, the physical and health hazards of the chemicals in your area, how to detect a release, and the controls and PPE that protect you.",
+          "If you can't answer \"what's in this, what can it do to me, and how do I stay safe\" for the chemicals you handle, the training wasn't done right. Speak up.",
+        ],
+      },
+      {
+        heading: "Getting to the Information",
+        body: [
+          "SDSs have to be readily accessible to you on your shift — a binder in the trailer, a tablet, a posted phone number to a 24-hour service. \"Readily accessible\" means without asking permission and without delay. If you can't find the sheet for something you're using, stop and get it before you keep working.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/ghs-labels-and-signal-words": {
+    description:
+      "The six required elements on a GHS chemical label and what the signal words Danger and Warning actually mean.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Since HazCom aligned with the Globally Harmonized System (GHS), every hazardous chemical container from the manufacturer carries a standard label. Same six pieces of information, same layout, every time — so you can read a drum from a supplier you've never dealt with and know what you're holding.",
+        ],
+      },
+      {
+        heading: "The Six Label Elements",
+        body: [
+          "A manufacturer's GHS label under 1910.1200(f) must have all six of these:",
+          {
+            list: [
+              "Product identifier — the chemical or product name, matching the SDS.",
+              "Signal word — either \"Danger\" or \"Warning\".",
+              "Hazard statements — plain phrases describing the hazard, like \"Causes serious eye damage\" or \"Highly flammable liquid and vapor\".",
+              "Pictograms — the red-diamond symbols (see The Nine GHS Pictograms).",
+              "Precautionary statements — what to do about it: prevention, response, storage, disposal.",
+              "Supplier information — name, address, and phone number of the manufacturer or importer.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Danger vs. Warning",
+        body: [
+          "The signal word tells you how bad it is at a glance. There are only two, and they are not interchangeable:",
+          {
+            list: [
+              "\"Danger\" — the more severe hazard. Higher chance of serious injury or death.",
+              "\"Warning\" — the less severe hazard in that class.",
+            ],
+          },
+          "A container never carries both. If a chemical earns \"Danger\" for one hazard and \"Warning\" for another, only \"Danger\" goes on the label. So when you see \"Danger,\" treat it as the real thing.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/the-nine-ghs-pictograms": {
+    description:
+      "The nine red-diamond GHS pictograms on chemical labels and the hazards each one warns you about.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A GHS pictogram is a black symbol on a white background inside a red diamond border. There are nine of them. Learn the shapes — they tell you the type of hazard before you read a single word, which matters when the label's faded or you're moving fast.",
+        ],
+      },
+      {
+        heading: "The Health and Toxicity Symbols",
+        body: [
+          "These four warn you the chemical can hurt your body:",
+          {
+            list: [
+              "Health Hazard (a figure with a starburst on the chest) — carcinogen, mutagen, reproductive toxicity, respiratory sensitizer, or target-organ / aspiration toxicity. The serious, long-term stuff.",
+              "Skull and Crossbones — acute toxicity that can be fatal or toxic in small amounts.",
+              "Exclamation Mark — irritant, skin sensitizer, acute toxicity (harmful), or narcotic effects. Less severe, still real.",
+              "Corrosion (liquid eating into a hand and a surface) — corrosive: burns skin and eyes, or eats metal.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Physical-Hazard Symbols",
+        body: [
+          "These four warn you the chemical can catch fire, explode, feed a fire, or come under pressure:",
+          {
+            list: [
+              "Flame — flammables, pyrophorics, self-heating, self-reactives, organic peroxides, or materials that emit flammable gas.",
+              "Flame Over Circle — oxidizers, which feed a fire and make it worse even without more fuel.",
+              "Exploding Bomb — explosives, self-reactives, and organic peroxides that can detonate.",
+              "Gas Cylinder — gases under pressure (compressed, liquefied, or dissolved).",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Ninth Symbol",
+        body: [
+          "The Environment pictogram (a dead fish and tree) warns of aquatic toxicity. Under HazCom this one is non-mandatory, so you'll see it less often — but it still tells you not to let the stuff reach a storm drain or waterway.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/reading-a-safety-data-sheet": {
+    description:
+      "The standard 16-section Safety Data Sheet and the sections you should hit first before you start a job.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A Safety Data Sheet (SDS) is the full rundown on a chemical — everything the label can't fit. Under 1910.1200(g) every one follows the same 16-section order, so you always know where to look. The manufacturer writes it; your employer keeps it where you can get to it.",
+        ],
+      },
+      {
+        heading: "The 16 Sections, In Order",
+        body: [
+          {
+            list: [
+              "1. Identification — product name, maker, emergency phone, recommended use.",
+              "2. Hazard identification — the hazards, label elements, signal word.",
+              "3. Composition / ingredients — what's in it.",
+              "4. First-aid measures — what to do for exposure.",
+              "5. Fire-fighting measures — extinguishing media, hazards in a fire.",
+              "6. Accidental release measures — spill and leak cleanup.",
+              "7. Handling and storage — safe handling, incompatibles.",
+              "8. Exposure controls / personal protection — exposure limits, engineering controls, PPE.",
+              "9. Physical and chemical properties — flash point, appearance, odor.",
+              "10. Stability and reactivity — what makes it react or break down.",
+              "11. Toxicological information — health effects, routes of entry, symptoms.",
+              "12. Ecological information (non-mandatory to enforce).",
+              "13. Disposal considerations (non-mandatory to enforce).",
+              "14. Transport information (non-mandatory to enforce).",
+              "15. Regulatory information (non-mandatory to enforce).",
+              "16. Other information — revision date and more.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Sections to Read First",
+        body: [
+          "You don't have to read all 16 before every task. Before you open a product, hit these:",
+          {
+            list: [
+              "Section 2 — what can it do to me.",
+              "Section 8 — what exposure limits apply and what PPE I need.",
+              "Section 7 — how to handle and store it, and what it can't touch.",
+              "Section 4 — first aid, in case something goes wrong.",
+            ],
+          },
+          "OSHA holds sections 1 through 11 and 16 to a fixed content standard. Sections 12 through 15 cover areas run by other agencies, so they're on the sheet but not OSHA-enforced.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/how-substances-get-into-your-body": {
+    description:
+      "The four ways hazardous chemicals get into your body and how the entry route drives the controls you need.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A chemical can't hurt you until it gets in. There are four ways in — breathing it, touching it, swallowing it, or getting it under your skin. Knowing the route tells you which control matters. If it's an inhalation hazard, gloves won't save you; you need to keep it out of the air.",
+        ],
+      },
+      {
+        heading: "The Four Routes",
+        body: [
+          {
+            list: [
+              "Inhalation (breathing) — the big one on construction sites. Dust, vapor, fume, and mist go straight to your lungs and into your blood. Silica, lead fume, solvent vapor, welding fume all get in this way.",
+              "Skin and eye contact — corrosives burn on contact; solvents and some metals absorb right through intact skin into your bloodstream.",
+              "Ingestion (swallowing) — usually from eating, drinking, or smoking with contaminated hands, or chewing on gloves. This is how lead dust gets swallowed.",
+              "Injection — a chemical pushed under the skin through a cut, a nail, or a high-pressure tool like an airless paint sprayer or a grease gun.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Match the Control to the Route",
+        body: [
+          "The route decides the defense. Inhalation hazards get beaten with ventilation, wet methods, and — last — respirators (see Respiratory Protection under PPE). Skin and eye hazards get beaten with gloves, sleeves, aprons, and face protection. Ingestion gets beaten by washing hands and face before you eat, drink, or smoke, and never doing any of those in the work area.",
+          "Injection is why you keep your hands clear of the tip on any high-pressure tool. A pinhole leak in an airless sprayer can inject paint through your skin at pressures that put you in surgery — treat every such wound as an emergency, even if it looks like a small mark.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/permissible-exposure-limits-and-air-monitoring": {
+    description:
+      "What a Permissible Exposure Limit is, how it differs from an action level, and why the site takes air samples.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A Permissible Exposure Limit (PEL) is the most of a substance OSHA lets you breathe, averaged over a work shift. It's the legal ceiling. Most PELs are an 8-hour time-weighted average (TWA) — an average across your shift, so a short spike can be okay if the rest of the day is low, and a steady medium dose can still put you over.",
+        ],
+      },
+      {
+        heading: "Where the Limits Come From",
+        body: [
+          "OSHA's construction air-contaminant limits live in 29 CFR 1926.55 and the Z-tables at 1910.1000. A handful of the worst substances — silica, lead, asbestos — have their own detailed standards with their own limits.",
+          "Two other sets of numbers show up on SDSs as guidance, not law:",
+          {
+            list: [
+              "NIOSH RELs (Recommended Exposure Limits) — from the CDC's research arm.",
+              "ACGIH TLVs (Threshold Limit Values) — industry consensus limits.",
+            ],
+          },
+          "RELs and TLVs are often lower — stricter — than the OSHA PEL. Meeting the PEL is the legal floor, but the lower guidance numbers are worth chasing because many PELs are decades old.",
+        ],
+      },
+      {
+        heading: "Action Level and Air Monitoring",
+        body: [
+          "Many standards set an action level below the PEL — usually half. Silica's PEL is 50 µg/m³ with an action level of 25 µg/m³; lead's PEL is 50 µg/m³ with an action level of 30 µg/m³. Hit the action level and extra requirements kick in — medical monitoring, more air sampling, training — before you ever reach the legal limit. It's an early-warning line.",
+          "You can't see or smell your way to a number. That's why the site runs air monitoring — a pump and sampler clipped to a worker in the breathing zone for a shift, then a lab reads it. If they ask to sample you, cooperate; the result tells everyone whether the controls are actually working.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/respirable-crystalline-silica": {
+    description:
+      "The silica dust hazard, the OSHA silica standard's exposure limits, and the Table 1 controls that keep you under them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Crystalline silica is in concrete, brick, block, stone, mortar, and sand. Cut, grind, drill, or bust any of it and you make respirable dust — particles small enough to reach deep into your lungs. Breathe enough over the years and you get silicosis (scarred, stiff lungs that don't heal), lung cancer, COPD, or kidney disease. There's no cure for silicosis.",
+        ],
+      },
+      {
+        heading: "The Numbers",
+        body: [
+          "The construction silica standard is 29 CFR 1926.1153:",
+          {
+            list: [
+              "PEL — 50 µg/m³ as an 8-hour TWA. That's the legal ceiling.",
+              "Action level — 25 µg/m³ as an 8-hour TWA. Hit this and medical surveillance and monitoring requirements kick in.",
+            ],
+          },
+          "These are tiny amounts — a fraction of a sugar packet spread across a room of air over a shift. You will never see them. That's why dust you can see coming off a saw is already a serious problem.",
+        ],
+      },
+      {
+        heading: "Table 1 — the Easy Button",
+        body: [
+          "The standard gives you Table 1: a list of common tasks (sawing, grinding, drilling, tuckpointing) each paired with a specified control. Follow the control for your task fully and you're compliant without having to do your own air monitoring. The controls come down to two ideas:",
+          {
+            list: [
+              "Wet methods — a saw with an integrated water feed that runs water to the blade to knock dust down at the source, at a flow rate that minimizes visible dust.",
+              "Local exhaust ventilation (LEV) — a shroud and dust-collection vacuum on grinders and drills, with a filter of 99% or greater efficiency and a filter-cleaning mechanism.",
+            ],
+          },
+          "Some Table 1 tasks also call for a respirator on top of the control — check the row for your exact task. Respirator selection and fit are covered in Respiratory Protection under PPE.",
+        ],
+      },
+      {
+        heading: "On the Job",
+        body: [
+          "Keep water running before the blade touches material — dry cutting even for a minute makes a cloud. Keep the vacuum shroud tight to the wheel and empty it correctly. Never dry-sweep silica dust; it just puts it back in the air. Use a HEPA vacuum or wet methods to clean up.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/lead-and-other-heavy-metals": {
+    description:
+      "Where lead and other toxic metals show up on construction sites, their exposure limits, and how to keep them out of your body.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Lead is still all over construction — old paint, solder, roofing, radiation shielding, and the fumes off cutting or torching coated steel. It's a cumulative poison: your body stores it in bone and it builds up. Enough of it wrecks your nervous system, kidneys, blood, and reproductive health. It also rides home on your clothes and poisons your family.",
+        ],
+      },
+      {
+        heading: "The Numbers",
+        body: [
+          "Lead in construction is covered by 29 CFR 1926.62:",
+          {
+            list: [
+              "PEL — 50 µg/m³ of air as an 8-hour TWA.",
+              "Action level — 30 µg/m³ as an 8-hour TWA, which triggers air monitoring, medical surveillance (including blood-lead testing), and training.",
+            ],
+          },
+          "Torch-cutting, welding, sanding, and abrasive-blasting lead-painted surfaces can blow past the PEL fast. Until air sampling proves otherwise, certain trigger tasks are presumed over the limit and require protection up front.",
+        ],
+      },
+      {
+        heading: "Other Heavy Metals",
+        body: [
+          "Lead isn't the only toxic metal you meet. Watch for:",
+          {
+            list: [
+              "Hexavalent chromium — welding or cutting stainless steel and chrome coatings; a lung carcinogen with its own standard, 29 CFR 1926.1126.",
+              "Cadmium — some coatings, solders, and paints; covered by 29 CFR 1926.1127.",
+              "Manganese — a component of welding fume that can attack the nervous system.",
+              "Arsenic and mercury — in some older treated materials and equipment.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Keeping It Out of You and Your Family",
+        body: [
+          "Metals mostly get you by inhalation and by hand-to-mouth ingestion. Control the air with LEV and wet methods first, respirators second. Then break the ingestion path: wash hands and face before eating, drinking, or smoking, and never do those in the work area.",
+          "Don't wear contaminated clothes home. Change out, and where the job requires it use the provided showers and separate lockers so you're not carrying lead dust into your truck and onto your kids.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/dusts-vapors-fumes-and-mists-created-by-the-work": {
+    description:
+      "The airborne forms hazardous substances take on a job site and why the work itself is often the source.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Most of the chemical exposure on a construction site isn't poured out of a labeled container — it's created by the work. Cutting, grinding, welding, spraying, and mixing turn solid and liquid materials into something you can breathe. Knowing the four airborne forms helps you spot the hazard and pick the control.",
+        ],
+      },
+      {
+        heading: "The Four Forms",
+        body: [
+          {
+            list: [
+              "Dust — solid particles thrown off by cutting, grinding, sanding, drilling, or sweeping. Silica dust, wood dust, drywall dust, lead-paint dust.",
+              "Fume — very fine solid particles from metal heated to melting, that cool into an airborne cloud. Welding fume, torch-cutting fume, soldering fume.",
+              "Vapor — the gas form of something that's a liquid at room temperature. Solvent, adhesive, fuel, and paint vapors.",
+              "Mist — tiny liquid droplets sprayed or splashed into the air. Paint spray, cutting-oil mist, sprayed coatings and form-release agents.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Why the Form Matters",
+        body: [
+          "The finer it is, the deeper it goes and the longer it hangs in the air. Fume and respirable dust are small enough to reach the deepest part of your lungs, so you can't feel them the way you'd feel a big chip. A vapor you can smell may already be well into the harmful range — or you may go nose-blind to it and stop smelling it entirely.",
+          "You control all four the same way, in order: stop making it if you can, then capture it at the source with ventilation or water, then keep the space aired out, and only then reach for a respirator (see Controlling Exposure — the Hierarchy of Controls). Visible dust or a strong smell means the controls aren't keeping up — stop and fix it.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/controlling-exposure-the-hierarchy-of-controls": {
+    description:
+      "The hierarchy of controls applied to chemical exposure, from eliminating the hazard down to PPE as the last line.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When there's a chemical hazard, you don't just reach for a respirator and call it done. The hierarchy of controls ranks your options from most effective to least. You work down the list, using the highest control that's feasible — because the ones at the top remove the hazard, while the ones at the bottom just try to protect the worker if everything else fails.",
+        ],
+      },
+      {
+        heading: "Top to Bottom",
+        body: [
+          {
+            list: [
+              "Elimination — get rid of the hazard entirely. Don't use the chemical; use a different method that doesn't create the dust or fume.",
+              "Substitution — swap it for something less harmful. A water-based product instead of a solvent-based one; a less toxic material.",
+              "Engineering controls — build the protection into the job: local exhaust ventilation, wet methods, enclosure and containment, general ventilation. These work whether or not the worker does anything.",
+              "Administrative controls — change how people work: rotate tasks to cut exposure time, schedule dusty work when fewer people are around, train, keep good housekeeping.",
+              "PPE — respirators, gloves, goggles, suits. The last line, not the first.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Why PPE Is Last",
+        body: [
+          "PPE only protects the one person wearing it, only when it's worn right, only when it fits, and only until it fails or gets taken off. A respirator with a bad seal does nothing. The hazard is still fully in the air the second the mask comes off. Engineering controls, by contrast, cut the hazard for everyone in the area and don't depend on anybody remembering to do something.",
+          "PPE is never wrong — it's often required on top of the higher controls. But if the plan is \"just wear a respirator\" and nothing higher was even tried, the plan is upside down.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/storing-and-segregating-chemicals-safely": {
+    description:
+      "How to store hazardous chemicals so incompatible ones can't mix, and how to keep flammables out of trouble.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Chemicals that are fine on their own can burn, explode, or make a poison gas when they mix. Storage is about keeping the wrong things apart. The SDS tells you what a product can't touch — Section 7 (handling and storage) and Section 10 (stability and reactivity) are where you look before you decide where something lives.",
+        ],
+      },
+      {
+        heading: "Keep Incompatibles Apart",
+        body: [
+          "Segregate by hazard class, not just alphabetically. The classic bad mixes:",
+          {
+            list: [
+              "Acids and bases — react violently and give off heat.",
+              "Oxidizers and flammables or fuels — oxidizers feed a fire; keep them well away from anything that burns.",
+              "Acids and cyanides or sulfides — can release deadly gas.",
+              "Water-reactive chemicals — keep dry; some catch fire or give off flammable gas on contact with water.",
+              "Bleach and ammonia products — make toxic chloramine gas.",
+            ],
+          },
+          "Use distance, separate cabinets, or physical barriers and secondary containment (a tray or bund that catches a leak) so a spill from one can't run into another.",
+        ],
+      },
+      {
+        heading: "Flammables",
+        body: [
+          "Store flammable liquids in approved flammable-storage cabinets or containers, away from ignition sources, heat, and direct sun. Keep containers closed when you're not pouring. Bond and ground when transferring flammable liquids so static can't set off a spark. Keep only what the job needs on hand — don't stockpile.",
+        ],
+      },
+      {
+        heading: "Good Storage Habits",
+        body: [
+          "Keep containers closed and labeled, heavier and larger ones down low, and everything out of walkways and off exits. Don't store chemicals in unlabeled or food containers — ever. Check for leaks, swelling, and corrosion, and pull damaged containers out of service. First in, first out, so nothing sits past its shelf life.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/secondary-containers-and-workplace-labeling": {
+    description:
+      "When a container you fill on site needs a label, what has to go on it, and the one narrow exception.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The manufacturer's label covers the original container. The second you pour product into a bucket, spray bottle, or unmarked can, you've made a secondary container — and under HazCom, 29 CFR 1910.1200(f)(6), that one needs a label too. An unlabeled jug of clear liquid is how people drink or splash the wrong thing.",
+        ],
+      },
+      {
+        heading: "What a Workplace Label Needs",
+        body: [
+          "A secondary-container label doesn't have to be a full reproduction of the maker's label, but it has to give the worker enough to be safe. Two ways to do it:",
+          {
+            list: [
+              "Copy the manufacturer's label information — product identifier plus the GHS pictograms, signal word, and hazard statements.",
+              "Product identifier plus words, pictures, or symbols that give the same general hazard information — for example an in-house system as long as workers are trained on it and it doesn't conflict with GHS.",
+            ],
+          },
+          "Either way the product identifier must be on it, and it must not contradict the original label.",
+        ],
+      },
+      {
+        heading: "The One Exception",
+        body: [
+          "There's a single narrow out: a portable container you fill and use up yourself, on your shift, that never leaves your hands. That one doesn't need a label. The moment you set it down for someone else, leave it overnight, or hand it off, the exception is gone and it needs a full workplace label.",
+          "When in doubt, label it. It takes ten seconds and it's the difference between a coworker knowing what's in the bottle and guessing.",
+        ],
+      },
+    ],
+  },
+  "coshh-hazardous-substances/chemical-spills-skin-contact-and-emergency-response": {
+    description:
+      "First moves for a chemical spill, chemical burns to skin and eyes, and when to evacuate instead of clean up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When a chemical spills or gets on someone, the first minute decides how bad it ends. Your job is to know which spills you can handle, which ones you clear out from, and how to flush a chemical off skin and eyes fast. The SDS spells out the specifics — Section 4 (first aid) and Section 6 (accidental release) — so know where those are before anything goes wrong.",
+        ],
+      },
+      {
+        heading: "Chemical on Skin or in Eyes",
+        body: [
+          "For a chemical burn or splash, water and time are the treatment:",
+          {
+            list: [
+              "Flush the skin or eyes with clean water for at least 15 minutes — keep going, don't stop early.",
+              "For eyes, hold the lids open and roll the eye so water reaches all of it; get to an eyewash station or any clean running water immediately.",
+              "Strip off contaminated clothing while you flush so it's not holding chemical against the skin.",
+              "Don't try to neutralize an acid with a base or the reverse — it makes heat and a worse burn. Water only.",
+              "After flushing, get medical help; some burns keep working under the surface. Bring the SDS or product name.",
+            ],
+          },
+          "Deeper first-aid steps are covered in the First Aid category — this is the chemical-specific piece.",
+        ],
+      },
+      {
+        heading: "Spill: Clean Up or Clear Out",
+        body: [
+          "Not every spill is yours to clean. Size it up first:",
+          {
+            list: [
+              "Small, known, low-hazard spill you're trained and equipped for — contain it, absorb it, and bag the waste per the SDS and site plan.",
+              "Large spill, unknown chemical, flammable, or one giving off vapor or fumes — don't be a hero. Evacuate, keep others back, kill ignition sources if it's safe, and call it in to your supervisor and emergency response.",
+            ],
+          },
+          "Cut the source if you can reach the valve or upright the container safely, then keep the spill out of drains and waterways. Never walk through a spill or track it around.",
+        ],
+      },
+      {
+        heading: "Be Ready Before It Happens",
+        body: [
+          "Know where the nearest eyewash, spill kit, and fire extinguisher are before you open a chemical — not when you're already splashed. Know the site's emergency number and evacuation point. Thirty seconds of looking around up front saves the minutes that matter later.",
+        ],
+      },
+    ],
+  },
+
 };
 
 export function getAuthoredTopic(

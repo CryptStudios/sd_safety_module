@@ -510,6 +510,7 @@ const realContentCategories = new Set<string>([
   "accident-reporting",
   "first-aid",
   "asbestos-awareness",
+  "coshh-hazardous-substances",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1084,12 +1085,20 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Identifying Hazardous Substances on Site",
-      "Reading Safety Data Sheets",
-      "Risk Assessment for Hazardous Substances",
-      "Dust and Silica Exposure Controls",
-      "Chemical Storage and Handling",
-      "Reducing Exposure to Harmful Substances"
+      "What Counts as a Hazardous Substance",
+      "The Hazard Communication Program and Your Right to Know",
+      "GHS Labels and Signal Words",
+      "The Nine GHS Pictograms",
+      "Reading a Safety Data Sheet",
+      "How Substances Get Into Your Body",
+      "Permissible Exposure Limits and Air Monitoring",
+      "Respirable Crystalline Silica",
+      "Lead and Other Heavy Metals",
+      "Dusts, Vapors, Fumes, and Mists Created by the Work",
+      "Controlling Exposure — the Hierarchy of Controls",
+      "Storing and Segregating Chemicals Safely",
+      "Secondary Containers and Workplace Labeling",
+      "Chemical Spills, Skin Contact, and Emergency Response"
     ]
   }),
   createCategory({
