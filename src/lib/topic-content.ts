@@ -9799,6 +9799,539 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  "housekeeping/housekeeping-as-a-safety-control": {
+    description:
+      "Why site order is a safety control, not just cleanup — the OSHA housekeeping duty and what a controlled work area actually looks like.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Housekeeping isn't about a tidy-looking site. It's about control — keeping the space you work in clear of the debris, scrap, and clutter that cause trips, feed fires, and block the way out. A clean area is one you can move through, stage in, and get out of in a hurry.",
+          "And it's not optional. OSHA makes housekeeping a rule, not a courtesy. Debris gets cleared, combustible scrap gets removed at regular intervals, and waste goes in containers — all while the work is going on, not after."
+        ]
+      },
+      {
+        heading: "It's the law, not just good manners",
+        body: [
+          "The construction housekeeping standard, OSHA 29 CFR 1926.25, spells out three duties:",
+          {
+            list: [
+              "1926.25(a) — form and scrap lumber with protruding nails, and all other debris, shall be kept cleared from work areas, passageways, and stairs, in and around buildings or other structures.",
+              "1926.25(b) — combustible scrap and debris shall be removed at regular intervals during construction, and a safe means provided to remove it.",
+              "1926.25(c) — containers shall be provided to collect and separate waste, trash, oily and used rags, and other refuse; the ones holding oily, flammable, or hazardous waste need covers; and garbage gets disposed of at frequent and regular intervals."
+            ]
+          },
+          "The general walking-working-surfaces rule, 1910.22(a), backs it up: places of employment and passageways kept clean and orderly, floors kept clean and dry, and surfaces free of hazards like sharp or protruding objects, loose boards, leaks, spills, snow, and ice."
+        ]
+      },
+      {
+        heading: "Disorder is a hazard multiplier",
+        body: [
+          "A messy area doesn't just look bad — it makes every task around it more dangerous. Clutter is what workers trip over. It hides other hazards, so you don't see the cord or the hole until you're on top of it. Scrap wood and cardboard are fuel for a fire. And piled-up material blocks the exits and slows down anyone trying to reach an injured worker.",
+          "Poor housekeeping is also a signal. When the mess keeps coming back, it usually points to something deeper — not enough waste containers, overcrowded staging, trades tripping over each other, or a pace that leaves no time to clean up."
+        ]
+      },
+      {
+        heading: "What a controlled area looks like",
+        body: [
+          "You can tell a controlled work area at a glance:",
+          {
+            list: [
+              "Walkways, aisles, stairs, and exits are clear.",
+              "Materials are staged and stacked stable, not scattered.",
+              "Waste is in containers, and the oily or flammable ones are covered.",
+              "Cords, hoses, and welding leads are routed out of the path.",
+              "Nails are bent over or pulled; nothing is lying nail-up.",
+              "Spills are cleaned up and wet or muddy spots are dealt with."
+            ]
+          },
+          "None of that takes special training. It takes making cleanup part of the job instead of an afterthought."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/keeping-walkways-aisles-and-exits-clear": {
+    description:
+      "Keeping passageways, aisles, stairs, and exits clear — the free-and-safe-movement rule and why emergency routes are non-negotiable.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The paths you move through are where housekeeping matters most. Clutter in a walkway is a trip you take at a walking pace. Clutter in an exit is a trap when there's a fire or a medical emergency and everyone's trying to get out or get help in.",
+          "Keeping travel routes clear is a specific OSHA duty, not a suggestion — and it applies all shift, not just at cleanup time."
+        ]
+      },
+      {
+        heading: "Keep the paths clear",
+        body: [
+          "OSHA 1926.25(a) calls out work areas, passageways, and stairs by name — debris and scrap lumber get kept cleared from all of them. The storage standard adds the movement rule: 1926.250(a)(3) says aisles and passageways shall be kept clear to provide for the free and safe movement of material-handling equipment or employees, and kept in good repair.",
+          "That means a walkway isn't a place to set a toolbox 'for a minute,' stage material, or coil a hose. If a forklift or a loaded cart has to use the aisle, leave the clearance for it."
+        ]
+      },
+      {
+        heading: "Exits and emergency access stay open",
+        body: [
+          "Some things never get blocked, even for a minute:",
+          {
+            list: [
+              "Exit doors and exit routes.",
+              "Stairwells and the path to them.",
+              "Fire extinguishers, standpipes, and alarm pulls.",
+              "Electrical panels and disconnects.",
+              "Eyewash stations and first-aid equipment."
+            ]
+          },
+          "In an emergency you don't get a second try. If material is stacked in front of a panel or an exit, move it now — that's a stop-and-fix, not an end-of-day item."
+        ]
+      },
+      {
+        heading: "Stairs and elevated walkways",
+        body: [
+          "Stairs are named in the standard for a reason — a single offcut or a coiled cord on a stair tread turns a normal step into a fall. Store nothing on stairs, keep treads and landings clear, and keep them in good repair.",
+          "The same goes for scaffold platforms, ramps, and elevated walkways. Loose material underfoot at height is far worse than at grade. Keep the deck clear of anything you're not actively using."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/protruding-nails-sharp-objects-and-scrap-lumber": {
+    description:
+      "Bent-over or pulled nails, cleared scrap lumber, and capped rebar — the puncture and impalement hazards OSHA housekeeping targets by name.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Form and scrap lumber with nails sticking up is called out by name in the OSHA housekeeping rule — because it's one of the most common ways people get hurt on a construction site. Step on a nail and it goes straight through a boot sole. Fall onto exposed rebar and it can impale you.",
+          "The fix is cheap and fast: deal with the nails and sharp ends at the source, as you create them."
+        ]
+      },
+      {
+        heading: "The standard names it",
+        body: [
+          "OSHA 1926.25(a): 'form and scrap lumber with protruding nails, and all other debris, shall be kept cleared from work areas, passageways, and stairs.' The walking-surfaces rule 1910.22(a)(3) adds that surfaces must be kept free of hazards such as sharp or protruding objects.",
+          "So this isn't a housekeeping nicety — a board lying nail-up in a walkway is a named OSHA violation and a puncture waiting to happen."
+        ]
+      },
+      {
+        heading: "Deal with nails at the source",
+        body: [
+          "The time to handle a nail is the moment you strip the form, not later when the board is buried in a pile:",
+          {
+            list: [
+              "Bend the nail flat or pull it as you strip and de-nail form lumber.",
+              "Never leave a board lying with nails pointing up.",
+              "Stack de-nailed lumber; get scrap into the debris container or drop area.",
+              "Keep the immediate work area cleared as the work progresses (1926.252(c))."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Rebar and other impalement hazards",
+        body: [
+          "Nails aren't the only sharp thing that gets you. Exposed rebar, form stakes, and anchor bolts can impale a worker who trips or falls onto them. OSHA 1926.701(b) requires that all protruding reinforcing steel, onto and into which employees could fall, be guarded to eliminate the hazard of impalement — rebar caps or troughs, or bending the ends over.",
+          "Treat any protruding sharp end the same way: cap it, cover it, remove it, or bend it. Don't walk past it and assume the next person will see it."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/managing-cords-hoses-and-welding-leads": {
+    description:
+      "Keeping extension cords, air hoses, and welding leads out of walkways — the daily trip-and-shock hazard housekeeping owns.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Cords and hoses running across a walkway are the single most common trip hazard on a job site — and a housekeeping problem you can fix in seconds. A trailing extension cord is also a damaged-insulation and shock hazard once it's getting stepped on and run over all day.",
+          "Managing leads isn't about neatness. It's keeping a snag out of the path and keeping the cord itself in one piece."
+        ]
+      },
+      {
+        heading: "Why leads pile up",
+        body: [
+          "Temporary power, compressed air, and welding all run flexible leads across floors and walkways, and they multiply fast once several trades are working the same area. Left where they land, they cross the exact paths people walk — and the more of them there are, the more they tangle and snag.",
+          "1910.22(a)(3) puts trailing hazards squarely in the housekeeping rule: surfaces kept free of hazards. A cord across a walkway is one of them."
+        ]
+      },
+      {
+        heading: "Keep them out of the path",
+        body: [
+          "The goal is simple — get the lead off the walking surface:",
+          {
+            list: [
+              "Route cords and hoses along walls and edges, not across the middle of a path.",
+              "Run them overhead on hooks or stands where you can.",
+              "Where a lead must cross a walkway, cover it with a cable ramp or protector.",
+              "Don't leave coiled slack lying in an aisle.",
+              "Pick up and coil leads when the task is done, not next week."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "It's also an electrical hazard",
+        body: [
+          "A cord that's getting walked on and driven over gets damaged — crushed insulation, cut jacket, pulled strain relief. Now it's a shock hazard on top of a trip hazard, especially in a wet or muddy area.",
+          "Inspect cords before use, keep them out of standing water, and take a damaged cord out of service. The detail on GFCI protection, grounding, and cord inspection lives in the Electrical Safety category — this is where housekeeping and electrical safety meet."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/removing-combustible-scrap-and-debris": {
+    description:
+      "Cardboard, scrap wood, sawdust, and packaging — the fuel load that turns a spark into a fire, and OSHA's 'remove at regular intervals' duty.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Every pile of cardboard, scrap wood, and sawdust on a site is fuel. Let it build up and a stray spark — from a grinder, a torch, a heater, or a cigarette — has something to burn. Combustible debris is why a small ignition becomes a structure fire.",
+          "That's why OSHA doesn't let it accumulate. Combustible scrap comes out at regular intervals, while the work is going on."
+        ]
+      },
+      {
+        heading: "The duty to remove it",
+        body: [
+          "OSHA 1926.25(b): 'Combustible scrap and debris shall be removed at regular intervals during the course of construction. Safe means shall be provided to facilitate such removal.' The waste standard adds 1926.252(c): 'All scrap lumber, waste material, and rubbish shall be removed from the immediate work area as the work progresses.'",
+          "Read those together and the message is clear: don't stockpile combustible trash and deal with it Friday. Take it out as you go, and make sure crews have the containers and chutes to do it safely."
+        ]
+      },
+      {
+        heading: "Less fuel, smaller fire",
+        body: [
+          "The size of a fire depends on how much there is to burn. A work area with debris cleared as it's made has almost no fuel load. The same area at the end of an uncleaned week is a bonfire waiting for a spark.",
+          "This is why housekeeping and fire prevention are the same conversation. Keeping the fuel down is the cheapest fire control you have."
+        ]
+      },
+      {
+        heading: "Keep combustibles away from ignition",
+        body: [
+          "Where debris does sit for a while, keep it away from anything that can light it:",
+          {
+            list: [
+              "Hot work — welding, cutting, grinding sparks (see Welding and Hot Work).",
+              "Temporary heaters and their exhaust.",
+              "Temporary wiring, lights, and electrical connections.",
+              "Smoking areas and fuel storage."
+            ]
+          },
+          "The site fire-prevention program in the Fire Safety category ties this together — housekeeping is the part crews control hour to hour."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/waste-containers-and-separating-refuse": {
+    description:
+      "Providing covered containers and separating waste, trash, and hazardous refuse on site — OSHA 1926.25(c).",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Debris has to go somewhere. OSHA requires containers on the job to collect and separate waste — and covers on the ones holding anything oily, flammable, or hazardous. Get the containers right and 'clean as you go' actually works; leave crews without them and the trash ends up on the floor.",
+          "Separating waste matters too. Mixing oily rags or chemicals in with general trash creates a fire or reaction hazard that a covered, labeled container prevents."
+        ]
+      },
+      {
+        heading: "What the rule requires",
+        body: [
+          "OSHA 1926.25(c) is specific: 'Containers shall be provided for the collection and separation of waste, trash, oily and used rags, and other refuse. Containers used for garbage and other oily, flammable, or hazardous wastes, such as caustics, acids, harmful dusts, etc. shall be equipped with covers. Garbage and other waste shall be disposed of at frequent and regular intervals.'",
+          "Three duties in one paragraph: provide enough containers, separate the waste streams, and cover and empty the dangerous ones."
+        ]
+      },
+      {
+        heading: "Separate the streams",
+        body: [
+          "Don't throw everything in one dumpster:",
+          {
+            list: [
+              "General trash and clean debris — the standard waste stream.",
+              "Oily and used rags — covered container (see Oily Rags and Spontaneous Combustion).",
+              "Flammable and solvent waste — fire-resistant covered container.",
+              "Hazardous waste — caustics, acids, harmful dusts — covered and labeled, handled per its SDS."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Cover the dangerous ones and empty often",
+        body: [
+          "Covers on the oily, flammable, and hazardous containers do real work — they keep sparks and weather out and vapors in, and they stop the wind from scattering the contents. Keep them closed, not propped open.",
+          "And empty on a schedule. 'Frequent and regular intervals' means containers don't overflow and debris doesn't pile up next to them. An overflowing covered can is no better than no can at all."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/oily-rags-and-spontaneous-combustion": {
+    description:
+      "Why oil- and solvent-soaked rags can catch fire on their own, and the fire-resistant covered container OSHA requires.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A pile of oily rags can catch fire with no spark at all. As certain oils dry, they give off heat. Trapped in a wadded-up pile, that heat has nowhere to go, so it builds — and if it builds far enough, the rags ignite on their own. That's spontaneous combustion, and it has burned down finished buildings after the crew went home.",
+          "The control is simple and required: oily and solvent-soaked rags go in a covered, fire-resistant container, not on the floor or in a gang box."
+        ]
+      },
+      {
+        heading: "How it happens",
+        body: [
+          "The hazard is worst with drying oils — linseed oil, some stains and finishes — and with solvent-soaked rags. As the oil oxidizes it releases heat. A single rag hung in open air sheds that heat harmlessly. A pile of rags insulates itself: the heat in the middle can't escape, the temperature climbs, and it reaches ignition without any outside flame.",
+          "This mechanism comes from fire-science and NFPA guidance on oily-waste self-heating — OSHA's rule states the container requirement, and the fire physics is the reason behind it."
+        ]
+      },
+      {
+        heading: "What OSHA requires",
+        body: [
+          "Two OSHA construction provisions cover it:",
+          {
+            list: [
+              "1926.25(c) — containers for oily and used rags must be provided, and containers for oily or flammable waste must be equipped with covers.",
+              "1926.252(e) — 'All solvent waste, oily rags, and flammable liquids shall be kept in fire resistant covered containers until removed from worksite.'"
+            ]
+          }
+        ]
+      },
+      {
+        heading: "On the job",
+        body: [
+          "Handle rags like the fire hazard they are:",
+          {
+            list: [
+              "Use a covered, fire-resistant container — the listed metal oily-waste cans with self-closing lids are made for exactly this.",
+              "Don't ball up oily rags and drop them on the floor, in a bucket, or in a gang box.",
+              "Don't mix them with general trash or leave them in a pile overnight.",
+              "Empty the container at the end of each shift and dispose of the rags properly."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/material-storage-and-stacking": {
+    description:
+      "Staging and stacking materials so they don't slide, tip, bury someone, or block the aisle — OSHA 1926.250.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Where you put materials is part of housekeeping. Stack them wrong and they slide, tip, or collapse onto someone. Leave them in the aisle and nobody can move equipment or get out in an emergency. Overload a floor and the structure itself is at risk.",
+          "OSHA 1926.250 sets the rules for storage — stable stacks, posted load limits, and clear aisles."
+        ]
+      },
+      {
+        heading: "Stack it stable",
+        body: [
+          "OSHA 1926.250(a)(1): materials stored in tiers 'shall be stacked, racked, blocked, interlocked, or otherwise secured to prevent sliding, falling or collapse.' The standard adds specifics:",
+          {
+            list: [
+              "1926.250(b)(8)(iii) — lumber shall be stacked so as to be stable and self-supporting.",
+              "1926.250(b)(9) — structural steel, poles, pipe, bar stock, and other cylindrical materials, unless racked, shall be stacked and blocked to prevent spreading or tilting.",
+              "1926.250(b)(3) — noncompatible materials shall be segregated in storage."
+            ]
+          },
+          "Use dunnage between tiers, block round stock so it can't roll, and keep stacks plumb and within a safe height."
+        ]
+      },
+      {
+        heading: "Don't overload the floor",
+        body: [
+          "1926.250(a)(2) says the weight of stored materials on floors within buildings and structures shall not exceed the maximum safe load limits, and those limits — in pounds per square foot — must be conspicuously posted in storage areas. OSHA doesn't set one number; it's specific to the structure, so check the posted limit before you stage a heavy load.",
+          "Concentrated loads matter as much as total weight. A tight stack of block or steel on one bay can exceed a limit the whole floor could carry if spread out."
+        ]
+      },
+      {
+        heading: "Keep aisles and exits clear",
+        body: [
+          "Storage is the fastest way to choke an aisle. 1926.250(a)(3) requires aisles and passageways kept clear for the free and safe movement of material-handling equipment or employees, and kept in good repair.",
+          "Stage material where it's needed but out of the travel path and away from exits, panels, and fire equipment. Detailed stacking figures — brick and block taper, bag cross-keying, lumber height — are covered in the Rigging and Material Handling category."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/disposing-of-debris-chutes-and-drop-areas": {
+    description:
+      "Getting debris down safely — enclosed chutes over 20 feet, barricaded drop zones, and clearing as work progresses.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Getting trash off an upper floor is where housekeeping turns into a falling-object hazard. Drop debris down an open hole or over the edge and it can hit someone below, or bounce out past the building line onto a walkway or the street.",
+          "OSHA 1926.252 sets how debris comes down: enclosed chutes for the long drops, and a barricaded, signed drop area when it goes through the floor."
+        ]
+      },
+      {
+        heading: "Chutes for the long drops",
+        body: [
+          "OSHA 1926.252(a): 'Whenever materials are dropped more than 20 feet to any point lying outside the exterior walls of the building, an enclosed chute of wood, or equivalent material, shall be used.' The chute keeps the debris contained so it can't fly out and strike people or property below.",
+          "The discharge end should empty into a container or a controlled area, with material removed so the chute doesn't back up."
+        ]
+      },
+      {
+        heading: "Barricade the drop area",
+        body: [
+          "When debris is dropped through a hole in the floor without a chute, OSHA 1926.252(b) requires that the drop area be protected:",
+          {
+            list: [
+              "Completely enclose the drop area with barricades not less than 42 inches high.",
+              "Keep barricades not less than 6 feet back from the projected edge of the opening above.",
+              "Post signs warning of falling materials at each level.",
+              "Allow no removal of debris in the lower area until debris handling stops above."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Clear as the work progresses",
+        body: [
+          "1926.252(c) requires all scrap lumber, waste material, and rubbish removed from the immediate work area as the work progresses — don't let it pile up waiting for the chute. And if any debris is disposed of by burning, 1926.252(d) says it must comply with local fire regulations.",
+          "Note: the steeper enclosed-chute angle rule some crews remember (an enclosed chute over 45 degrees) comes from the demolition standard, Subpart T — see Demolition Safety. The general waste-disposal rule here is the 'more than 20 feet' trigger."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/how-poor-housekeeping-causes-slips-trips-and-falls": {
+    description:
+      "The direct line from debris, spills, and clutter to the most common injury on site — and how to break it.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Slips, trips, and falls are the injuries housekeeping prevents most directly. Almost every one traces back to something that shouldn't be on the walking surface — an offcut, a cord, a spill, tracked mud. Fix the housekeeping and you remove the cause.",
+          "These aren't minor. A same-level fall can break a wrist, a hip, or a skull, and a trip near an edge or an opening can turn into a fall from height."
+        ]
+      },
+      {
+        heading: "Trips — something in the path",
+        body: [
+          "Trips come from objects and changes in level the walker didn't expect:",
+          {
+            list: [
+              "Scrap, offcuts, and debris left in walkways.",
+              "Cords, hoses, and welding leads across the path.",
+              "Tools and material set down and forgotten.",
+              "Loose boards, form lumber, and uneven stored material."
+            ]
+          },
+          "1910.22(a)(3) puts these right in the housekeeping duty — surfaces kept free of hazards such as sharp or protruding objects and loose boards."
+        ]
+      },
+      {
+        heading: "Slips — a surface you can't grip",
+        body: [
+          "Slips come from what's on the surface: mud, standing water, spilled oil or grease, sawdust, ice, and snow. 1910.22(a)(2) requires floors kept clean and, to the extent feasible, dry — and where wet processes are used, drainage plus dry standing places like platforms and mats.",
+          "On a construction site, weather does most of this — rain turns dirt to mud, cold turns spills to ice. Tracked-in mud on a smooth floor or a stair tread is a classic slip."
+        ]
+      },
+      {
+        heading: "Fix it now, not at cleanup",
+        body: [
+          "The whole point is to break the chain before someone falls:",
+          {
+            list: [
+              "Clean spills immediately; spread absorbent on oil and grease.",
+              "Clear tracked mud and standing water; keep drainage open.",
+              "Pick up offcuts and debris as you make them.",
+              "Route cords and hoses out of the path."
+            ]
+          },
+          "The dedicated Slips, Trips and Falls category goes deeper on footwear and walking surfaces — but most of what causes a fall is housekeeping you can fix in the moment."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/lighting-sanitation-and-welfare-facilities": {
+    description:
+      "The site conditions housekeeping supports — adequate lighting, clean drinking water and toilets, and washing facilities.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "You can't keep an area safe if you can't see it, and a site that ignores sanitation is a site that ignores order. Lighting and welfare facilities are part of a controlled, clean job — OSHA sets minimums for both.",
+          "Good light lets you spot the trip hazard and the debris. Clean water, toilets, and washing let crews keep contaminants off themselves and out of their food."
+        ]
+      },
+      {
+        heading: "Light the work area",
+        body: [
+          "OSHA 1926.56 sets minimum illumination while work is in progress (Table D-3, in foot-candles):",
+          {
+            list: [
+              "3 fc — general construction area lighting.",
+              "5 fc — general construction areas, concrete placement, excavation and waste areas, accessways, active storage areas, loading platforms, refueling, and field maintenance; also indoor warehouses, corridors, hallways, and exitways.",
+              "10 fc — general construction plant and shops (batch plants, shops, mechanical/electrical rooms, active storerooms, mess halls, indoor toilets and workrooms).",
+              "30 fc — first aid stations, infirmaries, and offices."
+            ]
+          },
+          "Poor light hides exactly the hazards housekeeping is trying to remove — the cord, the offcut, the hole. Fix burned-out temporary lighting like you'd clear any other hazard."
+        ]
+      },
+      {
+        heading: "Clean water and toilets",
+        body: [
+          "OSHA 1926.51 requires an adequate supply of potable water. Portable water containers must be capable of being tightly closed and equipped with a tap; you don't dip water from the container, and the common drinking cup is prohibited. Any nonpotable water outlet must be clearly signed as unsafe to drink, with no cross-connection to the potable system.",
+          "Toilets are required by headcount (Table D-1): 20 or fewer workers — 1 facility; 20 or more — 1 toilet seat and 1 urinal per 40 workers; 200 or more — 1 toilet seat and 1 urinal per 50 workers."
+        ]
+      },
+      {
+        heading: "Washing facilities and hygiene",
+        body: [
+          "1926.51(f) requires washing facilities where employees apply paints, coatings, herbicides, or insecticides, or work where harmful contaminants are present. Getting the dust, chemical, or lead off your hands before you eat, drink, or leave is part of keeping a clean, controlled site.",
+          "Hygiene and housekeeping run together: the same discipline that keeps the work area orderly keeps contaminants from riding home on your hands and clothes."
+        ]
+      }
+    ]
+  },
+
+  "housekeeping/making-cleanup-part-of-the-job": {
+    description:
+      "How good housekeeping actually gets maintained — clean-as-you-go, clear ownership, and daily inspection.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Housekeeping fails when it's everybody's job and nobody's responsibility. The fix is to stop treating cleanup as a separate chore and build it into the task itself — then put a name on it and check it.",
+          "A site stays clean because crews clean as they go, someone owns each area, and somebody inspects and corrects what slips. Not because of one big push on Friday."
+        ]
+      },
+      {
+        heading: "Clean as you go",
+        body: [
+          "OSHA 1926.252(c) sets the standard: scrap lumber, waste, and rubbish removed from the immediate work area as the work progresses. A little effort continuously beats one large cleanup, because the mess never gets big enough to bury a hazard or block a path.",
+          "Make it easy to do the right thing — enough containers, close enough to the work, and a drop area or chute where debris has to come down. If the nearest dumpster is a hundred yards away, the trash ends up on the floor."
+        ]
+      },
+      {
+        heading: "Put a name on it",
+        body: [
+          "Vague ownership is why the mess comes back. Assign it:",
+          {
+            list: [
+              "Say what 'clean' looks like for each area — the standard, not just 'tidy up.'",
+              "Name who owns cleanup for each area, crew, or shift.",
+              "Set the timing — during the task, between phases, and at end of shift.",
+              "Provide the containers, chutes, and covers so the crew can actually meet the standard."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Inspect, correct, and fix the cause",
+        body: [
+          "OSHA 1910.22(d) frames the follow-through: walking-working surfaces inspected regularly and maintained in a safe condition; hazardous conditions corrected before the surface is used again, or guarded until they can be; and structural repairs done or supervised by a qualified person. A competent-person daily walk (1926.20(b)(2)) catches the housekeeping that's slipped.",
+          "And when the same mess keeps returning, fix the cause, not just the symptom — too few containers, overcrowded staging, trades stacked on top of each other, or a pace with no time to clean. Every worker also has stop-work authority for a blocked exit or a buried extinguisher: that gets corrected now, not logged for later."
+        ]
+      }
+    ]
   }
 };
 
