@@ -46,22 +46,22 @@ export default function HomePage() {
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-wrap items-center gap-x-12 gap-y-6">
             <Link
               href="#categories"
               className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
             >
               View Training Categories
             </Link>
-          </div>
-          <div className="mt-10 flex gap-12 border-t border-rule pt-6">
-            <div>
-              <p className="font-serif text-3xl font-bold text-ink">{trainingCategories.length}</p>
-              <p className="eyebrow mt-1">Categories</p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}+</p>
-              <p className="eyebrow mt-1">Topic Articles</p>
+            <div className="flex gap-12">
+              <div>
+                <p className="font-serif text-3xl font-bold text-ink">{trainingCategories.length}</p>
+                <p className="eyebrow mt-1">Categories</p>
+              </div>
+              <div>
+                <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}+</p>
+                <p className="eyebrow mt-1">Topic Articles</p>
+              </div>
             </div>
           </div>
         </div>
