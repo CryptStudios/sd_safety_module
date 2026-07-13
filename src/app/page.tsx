@@ -36,7 +36,7 @@ const processSteps = [
 export default function HomePage() {
   return (
     <div className="pb-16">
-      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
+      <section className="mx-auto max-w-7xl px-4 pb-4 pt-10 sm:px-6 lg:px-8 lg:pb-6 lg:pt-16">
         <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
           <p className="eyebrow text-hi-deep">SD Safety Module</p>
           <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
@@ -67,7 +67,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="how-it-works" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <section id="how-it-works" className="mx-auto max-w-7xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="eyebrow text-hi-deep">How It Works</p>
           <h2 className="mt-4 font-serif text-4xl font-bold tracking-[-0.02em] text-ink">
