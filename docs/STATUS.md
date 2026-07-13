@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 11 / 24 categories authored (46%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, and Vehicle & Driver Safety pending SME review.**
+**Progress: 12 / 24 categories authored (50%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, and Rigging & Material Handling Equipment pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,15 +19,68 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — top remaining OSHA-based item is Rigging and Material
-  Handling Equipment (`rigging-and-material-handling-equipment`, OSHA 1926 Subpart
-  H / CC). All 11 authored categories to date are OSHA-based.
+- **Next category:** open — top remaining OSHA-based items are Construction Safety
+  (`construction-safety`, OSHA 1926 general), Demolition Safety
+  (`demolition-safety`, Subpart T), Site Access & Public Protection
+  (`site-access-and-public-protection`, Subpart G), Housekeeping (`housekeeping`,
+  1926.25 / 1910.22), and Slips/Trips/Falls (`slips-trips-and-falls`, 1910
+  Subpart D). All 12 authored categories to date are OSHA-based.
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
   Handling — see plan). Does not affect the OSHA-based categories authored so far.
 
 ---
 
 ## Completed categories
+
+### ✅ Rigging and Material Handling Equipment — `rigging-and-material-handling-equipment`
+- **Session:** 2026-07-12
+- **Topics authored:** 14 (real toolbox-talk list, flexed above the 11 floor —
+  Subparts H + CC support it; synthetic expansion disabled)
+  1. Rigging Basics and the Qualified Rigger
+  2. Sling Types and How to Choose One
+  3. Wire Rope Slings — Inspection and Removal Criteria
+  4. Alloy Steel Chain Slings — Inspection and Use
+  5. Synthetic Web and Round Slings — Inspection and Protection
+  6. Rated Capacity, Sling Angles, and Load Charts
+  7. Hitches — Vertical, Choker, and Basket
+  8. Rigging Hardware — Shackles, Hooks, and Eyebolts
+  9. Determining Load Weight and Center of Gravity
+  10. Planning the Lift — The Lift Plan and Roles
+  11. Crane Signals and Communication
+  12. Working Around Suspended Loads and Tag Lines
+  13. Mobile Crane Setup — Ground Conditions, Outriggers, and Power Lines
+  14. Material Storage, Stacking, and Housekeeping
+- **Sources:** OSHA 29 CFR 1926.251 (rigging equipment for material handling —
+  inspect before use each shift, defective removed, rated-capacity ID tags; wire
+  rope slings 10 randomly-distributed broken wires / 5 in one strand per rope lay,
+  kink/crush/birdcage/heat, 1/3-diameter wear, hook 15%/10°, clips "never saddle a
+  dead horse"; alloy steel chain slings — alloy only for overhead, ID tag
+  size/grade/capacity/reach, wear Table H-2, thorough periodic inspection ≤12 mo
+  with records; synthetic web removal criteria — acid/caustic burns, melting/
+  charring, snags/tears/cuts, broken stitches, distorted fittings; shackles/hooks
+  Table H-19); Subpart CC — §1402 ground conditions (firm/drained/graded, controlling
+  entity hazard notice), §1404/1425 qualified rigger + fall zone, §1408 Table A
+  power-line clearance (≤50 kV = 10 ft, 50–200 kV = 15 ft, assume energized),
+  §1419–1422 signal person & Standard Method (ASME B30) hand signals, §1424 swing-
+  radius barricade, §1427 operator qualification; §1926.250 storage/stacking (max
+  floor load posted, brick ≤7 ft + 2 in/ft taper above 4 ft, block half-block taper
+  above 6 ft, lumber 16 ft manual / 20 ft forklift + nails removed, bags cross-keyed
+  every 10 layers); §1926.25 housekeeping; ASME B30 series (consensus). Sling-angle
+  factors (60° ≈ 1.15×, 45° ≈ 1.41×, 30° ≈ 2×; avoid <30°); hitch capacities
+  (vertical 100%, choker ~75–80%, basket up to 2× vertical); material densities
+  (steel ≈490, concrete ≈150, water ≈62.4 lb/ft³).
+- **Scope note:** owns slings, rigging hardware, cranes/derricks, hoists, and
+  material storage/stacking. Powered industrial trucks cross-ref Forklift Safety
+  (#19); earthmoving/haul vehicles cross-ref Vehicle & Driver Safety (#20);
+  electrical approach distances cross-ref Electrical Safety — referenced, not
+  duplicated.
+- **Verified:** tsc clean · `next build` clean (1205 pages generated, all
+  prerender) · 14 exported HTML files in
+  `out/training/rigging-and-material-handling-equipment/` · authored content present
+  (`1926.251`, `randomly distributed`, `rope lay`, `never saddle a dead horse`,
+  `Table A`, `Standard Method`, `fall zone`, `490 pounds`, brick `taper`),
+  placeholder `plain site language` gone · live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Vehicle and Driver Safety — `vehicle-and-driver-safety`
 - **Session:** 2026-07-12
@@ -349,6 +402,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Flex expansion (9 categories) | +25 | Switched topic-count convention from fixed-11 to FLEX (~11–16). Expanded 9 authored categories with distinct, source-grounded topics drafted by parallel subagents and fact-reviewed before wiring: Welding +4 (resistance/plasma/brazing/shock), Heights +4 (travel-restraint/nets/warning-lines/skylights), Electrical +3 (70E boundaries/EEWP/stored energy), Forklift +3 (tip-over survival/parking/elevating personnel), Fire Safety +3 (standpipes/fixed suppression/brigades), Confined Space +3 (reclassification/host-contractor/rescue-service eval), Compressed Gas +3 (HAVS/abrasive blasting/air hoists), Excavation +1 (mobile equipment at edge), PPE +1 (over-water life jackets). Build 1398 pages. Total authored topics 135. CLAUDE.md + CONTENT_PLAN updated. |
 | 2026-07-12 | Compressed Gas and Air Tool Safety | 11 | Tenth category. OSHA 1926.302/.303 + 1910.101/.242(b) + CGA P-1 + NIOSH nail-gun guide. Cylinder hazards/storage/transport/valves (20 ft O₂/fuel), compressed-air injection & <30 psi cleaning limit, pneumatic tool basics (positive connection, retainers), hoses/couplings/whip checks, nailers (trigger types, >100 psi muzzle safety), abrasive wheels (ring test, guards, 1/8 in rest), compressors/receivers (relief valves, draining), inspection/depressurize-before-service. Welding oxy-fuel cylinder detail cross-ref'd, not duplicated. Progress 10/24 (42%). SME review pending. |
 | 2026-07-12 | Vehicle and Driver Safety | 13 | Eleventh category. OSHA 1926 Subpart O (§600–602) + Subpart W (ROPS §1000–1003) + Subpart G/MUTCD Part 6 (flaggers) + FMCSA HOS/texting ban. Motor-vehicle equipment & driver duties, (b)(14) shift inspection, ROPS + seat belts (SAE J386, don't jump in a rollover), backing/spotters/hand signals, reverse alarms "audible above surrounding noise", haul roads/grades/berms, dump-truck raised-bed (overhead lines, tip-over, blocked bed), earthmoving 1926.602, struck-by/caught-between blind zones, load chocking/fall-zone/securement, work-zone layout & flaggers (STOP/SLOW, hi-vis), parking/shutdown (blades down, chock on grade, night lighting), fatigue (11/14/30-min/60–70) + distraction + fitness. Flexed to 13 topics. Forklift/rigging/public-protection cross-ref'd. Progress 11/24 (46%). SME review pending. |
+| 2026-07-12 | Rigging and Material Handling Equipment | 14 | Twelfth category — **50% milestone**. OSHA 1926.251 (slings/rigging) + Subpart CC (cranes) + 1926.250/.25 (storage/housekeeping) + ASME B30. Qualified rigger & inspect-each-shift, sling types/selection + ID tags, wire-rope removal (10/5 broken wires per lay, "never saddle a dead horse"), alloy chain (alloy-only overhead, ≤12-mo periodic inspection + records, Table H-2 wear), synthetic web/round removal criteria + edge protection, sling angles (60/45/30° = 1.15/1.41/2×; avoid <30°) & load charts, hitches (vertical 100% / choker ~75–80% / basket up to 2×), hardware (shackles Table H-19, hooks 15%/10°/bowl-load, eyebolts shoulder-type/angled derating), load weight (densities: steel 490/concrete 150/water 62.4 lb/ft³) + center of gravity, lift plan & roles (operator/rigger/signal/lift-director, critical-lift triggers), crane signals (Standard Method, when required, one signal person), suspended-load fall zone + tag lines (non-conductive near lines), mobile-crane setup (ground §1402, outriggers/cribbing/level, power-line Table A 10/15 ft, swing-radius barricade §1424), material storage/stacking (brick 7 ft + 2 in/ft taper, block half-block taper, lumber 16/20 ft, bags cross-keyed every 10). Flexed to 14 topics. Forklift/vehicle/electrical cross-ref'd. Build 1205 pages. Progress 12/24 (50%). SME review pending. Also: switched /start-session + CLAUDE.md procedure to auto-proceed (no separate go-ahead). |
 
 ---
 

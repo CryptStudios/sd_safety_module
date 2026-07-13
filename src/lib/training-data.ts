@@ -501,6 +501,7 @@ const realContentCategories = new Set<string>([
   "fire-extinguisher-safety",
   "compressed-gas-and-air-tool-safety",
   "vehicle-and-driver-safety",
+  "rigging-and-material-handling-equipment",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1733,16 +1734,20 @@ const extendedTrainingCategories: TrainingCategory[] = [
       },
     ],
     topics: [
-      "Sling Inspection",
-      "Load Weight Estimation",
-      "Center of Gravity Awareness",
-      "Signal Person Communication",
-      "Hoist Exclusion Zones",
-      "Tag Line Use",
-      "Shackles and Hardware Inspection",
-      "Weather and Wind During Lifts",
-      "Load Stability During Movement",
-      "Rigging Plan Review",
+      "Rigging Basics and the Qualified Rigger",
+      "Sling Types and How to Choose One",
+      "Wire Rope Slings — Inspection and Removal Criteria",
+      "Alloy Steel Chain Slings — Inspection and Use",
+      "Synthetic Web and Round Slings — Inspection and Protection",
+      "Rated Capacity, Sling Angles, and Load Charts",
+      "Hitches — Vertical, Choker, and Basket",
+      "Rigging Hardware — Shackles, Hooks, and Eyebolts",
+      "Determining Load Weight and Center of Gravity",
+      "Planning the Lift — The Lift Plan and Roles",
+      "Crane Signals and Communication",
+      "Working Around Suspended Loads and Tag Lines",
+      "Mobile Crane Setup — Ground Conditions, Outriggers, and Power Lines",
+      "Material Storage, Stacking, and Housekeeping",
     ],
   }),
   createCategory({
