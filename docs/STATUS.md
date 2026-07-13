@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 21 / 24 categories authored (88%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, and COSHH (Hazardous Substances) pending SME review.**
+**Progress: 22 / 24 categories authored (92%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, Vehicle & Driver Safety, Rigging & Material Handling Equipment, Construction Safety, Demolition Safety, Site Access & Public Protection, Housekeeping, Slips, Trips and Falls, Accident Reporting, First Aid, Asbestos Awareness, COSHH (Hazardous Substances), and Manual Handling pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,11 +19,10 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — 3 remaining, all OSHA/NIOSH/EPA-based: Manual Handling
-  (`manual-handling`, NIOSH lifting equation / OSHA ergonomics), Heat & Cold Stress
-  (`heat-and-cold-stress-prevention`, OSHA heat illness / NIOSH), and Environmental
-  Controls & Spill Response (`environmental-controls-and-spill-response`, EPA SPCC /
-  HAZWOPER 1910.120). COSHH/HazCom authored 2026-07-13.
+- **Next category:** open — 2 remaining, both OSHA/NIOSH/EPA-based: Heat & Cold
+  Stress (`heat-and-cold-stress-prevention`, OSHA heat illness / NIOSH) and
+  Environmental Controls & Spill Response (`environmental-controls-and-spill-response`,
+  EPA SPCC / HAZWOPER 1910.120). COSHH/HazCom and Manual Handling authored 2026-07-13.
 - **Blocker / decision:** ✅ RESOLVED (2026-07-12) — jurisdiction is **US/OSHA**
   for every category (US construction safety app). COSHH → OSHA HazCom 1910.1200;
   Manual Handling → NIOSH Lifting Equation / OSHA ergonomics. Nothing is
@@ -32,6 +31,57 @@ Update this file at the end of every session (`/end-session`).
 ---
 
 ## Completed categories
+
+### ✅ Manual Handling — `manual-handling`
+- **Session:** 2026-07-13
+- **Topics authored:** 12 (real toolbox-talk list; NIOSH Lifting Equation + OSHA
+  ergonomics guidance support it; synthetic expansion disabled)
+  1. Why Manual Handling Injuries Happen
+  2. Ergonomic Risk Factors — Force, Posture, Repetition
+  3. NIOSH Lifting Equation and Recommended Weight Limit
+  4. Sizing Up a Lift Before You Do It
+  5. Safe Lifting Technique
+  6. Team Lifting and Communication
+  7. Mechanical Aids and Equipment
+  8. Carrying, Pushing, and Pulling Loads
+  9. Awkward Postures, Overhead, and Repetitive Work
+  10. Staging Materials to Reduce Handling
+  11. Warming Up, Conditioning, and Pacing
+  12. Recognizing and Reporting Early Warning Signs
+- **Jurisdiction note:** authored to the **US/OSHA + NIOSH** basis. OSHA has **no
+  specific manual-handling/lifting standard** — ergonomic hazards are enforced under
+  the **General Duty Clause (OSH Act §5(a)(1))**; a federal heat/ergonomics rule is
+  not the basis here. If the audience ever becomes UK-based, the **Manual Handling
+  Operations Regulations (MHOR)** basis must be confirmed at SME review.
+- **Sources:** **NIOSH Revised Lifting Equation (NIOSH Pub. No. 94-110,
+  Applications Manual)** — Load Constant **51 lb (23 kg)** ideal lift; **RWL = 51 ×
+  HM × VM × DM × AM × FM × CM** (horizontal, vertical ~30 in optimal, distance,
+  asymmetry, frequency, coupling); **Lifting Index = load ÷ RWL** (LI ≤ 1.0
+  acceptable, **> 1.0 increased risk, > 3.0 high risk**); ideal-lift assumptions.
+  MSD burden (sprains/strains/back the most common construction injury; construction
+  back injuries ~50% above other-industry average) + risk factors (force, awkward/
+  static posture, repetition, vibration, contact stress, duration) from NIOSH
+  ergonomics/construction bulletins. Controls hierarchy (engineering aids — carts,
+  dollies, hand trucks, forklifts, hoists, lift tables; deliver to point of use;
+  stage at knuckle-to-shoulder height — then administrative: team lifts, rotation,
+  breaks), **"push beats pull"** (OSHA Technical Manual §VII ch.1), safe technique
+  and early-symptom reporting (OSHA eTools / Technical Manual). All numbers are
+  **NIOSH/OSHA guidance, not enforceable PELs** (no regulatory lifting threshold
+  exists).
+- **Scope note:** owns ergonomic/manual-material-handling — why MSDs happen, risk
+  factors, the NIOSH equation, lift size-up, technique, team lifting, mechanical
+  aids, carry/push/pull, awkward/overhead/repetitive postures, staging, warm-up/
+  conditioning/pacing, and early-symptom recognition. Injury recordkeeping →
+  Accident Reporting; getting symptoms looked at → First Aid — cross-ref'd.
+- **Verified:** tsc clean (after clearing stale `.next/types`) · `next build` clean
+  (all pages prerender, +501 topic paths) · 12 exported HTML files in
+  `out/training/manual-handling/` · authored content present (`51 lb`, `Recommended
+  Weight Limit`, `Lifting Index`, `94-110`, `General Duty Clause`), placeholder
+  `plain site language` gone (0 files).
+- **SME review:** ⏳ pending. Facts grounded against cdc.gov/niosh + osha.gov via
+  research subagent — 51-lb load constant, RWL multipliers, LI thresholds, and the
+  no-OSHA-lifting-standard / General Duty Clause basis confirmed; all figures flagged
+  as NIOSH/OSHA guidance, not regulatory limits.
 
 ### ✅ COSHH (Hazardous Substances) — `coshh-hazardous-substances`
 - **Session:** 2026-07-13
@@ -893,7 +943,7 @@ Update this file at the end of every session (`/end-session`).
 
 | Date | Category | Topics done | Notes |
 |------|----------|-------------|-------|
-| 2026-07-13 | COSHH (Hazardous Substances) | 14 | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
+| 2026-07-13 | Manual Handling | 12 | Twenty-second category (92%). Authored to **US/OSHA + NIOSH** (no OSHA lifting standard — General Duty Clause §5(a)(1) basis; UK MHOR flagged for SME review if audience changes). Why MSDs happen (sudden vs wear-and-tear; sprains/strains/back = most common construction injury, ~50% above other industries), ergonomic risk factors (force/awkward+static posture/repetition/vibration/contact stress/duration — they stack), NIOSH Lifting Equation (94-110: LC 51 lb, RWL = 51×HM×VM×DM×AM×FM×CM, LI = load÷RWL, >1.0 risk / >3.0 high), lift size-up (test load, clear path, set body), safe technique (knees not back, load close, legs lift, never twist under load), team lifting (two-person, one caller, move as one), mechanical aids (carts/dollies/hand trucks/forklifts/hoists/lift tables — engineering controls beat technique), carry/push/pull ("push beats pull" — OSHA Tech Manual §VII), awkward/overhead/repetitive postures (raise the work, break up repetition), staging to point of use at knuckle-to-shoulder height, warm-up/conditioning/pacing (support not a fix), early-symptom recognition & reporting. Facts grounded vs cdc.gov/niosh + osha.gov via research subagent; all figures = NIOSH/OSHA guidance not PELs. Replaced 6-topic placeholder. Accident Reporting + First Aid cross-ref'd. Build all pages prerender. SME review pending. | Twenty-first category (88%). Authored to **US/OSHA** — Hazard Communication 1910.1200 (GHS), not UK COSHH (flagged for SME review if audience changes). What-counts-as-hazardous (incl. work-created), HazCom program & right-to-know (written program (e), training (h)), GHS labels + Danger/Warning signal words (f), the 9 pictograms, 16-section SDS (g), exposure routes (inhalation/skin/ingestion/injection), PELs/air monitoring (1926.55/1910.1000 Z-tables; RELs/TLVs = guidance), silica 1926.1153 (PEL 50/AL 25 µg/m³, Table 1 wet+LEV), lead 1926.62 (PEL 50/AL 30) + hex chrome 1926.1126/cadmium 1926.1127, dust/vapor/fume/mist forms, hierarchy of controls (PPE last), chemical storage/segregation + flammables, secondary-container/workplace labeling + portable-container exception (f)(6), chemical spill/skin-eye response (15-min flush → First Aid). Flexed to 14. Facts grounded vs osha.gov via research subagent. Replaced 6-topic placeholder. Respirators → PPE, clinical first aid → First Aid, silica-in-demo → Demolition, spill reporting → Environmental cross-ref'd. Build all pages prerender. SME review pending. |
 | 2026-07-12 | Confined Space Safety | 11 | Built the content engine (authoredTopics, ArticleBlock, realContentCategories) + first authored category. |
 | 2026-07-12 | Working at Heights | 11 | Second category. OSHA Subpart M/X/L. Build 1945 pages. |
 | 2026-07-12 | Electrical Safety | 11 | Third category. OSHA Subpart K + LOTO 1910.147 + NFPA 70E boundaries. Build 1872 pages. |

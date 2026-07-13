@@ -511,6 +511,7 @@ const realContentCategories = new Set<string>([
   "first-aid",
   "asbestos-awareness",
   "coshh-hazardous-substances",
+  "manual-handling",
 ]);
 
 function createCategory(input: CategoryInput): TrainingCategory {
@@ -1531,12 +1532,18 @@ const coreTrainingCategories: TrainingCategory[] = [
       }
     ],
     topics: [
-      "Proper Lifting Techniques",
-      "Identifying Manual Handling Risk Factors",
-      "Team Lifting Procedures",
-      "Using Mechanical Aids",
-      "Avoiding Back Strain and Injury",
-      "Twisting, Turning, and Carrying Safely"
+      "Why Manual Handling Injuries Happen",
+      "Ergonomic Risk Factors — Force, Posture, Repetition",
+      "NIOSH Lifting Equation and Recommended Weight Limit",
+      "Sizing Up a Lift Before You Do It",
+      "Safe Lifting Technique",
+      "Team Lifting and Communication",
+      "Mechanical Aids and Equipment",
+      "Carrying, Pushing, and Pulling Loads",
+      "Awkward Postures, Overhead, and Repetitive Work",
+      "Staging Materials to Reduce Handling",
+      "Warming Up, Conditioning, and Pacing",
+      "Recognizing and Reporting Early Warning Signs"
     ]
   })
 ];
