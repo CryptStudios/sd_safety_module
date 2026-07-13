@@ -3,7 +3,7 @@
 Session-by-session tracker for authoring real article content.
 Plan: [docs/CONTENT_PLAN.md](./CONTENT_PLAN.md) · Method: [CLAUDE.md](../CLAUDE.md).
 
-**Progress: 10 / 24 categories authored (42%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, and Compressed Gas & Air Tool Safety pending SME review.**
+**Progress: 11 / 24 categories authored (46%). 6 SME-reviewed ✅; Forklift Safety, Welding & Hot Work, Fire Extinguisher Safety, Compressed Gas & Air Tool Safety, and Vehicle & Driver Safety pending SME review.**
 
 > **Convention update (2026-07-12): topic count is now FLEX (~11–16), not fixed at 11.**
 > ~11 is the floor; categories flex up where the governing standard supports more
@@ -19,16 +19,55 @@ Update this file at the end of every session (`/end-session`).
 
 ## Current / next up
 
-- **Next category:** open — remaining priority-list items include Vehicle and
-  Driver Safety (`vehicle-and-driver-safety`, OSHA 1926 Subpart O) or Rigging and
-  Material Handling Equipment (`rigging-and-material-handling-equipment`, OSHA
-  1926 Subpart H / CC). All 10 authored categories to date are OSHA-based.
+- **Next category:** open — top remaining OSHA-based item is Rigging and Material
+  Handling Equipment (`rigging-and-material-handling-equipment`, OSHA 1926 Subpart
+  H / CC). All 11 authored categories to date are OSHA-based.
 - **Blocker / decision:** confirm US vs. UK jurisdiction (affects COSHH, Manual
   Handling — see plan). Does not affect the OSHA-based categories authored so far.
 
 ---
 
 ## Completed categories
+
+### ✅ Vehicle and Driver Safety — `vehicle-and-driver-safety`
+- **Session:** 2026-07-12
+- **Topics authored:** 13 (real toolbox-talk list, flexed above the 11 floor —
+  Subpart O supports it; synthetic expansion disabled)
+  1. Motor Vehicles on Site — Driver Duties and Rules of the Road
+  2. Pre-Operation and Daily Vehicle Inspections
+  3. Seat Belts and Rollover Protective Structures (ROPS)
+  4. Backing Up — Blind Spots, Spotters, and Hand Signals
+  5. Backup Alarms and Warning Devices
+  6. Haul Roads, Access Roads, and Grades
+  7. Dump Trucks and Raised-Bed Hazards
+  8. Earthmoving and Material-Handling Equipment
+  9. Working Around Mobile Equipment — Struck-By and Caught-Between
+  10. Loading, Unloading, and Securing Loads
+  11. Highway Work Zones and Public Traffic (Flaggers)
+  12. Parking, Shutdown, and Securing Equipment
+  13. Driver Fatigue, Distraction, and Fitness to Operate
+- **Sources:** OSHA 29 CFR 1926 Subpart O — §600 (equipment general: parking/
+  shutdown, blades-down, wheel chocks on grade, unattended-at-night lights/
+  reflectors/barricades), §601 (motor vehicles: service/emergency/parking brakes,
+  lights, obstructed-rear-view reverse-alarm-or-spotter rule, cab shields, secured
+  tools/material, the (b)(14) start-of-shift check list), §602 (material-handling/
+  earthmoving: seat belts to SAE J386, ROPS ref, access roads/grades, horns on
+  bi-directional machines + reverse alarms audible above surrounding noise);
+  Subpart W §1000–1003 (ROPS — scrapers/loaders/dozers/tractors/graders, sideboom
+  exception, seat belts required with ROPS); Subpart G + MUTCD Part 6 (work-zone
+  layout, flaggers, STOP/SLOW paddle, ANSI/ISEA 107 hi-vis); FMCSA hours-of-service
+  (11-hr driving / 14-hr window / 30-min break / 60–70-hr week) and 49 CFR
+  392.80/.82 (texting & hand-held ban for CMV drivers).
+- **Scope note:** owns on-site vehicle + driver operation. Powered industrial
+  trucks (forklifts) cross-ref Forklift Safety; crane/sling rigging cross-refs
+  Rigging & Material Handling (#21); public-protection barricades/pedestrian
+  routing cross-refs Site Access (#6) — referenced, not duplicated.
+- **Verified:** tsc clean · `next build` clean (all pages prerender) · 13 exported
+  HTML files in `out/training/vehicle-and-driver-safety/` · authored content
+  present (`1926.601(b)(14)`, `SAE J386`, `audible above the surrounding noise`,
+  `MUTCD`, `11 hours maximum driving`), placeholder `plain site language` gone ·
+  live routes 200.
+- **SME review:** ⏳ pending.
 
 ### ✅ Compressed Gas and Air Tool Safety — `compressed-gas-and-air-tool-safety`
 - **Session:** 2026-07-12
@@ -309,6 +348,7 @@ Update this file at the end of every session (`/end-session`).
 | 2026-07-12 | Fire Extinguisher Safety | 11 | Ninth category. OSHA 1910.157 (c–g) + NFPA 10. Classes A/B/C/D/K, extinguisher types/agents, ratings/labels, size-up (fight vs evacuate), PASS, selection & distribution (75/50/30 ft travel), placement/mounting heights, monthly visual inspection, annual maintenance/recharge, hydrostatic intervals (5/12 yr), training (hire + annual) & total-evacuation option. Owns extinguisher use/PASS deferred from Fire Safety. Progress 9/24 (38%). SME review pending. |
 | 2026-07-12 | Flex expansion (9 categories) | +25 | Switched topic-count convention from fixed-11 to FLEX (~11–16). Expanded 9 authored categories with distinct, source-grounded topics drafted by parallel subagents and fact-reviewed before wiring: Welding +4 (resistance/plasma/brazing/shock), Heights +4 (travel-restraint/nets/warning-lines/skylights), Electrical +3 (70E boundaries/EEWP/stored energy), Forklift +3 (tip-over survival/parking/elevating personnel), Fire Safety +3 (standpipes/fixed suppression/brigades), Confined Space +3 (reclassification/host-contractor/rescue-service eval), Compressed Gas +3 (HAVS/abrasive blasting/air hoists), Excavation +1 (mobile equipment at edge), PPE +1 (over-water life jackets). Build 1398 pages. Total authored topics 135. CLAUDE.md + CONTENT_PLAN updated. |
 | 2026-07-12 | Compressed Gas and Air Tool Safety | 11 | Tenth category. OSHA 1926.302/.303 + 1910.101/.242(b) + CGA P-1 + NIOSH nail-gun guide. Cylinder hazards/storage/transport/valves (20 ft O₂/fuel), compressed-air injection & <30 psi cleaning limit, pneumatic tool basics (positive connection, retainers), hoses/couplings/whip checks, nailers (trigger types, >100 psi muzzle safety), abrasive wheels (ring test, guards, 1/8 in rest), compressors/receivers (relief valves, draining), inspection/depressurize-before-service. Welding oxy-fuel cylinder detail cross-ref'd, not duplicated. Progress 10/24 (42%). SME review pending. |
+| 2026-07-12 | Vehicle and Driver Safety | 13 | Eleventh category. OSHA 1926 Subpart O (§600–602) + Subpart W (ROPS §1000–1003) + Subpart G/MUTCD Part 6 (flaggers) + FMCSA HOS/texting ban. Motor-vehicle equipment & driver duties, (b)(14) shift inspection, ROPS + seat belts (SAE J386, don't jump in a rollover), backing/spotters/hand signals, reverse alarms "audible above surrounding noise", haul roads/grades/berms, dump-truck raised-bed (overhead lines, tip-over, blocked bed), earthmoving 1926.602, struck-by/caught-between blind zones, load chocking/fall-zone/securement, work-zone layout & flaggers (STOP/SLOW, hi-vis), parking/shutdown (blades down, chock on grade, night lighting), fatigue (11/14/30-min/60–70) + distraction + fitness. Flexed to 13 topics. Forklift/rigging/public-protection cross-ref'd. Progress 11/24 (46%). SME review pending. |
 
 ---
 

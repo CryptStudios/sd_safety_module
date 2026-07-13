@@ -6726,6 +6726,631 @@ export const authoredTopics: Record<string, AuthoredTopic> = {
         ]
       }
     ]
+  },
+
+  // ── Vehicle and Driver Safety ─────────────────────────────────────────────
+  "vehicle-and-driver-safety/motor-vehicles-on-site-driver-duties-and-rules-of-the-road": {
+    description:
+      "What OSHA 1926.601 requires on any motor vehicle used on the job, and the driver habits that keep low-speed site moves from turning into incidents.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A pickup, a flatbed, a water truck, a dump truck — any vehicle you drive around the site falls under OSHA 29 CFR 1926.601, \"Motor vehicles.\" That rule sets what the vehicle has to have before it moves and covers vehicles operated inside the jobsite, off the public road.",
+          "Most vehicle incidents on site don't happen at highway speed. They happen at a walking pace, in a spot everybody knows, when a driver assumes the way is clear. The vehicle is safe to run and the driver drives it like people are always nearby — because they are."
+        ]
+      },
+      {
+        heading: "What the vehicle has to have (1926.601)",
+        body: [
+          "Before a motor vehicle goes into service, OSHA requires it to have working safety equipment. The basics:",
+          {
+            list: [
+              "Service brakes, an emergency (secondary) braking system, and a parking brake — all operable.",
+              "At least two headlights and two working tail lights whenever visibility calls for extra light.",
+              "Working brake lights, regardless of the light conditions.",
+              "Windshields and powered wipers; cracked or broken glass gets replaced, not ignored.",
+              "A reverse-signal alarm audible above the surrounding noise, or a spotter, on any vehicle with an obstructed rear view.",
+              "A cab shield or canopy on haulage trucks that get loaded by a crane, power shovel, or loader, to protect the operator from spillage."
+            ]
+          },
+          "If a required item is broken, the vehicle is out of service until it's fixed — that's not a judgment call."
+        ]
+      },
+      {
+        heading: "The driver's job",
+        body: [
+          "The person behind the wheel owns the move. That means:",
+          {
+            list: [
+              "Buckle the seat belt before you release the brake — every trip, no exceptions.",
+              "Know the site traffic plan: routes, one-way sections, speed limits, and where foot traffic crosses.",
+              "Keep speed to conditions — mud, gravel, blind corners, and congestion all mean slow down.",
+              "Assume pedestrians are in your blind spots; make eye contact before you move near people.",
+              "Secure tools and loose material so nothing shifts or flies off (1926.601(b)(7))."
+            ]
+          },
+          "If you can't see, can't fit, or aren't sure who has the right-of-way, stop. A stopped vehicle has never run anyone over."
+        ]
+      },
+      {
+        heading: "Where this connects",
+        body: [
+          "Powered industrial trucks (forklifts) run under their own rule and are covered in Forklift Safety. Earthmoving machines — loaders, dozers, scrapers, graders — add requirements under 1926.602 and are covered here in the earthmoving talk. Backing, spotters, alarms, and work-zone traffic each get their own talk in this category."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/pre-operation-and-daily-vehicle-inspections": {
+    description:
+      "The start-of-shift walkaround OSHA 1926.601(b)(14) requires — the parts you check, why, and what to do when something's wrong.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "OSHA 1926.601(b)(14) is direct: every vehicle in use gets checked at the beginning of each shift to make sure key parts are in safe operating condition and free of damage that could cause a failure while you're driving. Defects get fixed before the vehicle is put in service — not after the run.",
+          "A walkaround takes a couple of minutes. A brake that fades on a downgrade, a tire that lets go under load, or a coupling that drops a trailer takes a couple of seconds to become a fatality."
+        ]
+      },
+      {
+        heading: "What the shift check covers",
+        body: [
+          "The standard names the parts. Check that each is there, working, and undamaged:",
+          {
+            list: [
+              "Service brakes, including trailer brake connections.",
+              "Parking (hand) brake and the emergency stopping/braking system.",
+              "Tires — inflation, tread, cuts, and no missing lugs.",
+              "Horn.",
+              "Steering mechanism.",
+              "Coupling devices — hitch, pintle, fifth wheel, safety chains.",
+              "Seat belts.",
+              "Operating controls and all safety devices (lights, wipers, alarms, mirrors)."
+            ]
+          },
+          "Add fluids, leaks, and mirror/glass condition to the loop — anything that would stop you seeing or stopping."
+        ]
+      },
+      {
+        heading: "Do it the same way every time",
+        body: [
+          "Walk a consistent path so nothing gets skipped: front, down one side, rear, up the other, then in the cab. Check tires and lights on foot before you climb in; test brakes, steering, horn, and gauges once you're seated.",
+          "Look under the vehicle for fresh puddles — a spreading stain is a leak, not condensation. Tug the trailer coupling and confirm the safety chains and breakaway are connected."
+        ]
+      },
+      {
+        heading: "When something's wrong",
+        body: [
+          "Any defect that affects safe operation means the vehicle comes out of service until it's corrected. Tag it, report it, and don't let \"it's just a short trip\" talk you into driving it.",
+          "Log the check. A written or app-based record shows the vehicle was inspected, flags repeat problems before they strand a crew, and protects the driver who did the right thing."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/seat-belts-and-rollover-protective-structures-rops": {
+    description:
+      "Why ROPS and a buckled seat belt are one system — required together under OSHA Subpart W and 1926.602 — and what to do if a machine starts to roll.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A rollover is one of the top killers on construction equipment, and the two things that decide whether you walk away are the rollover protective structure (ROPS) over your head and the seat belt across your lap. They only work together. A ROPS keeps a survival space when the machine flips; the belt keeps you inside that space instead of thrown out and crushed.",
+          "OSHA requires ROPS on the major earthmoving machines under 29 CFR 1926 Subpart W, and requires seat belts on that equipment under 1926.602(a)(2). Buckling up is not optional on a machine that has a belt."
+        ]
+      },
+      {
+        heading: "What needs ROPS",
+        body: [
+          "Subpart W (1926.1000) requires rollover protection on these machines when they're used in construction:",
+          {
+            list: [
+              "Rubber-tired self-propelled scrapers.",
+              "Rubber-tired front-end loaders and rubber-tired dozers.",
+              "Wheel-type agricultural and industrial tractors.",
+              "Crawler tractors and crawler-type loaders.",
+              "Motor graders — with or without attachments."
+            ]
+          },
+          "The ROPS has to meet the performance criteria in the standard, and the machine carries seat belts that meet SAE J386. Sideboom pipelaying tractors are the specific exception. If a ROPS is damaged in a rollover, it's replaced — never repaired and reused, because bent steel won't take a second hit."
+        ]
+      },
+      {
+        heading: "Wear the belt — every time",
+        body: [
+          "The belt is the part operators skip, and it's the part that saves the life. In a rollover, an unbelted operator's instinct is to jump clear — and that's exactly how people end up under the machine. The survival space is inside the ROPS. Stay in it.",
+          "If the machine starts to tip: stay seated and belted, grip the wheel, brace your feet, and lean away from the point of impact. Do not try to jump out."
+        ]
+      },
+      {
+        heading: "Keep the system intact",
+        body: [
+          "Don't modify or drill a ROPS, hang loads from it, or remove it to fit under a low clearance. Any of that voids the protection. Check the belt with the daily inspection — frayed webbing, a cracked buckle, or a jammed retractor means the belt gets replaced before the machine runs.",
+          "Overhead falling-object protection (FOPS) is a separate structure for a separate hazard; where the work exposes you to falling material, the machine needs that too."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/backing-up-blind-spots-spotters-and-hand-signals": {
+    description:
+      "Backing is where struck-by fatalities happen. What OSHA 1926.601(b)(4) requires, how to use a spotter, and the signal rules that keep the move safe.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "More site vehicles run people over in reverse than in any other maneuver. The driver can't see behind the vehicle, the worker on foot assumes the driver sees them, and the two assumptions meet in the blind spot.",
+          "OSHA 1926.601(b)(4) is clear: you may not use a motor vehicle with an obstructed rear view unless it has a reverse-signal alarm audible above the surrounding noise, or it's backed only when a spotter signals that it's safe. Earthmoving equipment carries the same rule under 1926.602(a)(9)."
+        ]
+      },
+      {
+        heading: "Cut down the backing",
+        body: [
+          "The safest reverse move is the one you don't make. Before backing becomes routine:",
+          {
+            list: [
+              "Set up pull-through parking and drive-through routes so trucks exit forward.",
+              "Plan deliveries so vehicles don't have to reverse into work areas.",
+              "If you must back, do it right away when you arrive and know the area is clear — not blind at the end of the job."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Using a spotter",
+        body: [
+          "When a spotter is directing the back-up, the rules are simple and non-negotiable:",
+          {
+            list: [
+              "One spotter, one driver — agree on the signals before the vehicle moves.",
+              "The spotter stays out of the vehicle's path and in a position where mirrors can see them the whole time.",
+              "If the driver loses sight of the spotter, the driver STOPS — every time, no exceptions.",
+              "The spotter never walks backward and never puts themselves between the vehicle and a fixed object.",
+              "A high-visibility vest so the driver can pick the spotter out of the background."
+            ]
+          },
+          "Agree in advance on the one signal that always means STOP, and that anyone on the ground can give it."
+        ]
+      },
+      {
+        heading: "Alarms and cameras help — they don't replace looking",
+        body: [
+          "A reverse alarm warns people on foot; a backup camera and mirrors help the driver. They're aids, not permission to back blind. Alarms get ignored on a noisy site (\"alarm fatigue\"), and cameras have their own blind zones.",
+          "The safe move is layered: cut down backing, use a spotter for the tight ones, keep the alarm working, and glance the mirrors and camera. No single one of those is enough alone."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/backup-alarms-and-warning-devices": {
+    description:
+      "Reverse alarms, horns, lights, and flags — what OSHA requires, why 'audible above the surrounding noise' is the test, and how to keep them working.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Warning devices are how a moving vehicle tells people on foot where it is and what it's about to do. On a site with engines, tools, and traffic, the person in the blind spot may never hear the truck itself — the alarm is what gives them the second they need to step clear.",
+          "OSHA sets the standard for reverse alarms on both motor vehicles (1926.601(b)(4)) and earthmoving equipment (1926.602(a)(9)): the alarm has to be audible above the surrounding noise level, or a spotter directs the back-up."
+        ]
+      },
+      {
+        heading: "The devices and what they're for",
+        body: [
+          {
+            list: [
+              "Reverse-signal alarm — the tonal or broadband \"beeper\" that sounds automatically when the machine is in reverse.",
+              "Horn — on bi-directional machines (rollers, compactors, loaders, dozers, tractors), OSHA 1926.602(a)(9)(i) requires a horn distinctly audible above the surrounding noise; the operator sounds it when starting to move.",
+              "Rotating amber beacon or strobe — makes the machine visible over spoil piles and in low light.",
+              "Headlights, tail lights, and brake lights — required working when visibility warrants (1926.601).",
+              "Flags, reflectors, and reflective tape on slow-moving or oversized equipment."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "\"Audible above the surrounding noise\" is the real test",
+        body: [
+          "An alarm that the machine's own engine and the crew's tools drown out isn't doing its job, even if it's technically working. If the site is loud, the alarm has to be loud enough to beat it — or you add a spotter.",
+          "Broadband (\"white-noise\") alarms are easier to locate directionally and are less prone to being tuned out than a single-tone beeper. Where alarm fatigue is a problem — a busy yard where beepers never stop — self-adjusting alarms that stay just above ambient noise, plus spotters for the tight moves, work better than one more loud beeper."
+        ]
+      },
+      {
+        heading: "Keep them working",
+        body: [
+          "Warning devices are on the daily inspection list for a reason. Check that the reverse alarm sounds when you select reverse, the horn works, the beacon spins, and all lights come on before the shift.",
+          "A dead alarm or a burned-out brake light takes the vehicle out of service until it's fixed. Don't disable an alarm because it's annoying — annoyed is the point."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/haul-roads-access-roads-and-grades": {
+    description:
+      "OSHA 1926.602(a)(3) requires haul and access roads built to be safe. Grades, berms, width, surface, and the driving habits that match them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "The road is a safety control. OSHA 1926.602(a)(3) requires that access roadways and grades be constructed so equipment can be operated safely, and that no vehicle is moved on a road or grade unless it's built to handle it.",
+          "A haul road that's too narrow, too steep, poorly drained, or dropping off at a fill edge turns an ordinary haul into a rollover or a run-off. The road gets planned and maintained like any other part of the job."
+        ]
+      },
+      {
+        heading: "Build the road right",
+        body: [
+          {
+            list: [
+              "Width — wide enough for the widest equipment plus clearance; on two-way roads, room to pass without crowding the edge.",
+              "Grade — kept within what the loaded equipment's brakes and traction can handle; the steeper the grade, the slower and more deliberate the move.",
+              "Berms or guardrails along drop-offs, fill edges, and near excavations to stop a vehicle from going over.",
+              "Surface — graded, drained, and maintained; watch for ruts, soft spots, mud, ice, and washouts.",
+              "Sight distance at intersections and blind crests; add signs, mirrors, or traffic control where it's tight."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Drive to the road and the grade",
+        body: [
+          "The road being built right doesn't help if the driver outruns it. On grades and haul roads:",
+          {
+            list: [
+              "Slow down before the descent — control speed with the transmission and engine brake, not by riding the service brakes until they fade.",
+              "Keep well back from the edge, spoil piles, and excavation lips; the ground near an edge can give way under weight.",
+              "Match speed to the surface — mud, gravel, and ice cut your traction and stopping distance.",
+              "Give loaded equipment the right-of-way; it can't stop or maneuver like an empty vehicle."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Light it and control it",
+        body: [
+          "Where haul roads run at night or in poor visibility, OSHA 1926.602(a)(3) calls for adequate lighting — headlights, and flares or reflectors to mark the route and any hazards.",
+          "On a busy site, set the traffic plan in writing: one-way loops, speed limits, and where haul traffic and foot traffic are kept apart. Keep pedestrians off haul roads entirely wherever the layout allows."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/dump-trucks-and-raised-bed-hazards": {
+    description:
+      "The raised bed is where dump trucks kill — overhead lines, tip-overs, and stuck loads. How to dump, when to stay clear, and never travel with the bed up.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A dump truck is routine until the bed goes up. Raised, that bed can reach an overhead power line, throw the whole truck off balance on soft or uneven ground, or trap someone who steps under it to free a stuck load.",
+          "Most raised-bed incidents are one of three things: contact with a power line, a tip-over, or getting caught under the bed. Each one is preventable with the same discipline every time you dump."
+        ]
+      },
+      {
+        heading: "Before you raise the bed",
+        body: [
+          {
+            list: [
+              "Look up. Check for overhead power lines and set the dump spot to keep the raised bed well clear — treat any line as energized. If the truck contacts a line, stay in the cab and warn others to keep back until the utility confirms it's dead.",
+              "Check the ground. Dump on firm, level ground — a raised bed puts the center of gravity high, and soft or sloped ground rolls the truck.",
+              "Line up straight and set the parking brake. A truck skewed to the pile tips sideways as the load shifts.",
+              "Keep people clear of the rear and the sides of the bed's swing."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Dumping and stuck loads",
+        body: [
+          "Raise the bed smoothly and watch the load release. Sticky material — wet clay, frozen aggregate — can cling high on one side and lever the truck over, or let go all at once.",
+          "If a load hangs up, do not drive forward and slam to jolt it loose near people, and never climb under or into a raised bed to free it while it's up on hydraulics alone. If someone must work under a raised body for any reason, it gets blocked or the safety prop is set first — hydraulics can drift or fail."
+        ]
+      },
+      {
+        heading: "Never travel with the bed up",
+        body: [
+          "Lower the bed completely and confirm it's seated before you pull away. Driving with the bed even partly raised is how trucks snag overhead lines, structures, and power drops, and how they roll on the first turn.",
+          "Know your truck: watch the bed-up indicator, and don't rely on feel. Bed down, brake off, mirrors clear — then move."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/earthmoving-and-material-handling-equipment": {
+    description:
+      "Loaders, dozers, scrapers, graders, and rollers under OSHA 1926.602 — the added requirements for the big machines and how to work on and around them.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Earthmoving and material-handling machines — front-end loaders, dozers, scrapers, graders, backhoes, rollers, and compactors — carry hazards a pickup doesn't: huge blind spots, heavy articulating parts, and the mass to bury or crush in an instant. OSHA 29 CFR 1926.602 sets the requirements on top of the general motor-vehicle rule.",
+          "These machines demand a trained operator, a machine that's inspected and equipped, and everyone on foot kept out of the swing and travel path."
+        ]
+      },
+      {
+        heading: "What 1926.602 adds",
+        body: [
+          {
+            list: [
+              "Seat belts on the equipment, meeting SAE J386 (1926.602(a)(2)) — and worn.",
+              "Rollover protection (ROPS) per Subpart W on scrapers, loaders, dozers, tractors, and graders.",
+              "Reverse-signal alarm audible above the surrounding noise, or a spotter, when the rear view is obstructed (1926.602(a)(9)).",
+              "A horn, distinctly audible above the surrounding noise, on bi-directional machines — sounded before moving.",
+              "Access roads and grades built for safe operation (1926.602(a)(3)).",
+              "Service brakes and fog-tail-brake lighting adequate for the machine's weight and speed."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Operating safely",
+        body: [
+          "The operator controls the danger zone around the machine:",
+          {
+            list: [
+              "Mount and dismount facing the machine with three points of contact — never jump down.",
+              "Carry loads low for stability and visibility; a raised bucket blocks the view and raises the tip-over risk.",
+              "Lower buckets, blades, and forks to the ground before leaving the seat.",
+              "Keep clear of the edges of excavations and fills — the weight can collapse the ground.",
+              "Watch the articulation and swing points; a loader or backhoe pins people in the pinch zone with no warning."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Working near the machine",
+        body: [
+          "Ground crews stay out of the operator's blind spots and never approach a running machine until the operator sees them, signals back, and the equipment is stopped with attachments grounded.",
+          "Make eye contact and get an acknowledgment before you enter the work zone. The operator up in the cab often cannot see a worker close to the machine at all — assume you're invisible until you know you're seen."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/working-around-mobile-equipment-struck-by-and-caught-between": {
+    description:
+      "Struck-by vehicles is a leading construction killer. The blind zones, the pinch points, and the separation habits that keep workers on foot alive.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Struck-by incidents are one of construction's \"Focus Four\" hazards, and being struck by a vehicle or mobile equipment is the deadliest kind. Caught-between — pinned against a wall, a trailer, or another machine — runs a close second. Both hit the worker on foot, not the driver.",
+          "The whole game is separation: keep people and moving equipment apart, and where they must share space, make sure the driver sees the worker and the worker sees the machine."
+        ]
+      },
+      {
+        heading: "Know the blind zones",
+        body: [
+          "Every large vehicle has zones the driver simply cannot see — directly behind, along the passenger side, and close in around the front on a high cab. On articulated and swinging machines, the danger zone moves as the machine turns.",
+          "The rule for anyone on foot: if you can't see the operator's eyes or face, the operator can't see you. Don't walk behind a vehicle that could back up, and don't cut through the swing radius of a loader, excavator, or backhoe."
+        ]
+      },
+      {
+        heading: "Caught-between pinch points",
+        body: [
+          "Caught-between kills fast and quiet. The common traps:",
+          {
+            list: [
+              "Between a backing vehicle and a wall, trailer, stack of material, or another machine.",
+              "In the articulation joint of a loader or the swing of an excavator counterweight.",
+              "Between a truck and a loading dock during spotting.",
+              "Under a raised bed, bucket, or attachment held only on hydraulics."
+            ]
+          },
+          "Never position yourself where a moving machine could close the gap against something solid. There's no reaction time in a pinch point."
+        ]
+      },
+      {
+        heading: "Build in separation",
+        body: [
+          {
+            list: [
+              "Separate pedestrian routes and vehicle routes with barriers or marked walkways where you can.",
+              "High-visibility clothing so drivers pick you out — required near traffic and good practice everywhere equipment runs.",
+              "Positive communication: eye contact and an acknowledged signal before entering a work zone.",
+              "Internal traffic control plan — one-way routes, spotters, and speed limits — so movements are predictable.",
+              "Stay out of the path; let the machine finish its move rather than timing a dash across it."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/loading-unloading-and-securing-loads": {
+    description:
+      "Chocking, staying out of the fall zone, and securing the load so nothing shifts in transit or drops on someone during loading.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "Loading and unloading is where the vehicle is standing still and people relax — and it's where loads shift, roll off, or crush. A load that isn't secured moves in transit; a worker in the wrong spot during loading gets hit by what's coming off.",
+          "OSHA 1926.601(b)(7) requires tools and material to be secured to prevent movement when a vehicle is in motion. The same discipline — chock, stay clear, secure — applies whether you're loading a flatbed or unloading a delivery."
+        ]
+      },
+      {
+        heading: "Set the vehicle before you load",
+        body: [
+          {
+            list: [
+              "Set the parking brake and chock the wheels before anyone loads or unloads.",
+              "On a trailer being loaded by forklift, chock the trailer and set trailer stands or a dock lock so it can't roll or tip forward off its landing gear.",
+              "Load on firm, level ground; a lean throws off how the load sits and how it comes off.",
+              "Shut off and secure the vehicle if the driver leaves the cab during the work."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Stay out of the fall zone",
+        body: [
+          "Never stand under a suspended load or in the path a load would take if it broke free or shifted. When material is being lifted onto or off the bed by crane, loader, or forklift, workers stay clear of the load and the pinch points until it's set.",
+          "Getting on and off the trailer bed: use three points of contact and steps or a ladder — don't jump down, and don't climb on an unstable load. Falls from truck and trailer beds are a common, serious injury."
+        ]
+      },
+      {
+        heading: "Secure the load for the road",
+        body: [
+          "A load that's fine at 5 mph in the yard comes apart at highway speed or on the first hard stop. Before the vehicle moves:",
+          {
+            list: [
+              "Block, brace, and tie down so nothing can slide, roll, or fall — enough tie-downs rated for the weight.",
+              "Cover loose material that could blow off.",
+              "Check the load didn't shift after the first short distance, and re-tension straps.",
+              "Distribute weight so the vehicle stays balanced and within its rated capacity."
+            ]
+          },
+          "For loads hauled on public roads, DOT/FMCSA cargo-securement rules set the minimum tie-down numbers and working load limits — meet them."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/highway-work-zones-and-public-traffic-flaggers": {
+    description:
+      "Working where the site meets live traffic — work-zone layout, flagger duties, high-visibility PPE, and keeping the public and the crew apart.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "When the job runs next to a road that's still open, the biggest hazard isn't your own equipment — it's the public driving through at speed, distracted, and not expecting you. Work-zone struck-by incidents kill workers and motorists every year.",
+          "The controls come from OSHA 1926 Subpart G (signs, signals, and barricades) and the Manual on Uniform Traffic Control Devices (MUTCD, Part 6), which set how work zones are laid out and how flaggers direct traffic. The goal is a predictable path for drivers and a protected space for the crew."
+        ]
+      },
+      {
+        heading: "Lay the zone out right",
+        body: [
+          "A work zone guides traffic through in stages so drivers aren't surprised:",
+          {
+            list: [
+              "Advance warning signs far enough back to give drivers time to react.",
+              "A transition (taper) with channelizing devices — cones, drums, barricades — that moves traffic over gradually.",
+              "A buffer space between traffic and the work area — keep it empty; it's the crash cushion.",
+              "The activity area where the crew works, kept separated from live lanes.",
+              "A termination area that returns traffic to normal."
+            ]
+          },
+          "Positive barriers (concrete, water-filled) where speeds and exposure are high; cones and drums only channelize — they don't stop a vehicle."
+        ]
+      },
+      {
+        heading: "Flagger duties",
+        body: [
+          "A flagger controls traffic and is exposed to it, so the rules are strict:",
+          {
+            list: [
+              "Trained in the MUTCD flagging methods and using a STOP/SLOW paddle (the primary device).",
+              "High-visibility safety apparel — ANSI/ISEA 107 — and at night, retroreflective gear plus a lighted work zone.",
+              "Stand where you're visible and have an escape route; never stand in the open lane or between two-way traffic with your back turned.",
+              "Give clear, standard signals; make eye contact with drivers; stay alert for the one who isn't slowing.",
+              "Stay in position and in communication with the other flagger on two-way control."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Keep the crew separated",
+        body: [
+          "Everyone in the zone wears high-visibility clothing, not just the flagger. Park equipment to shield the crew from traffic where you can, and keep workers out of the buffer space and out of the blind side of vehicles backing or turning inside the zone.",
+          "The public-protection side of barricades, signage, and pedestrian routing is covered in depth under Site Access and Public Protection — coordinate the two so the plan is one plan."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/parking-shutdown-and-securing-equipment": {
+    description:
+      "How OSHA 1926.600 says to leave a vehicle: brakes set, blades down, wheels chocked on a grade, and lights or barricades on anything left near traffic.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A parked vehicle isn't a safe vehicle until it's secured. Machines roll off grades, buckets drop, and unlit equipment left by a road gets hit at night. OSHA 1926.600 sets how equipment is parked and shut down so it stays put and stays visible.",
+          "The habit is short: park it, ground the attachments, set the brake, chock if there's any grade, shut it down, and mark it if it's near traffic."
+        ]
+      },
+      {
+        heading: "Shutdown sequence",
+        body: [
+          "Before you leave the seat, OSHA 1926.600(a)(3) and good practice call for:",
+          {
+            list: [
+              "Lower blades, buckets, forks, and any raised attachment fully to the ground.",
+              "Set the parking brake.",
+              "Chock the wheels whenever the equipment is parked on an incline — the brake alone isn't the plan on a grade.",
+              "Shift to neutral/park, shut off the engine, and secure the controls.",
+              "Take the key or otherwise secure it against unauthorized use."
+            ]
+          },
+          "Never leave a machine running and unattended, and never leave one parked with a load or attachment up in the air."
+        ]
+      },
+      {
+        heading: "Left near traffic or overnight",
+        body: [
+          "OSHA 1926.600(a)(3)(i) is specific: equipment left unattended at night — adjacent to a highway in normal use, or adjacent to a construction area where work is in progress — must have lights or reflectors, or barricades with lights or reflectors, to mark where it is.",
+          "So anything left by a live road overnight gets marked. A dark machine parked half in a lane is a fatal-crash waiting to happen for the crew and for the public."
+        ]
+      },
+      {
+        heading: "Where you park matters",
+        body: [
+          "Pick the spot on purpose: firm, level ground, clear of the swing of other equipment, out of haul-road and traffic lanes, and back from excavation edges and drop-offs where the ground could give way under a parked machine.",
+          "Don't block emergency access, fire lanes, exits, or electrical panels. Park so the next crew — and any emergency vehicle — can get where it needs to go."
+        ]
+      }
+    ]
+  },
+
+  "vehicle-and-driver-safety/driver-fatigue-distraction-and-fitness-to-operate": {
+    description:
+      "The condition of the driver is a safety control too — fatigue, phones, and impairment. Hours-of-service limits, the texting ban, and fitness to operate.",
+    sections: [
+      {
+        heading: "Overview",
+        body: [
+          "A vehicle in perfect shape is still only as safe as the person driving it. A tired, distracted, or impaired driver reacts late, drifts, and misjudges gaps — and at any speed with heavy equipment, late is enough. The driver's condition is a control you manage, same as brakes and mirrors.",
+          "Two of the biggest killers on the road — fatigue and distraction — are the two most likely to get waved off as normal. They aren't."
+        ]
+      },
+      {
+        heading: "Fatigue and hours of service",
+        body: [
+          "Drowsy driving impairs you much like alcohol — slower reactions and lapses in attention. Long shifts, early starts, and monotonous hauls all build it.",
+          "For drivers operating commercial motor vehicles on public roads, FMCSA hours-of-service rules set hard limits for property-carrying drivers:",
+          {
+            list: [
+              "11 hours maximum driving, after 10 consecutive hours off duty.",
+              "A 14-hour on-duty window — driving must stop 14 hours after coming on duty, even with breaks.",
+              "A 30-minute break required after 8 cumulative hours of driving.",
+              "A weekly cap of 60 hours in 7 days, or 70 hours in 8 days."
+            ]
+          },
+          "On site, the same principle holds even where the FMCSA rule doesn't apply: rotate long or monotonous tasks, take real breaks, and pull over when you feel it — micro-sleeps give no warning."
+        ]
+      },
+      {
+        heading: "Distraction — hands, eyes, and mind",
+        body: [
+          "Distraction takes your hands off the wheel, your eyes off the path, or your mind off the task — and texting takes all three. FMCSA prohibits texting and hand-held phone use for CMV drivers (49 CFR 392.80 and 392.82), and it's the right rule for every vehicle on site.",
+          "Set the route and phone before you move; if you need to call, text, or eat, stop the vehicle first. Reversing, spotting, and tight moves get your full attention — nothing else."
+        ]
+      },
+      {
+        heading: "Fitness to operate",
+        body: [
+          "Come to the seat fit to drive. That means:",
+          {
+            list: [
+              "No alcohol or drugs — including impairing prescription and over-the-counter medications; check the label for drowsiness warnings.",
+              "Rested, not driving through obvious exhaustion.",
+              "Not driving through illness or an injury that limits your control.",
+              "Seat, mirrors, and belt adjusted before you move."
+            ]
+          },
+          "If you're not fit to drive, say so and hand it off. No load, no schedule, and no short trip is worth a vehicle you can't fully control."
+        ]
+      }
+    ]
   }
 };
 
