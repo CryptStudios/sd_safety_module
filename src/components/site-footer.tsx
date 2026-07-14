@@ -1,6 +1,6 @@
 export function SiteFooter() {
   return (
-    <footer className="border-t border-rule bg-ink text-[#f5efe2]">
+    <footer className="border-t border-white/10 bg-ink text-[#f5efe2]">
       <div className="mx-auto max-w-7xl px-4 py-12 text-sm sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
           <div className="space-y-3">
