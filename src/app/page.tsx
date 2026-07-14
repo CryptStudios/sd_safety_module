@@ -5,7 +5,6 @@ import {
   BoltIcon,
   ClipboardIcon,
   HardHatIcon,
-  MedicalIcon,
   ShieldIcon
 } from "@/components/icons";
 import { totalTopicCount, trainingCategories } from "@/lib/training-data";
@@ -110,27 +109,6 @@ export default function HomePage() {
 
         <div className="mt-10">
           <CategorySearch categories={trainingCategories} showHeading={false} />
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-6 rounded-[2rem] border border-white/10 bg-[#071423] p-8 text-white shadow-[0_36px_100px_-50px_rgba(0,0,0,0.9)] lg:grid-cols-[1fr_auto] lg:items-center">
-          <div className="flex gap-5">
-            <MedicalIcon />
-            <div>
-              <h3 className="text-3xl font-black tracking-tight">Clearer learning. Simpler review.</h3>
-              <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-300">
-                Each topic is organized so workers can read, understand, and complete the
-                related acknowledgment without extra clutter.
-              </p>
-            </div>
-          </div>
-          <Link
-            href="#categories"
-            className="inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-3 text-sm font-black text-slate-950 transition hover:bg-amber-300"
-          >
-            Review Categories
-          </Link>
         </div>
       </section>
     </div>
