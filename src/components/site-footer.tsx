@@ -4,15 +4,12 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-12 text-sm sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
           <div className="space-y-3">
-            <p className="text-xs font-bold uppercase tracking-[0.24em] text-amber-300">
-              Submit Daily Safety Module
-            </p>
-            <p className="max-w-3xl leading-7 text-slate-300">
+            <p className="eyebrow text-hi">Submit Daily Safety Module</p>
+            <p className="max-w-3xl leading-7 text-[#c9c2b2]">
               This site is for internal safety training organization and documentation only.
               Completion records, signatures, and form submissions are handled through the
               company's approved external form system.
             </p>
-            <p className="text-sm font-medium text-[#8c8676]">Created by Maxwell Jung.</p>
           </div>
           <div className="rounded-[16px] border border-white/10 bg-white/5 p-5">
             <p className="eyebrow text-hi">Contact</p>
