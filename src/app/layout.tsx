@@ -27,15 +27,15 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SD Safety Module",
+  title: "Submit Daily Safety Module",
   description:
     "Access required safety topics, review important information, and complete acknowledgments through company-approved forms.",
-  applicationName: "SD Safety Module",
+  applicationName: "Submit Daily Safety Module",
   authors: [{ name: "Maxwell Jung" }],
   creator: "Maxwell Jung",
   publisher: "Maxwell Jung",
   keywords: [
-    "SD Safety Module",
+    "Submit Daily Safety Module",
     "construction safety",
     "toolbox talks",
     "safety training",
@@ -43,11 +43,15 @@ export const metadata: Metadata = {
     "Maxwell Jung"
   ],
   openGraph: {
-    title: "SD Safety Module",
+    title: "Submit Daily Safety Module",
     description:
       "Internal safety training articles, topic browsing, and external acknowledgment forms for workers and supervisors.",
-    siteName: "SD Safety Module",
+    siteName: "Submit Daily Safety Module",
     type: "website"
+  },
+  icons: {
+    icon: "/submit-daily-safety-logo.png",
+    apple: "/submit-daily-safety-logo.png"
   },
   alternates: {
     canonical: "/"

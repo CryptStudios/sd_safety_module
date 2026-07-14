@@ -254,14 +254,14 @@ function buildTopicIntro(categorySlug: string, title: string) {
   const focus = getCategoryFocus(categorySlug);
   const riskLens = getCategoryRiskLens(categorySlug);
 
-  return `${title} is written as a short article for workers who want a clear, practical explanation of the topic before starting work. It fits into the broader conversation about ${focus}, and it matters because ${riskLens}. The best reading material connects the topic to the exact work area, exact task, and exact decisions workers will make on site.`;
+  return `${title} is presented as a short article for workers who want a clear explanation of the topic before they start work. It connects directly to ${focus}, and it matters because ${riskLens}. The goal is to show how the hazard appears in real site conditions, what it looks like when things start to go wrong, and which controls keep the task manageable.`;
 }
 
 function buildTopicMeetingPoints(categorySlug: string, title: string): string[] {
   return [
-    `Look for a current task, area, or crew exposure where ${title.toLowerCase()} shows up on this project.`,
+    `Look for a current task, area, or crew exposure where ${title.toLowerCase()} appears on this project.`,
     `Notice the warning signs or changing conditions that make the topic more important right now.`,
-    `Read the control measures, reporting path, and stop-work expectations as part of the article itself.`
+    `Use the control measures and examples in the article to picture what safe work looks like in the field.`
   ];
 }
 
@@ -271,38 +271,38 @@ function buildTopicSections(categorySlug: string, title: string): TrainingArticl
 
   return [
     {
-      heading: `What ${title} means`,
+      heading: `Understanding ${title}`,
       body: [
-        `${title} is easiest to understand when it is described in plain site language instead of policy language. The topic usually comes up in ordinary work, which is why a good article explains where it appears, who is exposed, and what makes it dangerous when conditions change.`,
-        `For example, a worker may not notice a problem until the task has already started, the layout has changed, or equipment has been moved into a tighter space. That is why the broader safety focus here is ${focus}: the article should connect the topic to real work, not abstract rules.`
+        `${title} is easiest to understand when it is described in plain site language instead of policy language. It usually appears in ordinary work, which is why a useful article explains where it shows up, who is exposed, and what makes it dangerous when conditions change.`,
+        `A worker may not notice the hazard until the task has already started, the layout has changed, or equipment has been moved into a tighter space. That is why the broader safety focus here is ${focus}: the topic makes more sense when it is tied to real work rather than abstract rules.`
       ]
     },
     {
       heading: "How it shows up on site",
       body: [
         `One reason ${title.toLowerCase()} deserves its own article is that the hazard usually grows from a chain of small changes rather than one dramatic mistake. A crew gets comfortable, the environment changes, a control is missing, access becomes awkward, or the task starts to move faster than the original plan.`,
-        `A useful article gives examples of those buildup conditions. Maybe a walkway gets cluttered, a cord gets damaged, a lift point is chosen too quickly, or weather changes the ground underfoot. Those small shifts matter because they turn familiar work into something riskier than it looked at first glance.`
+        `Examples help make that sequence obvious. A walkway gets cluttered, a cord gets damaged, a lift point is chosen too quickly, or weather changes the ground underfoot. Each change feels small on its own, but together they turn familiar work into something riskier than it looked at first glance.`
       ]
     },
     {
-      heading: "Examples of safe practice",
+      heading: "What safe work looks like",
       body: [
-        `In practice, ${controlHint}. That means the article should describe what safe work looks like before the task starts, while the task is underway, and after conditions change.`,
-        `Concrete examples help more than broad reminders. A worker should be able to picture the setup, the checks, and the behaviors that keep the hazard under control. If the article can point to a specific piece of equipment, a specific access route, or a specific change in the environment, the lesson becomes easier to remember.`
+        `In practice, ${controlHint}. That means safe work depends on what is in place before the task starts, how the task is controlled while work is underway, and what happens when conditions change.`,
+        `Concrete examples help more than broad reminders. A worker should be able to picture the setup, the checks, and the behaviors that keep the hazard under control. When the article points to a specific piece of equipment, a specific access route, or a specific change in the environment, the lesson becomes easier to remember.`
       ]
     },
     {
-      heading: "Common mistakes",
+      heading: "Where crews get tripped up",
       body: [
         `A common mistake is treating ${title.toLowerCase()} as a rule to memorize instead of a condition to notice. Another is assuming the controls are in place because they were present earlier in the week or on a different job.`,
-        `Articles are more useful when they show how people get hurt by moving too quickly, skipping an inspection, or ignoring a small problem that turns into a larger one. Those examples make the topic feel real instead of theoretical.`
+        `The article becomes more useful when it shows how people get hurt by moving too quickly, skipping an inspection, or ignoring a small problem that turns into a larger one. Those examples make the topic feel real instead of theoretical.`
       ]
     },
     {
-      heading: "What to remember",
+      heading: "Key takeaway",
       body: [
         `By the end of the article, readers should understand the hazard, the warning signs, the required controls, and the point at which they should stop and speak up. They should also know who to contact if the controls are missing, damaged, or no longer fit the conditions in front of them.`,
-        `That matters because ${title.toLowerCase()} is not just background reading. It is field information. The article is successful when a worker can point to the controls on site and explain what would happen if conditions changed unexpectedly.`
+        `That matters because ${title.toLowerCase()} is not just background reading. It is field information. The article works when a worker can point to the controls on site and explain what would happen if conditions changed unexpectedly.`
       ]
     },
   ];
@@ -310,10 +310,10 @@ function buildTopicSections(categorySlug: string, title: string): TrainingArticl
 
 function buildTopicKeyPoints(categorySlug: string, title: string): string[] {
   return [
-    `${title} is easiest to learn when it is tied directly to current project conditions rather than a generic rule.`,
-    `The article should show the warning signs, behavior changes, and site conditions that make ${title.toLowerCase()} more urgent.`,
+    `${title} makes more sense when it is tied directly to current project conditions rather than a generic rule.`,
+    `The article shows the warning signs, behavior changes, and site conditions that make ${title.toLowerCase()} more urgent.`,
     `Readers should be able to picture the controls in the field instead of only reading about them in theory.`,
-    `The article should make clear what to do when the controls related to ${title.toLowerCase()} break down.`
+    `The article makes clear what to do when the controls related to ${title.toLowerCase()} break down.`
   ];
 }
 
@@ -414,7 +414,7 @@ function buildSlides(categorySlug: string, title: string): TrainingSlide[] {
       bullets: [
         "Confirm who verifies the controls.",
         "Review who to notify if something is wrong or missing.",
-        "Complete the external acknowledgment after the meeting."
+        "Complete the external acknowledgment after the article review."
       ],
       speakerNote:
         "Finish with ownership and follow-through. This slide should turn the article into clear next steps."
@@ -428,7 +428,7 @@ function buildTopicChecklist(title: string): string[] {
     `Confirm which equipment, protection, or procedural controls must be in place before the task begins.`,
     "Review what changes in conditions should trigger reassessment or stop-work.",
     "Identify who the crew should notify if they see a problem or missing control.",
-    "Close the topic by confirming the acknowledgment step and any follow-up corrections."
+    "Close the article by noting any follow-up corrections or required acknowledgment."
   ];
 }
 

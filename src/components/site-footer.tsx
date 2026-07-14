@@ -4,8 +4,10 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-12 text-sm sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
           <div className="space-y-3">
-            <p className="eyebrow text-hi">SD Safety Module</p>
-            <p className="max-w-3xl leading-7 text-[#c9c2b2]">
+            <p className="text-xs font-bold uppercase tracking-[0.24em] text-amber-300">
+              Submit Daily Safety Module
+            </p>
+            <p className="max-w-3xl leading-7 text-slate-300">
               This site is for internal safety training organization and documentation only.
               Completion records, signatures, and form submissions are handled through the
               company's approved external form system.

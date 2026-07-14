@@ -1,4 +1,4 @@
-# SD Safety Module
+# Submit Daily Safety Module
 
 Static Next.js site by Maxwell Jung for an internal construction and startup safety training hub. Workers can browse safety categories, read article-style training material, and open external BoloForms links to complete acknowledgments.
 
