@@ -36,7 +36,7 @@ const processSteps = [
 export default function HomePage() {
   return (
     <div className="pb-16">
-      <section className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-14">
+      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
           <p className="eyebrow text-hi-deep">Submit Daily Safety Module</p>
           <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
@@ -44,47 +44,26 @@ export default function HomePage() {
             <br />
             <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-ink-2">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-ink-2">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <Link
-              href="#categories"
-              className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
-            >
-              View Training Categories
-            </Link>
-            <Link
-              href="#how-it-works"
-              className="inline-flex items-center justify-center rounded-full border border-rule px-5 py-3 text-sm font-semibold text-ink transition hover:border-hi hover:bg-hi-soft hover:text-hi-deep"
-            >
-              Learn More
-            </Link>
-          </div>
-        </div>
-
-        <div className="overflow-hidden rounded-[16px] border border-rule bg-paper shadow-[0_20px_50px_rgba(24,21,15,0.06)]">
-          <div className="grid h-full min-h-[420px] grid-rows-[1fr_auto]">
-            <div className="relative overflow-hidden p-8">
-              <div
-                className="absolute inset-0"
-                style={{
-                  backgroundImage:
-                    "linear-gradient(to right, rgba(24,21,15,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(24,21,15,0.05) 1px, transparent 1px)",
-                  backgroundSize: "32px 32px"
-                }}
-              />
-              <div className="absolute -right-10 -top-10 h-48 w-48 rounded-full bg-hi-soft" />
-              <div className="relative z-10 max-w-sm rounded-[14px] border border-rule bg-bg/80 p-5 backdrop-blur-sm">
-                <p className="eyebrow text-hi-deep">Learning First</p>
-                <p className="mt-3 text-sm leading-7 text-ink-2">
-                  Each category leads to full topic articles designed to be read clearly,
-                  understood quickly, and reviewed in a structured way.
-                </p>
-              </div>
+          <div className="mt-10 flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-4 sm:flex-row">
+              <Link
+                href="#categories"
+                className="inline-flex items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
+              >
+                View Training Categories
+              </Link>
+              <Link
+                href="#how-it-works"
+                className="inline-flex items-center justify-center rounded-full border border-rule px-5 py-3 text-sm font-semibold text-ink transition hover:border-hi hover:bg-hi-soft hover:text-hi-deep"
+              >
+                Learn More
+              </Link>
             </div>
-            <div className="grid gap-4 border-t border-rule bg-bg p-6 sm:grid-cols-3">
+            <div className="flex gap-10">
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{trainingCategories.length}</p>
                 <p className="eyebrow mt-1">Categories</p>
@@ -92,10 +71,6 @@ export default function HomePage() {
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}</p>
                 <p className="eyebrow mt-1">Topic Articles</p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl font-bold text-ink">Static</p>
-                <p className="eyebrow mt-1">No Backend Needed</p>
               </div>
             </div>
           </div>
