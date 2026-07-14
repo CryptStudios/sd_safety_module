@@ -39,12 +39,10 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
           <p className="eyebrow text-hi-deep">Submit Daily Safety Module</p>
-          <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-6xl">
-            Safety learning
-            <br />
-            <span className="text-hi">by category and topic.</span>
+          <h1 className="mt-5 whitespace-nowrap font-serif text-4xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-5xl lg:text-6xl">
+            Safety learning <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-ink-2">
+          <p className="mt-6 whitespace-nowrap text-base leading-8 text-ink-2 sm:text-lg">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
