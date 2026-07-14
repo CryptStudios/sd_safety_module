@@ -95,7 +95,7 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
             Complete Acknowledgment
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight">
-            Finish reading the article
+            Done with Toolbox Talk
           </h2>
           <p className="mt-4 max-w-3xl text-sm leading-8 text-ink-2">
             After reviewing the article and key points above, use the approved
@@ -107,7 +107,7 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
             rel="noreferrer"
             className="mt-6 inline-flex rounded-full bg-hi px-6 py-3 text-sm font-semibold text-ink transition hover:bg-hi-deep"
           >
-            Done with Toolbox Talk
+            Complete Acknowledgment
           </a>
         </article>
       </section>
