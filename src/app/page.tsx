@@ -42,7 +42,7 @@ export default function HomePage() {
           <h1 className="mt-5 whitespace-nowrap font-serif text-4xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-5xl lg:text-6xl">
             Safety learning <span className="text-hi">by category and topic.</span>
           </h1>
-          <p className="mt-6 whitespace-nowrap text-base leading-8 text-ink-2 sm:text-lg">
+          <p className="mt-6 text-base leading-8 text-ink-2 sm:text-lg">
             Browse category-based safety learning modules, open detailed topic articles,
             and complete acknowledgments through the approved form system.
           </p>
