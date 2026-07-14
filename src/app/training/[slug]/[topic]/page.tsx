@@ -107,7 +107,7 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
             rel="noreferrer"
             className="mt-6 inline-flex rounded-full bg-hi px-6 py-3 text-sm font-semibold text-ink transition hover:bg-hi-deep"
           >
-            Complete Acknowledgment
+            Done with Toolbox Talk
           </a>
         </article>
       </section>
