@@ -1,5 +1,5 @@
 {
-  "name": "safety-training-hub",
+  "name": "submit-daily-safety-module",
   "version": "1.0.0",
   "private": true,
   "author": "Maxwell Jung",
@@ -9,7 +9,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^4.6.1",
+    "@supabase/supabase-js": "^2.112.3",
+    "@types/pg": "^8.23.1",
     "next": "^15.5.19",
+    "pg": "^8.23.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

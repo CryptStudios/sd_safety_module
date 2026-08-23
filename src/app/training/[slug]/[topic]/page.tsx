@@ -57,13 +57,13 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
   }
 
   const articleSections = topic.articleSections.filter(
-    (section) => section.heading !== "What to remember"
+    (section) => section.heading !== "Key takeaway"
   );
   const [leadSection, ...restSections] = articleSections;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
-      <section className="mx-auto max-w-5xl rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_36px_100px_-50px_rgba(0,0,0,0.18)] lg:p-10">
+      <section className="mx-auto max-w-5xl rounded-[16px] border border-rule bg-paper p-6 text-ink shadow-[0_36px_100px_-50px_rgba(0,0,0,0.18)] sm:p-8 lg:p-10">
         <Link
           href={`/training/${category.slug}`}
           className="text-sm font-bold text-hi-deep transition hover:text-hi"
@@ -71,9 +71,9 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
           ← Back to {category.title}
         </Link>
         <p className="mt-5 eyebrow text-hi-deep">
-          Training Topic
+          Toolbox Talk
         </p>
-        <h1 className="mt-3 text-5xl font-bold tracking-tight">{topic.title}</h1>
+        <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">{topic.title}</h1>
         {leadSection ? <ArticleBody body={leadSection.body} /> : null}
       </section>
 
@@ -81,38 +81,36 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
         {restSections.map((section) => (
           <article
             key={section.heading}
-            className="rounded-[16px] border border-rule bg-paper p-8 shadow-[0_24px_60px_-42px_rgba(2,6,23,0.22)] lg:p-10"
+            className="rounded-[16px] border border-rule bg-paper p-6 shadow-[0_24px_60px_-42px_rgba(2,6,23,0.22)] sm:p-8 lg:p-10"
           >
-            <h2 className="text-4xl font-bold tracking-tight text-ink">
+            <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
               {section.heading}
             </h2>
             <ArticleBody body={section.body} />
           </article>
         ))}
 
-        <article className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_24px_60px_-42px_rgba(2,6,23,0.45)] lg:p-10">
-          <p className="eyebrow text-hi-deep">
-            Complete Acknowledgment
-          </p>
+        <article className="rounded-[16px] border border-rule bg-paper p-6 text-ink shadow-[0_24px_60px_-42px_rgba(2,6,23,0.45)] sm:p-8 lg:p-10">
+          <p className="eyebrow text-hi-deep">Attendance Form</p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight">
-            Done with Toolbox Talk
+            Done with the Toolbox Talk?
           </h2>
           <p className="mt-4 max-w-3xl text-sm leading-8 text-ink-2">
-            After reviewing the article and key points above, use the approved
-            external form to record completion.
+            Send the crew to the Toolbox Talk attendance form to submit this topic,
+            presenter status, and any required hard-copy upload.
           </p>
-          <a
-            href={topic.boloFormUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-flex rounded-full bg-hi px-6 py-3 text-sm font-semibold text-ink transition hover:bg-hi-deep"
+          <Link
+            href={`/toolbox-talk-attendance?topic=${encodeURIComponent(
+              `${category.slug}::${topic.slug}`,
+            )}`}
+            className="mt-6 inline-flex min-h-12 items-center justify-center rounded-full bg-hi px-6 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep"
           >
-            Complete Acknowledgment
-          </a>
+            Open Attendance Form
+          </Link>
         </article>
       </section>
 
-      <aside className="mx-auto mt-10 max-w-5xl rounded-[16px] border border-rule bg-paper p-8 shadow-[0_24px_60px_-42px_rgba(2,6,23,0.22)] lg:p-10">
+      <aside className="mx-auto mt-10 max-w-5xl rounded-[16px] border border-rule bg-paper p-6 shadow-[0_24px_60px_-42px_rgba(2,6,23,0.22)] sm:p-8 lg:p-10">
         <p className="eyebrow text-hi-deep">
           More in {category.title}
         </p>

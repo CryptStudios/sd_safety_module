@@ -1,5 +1,3 @@
-import type { TrainingCategory } from "@/lib/training-data";
-
 /**
  * Higher-level grouping for the training categories.
  * `order` sets how the groups render top-to-bottom on the Training page;
@@ -64,19 +62,19 @@ export function getCategoryGroup(slug: string): CategoryGroupName {
   return groupBySlug[slug] ?? fallbackGroup;
 }
 
-export type GroupedCategories = {
+export type GroupedCategories<T> = {
   name: CategoryGroupName;
-  categories: TrainingCategory[];
+  categories: T[];
 };
 
 /**
  * Buckets categories into their groups in `categoryGroupOrder`, sorting each
  * group's categories alphabetically by title. Empty groups are omitted.
  */
-export function groupCategories(
-  categories: TrainingCategory[]
-): GroupedCategories[] {
-  const buckets = new Map<CategoryGroupName, TrainingCategory[]>();
+export function groupCategories<T extends { slug: string; title: string }>(
+  categories: T[]
+): GroupedCategories<T>[] {
+  const buckets = new Map<CategoryGroupName, T[]>();
 
   for (const category of categories) {
     const group = getCategoryGroup(category.slug);

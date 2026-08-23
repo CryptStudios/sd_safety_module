@@ -9,6 +9,7 @@ import { MenuIcon } from "@/components/icons";
 const navItems = [
   { href: "/", label: "Learning Categories" },
   { href: "/acknowledgment", label: "Forms & Reports" },
+  { href: "/login", label: "Company Sign In" },
   { href: "/contact", label: "Contact" }
 ];
 
@@ -17,8 +18,12 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-rule bg-bg/85 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8">
+        <Link
+          href="/"
+          className="flex min-w-0 items-center gap-3"
+          onClick={() => setOpen(false)}
+        >
           <Image
             src="/submit-daily-safety-logo.png"
             alt="Submit Daily Safety Module logo"
@@ -27,7 +32,7 @@ export function SiteHeader() {
             className="h-11 w-11 rounded-full border border-white/10 bg-white/5 object-cover shadow-[0_10px_24px_-18px_rgba(0,0,0,0.9)]"
             priority
           />
-          <div className="font-serif text-xl font-bold tracking-tight text-ink">
+          <div className="truncate font-serif text-base font-bold tracking-tight text-ink sm:text-xl">
             Submit Daily Safety Module
           </div>
         </Link>

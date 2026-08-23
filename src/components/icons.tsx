@@ -50,3 +50,7 @@ export function SearchIcon() {
 export function MenuIcon() {
   return <span className="text-lg text-ink">☰</span>;
 }
+
+export function ChevronDownIcon({ className = "" }: { className?: string }) {
+  return <span className={`inline-block text-sm text-ink-3 transition-transform ${className}`}>▾</span>;
+}

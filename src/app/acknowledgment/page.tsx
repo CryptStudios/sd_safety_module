@@ -1,8 +1,6 @@
+import Link from "next/link";
+
 import { ClipboardIcon } from "@/components/icons";
-import {
-  incidentInvestigationFormUrl,
-  weeklySafetyInspectionReportUrl,
-} from "@/lib/training-data";
 
 export default function GeneralAcknowledgmentPage() {
   return (
@@ -20,7 +18,8 @@ export default function GeneralAcknowledgmentPage() {
           Safety forms and reporting links
         </h1>
         <p className="mx-auto mt-6 max-w-4xl text-base leading-8 text-ink-2 sm:text-lg sm:leading-9">
-          Use these links for incident reporting and weekly safety inspection reporting.
+          Use these internal forms for incident reporting and weekly safety inspection
+          reporting.
         </p>
         <div className="mt-10 grid gap-6 text-left lg:mt-14 lg:grid-cols-2 lg:gap-8">
           <article className="flex h-full flex-col rounded-[16px] border border-rule bg-bg p-6 sm:p-8 lg:p-10">
@@ -30,14 +29,12 @@ export default function GeneralAcknowledgmentPage() {
             <p className="mt-6 text-lg leading-9 text-ink-2 sm:mt-8 sm:text-xl sm:leading-10">
               Use this form to submit incident and accident investigation information.
             </p>
-            <a
-              href={incidentInvestigationFormUrl}
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              href="/forms/incident-investigation"
               className="mt-8 inline-flex min-h-14 w-full items-center justify-center rounded-full bg-hi px-6 py-4 text-lg font-semibold text-ink transition hover:bg-hi-deep sm:mt-auto sm:min-h-16 sm:text-2xl"
             >
               Open Investigation Form
-            </a>
+            </Link>
           </article>
 
           <article className="flex h-full flex-col rounded-[16px] border border-rule bg-bg p-6 sm:p-8 lg:p-10">
@@ -47,14 +44,12 @@ export default function GeneralAcknowledgmentPage() {
             <p className="mt-6 text-lg leading-9 text-ink-2 sm:mt-8 sm:text-xl sm:leading-10">
               Use this link to access the weekly safety inspection report.
             </p>
-            <a
-              href={weeklySafetyInspectionReportUrl}
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              href="/forms/weekly-safety-inspection"
               className="mt-8 inline-flex min-h-14 w-full items-center justify-center rounded-full bg-hi px-6 py-4 text-lg font-semibold text-ink transition hover:bg-hi-deep sm:mt-auto sm:min-h-16 sm:text-2xl"
             >
               Open Inspection Report
-            </a>
+            </Link>
           </article>
         </div>
       </section>

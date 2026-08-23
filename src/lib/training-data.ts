@@ -18,7 +18,7 @@ export type TrainingTopic = {
   reviewQuestions: string[];
   meetingPoints: string[];
   slides: TrainingSlide[];
-  boloFormUrl: string;
+  attendanceFormUrl: string;
 };
 
 export type TrainingSourceLink = {
@@ -61,20 +61,13 @@ export type TrainingCategory = {
 };
 
 const topicExpansionLabels = [
-  "Fundamentals",
-  "Pre-Task Planning",
-  "Field Inspection Points",
-  "Safe Setup and Preparation",
-  "Common Mistakes and Red Flags",
-  "Crew Communication",
-  "Emergency Response",
+  "Field Example",
+  "Site Scenario",
+  "Common Mistakes",
   "Supervisor Review",
-  "Documentation and Reporting",
-  "Weather and Changing Conditions",
 ];
 
-const placeholderUrl =
-  "https://fill.boloforms.com/signature/1UYGri1WmKFHB4GbS-RYbulaKHzLjzvSdt74ZFlP2434?p=view#googtrans(en)";
+const placeholderUrl = "/toolbox-talk-attendance";
 
 type CategoryInput = {
   id: string;
@@ -91,9 +84,9 @@ type CategoryInput = {
 };
 
 const topicDescriptionTemplates = [
-  "Read this article to understand the topic, see how it appears on site, and recognize examples that make the hazard easier to spot.",
-  "This article explains the topic in plain language and uses job site examples to show why it matters.",
-  "Use this article as a straightforward overview of the hazard, the situations where it appears, and the controls that keep it manageable.",
+  "Read this toolbox talk to understand the topic, see how it appears on site, and recognize examples that make the hazard easier to spot.",
+  "This toolbox talk explains the topic in plain language and uses job site examples to show why it matters.",
+  "Use this toolbox talk as a straightforward overview of the hazard, the situations where it appears, and the controls that keep it manageable.",
 ];
 
 const toolboxTalkSourceLink: TrainingSourceLink = {
@@ -254,14 +247,14 @@ function buildTopicIntro(categorySlug: string, title: string) {
   const focus = getCategoryFocus(categorySlug);
   const riskLens = getCategoryRiskLens(categorySlug);
 
-  return `${title} is presented as a short article for workers who want a clear explanation of the topic before they start work. It connects directly to ${focus}, and it matters because ${riskLens}. The goal is to show how the hazard appears in real site conditions, what it looks like when things start to go wrong, and which controls keep the task manageable.`;
+  return `${title} is presented as a short toolbox talk for workers who want a clear explanation of the topic before they start work. It connects directly to ${focus}, and it matters because ${riskLens}. The goal is to show how the hazard appears in real site conditions, what it looks like when things start to go wrong, and which controls keep the task manageable.`;
 }
 
 function buildTopicMeetingPoints(categorySlug: string, title: string): string[] {
   return [
     `Look for a current task, area, or crew exposure where ${title.toLowerCase()} appears on this project.`,
     `Notice the warning signs or changing conditions that make the topic more important right now.`,
-    `Use the control measures and examples in the article to picture what safe work looks like in the field.`
+    `Use the control measures and examples in the toolbox talk to picture what safe work looks like in the field.`
   ];
 }
 
@@ -273,14 +266,14 @@ function buildTopicSections(categorySlug: string, title: string): TrainingArticl
     {
       heading: `Understanding ${title}`,
       body: [
-        `${title} is easiest to understand when it is described in plain site language instead of policy language. It usually appears in ordinary work, which is why a useful article explains where it shows up, who is exposed, and what makes it dangerous when conditions change.`,
+        `${title} is easiest to understand when it is described in plain site language instead of policy language. It usually appears in ordinary work, which is why a useful toolbox talk explains where it shows up, who is exposed, and what makes it dangerous when conditions change.`,
         `A worker may not notice the hazard until the task has already started, the layout has changed, or equipment has been moved into a tighter space. That is why the broader safety focus here is ${focus}: the topic makes more sense when it is tied to real work rather than abstract rules.`
       ]
     },
     {
       heading: "How it shows up on site",
       body: [
-        `One reason ${title.toLowerCase()} deserves its own article is that the hazard usually grows from a chain of small changes rather than one dramatic mistake. A crew gets comfortable, the environment changes, a control is missing, access becomes awkward, or the task starts to move faster than the original plan.`,
+        `One reason ${title.toLowerCase()} deserves its own toolbox talk is that the hazard usually grows from a chain of small changes rather than one dramatic mistake. A crew gets comfortable, the environment changes, a control is missing, access becomes awkward, or the task starts to move faster than the original plan.`,
         `Examples help make that sequence obvious. A walkway gets cluttered, a cord gets damaged, a lift point is chosen too quickly, or weather changes the ground underfoot. Each change feels small on its own, but together they turn familiar work into something riskier than it looked at first glance.`
       ]
     },
@@ -288,21 +281,21 @@ function buildTopicSections(categorySlug: string, title: string): TrainingArticl
       heading: "What safe work looks like",
       body: [
         `In practice, ${controlHint}. That means safe work depends on what is in place before the task starts, how the task is controlled while work is underway, and what happens when conditions change.`,
-        `Concrete examples help more than broad reminders. A worker should be able to picture the setup, the checks, and the behaviors that keep the hazard under control. When the article points to a specific piece of equipment, a specific access route, or a specific change in the environment, the lesson becomes easier to remember.`
+        `Concrete examples help more than broad reminders. A worker should be able to picture the setup, the checks, and the behaviors that keep the hazard under control. When the toolbox talk points to a specific piece of equipment, a specific access route, or a specific change in the environment, the lesson becomes easier to remember.`
       ]
     },
     {
       heading: "Where crews get tripped up",
       body: [
         `A common mistake is treating ${title.toLowerCase()} as a rule to memorize instead of a condition to notice. Another is assuming the controls are in place because they were present earlier in the week or on a different job.`,
-        `The article becomes more useful when it shows how people get hurt by moving too quickly, skipping an inspection, or ignoring a small problem that turns into a larger one. Those examples make the topic feel real instead of theoretical.`
+        `The toolbox talk becomes more useful when it shows how people get hurt by moving too quickly, skipping an inspection, or ignoring a small problem that turns into a larger one. Those examples make the topic feel real instead of theoretical.`
       ]
     },
     {
       heading: "Key takeaway",
       body: [
-        `By the end of the article, readers should understand the hazard, the warning signs, the required controls, and the point at which they should stop and speak up. They should also know who to contact if the controls are missing, damaged, or no longer fit the conditions in front of them.`,
-        `That matters because ${title.toLowerCase()} is not just background reading. It is field information. The article works when a worker can point to the controls on site and explain what would happen if conditions changed unexpectedly.`
+        `By the end of the toolbox talk, readers should understand the hazard, the warning signs, the required controls, and the point at which they should stop and speak up. They should also know who to contact if the controls are missing, damaged, or no longer fit the conditions in front of them.`,
+        `That matters because ${title.toLowerCase()} is not just background reading. It is field information. The toolbox talk works when a worker can point to the controls on site and explain what would happen if conditions changed unexpectedly.`
       ]
     },
   ];
@@ -311,9 +304,9 @@ function buildTopicSections(categorySlug: string, title: string): TrainingArticl
 function buildTopicKeyPoints(categorySlug: string, title: string): string[] {
   return [
     `${title} makes more sense when it is tied directly to current project conditions rather than a generic rule.`,
-    `The article shows the warning signs, behavior changes, and site conditions that make ${title.toLowerCase()} more urgent.`,
+    `The toolbox talk shows the warning signs, behavior changes, and site conditions that make ${title.toLowerCase()} more urgent.`,
     `Readers should be able to picture the controls in the field instead of only reading about them in theory.`,
-    `The article makes clear what to do when the controls related to ${title.toLowerCase()} break down.`
+    `The toolbox talk makes clear what to do when the controls related to ${title.toLowerCase()} break down.`
   ];
 }
 
@@ -414,10 +407,10 @@ function buildSlides(categorySlug: string, title: string): TrainingSlide[] {
       bullets: [
         "Confirm who verifies the controls.",
         "Review who to notify if something is wrong or missing.",
-        "Complete the external acknowledgment after the article review."
+        "Complete the external acknowledgment after the toolbox talk review."
       ],
       speakerNote:
-        "Finish with ownership and follow-through. This slide should turn the article into clear next steps."
+        "Finish with ownership and follow-through. This slide should turn the toolbox talk into clear next steps."
     }
   ];
 }
@@ -428,7 +421,7 @@ function buildTopicChecklist(title: string): string[] {
     `Confirm which equipment, protection, or procedural controls must be in place before the task begins.`,
     "Review what changes in conditions should trigger reassessment or stop-work.",
     "Identify who the crew should notify if they see a problem or missing control.",
-    "Close the article by noting any follow-up corrections or required acknowledgment."
+    "Close the toolbox talk by noting any follow-up corrections or required acknowledgment."
   ];
 }
 
@@ -478,48 +471,13 @@ function buildTopics(categorySlug: string, topicTitles: string[]): TrainingTopic
     reviewQuestions: buildTopicReviewQuestions(title),
     meetingPoints: buildTopicMeetingPoints(categorySlug, title),
     slides: buildSlides(categorySlug, title),
-    boloFormUrl: placeholderUrl,
+    attendanceFormUrl: placeholderUrl,
     };
   });
 }
 
-/**
- * Categories that have been given their real toolbox-talk topic list and
- * authored content. These skip the synthetic 11x expansion — their topics
- * array is the final list. Others keep the placeholder expansion until they
- * are authored.
- */
-const realContentCategories = new Set<string>([
-  "confined-space",
-  "working-at-heights",
-  "electrical-safety",
-  "excavation-safety",
-  "fire-safety",
-  "ppe",
-  "forklift-safety",
-  "welding-and-hot-work",
-  "fire-extinguisher-safety",
-  "compressed-gas-and-air-tool-safety",
-  "vehicle-and-driver-safety",
-  "rigging-and-material-handling-equipment",
-  "construction-safety",
-  "demolition-safety",
-  "site-access-and-public-protection",
-  "housekeeping",
-  "slips-trips-and-falls",
-  "accident-reporting",
-  "first-aid",
-  "asbestos-awareness",
-  "coshh-hazardous-substances",
-  "manual-handling",
-  "heat-and-cold-stress-prevention",
-  "environmental-controls-and-spill-response",
-]);
-
 function createCategory(input: CategoryInput): TrainingCategory {
-  const topicTitles = realContentCategories.has(input.slug)
-    ? input.topics
-    : expandTopicTitles(input.topics);
+  const topicTitles = expandTopicTitles(input.topics);
 
   return {
     ...input,
@@ -2084,11 +2042,9 @@ export const featuredCategorySlugs = [
   "fire-safety"
 ];
 
-export const incidentInvestigationFormUrl =
-  "https://fill.boloforms.com/signature/1_3_1kmsq9bfFvu7E7Q83tjZVhhOPQaeUORS1rayXKVo?p=view#googtrans(en)";
+export const incidentInvestigationFormUrl = "/forms/incident-investigation";
 
-export const weeklySafetyInspectionReportUrl =
-  "https://fill.boloforms.com/signature/10b6668d-c5d2-4da8-b2c1-df9220240e89?p=view#googtrans(en)";
+export const weeklySafetyInspectionReportUrl = "/forms/weekly-safety-inspection";
 
 export const totalTopicCount = trainingCategories.reduce(
   (sum, category) => sum + category.topics.length,

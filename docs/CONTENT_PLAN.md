@@ -7,7 +7,6 @@ authored training content** grounded in free, public-domain sources
 - **Target:** real, distinct toolbox-talk topics per category — **flex ~11–16**,
   with ~11 as the floor and more where the governing standard supports genuinely
   distinct talks (distinctness beats count; don't pad).
-- **Method:** see [CLAUDE.md](../CLAUDE.md) → "Article-writing methodology".
 - **Live status:** see [docs/STATUS.md](./STATUS.md) — the per-session tracker.
 
 Each category, when authored, gets its topic list set to the real ~11 titles and

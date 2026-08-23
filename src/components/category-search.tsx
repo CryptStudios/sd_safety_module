@@ -5,10 +5,17 @@ import Link from "next/link";
 
 import { HardHatIcon, SearchIcon } from "@/components/icons";
 import { getCategoryGroup, groupCategories } from "@/lib/category-groups";
-import type { TrainingCategory } from "@/lib/training-data";
+
+export type CategorySearchCategory = {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  topicCount: number;
+};
 
 type CategorySearchProps = {
-  categories: TrainingCategory[];
+  categories: CategorySearchCategory[];
   /** Render the "Training Categories" heading + intro. Off when embedded under another page's header. */
   showHeading?: boolean;
 };
@@ -49,11 +56,11 @@ export function CategorySearch({
       {showHeading ? (
         <>
           <p className="eyebrow text-hi-deep">Browse</p>
-          <h1 className="mt-3 font-serif text-5xl font-bold tracking-[-0.025em] text-ink sm:text-6xl">
+          <h1 className="mt-3 font-serif text-4xl font-bold tracking-[-0.025em] text-ink sm:text-5xl lg:text-6xl">
             Training Categories
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-7 text-ink-2">
-            Open a category, choose a topic, and read the full learning article before
+            Open a category, choose a topic, and read the full Toolbox Talk before
             completing the acknowledgment form.
           </p>
         </>
@@ -100,12 +107,14 @@ export function CategorySearch({
                     key={category.id}
                     href={`/training/${category.slug}`}
                     className="flex items-center justify-between gap-4 rounded-[12px] border border-rule bg-paper px-4 py-4 shadow-[0_10px_30px_rgba(24,21,15,0.04)] transition hover:-translate-y-0.5 hover:border-hi hover:shadow-[0_16px_40px_rgba(24,21,15,0.08)]">
-                    <div className="flex items-center gap-4">
+                    <div className="flex min-w-0 items-center gap-4">
                       <HardHatIcon />
-                      <div>
-                        <p className="font-semibold text-ink">{category.title}</p>
+                      <div className="min-w-0">
+                        <p className="text-sm font-semibold text-ink sm:text-base">
+                          {category.title}
+                        </p>
                         <p className="text-sm text-ink-3">
-                          {category.topics.length} topics
+                          {category.topicCount} topics
                         </p>
                       </div>
                     </div>

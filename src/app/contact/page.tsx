@@ -1,9 +1,11 @@
 export default function ContactPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
-      <section className="rounded-[16px] border border-rule bg-paper p-8 text-center text-ink shadow-[0_36px_100px_-50px_rgba(0,0,0,0.9)] lg:p-12">
+      <section className="rounded-[16px] border border-rule bg-paper p-6 text-center text-ink shadow-[0_36px_100px_-50px_rgba(0,0,0,0.9)] sm:p-8 lg:p-12">
         <p className="eyebrow text-hi-deep">Contact</p>
-        <h1 className="mt-4 text-4xl font-bold tracking-tight">Questions about assigned training</h1>
+        <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
+          Questions about assigned training
+        </h1>
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-8 text-ink-2">
           Questions about assigned training should be directed to your supervisor or safety
           administrator.

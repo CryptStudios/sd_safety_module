@@ -1,0 +1,10 @@
+[build]
+  command = "rm -rf .netlify/.next/cache && npm run build"
+  publish = ".next"
+
+[build.environment]
+  # DISPLAY_NAME is UI text, not a credential — it's meant to render on the page.
+  # USERNAME is a login name, not a secret, and "admin" is common enough text
+  # (Admin Dashboard, isAdmin, etc.) that it false-positives on every build.
+  # The real secret, SAFETY_MODULE_PLATFORM_ADMIN_PASSWORD, stays scanned.
+  SECRETS_SCAN_OMIT_KEYS = "SAFETY_MODULE_PLATFORM_ADMIN_DISPLAY_NAME,SAFETY_MODULE_PLATFORM_ADMIN_USERNAME"

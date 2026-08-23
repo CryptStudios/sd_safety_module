@@ -8,7 +8,7 @@ export function SiteFooter() {
             <p className="max-w-3xl leading-7 text-ink-2">
               This site is for internal safety training organization and documentation only.
               Completion records, signatures, and form submissions are handled through the
-              company's approved external form system.
+              internal Safety Module form system.
             </p>
           </div>
           <div className="rounded-[16px] border border-rule bg-paper p-5 shadow-[0_20px_50px_rgba(24,21,15,0.06)]">

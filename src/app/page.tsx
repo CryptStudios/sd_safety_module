@@ -17,17 +17,17 @@ const processSteps = [
   },
   {
     title: "Review Material",
-    description: "Read the article-style training content and learn the key safety points.",
+    description: "Read the Toolbox Talk training content and learn the key safety points.",
     icon: <ClipboardIcon />
   },
   {
     title: "Complete Form",
-    description: "Open the linked acknowledgment form when the article review is complete.",
+    description: "Open the internal attendance form when the Toolbox Talk review is complete.",
     icon: <BoltIcon />
   },
   {
     title: "Submit Record",
-    description: "Completion records are handled through the external company-approved form system.",
+    description: "Safety Module stores the response and the dashboard shows the newest records first.",
     icon: <ShieldIcon />
   }
 ];
@@ -36,14 +36,14 @@ export default function HomePage() {
   return (
     <div className="pb-16">
       <section className="mx-auto max-w-7xl px-4 pb-4 pt-10 sm:px-6 lg:px-8 lg:pb-6 lg:pt-14">
-        <div className="rounded-[16px] border border-rule bg-paper p-8 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] lg:p-12">
+        <div className="rounded-[16px] border border-rule bg-paper p-6 text-ink shadow-[0_20px_50px_rgba(24,21,15,0.06)] sm:p-8 lg:p-12">
           <p className="eyebrow text-hi-deep">Submit Daily Safety Module</p>
-          <h1 className="mt-5 whitespace-nowrap font-serif text-4xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-5xl lg:text-6xl">
+          <h1 className="mt-5 font-serif text-4xl font-bold leading-[1.02] tracking-[-0.025em] text-ink sm:text-5xl lg:text-6xl">
             Safety learning <span className="text-hi">by category and topic.</span>
           </h1>
           <p className="mt-6 text-base leading-8 text-ink-2 sm:text-lg">
-            Browse category-based safety learning modules, open detailed topic articles,
-            and complete acknowledgments through the approved form system.
+            Browse category-based safety learning modules, open detailed Toolbox Talks,
+            and submit attendance records through the built-in Safety Module workflow.
           </p>
           <div className="mt-10 flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-col gap-4 sm:flex-row">
@@ -53,21 +53,15 @@ export default function HomePage() {
               >
                 View Training Categories
               </Link>
-              <Link
-                href="#how-it-works"
-                className="inline-flex items-center justify-center rounded-full border border-rule px-5 py-3 text-sm font-semibold text-ink transition hover:border-hi hover:bg-hi-soft hover:text-hi-deep"
-              >
-                Learn More
-              </Link>
             </div>
-            <div className="flex gap-10">
+            <div className="flex flex-wrap gap-8 sm:gap-10">
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{trainingCategories.length}</p>
                 <p className="eyebrow mt-1">Categories</p>
               </div>
               <div>
                 <p className="font-serif text-3xl font-bold text-ink">{totalTopicCount}</p>
-                <p className="eyebrow mt-1">Topic Articles</p>
+                <p className="eyebrow mt-1">Toolbox Talks</p>
               </div>
             </div>
           </div>
@@ -77,7 +71,7 @@ export default function HomePage() {
       <section id="how-it-works" className="mx-auto max-w-7xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-xs font-black uppercase tracking-[0.26em] text-amber-600">How It Works</p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-950">
+          <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
             Simple steps to complete your training
           </h2>
         </div>
@@ -102,13 +96,22 @@ export default function HomePage() {
           <p className="text-xs font-black uppercase tracking-[0.26em] text-amber-600">
             Browse Training Categories
           </p>
-          <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-950">
+          <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
             All safety training categories
           </h2>
         </div>
 
         <div className="mt-10">
-          <CategorySearch categories={trainingCategories} showHeading={false} />
+          <CategorySearch
+            categories={trainingCategories.map((category) => ({
+              id: category.id,
+              slug: category.slug,
+              title: category.title,
+              description: category.description,
+              topicCount: category.topics.length,
+            }))}
+            showHeading={false}
+          />
         </div>
       </section>
     </div>
