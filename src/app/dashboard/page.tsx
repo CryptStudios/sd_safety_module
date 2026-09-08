@@ -100,10 +100,10 @@ export default async function DashboardPage() {
               Employee Workspace
             </Link>
             <Link
-              href="/toolbox-talk-attendance"
+              href="/#categories"
               className="inline-flex w-full items-center justify-center rounded-full bg-hi px-5 py-3 text-sm font-semibold text-white transition hover:bg-hi-deep sm:w-auto"
             >
-              Open Attendance Form
+              Open Learning Categories
             </Link>
             <LogoutButton />
           </div>

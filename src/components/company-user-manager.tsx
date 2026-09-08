@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 
+import { PasswordInput } from "@/components/password-input";
+
 type CompanyUser = {
   id: string;
   username: string;
@@ -160,12 +162,10 @@ export function CompanyUserManager({ initialUsers }: CompanyUserManagerProps) {
         </label>
         <label className="grid gap-2 text-sm font-semibold text-ink">
           Password
-          <input
+          <PasswordInput
             required
-            type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
-            className="rounded-[12px] border border-rule bg-bg px-4 py-3 text-sm font-normal text-ink outline-none transition focus:border-hi"
           />
         </label>
         <label className="grid gap-2 text-sm font-semibold text-ink">

@@ -6,9 +6,9 @@ import { getAuthenticatedSession } from "@/lib/server/auth";
 
 const formLinks = [
   {
-    href: "/toolbox-talk-attendance",
+    href: "/#categories",
     title: "Toolbox Talk Attendance",
-    description: "Record weekly toolbox talk attendance for your company crew.",
+    description: "Start in Learning Categories, open the Toolbox Talk topic, then submit attendance.",
   },
   {
     href: "/forms/incident-investigation",

@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import { PasswordInput } from "@/components/password-input";
+
 type PlatformAdminAccountProps = {
   currentUsername: string;
   currentDisplayName: string;
@@ -102,22 +104,18 @@ export function PlatformAdminAccount({ currentUsername, currentDisplayName }: Pl
         </label>
         <label className="grid gap-2 text-sm font-semibold text-ink">
           New password
-          <input
-            type="password"
+          <PasswordInput
             value={newPassword}
             onChange={(event) => setNewPassword(event.target.value)}
             placeholder="Leave blank to keep your current password"
-            className="rounded-[12px] border border-rule bg-bg px-4 py-3 text-sm font-normal text-ink outline-none transition focus:border-hi"
           />
         </label>
         <label className="grid gap-2 text-sm font-semibold text-ink">
           Current password
-          <input
+          <PasswordInput
             required
-            type="password"
             value={currentPassword}
             onChange={(event) => setCurrentPassword(event.target.value)}
-            className="rounded-[12px] border border-rule bg-bg px-4 py-3 text-sm font-normal text-ink outline-none transition focus:border-hi"
           />
         </label>
         <button

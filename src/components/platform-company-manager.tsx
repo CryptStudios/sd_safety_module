@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from "react";
 
+import { PasswordInput } from "@/components/password-input";
+
 type CompanyRecord = {
   id: string;
   name: string;
@@ -176,12 +178,10 @@ export function PlatformCompanyManager({ initialCompanies }: PlatformCompanyMana
         </label>
         <label className="grid gap-2 text-sm font-semibold text-ink xl:col-span-2">
           First admin password
-          <input
+          <PasswordInput
             required
-            type="password"
             value={adminPassword}
             onChange={(event) => setAdminPassword(event.target.value)}
-            className="rounded-[12px] border border-rule bg-bg px-4 py-3 text-sm font-normal text-ink outline-none transition focus:border-hi"
           />
         </label>
         <button
